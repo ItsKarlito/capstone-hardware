@@ -1,0 +1,157 @@
+
+**** 11/17/21 00:16:16 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\k_noory\Downloads\capstone-main\capstone-main\ReferenceDesign\ReferenceDesign-PSpiceFiles\S
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\k_noory\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.05 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source REFERENCEDESIGN
+E_U7         N18864 0 VALUE {LIMIT(V(0,N18856)*1E6,-15V,+15V)}
+R_R7         N18370 N18238  10k TC=0,0 
+R_R8         N18238 N18248  150k TC=0,0 
+R_R4         MID_MUSCLE N18122  10k TC=0,0 
+D_D2         N18958 N19154 D1N4148_1 
+R_R14         N18734 N18748  10k TC=0,0 
+E_U5         N18958 0 VALUE {LIMIT(V(0,N18726)*1E6,-15V,+15V)}
+R_R5         N18370 N18138  1M TC=0,0 
+D_D1         N18734 N18958 D1N4148_1 
+C_C2         N18856 N18864  1u  TC=0,0 
+E_U3         N18370 0 VALUE {LIMIT(V(N18474,N18122)*1E6,-15V,+15V)}
+R_R10         N18388 N18398  150k TC=0,0 
+R_R18         N18864 N18986  1k TC=0,0 
+E_U6         N18762 0 VALUE {LIMIT(V(N19154,N18748)*1E6,-15V,+15V)}
+E_U4         N18398 0 VALUE {LIMIT(V(0,N18388)*1E6,-15V,+15V)}
+E_U2         N18248 0 VALUE {LIMIT(V(0,N18238)*1E6,-15V,+15V)}
+R_R3         END_MUSCLE N18474  10k TC=0,0 
+R_R15         N18726 N19154  10k TC=0,0 
+C_C1         N184140 N18248  0.01u  TC=0,0 
+V_V3         MID_MUSCLE N180140  
++SIN 1.5mV 10mV 100Hz 0 0 0
+R_R17         N18856 N18864  80.6k TC=0,0 
+R_R16         N18762 N18856  80.6k TC=0,0 
+R_R2         N18474 N18564  100k TC=0,0 
+R_R9         N184140 N18388  150k TC=0,0 
+R_R1         N18122 N18138  100k TC=0,0 
+R_R6         N18564 0  1M TC=0,0 
+R_R11         N18398 N18726  10k TC=0,0 
+X_R19         N18986 VOUT VOUT POT PARAMS: SET=0.5 VALUE=20k
+E_E1         N180140 0 VALUE { (RND-0.5)*3mV }
+R_R13         N18748 N18762  10k TC=0,0 
+V_V2         END_MUSCLE 0  
++SIN 1.5mV 10mV 150Hz 0 0 0
+R_R12         N18726 N18734  10k TC=0,0 
+E_U8         VOUT 0 VALUE {LIMIT(V(0,N18986)*1E6,-15V,+15V)}
+
+**** RESUMING sim.cir ****
+.END
+
+**** 11/17/21 00:16:16 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\k_noory\Downloads\capstone-main\capstone-main\ReferenceDesign\ReferenceDesign-PSpiceFiles\S
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148_1       
+          IS    2.682000E-09 
+           N    1.836        
+         ISR    1.565000E-09 
+         IKF     .04417      
+          BV  100            
+         IBV  100.000000E-06 
+          RS     .5664       
+          TT   11.540000E-09 
+         CJO    4.000000E-12 
+          VJ     .5          
+           M     .3333       
+
+
+**** 11/17/21 00:16:16 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\k_noory\Downloads\capstone-main\capstone-main\ReferenceDesign\ReferenceDesign-PSpiceFiles\S
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+( VOUT)    0.0000  (N18122)     .0014 (N18138)     .0150 (N18238) 224.5E-09     
+
+(N18248)    -.2245 (N18370)     .0150 (N18388)    0.0000 (N18398)    0.0000     
+
+(N18474)     .0014 (N18564) 13.64E-12 (N18726)    0.0000 (N18734)    0.0000     
+
+(N18748)    0.0000 (N18762)    0.0000 (N18856)    0.0000 (N18864)    0.0000     
+
+(N18958)    0.0000 (N18986)    0.0000 (N19154)    0.0000 (N180140)    -.0015    
+
+(N184140)    0.0000                   (END_MUSCLE)     .0015                    
+
+(MID_MUSCLE) 3.479E-06                
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         1.360E-07
+    V_V2        -1.364E-08
+
+    TOTAL POWER DISSIPATION  -1.84E-10  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/17/21 00:16:16 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\k_noory\Downloads\capstone-main\capstone-main\ReferenceDesign\ReferenceDesign-PSpiceFiles\S
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        5.89
+
