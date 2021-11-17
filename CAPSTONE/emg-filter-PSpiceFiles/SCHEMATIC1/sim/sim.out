@@ -1,0 +1,152 @@
+
+**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\k_noory\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.05 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EMG-FILTER
+E_U8         N20431 0 VALUE {LIMIT(V(N20125,N14732)*1E6,-15V,+15V)}
+E_U7         N12639 0 VALUE {LIMIT(V(0,N12631)*1E6,-15V,+15V)}
+E_E1         N11987 0 VALUE { (RND-0.5)*3m }
+R_R17         N12631 N12639  265k TC=0,0 
+V_V1         MID_MUSCLE N11987  
++SIN 1.5m 10m 100 0 0 0
+C_C2         N12631 N12639  0.002u  TC=0,0 
+V_V2         END_MUSCLE 0  
++SIN 1.5m 10m 150 0 0 0
+R_R16         N127751 N12631  265k TC=0,0 
+E_U9         N14244 0 VALUE {LIMIT(V(0,N14292)*1E6,-15V,+15V)}
+D_D3         N14333 N14244 D1N4148_1 
+D_D4         N14244 N14292 D1N4148_1 
+R_R20         N14292 N14333  10k TC=0,0 
+R_R21         N12639 N14292  10k TC=0,0 
+R_R22         N14333 N14634  5k TC=0,0 
+R_R23         N12639 N14634  10k TC=0,0 
+E_U10         N14732 0 VALUE {LIMIT(V(0,N14634)*1E6,-15V,+15V)}
+R_R24         N14634 N14732  10k TC=0,0 
+C_C3         N127751 N19848  0.01u  TC=0,0 
+R_R25         0 N20125  10k TC=0,0 
+R_R26         N20125 N20431  10k TC=0,0 
+E_U13         N219152 0 VALUE {LIMIT(V(END_MUSCLE,N21889)*1E6,-15V,+15V)}
+E_U14         N19848 0 VALUE {LIMIT(V(N21899,N21793)*1E6,-15V,+15V)}
+R_R37         N21899 0  200k TC=0,0 
+R_R31         N217292 N21793  10k TC=0,0 
+E_U12         N217292 0 VALUE {LIMIT(V(N21833,MID_MUSCLE)*1E6,-15V,+15V)}
+R_R34         N219152 N21889  220k TC=0,0 
+R_R33         N21833 N217292  220k TC=0,0 
+R_R36         N21793 N19848  200k TC=0,0 
+R_R32         N219152 N21899  10k TC=0,0 
+R_R35         N21889 N21833  100k TC=0,0 
+
+**** RESUMING sim.cir ****
+.END
+
+**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148_1       
+          IS    2.682000E-09 
+           N    1.836        
+         ISR    1.565000E-09 
+         IKF     .04417      
+          BV  100            
+         IBV  100.000000E-06 
+          RS     .5664       
+          TT   11.540000E-09 
+         CJO    4.000000E-12 
+          VJ     .5          
+           M     .3333       
+
+
+**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N11987)    -.0015 (N12631)    0.0000 (N12639)    0.0000 (N14244)-2.985E-18     
+
+(N14292) 2.985E-24 (N14333)-353.3E-24 (N14634)-706.5E-30 (N14732) 706.5E-24     
+
+(N19848)     .1616 (N20125) 706.5E-24 (N20431) 1.413E-21 (N21793)     .0046     
+
+(N21833) 3.476E-06 (N21889)     .0015 (N21899)     .0046 (N127751)    0.0000    
+
+(N217292)    -.0033                   (N219152)     .0048                       
+
+(END_MUSCLE)     .0015                (MID_MUSCLE) 3.479E-06                
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .14
+

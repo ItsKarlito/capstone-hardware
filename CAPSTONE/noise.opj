@@ -1,0 +1,44 @@
+(ExpressProject "noise"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\noise.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "k_noory")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "U:\CAPSTONE\noise.dsn")
+      (Path "Design Resources" "U:\CAPSTONE\noise.dsn" "SCHEMATIC1")
+      (Select "Design Resources" "U:\CAPSTONE\noise.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 150"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "U:\CAPSTONE\NOISE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector))

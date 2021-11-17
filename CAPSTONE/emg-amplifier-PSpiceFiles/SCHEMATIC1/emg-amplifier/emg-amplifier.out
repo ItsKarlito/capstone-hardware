@@ -1,0 +1,150 @@
+
+**** 11/11/21 01:31:21 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-emg-amplifier"  [ U:\CAPSTONE\emg-amplifier-PSpiceFiles\SCHEMATIC1\emg-amplifier.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "emg-amplifier.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\k_noory\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.05s 0 0.01m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EMG-AMPLIFIER
+X_U1A         0 N00502 VCC -VCC N00519 TL082
+V_V2         -VCC 0 -15Vdc
+V_V1         VCC 0 15Vdc
+R_R1         N00502 N00519  1k TC=0,0 
+R_R2         N00808 N00502  1k TC=0,0 
+V_V3         N00808 0  
++SIN 0 5 100 0 0 0
+
+**** RESUMING emg-amplifier.cir ****
+.END
+
+**** 11/11/21 01:31:21 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-emg-amplifier"  [ U:\CAPSTONE\emg-amplifier-PSpiceFiles\SCHEMATIC1\emg-amplifier.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.dx        X_U1A.dy        
+          IS  800.000000E-18  800.000000E-18 
+          RS                    1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 11/11/21 01:31:21 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-emg-amplifier"  [ U:\CAPSTONE\emg-amplifier-PSpiceFiles\SCHEMATIC1\emg-amplifier.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.jx1       X_U1A.jx2       
+               NJF             NJF             
+         VTO   -1              -1            
+        BETA  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12 
+
+
+**** 11/11/21 01:31:21 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-emg-amplifier"  [ U:\CAPSTONE\emg-amplifier-PSpiceFiles\SCHEMATIC1\emg-amplifier.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   15.0000  ( -VCC)  -15.0000  (N00502)-14.13E-06 (N00519)-28.48E-06     
+
+(N00808)    0.0000 (X_U1A.6) 2.784E-09                   (X_U1A.7)-29.20E-06    
+
+(X_U1A.8)-29.20E-06                   (X_U1A.9)    0.0000                       
+
+(X_U1A.10)     .3992                  (X_U1A.11)   14.5750                      
+
+(X_U1A.12)   14.5750                  (X_U1A.53)   12.6840                      
+
+(X_U1A.54)  -12.6840                  (X_U1A.90)-14.35E-06                      
+
+(X_U1A.91)   40.0000                  (X_U1A.92)  -40.0000                      
+
+(X_U1A.99)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         2.283E-02
+    V_V1        -2.283E-02
+    V_V3        -1.413E-08
+    X_U1A.vb     2.784E-14
+    X_U1A.vc     1.269E-11
+    X_U1A.ve     1.442E-11
+    X_U1A.vlim  -1.435E-08
+    X_U1A.vlp   -4.000E-11
+    X_U1A.vln   -4.000E-11
+
+    TOTAL POWER DISSIPATION   6.85E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/11/21 01:31:21 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-emg-amplifier"  [ U:\CAPSTONE\emg-amplifier-PSpiceFiles\SCHEMATIC1\emg-amplifier.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .41
+

@@ -1,0 +1,77 @@
+
+**** 11/16/21 00:26:13 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-PSpiceFiles\SCHEMATIC1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\k_noory\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.05 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EMG-FILTER
+R_R12         N12519 N12527  10k TC=0,0 
+E_U8         VOUT 0 VALUE {LIMIT(V(0,N12739)*1E6,-15V,+15V)}
+C_C1         N122710 N12145  0.01u  TC=0,0 
+X_R19         N12739 VOUT VOUT POT PARAMS: SET=0.5 VALUE=20k
+R_R4         MID MUSCLE N11999  10k TC=0,0 
+R_R10         N12247 N12255  150k TC=0,0 
+E_U7         N12639 0 VALUE {LIMIT(V(0,N12631)*1E6,-15V,+15V)}
+R_R14         N12527 N12539  10k TC=0,0 
+R_R6         N12389 0  1M TC=0,0 
+D_D2         N12715 N12887 D1N4148_1 
+E_E1         N11987 0 VALUE { (RND-0.5)*3m }
+E_U4         N12255 0 VALUE {LIMIT(V(0,N12247)*1E6,-15V,+15V)}
+E_U5         N12715 0 VALUE {LIMIT(V(0,N12519)*1E6,-15V,+15V)}
+E_U2         N12145 0 VALUE {LIMIT(V(0,N12137)*1E6,-15V,+15V)}
+R_R3         END MUSCLE N12313  10k TC=0,0 
+R_R1         N11999 N12007  100k TC=0,0 
+R_R17         N12631 N12639  80.6k TC=0,0 
+V_V1         MID MUSCLE N11987  
+------------------------$
+ERROR -- Expecting keyword STIMULUS, saw N11987.
+
++SIN 1.5m 10m 100 0 0 0
+R_R5         N12231 N12007  1M TC=0,0 
+R_R11         N12255 N12519  10k TC=0,0 
+R_R9         N122710 N12247  150k TC=0,0 
+R_R18         N12639 N12739  1k TC=0,0 
+E_U3         N12231 0 VALUE {LIMIT(V(N12313,N11999)*1E6,-15V,+15V)}
+R_R2         N12313 N12389  100k TC=0,0 
+R_R8         N12137 N12145  150k TC=0,0 
+C_C2         N12631 N12639  1u  TC=0,0 
+V_V2         END MUSCLE 0  
++SIN 1.5m 10m 100 0 0 0
+R_R15         N12519 N12887  10k TC=0,0 
+R_R13         N12539 N12551  10k TC=0,0 
+E_U6         N12551 0 VALUE {LIMIT(V(N12887,N12539)*1E6,-15V,+15V)}
+D_D1         N12527 N12715 D1N4148_1 
+R_R16         N12551 N12631  80.6k TC=0,0 
+R_R7         N12231 N12137  10k TC=0,0 
+
+**** RESUMING sim.cir ****
+.END
+
+WARNING(ORPSIM-15220): Error in opening Alias File : U:\CAPSTONE\emg-filter-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.als
+
