@@ -1,0 +1,96 @@
+
+**** 11/26/21 16:03:33 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-notch"  [ U:\CAPSTONE\capstone\hardware\simulations\nothc-dual-opamp\notch-pspicefiles\schematic1\notch.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "notch.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\k_noory\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NOTCH
+E_U12         N33420 0 VALUE {LIMIT(V(N33603,N33420)*1E6,-15V,+15V)}
+C_C2         N33269 N33603  10n  TC=0,0 
+R_R16         N33273 N33603  261k TC=0,0 
+C_C3         N33285 N33269  10n  TC=0,0 
+R_R18         N33269 N33403  130k TC=0,0 
+R_R19         N33273 N33285  261k TC=0,0 
+C_C4         N33403 N33273  20n  TC=0,0 
+R_R20         N33522 0  261k TC=0,0 
+R_R21         N33420 N33522  2k TC=0,0 
+E_U13         N33403 0 VALUE {LIMIT(V(N33522,N33403)*1E6,-15V,+15V)}
+V_V1         N33285 0  
++SIN 0 1 61.072 0 0 0
+
+**** RESUMING notch.cir ****
+.END
+
+**** 11/26/21 16:03:33 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-notch"  [ U:\CAPSTONE\capstone\hardware\simulations\nothc-dual-opamp\notch-pspicefiles\schematic1\notch.sim 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N33269)    0.0000 (N33273)    0.0000 (N33285)    0.0000 (N33403)    0.0000     
+
+(N33420)    0.0000 (N33522)    0.0000 (N33603)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/26/21 16:03:33 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-notch"  [ U:\CAPSTONE\capstone\hardware\simulations\nothc-dual-opamp\notch-pspicefiles\schematic1\notch.sim 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

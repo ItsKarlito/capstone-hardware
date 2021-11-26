@@ -38,13 +38,13 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn")
+         "U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn")
       (Path "Design Resources"
-         "U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
+         "U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
          "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
+         "U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
          "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
@@ -55,12 +55,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 979 52 231")
-        (Scroll "-435 -1")
-        (Zoom "97")
+        (Placement "44 2 3 -1 -1 -8 -31 52 982 52 511")
+        (Scroll "27 335")
+        (Zoom "194")
         (Occurrence "/"))
       (Path
-         "U:\CAPSTONE\TEST\CAPSTONE\HARDWARE\SIMULATIONS\EMG-FILTER\CUSTOMDESIGN\EMG-FILTER.DSN")
+         "U:\CAPSTONE\CAPSTONE\HARDWARE\SIMULATIONS\EMG-FILTER\CUSTOMDESIGN\EMG-FILTER.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "k_noory"))

@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schematic1\sim.sim ] 
+** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schematic1\sim.sim ] 
 
 ** Creating circuit file "sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -10,7 +10,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 0.05 0 
+.TRAN  0 0.20 0.15 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 

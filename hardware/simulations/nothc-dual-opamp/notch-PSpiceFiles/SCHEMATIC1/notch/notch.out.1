@@ -1,0 +1,47 @@
+
+**** 11/26/21 15:05:21 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-notch"  [ U:\CAPSTONE\capstone\hardware\simulations\notch-PSpiceFiles\SCHEMATIC1\notch.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "notch.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\k_noory\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 10000 0 100
+--------------$
+ERROR(ORPSIM-16103): Invalid value
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NOTCH
+E_U12         N32407 0 VALUE {LIMIT(V(N32286,N32356)*1E6,-15V,+15V)}
+C_C2         N32274 N32286  10n  TC=0,0 
+R_R16         N32274 N32356  261k TC=0,0 
+C_C3         N32407 N32420  10n  TC=0,0 
+R_R17         0 N32286  261k TC=0,0 
+R_R18         N32407 N32356  261k TC=0,0 
+R_R19         N32420 N32274  261k TC=0,0 
+V_V1         N32274 0 DC 0Vdc AC 1Vac 
+
+**** RESUMING notch.cir ****
+.END
+
