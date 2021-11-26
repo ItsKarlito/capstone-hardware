@@ -1,7 +1,7 @@
 
-**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 11/25/21 18:56:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schema
 
 
  ****     CIRCUIT DESCRIPTION
@@ -31,72 +31,40 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source EMG-FILTER
-E_U8         N20431 0 VALUE {LIMIT(V(N20125,N14732)*1E6,-15V,+15V)}
-E_U7         N12639 0 VALUE {LIMIT(V(0,N12631)*1E6,-15V,+15V)}
-E_E1         N11987 0 VALUE { (RND-0.5)*3m }
-R_R17         N12631 N12639  265k TC=0,0 
-V_V1         MID_MUSCLE N11987  
-+SIN 1.5m 10m 100 0 0 0
-C_C2         N12631 N12639  0.002u  TC=0,0 
+E_U7         N32040 0 VALUE {LIMIT(V(0,N32032)*1E6,-15V,+15V)}
+V_V1         MID_MUSCLE N31846  
++SIN 1.5m 10m 0 0 0 0
+R_R35         N32224 N32028  100k TC=0,0 
+E_U14         N31962 0 VALUE {LIMIT(V(N32234,N31952)*1E6,-15V,+15V)}
+R_R34         N322542 N32224  220k TC=0,0 
+R_R36         N31952 N31962  200k TC=0,0 
+E_E1         N31846 0 VALUE { (RND-0.5)*3m }
 V_V2         END_MUSCLE 0  
-+SIN 1.5m 10m 150 0 0 0
-R_R16         N127751 N12631  265k TC=0,0 
-E_U9         N14244 0 VALUE {LIMIT(V(0,N14292)*1E6,-15V,+15V)}
-D_D3         N14333 N14244 D1N4148_1 
-D_D4         N14244 N14292 D1N4148_1 
-R_R20         N14292 N14333  10k TC=0,0 
-R_R21         N12639 N14292  10k TC=0,0 
-R_R22         N14333 N14634  5k TC=0,0 
-R_R23         N12639 N14634  10k TC=0,0 
-E_U10         N14732 0 VALUE {LIMIT(V(0,N14634)*1E6,-15V,+15V)}
-R_R24         N14634 N14732  10k TC=0,0 
-C_C3         N127751 N19848  0.01u  TC=0,0 
-R_R25         0 N20125  10k TC=0,0 
-R_R26         N20125 N20431  10k TC=0,0 
-E_U13         N219152 0 VALUE {LIMIT(V(END_MUSCLE,N21889)*1E6,-15V,+15V)}
-E_U14         N19848 0 VALUE {LIMIT(V(N21899,N21793)*1E6,-15V,+15V)}
-R_R37         N21899 0  200k TC=0,0 
-R_R31         N217292 N21793  10k TC=0,0 
-E_U12         N217292 0 VALUE {LIMIT(V(N21833,MID_MUSCLE)*1E6,-15V,+15V)}
-R_R34         N219152 N21889  220k TC=0,0 
-R_R33         N21833 N217292  220k TC=0,0 
-R_R36         N21793 N19848  200k TC=0,0 
-R_R32         N219152 N21899  10k TC=0,0 
-R_R35         N21889 N21833  100k TC=0,0 
++SIN 0 100m 60 0 0 0
+R_R32         N322542 N32234  10k TC=0,0 
+R_R33         N32028 N317642  220k TC=0,0 
+R_R17         N32032 N32040  261k TC=0,0 
+E_U12         N317642 0 VALUE {LIMIT(V(N32028,MID_MUSCLE)*1E6,-15V,+15V)}
+E_U13         N322542 0 VALUE {LIMIT(V(END_MUSCLE,N32224)*1E6,-15V,+15V)}
+C_C2         N32032 N32040  0.002u  TC=0,0 
+R_R37         N32234 0  200k TC=0,0 
+C_C3         N321640 N31962  20n  TC=0,0 
+R_R16         N321640 N32032  261k TC=0,0 
+R_R31         N317642 N31952  10k TC=0,0 
+E_U15         N35235 0 VALUE {LIMIT(V(N35235,N35159)*1E6,-15V,+15V)}
+C_C4         N32040 N35279  125n  TC=0,0 
+C_C5         N35279 N35159  125n  TC=0,0 
+R_R38         N350891 N32040  450 TC=0,0 
+R_R39         N35159 N350891  1M TC=0,0 
+R_R40         N35235 N35279  450 TC=0,0 
+C_C6         N350891 0  250n  TC=0,0 
 
 **** RESUMING sim.cir ****
 .END
 
-**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 11/25/21 18:56:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
-
-
- ****     Diode MODEL PARAMETERS
-
-
-******************************************************************************
-
-
-
-
-               D1N4148_1       
-          IS    2.682000E-09 
-           N    1.836        
-         ISR    1.565000E-09 
-         IKF     .04417      
-          BV  100            
-         IBV  100.000000E-06 
-          RS     .5664       
-          TT   11.540000E-09 
-         CJO    4.000000E-12 
-          VJ     .5          
-           M     .3333       
-
-
-**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
-
- ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schema
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -109,17 +77,17 @@ R_R35         N21889 N21833  100k TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N11987)    -.0015 (N12631)    0.0000 (N12639)    0.0000 (N14244)-2.985E-18     
+(N31846)    -.0015 (N31952)-7.289E-06 (N31962)-375.7E-06 (N32028) 3.479E-06     
 
-(N14292) 2.985E-24 (N14333)-353.3E-24 (N14634)-706.5E-30 (N14732) 706.5E-24     
+(N32032)    0.0000 (N32040)    0.0000 (N32224) 7.654E-12 (N32234)-7.290E-06     
 
-(N19848)     .1616 (N20125) 706.5E-24 (N20431) 1.413E-21 (N21793)     .0046     
+(N35159)    0.0000 (N35235)    0.0000 (N35279)    0.0000 (N317642) 11.13E-06    
 
-(N21833) 3.476E-06 (N21889)     .0015 (N21899)     .0046 (N127751)    0.0000    
+(N321640)    0.0000                   (N322542)-7.654E-06                       
 
-(N217292)    -.0033                   (N219152)     .0048                       
+(N350891)    0.0000                   (END_MUSCLE)    0.0000                    
 
-(END_MUSCLE)     .0015                (MID_MUSCLE) 3.479E-06                
+(MID_MUSCLE) 3.479E-06                
 
 
 
@@ -136,9 +104,9 @@ R_R35         N21889 N21833  100k TC=0,0
 
           JOB CONCLUDED
 
-**** 11/16/21 23:15:15 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 11/25/21 18:56:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\emg-filter-pspicefiles\schematic1\sim.sim ] 
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schema
 
 
  ****     JOB STATISTICS SUMMARY
@@ -148,5 +116,5 @@ R_R35         N21889 N21833  100k TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .14
+  Total job time (using Solver 1)   =         .31
 
