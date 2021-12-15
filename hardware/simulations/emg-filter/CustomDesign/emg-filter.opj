@@ -45,7 +45,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "SCHEMATIC1" "PAGE2"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -55,12 +55,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 982 52 511")
+        (Placement "44 0 1 -1 -1 -8 -31 52 982 52 511")
         (Scroll "27 335")
         (Zoom "194")
         (Occurrence "/"))
       (Path
          "U:\CAPSTONE\CAPSTONE\HARDWARE\SIMULATIONS\EMG-FILTER\CUSTOMDESIGN\EMG-FILTER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "-421 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "U:\CAPSTONE\CAPSTONE\HARDWARE\SIMULATIONS\EMG-FILTER\CUSTOMDESIGN\EMG-FILTER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
   (MPSSessionName "k_noory"))
