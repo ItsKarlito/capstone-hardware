@@ -31,6 +31,11 @@
       (FullPartName "R.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (1N4617
+      (FullPartName "1N4617.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2-silent\tools\capture\library\pspice")
@@ -42,7 +47,10 @@
       (Path "Design Resources"
          "U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
          "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -52,9 +60,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 982 52 511")
-        (Scroll "-61 204")
-        (Zoom "174")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1636 52 617")
+        (Scroll "-382 -7")
+        (Zoom "108")
         (Occurrence "/"))
       (Path
          "U:\CAPSTONE\CAPSTONE\HARDWARE\SIMULATIONS\EMG-FILTER\CUSTOMDESIGN\EMG-FILTER.DSN")
