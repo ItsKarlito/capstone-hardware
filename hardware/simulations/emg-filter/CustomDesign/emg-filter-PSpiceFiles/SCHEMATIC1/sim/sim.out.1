@@ -1,7 +1,7 @@
 
-**** 11/25/21 18:54:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 12/18/21 21:54:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schema
+ ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schematic1\
 
 
  ****     CIRCUIT DESCRIPTION
@@ -22,7 +22,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 0.05 0 
+.TRAN  0 0.20 0.15 0.00001 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -33,119 +33,59 @@
 * source EMG-FILTER
 E_U7         N32040 0 VALUE {LIMIT(V(0,N32032)*1E6,-15V,+15V)}
 V_V1         MID_MUSCLE N31846  
-+SIN 1.5m 10m 100 0 0 0
-R_R35         N32224 N32028  100k TC=0,0 
-E_U14         N31962 0 VALUE {LIMIT(V(N32234,N31952)*1E6,-15V,+15V)}
-R_R34         N322542 N32224  220k TC=0,0 
-R_R36         N31952 N31962  200k TC=0,0 
++SIN 1.5m 3m 100 0 0 0
 E_E1         N31846 0 VALUE { (RND-0.5)*3m }
 V_V2         END_MUSCLE 0  
-+SIN 1.5m 0.5 60 0 0 0
-R_R32         N322542 N32234  10k TC=0,0 
-R_R33         N32028 N317642  220k TC=0,0 
++SIN 0 10m 60 0 0 0
 R_R17         N32032 N32040  261k TC=0,0 
-E_U12         N317642 0 VALUE {LIMIT(V(N32028,MID_MUSCLE)*1E6,-15V,+15V)}
-E_U13         N322542 0 VALUE {LIMIT(V(END_MUSCLE,N32224)*1E6,-15V,+15V)}
-C_C2         N32032 N32040  0.002u  TC=0,0 
-R_R37         N32234 0  200k TC=0,0 
-C_C3         N321640 N31962  20n  TC=0,0 
+C_C2         N32032 N32040  2n  TC=0,0 
+C_C3         N321640 N32212  20n  TC=0,0 
 R_R16         N321640 N32032  261k TC=0,0 
-R_R31         N317642 N31952  10k TC=0,0 
-E_U15         N35235 0 VALUE {LIMIT(V(N35235,N35159)*1E6,-15V,+15V)}
-C_C4         N32040 N35279  125n  TC=0,0 
-C_C5         N35279 N35159  125n  TC=0,0 
-R_R38         N350891 N32040  450 TC=0,0 
-R_R39         N35159 N350891  1M TC=0,0 
-R_R40         N35235 N35279  450 TC=0,0 
-C_C6         N350891 0  250n  TC=0,0 
+E_U16         N40091 0 VALUE {LIMIT(V(N40161,N40091)*1E6,-15V,+15V)}
+R_R19         N39955 N32040  26`k TC=0,0 
+--------------------------------$
+ERROR(ORPSIM-16015): Unknown parameter.
+R_R21         N39851 N40161  2k TC=0,0 
+E_U15         N39851 0 VALUE {LIMIT(V(N39965,N39851)*1E6,-15V,+15V)}
+C_C6         N40091 N39955  20n  TC=0,0 
+R_R20         N40161 0  261k TC=0,0 
+R_R38         N39955 N39965  261k TC=0,0 
+R_R18         N40039 N40091  130k TC=0,0 
+C_C5         N40039 N39965  10n  TC=0,0 
+C_C4         N32040 N40039  10n  TC=0,0 
+R_R54         N39851 N47095  10k TC=0,0 
+E_U21         N47193 0 VALUE {LIMIT(V(0,N47041)*1E6,-15V,+15V)}
+R_R52         N39851 N47041  10k TC=0,0 
+R_R51         N47095 N47103  10k TC=0,0 
+R_R50         N47041 N47049  10k TC=0,0 
+D_D5         N47193 N47041 D1N4148_1 
+E_U22         N47103 0 VALUE {LIMIT(V(0,N47095)*1E6,-15V,+15V)}
+R_R53         N47049 N47095  5k TC=0,0 
+D_D6         N47049 N47193 D1N4148_1 
+R_R55         N48484 N48474  10k TC=0,0 
+E_U23         N48474 0 VALUE {LIMIT(V(N47103,N48484)*1E6,-15V,+15V)}
+R_R56         0 N48484  2k TC=0,0 
+E_U24         N50140 0 VALUE {LIMIT(V(MID_MUSCLE,N49938)*1E6,-15V,+15V)}
+R_R57         0 N49938  40k TC=0,0 
+R_R58         N50140 N49938  10k TC=0,0 
+R_R59         N50084 N50140  10k TC=0,0 
+E_U25         N50116 0 VALUE {LIMIT(V(END_MUSCLE,N50084)*1E6,-15V,+15V)}
+R_R60         N50084 N50116  40k TC=0,0 
+E_U26         N32212 0 VALUE {LIMIT(V(N50116,N52349)*1E6,-15V,+15V)}
+R_R61         N52349 0  10k TC=0,0 
+R_R62         N32212 N52349  191k TC=0,0 
+C_C8         N62613 N62555  10n  TC=0,0 
+R_R64         N62545 N62555  266k TC=0,0 
+R_R65         N62441 N62721  2k TC=0,0 
+C_C9         N62651 N62545  20n  TC=0,0 
+R_R67         N62721 0  266k TC=0,0 
+E_U28         N62651 0 VALUE {LIMIT(V(N62721,N62651)*1E6,-15V,+15V)}
+E_U27         N62441 0 VALUE {LIMIT(V(N62555,N62441)*1E6,-15V,+15V)}
+R_R63         N62545 N62535  264k TC=0,0 
+C_C7         N62535 N62613  10n  TC=0,0 
+R_R66         N62613 N62651  133k TC=0,0 
+V_V3         N62535 0 DC 0Vdc AC 1Vac 
 
 **** RESUMING sim.cir ****
 .END
 
-**** 11/25/21 18:54:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
-
- ** Profile: "SCHEMATIC1-sim"  [ U:\CAPSTONE\test\capstone\hardware\simulations\emg-filter\CustomDesign\emg-filter-pspicefiles\schema
-
-
- ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
-
-
-******************************************************************************
-
-
-
- NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
-
-
-(N31846)    -.0015 (N31952)     .0046 (N31962)     .1616 (N32028) 3.476E-06     
-
-(N32032)    0.0000 (N32040)    0.0000 (N32224)     .0015 (N32234)     .0046     
-
-(N35159)    0.0000 (N35235)    0.0000 (N35279)    0.0000 (N317642)    -.0033    
-
-(N321640)    0.0000                   (N322542)     .0048                       
-
-(N350891)    0.0000                   (END_MUSCLE)     .0015                    
-
-(MID_MUSCLE) 3.479E-06                
-
-
-
-
-    VOLTAGE SOURCE CURRENTS
-    NAME         CURRENT
-
-    V_V1         0.000E+00
-    V_V2         0.000E+00
-
-    TOTAL POWER DISSIPATION   0.00E+00  WATTS
-
-Reducing minimum delta to make the circuit converge.
-Reducing minimum delta to make the circuit converge.
-Reducing minimum delta to make the circuit converge.
-Reducing minimum delta to make the circuit converge.
-Reducing minimum delta to make the circuit converge.
-
-ERROR(ORPSIM-15138): Convergence problem in Transient Analysis at Time =  7.643E-03.
-         Time step =  867.4E-21, minimum allowable step size =  1.000E-18
-
-  These voltages failed to converge:
-
-    V(MID_MUSCLE)             =   -7.796mV  \   -8.785mV
-    V(N31846)                 =   664.01uV  \  -325.34uV
-    V(N32028)                 =   -7.796mV  \   -8.785mV
-    V(N32234)                 =   413.08mV  \   415.15mV
-    V(N31952)                 =   417.77mV  \   414.75mV
-    V(N322542)                =   433.73mV  \   435.91mV
-    V(N317642)                =  -311.35mV  \  -314.51mV
-
-  These supply currents failed to converge:
-
-    I(E_U7)                   =  -378.02uA  \  -183.44uA
-    I(E_U14)                  =   -58.95uA  \   -81.85uA
-    I(E_U13)                  =   -3.445uA  \   -3.465uA
-
-  These devices failed to converge:
-    E_U14     E_E1      
-
-
-
-  Last node voltages tried were:
-
- NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
-
-
-(N31846) 664.0E-06 (N31952)     .4178 (N31962)   15.0000 (N32028)    -.0078     
-
-(N32032) 4.110E-06 (N32040)   -4.1099 (N32224)     .1302 (N32234)     .4131     
-
-(N35159)   -4.2004 (N35235)   -4.2004 (N35279)   -4.2014 (N317642)    -.3113    
-
-(N321640)    3.6989                   (N322542)     .4337                       
-
-(N350891)   -4.2004                   (END_MUSCLE)     .1302                    
-
-(MID_MUSCLE)    -.0078                
-
-
-**** Interrupt ****
