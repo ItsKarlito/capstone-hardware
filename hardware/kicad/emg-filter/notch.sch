@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,194 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L emg-filter:LM4565 U?
+U 1 1 61C3A333
+P 6350 3750
+F 0 "U?" H 6350 4281 50  0000 C CNN
+F 1 "LM4565" H 6350 4190 50  0000 C CNN
+F 2 "" H 7350 3750 50  0001 C CNN
+F 3 "" H 7350 3750 50  0001 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C3B437
+P 4400 3600
+F 0 "R?" V 4600 3550 50  0000 L CNN
+F 1 "264k" V 4500 3500 50  0000 L CNN
+F 2 "" V 4330 3600 50  0001 C CNN
+F 3 "~" H 4400 3600 50  0001 C CNN
+	1    4400 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C3B5A9
+P 5100 3600
+F 0 "R?" V 5300 3600 50  0000 C CNN
+F 1 "266k" V 5200 3600 50  0000 C CNN
+F 2 "" V 5030 3600 50  0001 C CNN
+F 3 "~" H 5100 3600 50  0001 C CNN
+	1    5100 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C3B840
+P 4650 4250
+F 0 "R?" H 4581 4204 50  0000 R CNN
+F 1 "133k" H 4581 4295 50  0000 R CNN
+F 2 "" V 4580 4250 50  0001 C CNN
+F 3 "~" H 4650 4250 50  0001 C CNN
+	1    4650 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C3C1B8
+P 4850 4250
+F 0 "C?" H 4735 4204 50  0000 R CNN
+F 1 "20n" H 4735 4295 50  0000 R CNN
+F 2 "" H 4888 4100 50  0001 C CNN
+F 3 "~" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C3C404
+P 4400 4000
+F 0 "C?" V 4148 4000 50  0000 C CNN
+F 1 "10n" V 4239 4000 50  0000 C CNN
+F 2 "" H 4438 3850 50  0001 C CNN
+F 3 "~" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C3C5ED
+P 5100 4000
+F 0 "C?" V 4848 4000 50  0000 C CNN
+F 1 "10n" V 4939 4000 50  0000 C CNN
+F 2 "" H 5138 3850 50  0001 C CNN
+F 3 "~" H 5100 4000 50  0001 C CNN
+	1    5100 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 4000 4650 4000
+Wire Wire Line
+	4950 3600 4850 3600
+Wire Wire Line
+	4650 4100 4650 4000
+Connection ~ 4650 4000
+Wire Wire Line
+	4650 4000 4950 4000
+Wire Wire Line
+	4850 4100 4850 3600
+Connection ~ 4850 3600
+Wire Wire Line
+	4850 3600 4550 3600
+Wire Wire Line
+	5250 4000 5300 4000
+Wire Wire Line
+	4250 4000 4200 4000
+Wire Wire Line
+	4200 4000 4200 3600
+Wire Wire Line
+	4200 3600 4250 3600
+Wire Wire Line
+	5300 3600 5250 3600
+Wire Wire Line
+	5300 4000 5300 3600
+Text GLabel 5950 3700 0    50   Input ~ 0
+FB1_NOTCH
+Wire Wire Line
+	4650 4400 4650 4450
+Wire Wire Line
+	4650 4450 4850 4450
+Wire Wire Line
+	4850 4450 4850 4400
+Text GLabel 5850 3950 0    50   Input ~ 0
+FB2_NOTCH
+Text GLabel 4150 3600 0    50   Input ~ 0
+INPUT_NOTCH
+Wire Wire Line
+	4150 3600 4200 3600
+Connection ~ 4200 3600
+Wire Wire Line
+	6750 3950 6800 3950
+Text GLabel 5950 3850 0    50   Input ~ 0
++IN2_NOTCH
+Wire Wire Line
+	7400 4000 7400 4050
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4000 7450 4000
+Text GLabel 7450 4000 2    50   Input ~ 0
++IN2_NOTCH
+Wire Wire Line
+	7400 4350 7400 4400
+$Comp
+L power:GND #PWR?
+U 1 1 61C7C101
+P 7400 4400
+F 0 "#PWR?" H 7400 4150 50  0001 C CNN
+F 1 "GND" H 7405 4227 50  0000 C CNN
+F 2 "" H 7400 4400 50  0001 C CNN
+F 3 "" H 7400 4400 50  0001 C CNN
+	1    7400 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 3600
+Wire Wire Line
+	6750 3600 7400 3600
+Wire Wire Line
+	7400 3600 7450 3600
+Wire Wire Line
+	7400 3600 7400 3650
+Wire Wire Line
+	7400 3950 7400 4000
+Text GLabel 6800 3950 2    50   Input ~ 0
+FB2_NOTCH
+Text GLabel 7450 3600 2    50   Input ~ 0
+FB1_NOTCH
+$Comp
+L Device:R R?
+U 1 1 61C3BC8C
+P 7400 3800
+F 0 "R?" H 7470 3846 50  0000 L CNN
+F 1 "2k" H 7470 3755 50  0000 L CNN
+F 2 "" V 7330 3800 50  0001 C CNN
+F 3 "~" H 7400 3800 50  0001 C CNN
+	1    7400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C3BADF
+P 7400 4200
+F 0 "R?" H 7470 4246 50  0000 L CNN
+F 1 "266k" H 7470 4155 50  0000 L CNN
+F 2 "" V 7330 4200 50  0001 C CNN
+F 3 "~" H 7400 4200 50  0001 C CNN
+	1    7400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3950 5900 3950
+Wire Wire Line
+	5300 3600 5950 3600
+Connection ~ 5300 3600
+Wire Wire Line
+	4850 4450 5900 4450
+Wire Wire Line
+	5900 4450 5900 3950
+Connection ~ 4850 4450
+Connection ~ 5900 3950
+Wire Wire Line
+	5900 3950 5950 3950
 $EndSCHEMATC
