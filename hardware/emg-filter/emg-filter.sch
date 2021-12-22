@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -13,70 +13,54 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 61C26DDE
-P 800 1750
-F 0 "#FLG?" H 800 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 800 1923 50  0000 C CNN
-F 2 "" H 800 1750 50  0001 C CNN
-F 3 "~" H 800 1750 50  0001 C CNN
-	1    800  1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 61C27014
-P 800 1300
-F 0 "#FLG?" H 800 1375 50  0001 C CNN
-F 1 "PWR_FLAG" H 800 1473 50  0000 C CNN
-F 2 "" H 800 1300 50  0001 C CNN
-F 3 "~" H 800 1300 50  0001 C CNN
-	1    800  1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 61C2741E
-P 800 850
-F 0 "#FLG?" H 800 925 50  0001 C CNN
-F 1 "PWR_FLAG" H 800 1023 50  0000 C CNN
-F 2 "" H 800 850 50  0001 C CNN
-F 3 "~" H 800 850 50  0001 C CNN
-	1    800  850 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61C276DD
-P 800 1750
-F 0 "#PWR?" H 800 1500 50  0001 C CNN
-F 1 "GND" H 805 1577 50  0000 C CNN
-F 2 "" H 800 1750 50  0001 C CNN
-F 3 "" H 800 1750 50  0001 C CNN
-	1    800  1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61C28130
-P 800 850
-F 0 "#PWR?" H 800 700 50  0001 C CNN
-F 1 "+5V" H 815 1023 50  0000 C CNN
-F 2 "" H 800 850 50  0001 C CNN
-F 3 "" H 800 850 50  0001 C CNN
-	1    800  850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 61C28707
-P 800 1300
-F 0 "#PWR?" H 800 1400 50  0001 C CNN
-F 1 "-5V" H 815 1473 50  0000 C CNN
-F 2 "" H 800 1300 50  0001 C CNN
-F 3 "" H 800 1300 50  0001 C CNN
-	1    800  1300
-	-1   0    0    1   
-$EndComp
+$Sheet
+S 1500 1500 1000 1000
+U 61C38667
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 3000 1500 1000 1000
+U 61C386B1
+F0 "instrumentation" 50
+F1 "instrumentation.sch" 50
+$EndSheet
+$Sheet
+S 4500 1500 1000 1000
+U 61C386E2
+F0 "bandpass" 50
+F1 "bandpass.sch" 50
+$EndSheet
+$Sheet
+S 6000 1500 1000 1000
+U 61C38708
+F0 "notch" 50
+F1 "notch.sch" 50
+$EndSheet
+$Sheet
+S 7500 1500 1000 1000
+U 61C38746
+F0 "rectifier" 50
+F1 "rectifier.sch" 50
+$EndSheet
+$Sheet
+S 9000 1500 1000 1000
+U 61C38776
+F0 "amplifier" 50
+F1 "amplifier.sch" 50
+$EndSheet
+$Sheet
+S 1500 3000 1000 1000
+U 61C38939
+F0 "adc" 50
+F1 "adc.sch" 50
+$EndSheet
+$Sheet
+S 3000 3000 1000 1000
+U 61C389A8
+F0 "connectors" 50
+F1 "connectors.sch" 50
+$EndSheet
+Text Notes 550  850  0    197  ~ 39
+EMG Filter for Prosthetic Limb Control System
 $EndSCHEMATC
