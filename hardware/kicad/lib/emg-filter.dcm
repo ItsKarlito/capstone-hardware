@@ -1,3 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADC108S102
+D 8-Channel, 500 kSPS to 1 MSPS, 10-Bit A/D Converter
+K ADC108S102
+F https://www.ti.com/lit/ds/symlink/adc108s102.pdf
+$ENDCMP
+#
+$CMP INA2332
+D Low-Power, Single-Supply, CMOS Instrumentation Amplifier
+K INA2332
+F https://www.ti.com/lit/ds/symlink/ina2332.pdf
+$ENDCMP
+#
+$CMP LM4565
+D Low Noise Operational Amplifier
+K LM4565
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/amp_linear/opamp/lm4565f-e.pdf
+$ENDCMP
+#
 #End Doc Library
