@@ -1,0 +1,52 @@
+
+**** 12/22/21 16:33:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-PSpiceFiles\SCHEMATIC1\sim_test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim_test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\v_eaulie\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST4
+X_U1         N00113 N00809 0 LM7805C
+X_U2         N00108 N00802 0 LM7905C
+V_V1         N00113 N00108 24Vdc
+R_R2         N00108 0  1M TC=0,0 
+C_C2         N00108 0  500000uF  TC=0,0 
+C_C1         0 N00113  500000uF  TC=0,0 
+R_R1         0 N00113  1M TC=0,0 
+C_C3         0 N00809  1515uF  TC=0,0 
+C_C4         N00802 0  1515uF  TC=0,0 
+C_C5         0 N00113  500000uF  TC=0,0 
+X_U3         N00113 N01670 0 LM7805C
+C_C6         0 N01670  1515uF  TC=0,0 
+R_R3         0 N01670  1k TC=0,0 
+R_R4         0 N06352  1k TC=0,0 
+
+**** RESUMING sim_test.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N06352.
+

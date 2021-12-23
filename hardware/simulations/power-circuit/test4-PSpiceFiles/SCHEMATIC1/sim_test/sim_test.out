@@ -1,0 +1,334 @@
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim_test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\v_eaulie\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST4
+X_U1         N00113 N00809 N17203 LM7805C
+X_U2         N00108 N00802 0 LM7905C
+V_V1         N00113 N00108 24Vdc
+R_R2         N00108 0  1M TC=0,0 
+C_C2         N00108 0  1100uF  TC=0,0 
+C_C1         0 N00113  1100uF  TC=0,0 
+R_R1         0 N00113  1M TC=0,0 
+C_C3         0 N00809  1uF  TC=0,0 
+C_C4         N00802 0  1uF  TC=0,0 
+X_U3         N00113 N09399 N14442 LM7805C
+C_C5         0 N09399  100nF  TC=0,0 
+C_C6         0 N00113  2200uF  TC=0,0 
+X_LED1         N09399 N14440 D1N5765
+X_LED2         N00809 N125961 D1N5765
+X_LED3         0 N126211 D1N5765
+R_R3         0 N14440  470 TC=0,0 
+R_R4         0 N125961  470 TC=0,0 
+R_R5         N00802 N126211  470 TC=0,0 
+C_C7         0 N00113  10nF  TC=0,0 
+C_C8         0 N09399  470uF  TC=0,0 
+R_R7         N14442 N09399  1k TC=0,0 
+D_D1         N00809 N00113 D1N4007 
+D_D2         N09399 N00113 D1N4007 
+D_D3         N00108 N00802 D1N4007 
+X_R10         0 0 N17203 POT PARAMS: SET=0.22 VALUE=10
+R_R8         N17203 N00809  1k TC=0,0 
+C_C9         0 N09399  10nF  TC=0,0 
+C_C10         0 N00113  100nF  TC=0,0 
+C_C11         0 N00113  10nF  TC=0,0 
+C_C12         0 N00113  100nF  TC=0,0 
+C_C14         N00108 0  100nF  TC=0,0 
+C_C15         N00108 0  10nF  TC=0,0 
+C_C16         0 N00809  100nF  TC=0,0 
+C_C17         N00802 0  100nF  TC=0,0 
+C_C18         0 N00809  10nF  TC=0,0 
+C_C19         N00802 0  10nF  TC=0,0 
+C_C20         0 N00113  1uF  TC=0,0 
+C_C21         N00108 0  1uF  TC=0,0 
+C_C22         0 N00113  1uF  TC=0,0 
+C_C23         0 N09399  1uF  TC=0,0 
+R_R13         0 N14442  10 TC=0,0 
+R_R14         N00802 0  1k TC=0,0 
+
+**** RESUMING sim_test.cir ****
+.END
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4007         D1N4001         X_LED1.DLOW     X_LED1.DHIGH    
+          IS   14.110000E-09   14.110000E-09    1.000000E-15    9.000000E-15 
+           N    1.984           1.984           2.15            1.2          
+         IKF   94.81           94.81                                         
+          BV    1.500000E+03   75               5              99.999000E+12 
+         IBV   10.000000E-06   10.000000E-06  100.000000E-06    1.000000E-03 
+          RS     .03389          .03389       100                .3          
+          TT    5.700000E-06    5.700000E-06   10.000000E-09                 
+         CJO   25.890000E-12   25.890000E-12   82.852370E-12                 
+          VJ     .3245           .3245          1.207694                     
+           M     .44             .44             .405311                     
+          FC                                     .434001                     
+          EG                                    1.664            .1          
+         XTI                                   10.78           -3.84         
+
+
+               X_LED2.DLOW     X_LED2.DHIGH    X_LED3.DLOW     X_LED3.DHIGH    
+          IS    1.000000E-15    9.000000E-15    1.000000E-15    9.000000E-15 
+           N    2.15            1.2             2.15            1.2          
+          BV    5              99.999000E+12    5              99.999000E+12 
+         IBV  100.000000E-06    1.000000E-03  100.000000E-06    1.000000E-03 
+          RS  100                .3           100                .3          
+          TT   10.000000E-09                   10.000000E-09                 
+         CJO   82.852370E-12                   82.852370E-12                 
+          VJ    1.207694                        1.207694                     
+           M     .405311                         .405311                     
+          FC     .434001                         .434001                     
+          EG    1.664            .1             1.664            .1          
+         XTI   10.78           -3.84           10.78           -3.84         
+
+
+               X_U1.x1.Dlim    X_U1.x1.Dz      X_U2.x1.Dlim    X_U2.x1.Dz      
+          IS   10.000000E-15   50.000000E-15   10.000000E-15   50.000000E-15 
+          BV                    7.11                            7.11         
+         IBV                   50.000000E-09                   50.000000E-09 
+          RS                    3                               3            
+          VJ     .7                              .7                          
+
+
+               X_U3.x1.Dlim    X_U3.x1.Dz      
+          IS   10.000000E-15   50.000000E-15 
+          BV                    7.11         
+         IBV                   50.000000E-09 
+          RS                    3            
+          VJ     .7                          
+
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Npn1    X_U2.x1.Npn1    X_U2.x1.Pnp1    X_U3.x1.Npn1    
+               NPN             NPN             PNP             NPN             
+       LEVEL    1               1               1               1            
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          BF   50              50             250              50            
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RE    0               0               0               0            
+          RC    0               0               0               0            
+         CJE    0               0               0               0            
+         VJE     .75             .75             .75             .75         
+         CJC    0               0               0               0            
+         VJC     .75             .75             .75             .75         
+         MJC     .33             .33             .33             .33         
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.42            2.42            2.2             2.42         
+           D     .87             .87             .52             .87         
+
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.x1.Rbg1    
+           R    1            
+         TC1   81.300000E-06 
+
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Sbg1    X_U2.x1.Sbg1    X_U3.x1.Sbg1    
+         RON    1               1               1            
+        ROFF    1.000000E+06    1.000000E+06    1.000000E+06 
+         VON    3.7             3.7             3.7          
+        VOFF    3               3               3            
+
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00108)  -12.0000 (N00113)   12.0000 (N00802)   -5.0188 (N00809)    5.0190     
+
+(N09399)    5.0972 (N14440)    3.5446 (N14442)     .1003 (N17203)     .0221     
+
+(N125961)    3.4671                   (N126211)   -1.5519                       
+
+(X_LED1.4)    4.2453                  (X_LED2.4)    4.1678                      
+
+(X_LED3.4)    -.8512                  (X_U1.x1.4)    6.3492                     
+
+(X_U1.x1.5)    6.3361                 (X_U1.x1.6)    5.6921                     
+
+(X_U1.x1.7)    5.0238                 (X_U1.x1.8)    5.0191                     
+
+(X_U1.x1.9)    5.0191                 (X_U2.x1.4)  -10.6840                     
+
+(X_U2.x1.5)  -10.6960                 (X_U2.x1.6)  -11.3370                     
+
+(X_U2.x1.7)  -11.9980                 (X_U2.x1.8)   -5.0190                     
+
+(X_U2.x1.9)   -5.0190                 (X_U3.x1.4)    6.4279                     
+
+(X_U3.x1.5)    6.4148                 (X_U3.x1.6)    5.7706                     
+
+(X_U3.x1.7)    5.1021                 (X_U3.x1.8)    5.0973                     
+
+(X_U3.x1.9)    5.0973                 (X_U1.x1.55)    5.0238                    
+
+(X_U1.x1.56)    5.0238                (X_U2.x1.50)  -11.9640                    
+
+(X_U2.x1.51)  -11.9640                (X_U2.x1.52)  -11.3400                    
+
+(X_U2.x1.53)  -11.7000                (X_U2.x1.54)  -10.6960                    
+
+(X_U3.x1.55)    5.1021                (X_U3.x1.56)    5.1021                    
+
+(X_U1.x1.100)    7.4000               (X_U1.x1.101)    3.7006                   
+
+(X_U1.x1.102)   11.9780               (X_U1.x1.105)    6.3271                   
+
+(X_U1.x1.106)    6.3271               (X_U1.x1.107)    1.0000                   
+
+(X_U1.x1.108)   10.9780               (X_U1.x1.200) 1665.0000                   
+
+(X_U2.x1.100)   -7.4000               (X_U2.x1.101)   -3.7035                   
+
+(X_U2.x1.102)  -12.0000               (X_U2.x1.105)   -1.3159                   
+
+(X_U2.x1.106)   -1.3159               (X_U2.x1.107)   -1.0000                   
+
+(X_U2.x1.108)  -11.0000               (X_U2.x1.200) 1660.0000                   
+
+(X_U3.x1.100)    7.4000               (X_U3.x1.101)    3.7006                   
+
+(X_U3.x1.102)   11.9000               (X_U3.x1.105)    6.3276                   
+
+(X_U3.x1.106)    6.3276               (X_U3.x1.107)    1.0000                   
+
+(X_U3.x1.108)   10.9000               (X_U3.x1.200) 1665.0000                   
+
+(X_U2.x1.Imon)   -5.0188              
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.200E+04
+    X_U1.x1.Vbg  -3.699E+00
+    X_U1.x1.Vgainf  -1.665E+03
+    X_U1.x1.Vl1   4.661E-12
+    X_U1.x1.Vl2   5.337E-12
+    X_U2.x1.Vbg   3.697E+00
+    X_U2.x1.Vgainf  -1.660E+03
+    X_U2.x1.Vl1   9.694E-12
+    X_U2.x1.Vl2   3.259E-13
+    X_U2.x1.Vmon  -1.240E-02
+    X_U2.x1.Veset   1.120E-08
+    X_U3.x1.Vbg  -3.699E+00
+    X_U3.x1.Vgainf  -1.665E+03
+    X_U3.x1.Vl1   4.582E-12
+    X_U3.x1.Vl2   5.338E-12
+
+    TOTAL POWER DISSIPATION   8.59E+06  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/22/21 20:52:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .09
+
