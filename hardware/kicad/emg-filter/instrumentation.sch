@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,177 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:R R3
+U 1 1 61C4B387
+P 6900 3400
+F 0 "R3" V 6700 3350 50  0000 L CNN
+F 1 "10k" V 6800 3300 50  0000 L CNN
+F 2 "" V 6830 3400 50  0001 C CNN
+F 3 "~" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3100 5600 3050
+Wire Wire Line
+	5600 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 3300
+Wire Wire Line
+	6200 3300 6150 3300
+$Comp
+L power:+5V #PWR04
+U 1 1 61C51CF8
+P 5600 3000
+F 0 "#PWR04" H 5600 2850 50  0001 C CNN
+F 1 "+5V" H 5615 3173 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3050 5600 3000
+Connection ~ 5600 3050
+Wire Wire Line
+	6150 3400 6300 3400
+Text GLabel 6300 3350 1    50   Input ~ 0
+VOUTA_1_INA
+Wire Wire Line
+	6300 3400 6300 3350
+Wire Wire Line
+	6150 3500 7100 3500
+Wire Wire Line
+	5000 2700 5000 3300
+Wire Wire Line
+	5000 3300 5050 3300
+$Comp
+L Device:R R1
+U 1 1 61C4B0C1
+P 6500 3400
+F 0 "R1" V 6300 3350 50  0000 L CNN
+F 1 "191k" V 6400 3300 50  0000 L CNN
+F 2 "" V 6430 3400 50  0001 C CNN
+F 3 "~" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 3400 6350 3400
+Connection ~ 6300 3400
+Wire Wire Line
+	7100 3500 7100 3400
+Wire Wire Line
+	7100 3400 7050 3400
+Wire Wire Line
+	6750 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 2700
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 3400 6650 3400
+Wire Wire Line
+	6700 2700 5000 2700
+Text GLabel 7150 3500 2    50   Input ~ 0
+REFA_1_INA
+Wire Wire Line
+	7150 3500 7100 3500
+Connection ~ 7100 3500
+Text GLabel 5050 3400 0    50   Input ~ 0
+-VINA_1_INA
+Text GLabel 5050 3500 0    50   Input ~ 0
++VINA_1_INA
+$Comp
+L emg-filter:INA2332 U1
+U 1 1 61C49EF3
+P 5600 3600
+F 0 "U1" H 5350 4050 50  0000 C CNN
+F 1 "INA2332" H 5800 4050 50  0000 C CNN
+F 2 "" H 5550 3600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina2332.pdf" H 5550 3600 50  0001 C CNN
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61C76B37
+P 6900 3800
+F 0 "R4" V 6700 3750 50  0000 L CNN
+F 1 "10k" V 6800 3700 50  0000 L CNN
+F 2 "" V 6830 3800 50  0001 C CNN
+F 3 "~" H 6900 3800 50  0001 C CNN
+	1    6900 3800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5600 4100 5600 4150
+Wire Wire Line
+	5600 4150 6200 4150
+Wire Wire Line
+	6200 4150 6200 3900
+Wire Wire Line
+	6200 3900 6150 3900
+Wire Wire Line
+	5600 4150 5600 4200
+Connection ~ 5600 4150
+Wire Wire Line
+	6150 3800 6300 3800
+Text GLabel 6300 3850 3    50   Input ~ 0
+VOUTB_2_INA
+Wire Wire Line
+	6300 3800 6300 3850
+Wire Wire Line
+	6150 3700 7100 3700
+Wire Wire Line
+	5000 4500 5000 3900
+Wire Wire Line
+	5000 3900 5050 3900
+$Comp
+L Device:R R2
+U 1 1 61C76B4F
+P 6500 3800
+F 0 "R2" V 6300 3750 50  0000 L CNN
+F 1 "191k" V 6400 3700 50  0000 L CNN
+F 2 "" V 6430 3800 50  0001 C CNN
+F 3 "~" H 6500 3800 50  0001 C CNN
+	1    6500 3800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6300 3800 6350 3800
+Connection ~ 6300 3800
+Wire Wire Line
+	7100 3700 7100 3800
+Wire Wire Line
+	7100 3800 7050 3800
+Wire Wire Line
+	6750 3800 6700 3800
+Wire Wire Line
+	6700 3800 6700 4500
+Connection ~ 6700 3800
+Wire Wire Line
+	6700 3800 6650 3800
+Wire Wire Line
+	6700 4500 5000 4500
+Text GLabel 7150 3700 2    50   Input ~ 0
+REFB_2_INA
+Wire Wire Line
+	7150 3700 7100 3700
+Connection ~ 7100 3700
+Text GLabel 5050 3800 0    50   Input ~ 0
+-VINB_2_INA
+Text GLabel 5050 3700 0    50   Input ~ 0
++VINB_2_INA
+$Comp
+L power:-5V #PWR05
+U 1 1 61C800AC
+P 5600 4200
+F 0 "#PWR05" H 5600 4300 50  0001 C CNN
+F 1 "-5V" H 5615 4373 50  0000 C CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
