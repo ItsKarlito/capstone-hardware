@@ -14,7 +14,7 @@ Notes=
 @End General
 @Analysis: 0 1
 +0 0 0 0 
-+0 "100ns" 
++0 "10000ns" 
 +1 "" 
 +2 "0" 
 +3 "" 

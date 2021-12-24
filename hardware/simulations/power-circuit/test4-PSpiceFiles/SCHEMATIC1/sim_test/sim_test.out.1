@@ -1,7 +1,7 @@
 
-**** 12/22/21 16:33:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 12/23/21 15:51:59 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-PSpiceFiles\SCHEMATIC1\sim_test.sim ] 
+ ** Profile: "SCHEMATIC1-sim_test"  [ G:\My Documents\COEN_490\test4-pspicefiles\schematic1\sim_test.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -22,6 +22,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
+.TRAN  0 10000ns 0 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -30,23 +31,147 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source TEST4
-X_U1         N00113 N00809 0 LM7805C
-X_U2         N00108 N00802 0 LM7905C
-V_V1         N00113 N00108 24Vdc
-R_R2         N00108 0  1M TC=0,0 
-C_C2         N00108 0  500000uF  TC=0,0 
-C_C1         0 N00113  500000uF  TC=0,0 
-R_R1         0 N00113  1M TC=0,0 
-C_C3         0 N00809  1515uF  TC=0,0 
-C_C4         N00802 0  1515uF  TC=0,0 
-C_C5         0 N00113  500000uF  TC=0,0 
-X_U3         N00113 N01670 0 LM7805C
-C_C6         0 N01670  1515uF  TC=0,0 
-R_R3         0 N01670  1k TC=0,0 
-R_R4         0 N06352  1k TC=0,0 
+X_U1         N00510 N00809 N17203 LM7805C
+X_U2         N00455 N00802 N71220 LM7905C
+C_C3         0 N00809  1uF  TC=0,0 
+C_C4         N00802 0  1uF  TC=0,0 
+X_U3         N00510 N09399 N64364 LM7805C
+C_C5         0 N09399  100nF  TC=0,0 
+C_C6         0 N00510  2200uF  TC=0,0 
+X_LED1         N09399 N14440 D1N5765
+X_LED2         N00809 N125961 D1N5765
+X_LED3         0 N126211 D1N5765
+R_R3         0 N14440  470 TC=0,0 
+R_R4         0 N125961  470 TC=0,0 
+R_R5         N00802 N126211  470 TC=0,0 
+C_C8         0 N09399  470uF  TC=0,0 
+D_D1         N00809 N00510 D1N4007 
+D_D2         N09399 N00510 D1N4007 
+D_D3         N00455 N00802 D1N4007 
+X_R10         0 0 N17203 POT PARAMS: SET=0.82 VALUE=10
+C_C9         0 N09399  10nF  TC=0,0 
+C_C16         0 N00809  100nF  TC=0,0 
+C_C17         N00802 0  100nF  TC=0,0 
+C_C18         0 N00809  10nF  TC=0,0 
+C_C19         N00802 0  10nF  TC=0,0 
+C_C23         0 N09399  1uF  TC=0,0 
+V_V1         N00510 N00455 20V
+R_R18         0 N52405  10k TC=0,0 
+R_R19         N82785 0  10k TC=0,0 
+M_PMOS         N52752 N52405 N82643 N82643 M2N6804
+V_V2         N52752 N52748 25Vdc
+R_R20         N55428 N52752  4.7k TC=0,0 
+R_R21         N52748 N55383  4.7k TC=0,0 
+C_C27         0 N52752  220uF  TC=0,0 
+C_C28         N52748 0  220uF  TC=0,0 
+R_R22         0 N00510  1M TC=0,0 
+R_R23         N00455 0  1M TC=0,0 
+R_R30         0 N64364  10 TC=0,0 
+C_C30         N00455 N00510  100nF  TC=0,0 
+C_C31         N00455 N00510  1uF  TC=0,0 
+C_C29         N00455 N00510  10nF  TC=0,0 
+C_C25         N00802 0  470uF  TC=0,0 
+C_C32         0 N00809  470uF  TC=0,0 
+C_C2         N00455 0  1100uF  TC=0,0 
+C_C33         0 N00510  1100uF  TC=0,0 
+R_R31         N17203 N00809  1k TC=0,0 
+R_R32         N00802 N71220  1k TC=0,0 
+R_R33         N71220 0  10 TC=0,0 
+R_R34         N64364 N09399  1k TC=0,0 
+D_D8         N82785 N52748 D1N4678 
+D_D9         N52405 N82643 D1N4678 
+D_D10         0 N55383 D1N4678 
+D_D11         N55428 0 D1N4678 
+M_PMOS2         N82647 N82785 N52748 N52748 M2N6804
+D_D13         N86634 N86598 D1N4007 
+R_R41         N86598 N86620  1k TC=0,0 
+X_U4         N86094 N86102 N86294 LM7805C
+R_R42         N86598 N865681  470 TC=0,0 
+C_C40         N86598 N86314  1uF  TC=0,0 
+C_C38         N86314 N86102  1uF  TC=0,0 
+C_C41         N86598 N86314  470uF  TC=0,0 
+R_R37         N86314 N862441  470 TC=0,0 
+C_C36         N86314 N86102  470uF  TC=0,0 
+C_C37         N86314 N86102  100nF  TC=0,0 
+C_C35         N86314 N86094  1100uF  TC=0,0 
+C_C43         N86598 N86314  10nF  TC=0,0 
+X_R38         N86314 N86314 N86294 POT PARAMS: SET=0.82 VALUE=10
+R_R35         N86294 N86102  1k TC=0,0 
+C_C39         N86598 N86314  100nF  TC=0,0 
+R_R36         N86314 N86094  1M TC=0,0 
+X_U5         N86634 N86598 N86620 LM7905C
+C_C34         N86314 N86102  10nF  TC=0,0 
+X_LED5         N86314 N865681 D1N5765
+R_R40         N86634 N86314  1M TC=0,0 
+R_R39         N86620 N86314  10 TC=0,0 
+C_C42         N86634 N86314  1100uF  TC=0,0 
+X_LED4         N86102 N862441 D1N5765
+D_D12         N86102 N86094 D1N4007 
 
 **** RESUMING sim_test.cir ****
 .END
 
-ERROR(ORPSIM-15141): Less than 2 connections at node N06352.
+ERROR(ORPSIM-15141): Less than 2 connections at node N82647.
+
+ERROR(ORPSIM-15142): Node N86634 is floating
+
+ERROR(ORPSIM-15142): Node N86598 is floating
+
+ERROR(ORPSIM-15142): Node N86620 is floating
+
+ERROR(ORPSIM-15142): Node N865681 is floating
+
+ERROR(ORPSIM-15142): Node N86314 is floating
+
+ERROR(ORPSIM-15142): Node N86102 is floating
+
+ERROR(ORPSIM-15142): Node N862441 is floating
+
+ERROR(ORPSIM-15142): Node N86094 is floating
+
+ERROR(ORPSIM-15142): Node N86294 is floating
+
+ERROR(ORPSIM-15142): Node X_LED5.4 is floating
+
+ERROR(ORPSIM-15142): Node X_LED4.4 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.9 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.8 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.5 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.6 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.7 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.4 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.55 is floating
+
+ERROR(ORPSIM-15142): Node X_U4.x1.56 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.9 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.8 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.5 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.6 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.7 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.4 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.Imon is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.54 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.52 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.53 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.51 is floating
+
+ERROR(ORPSIM-15142): Node X_U5.x1.50 is floating
 
