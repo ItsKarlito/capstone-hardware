@@ -6,3 +6,4 @@ BOM: https://docs.google.com/spreadsheets/d/17WK9bXRUVKC68JrJrpc6w4yRmb0iwnLNZwZ
 
 ![](/media/sch_1.png)
 ![](/media/sch_2.png)
+![](/media/sch_3.png)
