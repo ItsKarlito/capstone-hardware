@@ -117,16 +117,7 @@ F 3 "~" H 3400 6100 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2100 6400 2100 6450
-Wire Wire Line
-	2100 6450 2700 6450
-Wire Wire Line
-	2700 6450 2700 6200
-Wire Wire Line
 	2700 6200 2650 6200
-Wire Wire Line
-	2100 6450 2100 6500
-Connection ~ 2100 6450
 Wire Wire Line
 	2650 6100 2800 6100
 Text GLabel 2800 6150 3    50   Input ~ 0
@@ -245,17 +236,8 @@ Text GLabel 2800 2250 3    50   Input ~ 0
 VOUTB_2_INA
 Wire Wire Line
 	2650 2200 2800 2200
-Connection ~ 2100 2550
-Wire Wire Line
-	2100 2550 2100 2600
 Wire Wire Line
 	2700 2300 2650 2300
-Wire Wire Line
-	2700 2550 2700 2300
-Wire Wire Line
-	2100 2550 2700 2550
-Wire Wire Line
-	2100 2500 2100 2550
 $Comp
 L Device:R R8
 U 1 1 61C76B37
@@ -418,17 +400,8 @@ Text GLabel 2800 4200 3    50   Input ~ 0
 VOUTB_4_INA
 Wire Wire Line
 	2650 4150 2800 4150
-Connection ~ 2100 4500
-Wire Wire Line
-	2100 4500 2100 4550
 Wire Wire Line
 	2700 4250 2650 4250
-Wire Wire Line
-	2700 4500 2700 4250
-Wire Wire Line
-	2100 4500 2700 4500
-Wire Wire Line
-	2100 4450 2100 4500
 $Comp
 L Device:R R10
 U 1 1 61CAD77F
@@ -636,16 +609,7 @@ F 3 "~" H 6700 6100 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	5400 6400 5400 6450
-Wire Wire Line
-	5400 6450 6000 6450
-Wire Wire Line
-	6000 6450 6000 6200
-Wire Wire Line
 	6000 6200 5950 6200
-Wire Wire Line
-	5400 6450 5400 6500
-Connection ~ 5400 6450
 Wire Wire Line
 	5950 6100 6100 6100
 Text GLabel 6100 6150 3    50   Input ~ 0
@@ -764,17 +728,8 @@ Text GLabel 6100 2250 3    50   Input ~ 0
 VOUTB_8_INA
 Wire Wire Line
 	5950 2200 6100 2200
-Connection ~ 5400 2550
-Wire Wire Line
-	5400 2550 5400 2600
 Wire Wire Line
 	6000 2300 5950 2300
-Wire Wire Line
-	6000 2550 6000 2300
-Wire Wire Line
-	5400 2550 6000 2550
-Wire Wire Line
-	5400 2500 5400 2550
 $Comp
 L Device:R R20
 U 1 1 61D03457
@@ -937,17 +892,8 @@ Text GLabel 6100 4200 3    50   Input ~ 0
 VOUTB_10_INA
 Wire Wire Line
 	5950 4150 6100 4150
-Connection ~ 5400 4500
-Wire Wire Line
-	5400 4500 5400 4550
 Wire Wire Line
 	6000 4250 5950 4250
-Wire Wire Line
-	6000 4500 6000 4250
-Wire Wire Line
-	5400 4500 6000 4500
-Wire Wire Line
-	5400 4450 5400 4500
 $Comp
 L Device:R R22
 U 1 1 61D034B5
@@ -1155,16 +1101,7 @@ F 3 "~" H 10000 4150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	8700 4450 8700 4500
-Wire Wire Line
-	8700 4500 9300 4500
-Wire Wire Line
-	9300 4500 9300 4250
-Wire Wire Line
 	9300 4250 9250 4250
-Wire Wire Line
-	8700 4500 8700 4550
-Connection ~ 8700 4500
 Wire Wire Line
 	9250 4150 9400 4150
 Wire Wire Line
@@ -1320,16 +1257,7 @@ F 3 "~" H 10000 2200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	8700 2500 8700 2550
-Wire Wire Line
-	8700 2550 9300 2550
-Wire Wire Line
-	9300 2550 9300 2300
-Wire Wire Line
 	9300 2300 9250 2300
-Wire Wire Line
-	8700 2550 8700 2600
-Connection ~ 8700 2550
 Wire Wire Line
 	9250 2200 9400 2200
 Text GLabel 9400 2250 3    50   Input ~ 0
@@ -1397,4 +1325,84 @@ Text GLabel 8150 4150 0    50   Input ~ 0
 -VINB_16_INA
 Text GLabel 8150 4050 0    50   Input ~ 0
 +VINB_16_INA
+Wire Wire Line
+	2100 2500 2100 2600
+Text GLabel 2700 2350 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	2700 2300 2700 2350
+Text GLabel 2050 1450 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	2050 1450 2100 1450
+Text GLabel 5350 1450 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	5350 1450 5400 1450
+Text GLabel 8650 1450 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	8650 1450 8700 1450
+Text GLabel 8650 3400 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	8650 3400 8700 3400
+Text GLabel 5350 3400 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	5350 3400 5400 3400
+Text GLabel 2050 3400 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	2050 3400 2100 3400
+Text GLabel 2050 5350 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	2050 5350 2100 5350
+Text GLabel 5350 5350 0    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	5350 5350 5400 5350
+Wire Wire Line
+	5400 2500 5400 2600
+Wire Wire Line
+	2100 4450 2100 4550
+Wire Wire Line
+	2100 6400 2100 6500
+Wire Wire Line
+	5400 6400 5400 6500
+Wire Wire Line
+	5400 4450 5400 4550
+Wire Wire Line
+	8700 4450 8700 4550
+Wire Wire Line
+	8700 2500 8700 2600
+Text GLabel 6000 2350 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	6000 2300 6000 2350
+Text GLabel 9300 2350 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	9300 2300 9300 2350
+Text GLabel 9300 4300 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	9300 4250 9300 4300
+Text GLabel 6000 4300 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	6000 4250 6000 4300
+Text GLabel 2700 4300 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	2700 4250 2700 4300
+Text GLabel 2700 6250 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	2700 6200 2700 6250
+Text GLabel 6000 6250 3    50   Input ~ 0
+SHTDWN_INA
+Wire Wire Line
+	6000 6200 6000 6250
 $EndSCHEMATC
