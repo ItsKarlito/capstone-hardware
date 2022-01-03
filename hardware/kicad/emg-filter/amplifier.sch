@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -24,8 +24,6 @@ F 3 "" H 2800 1650 50  0001 C CNN
 	1    1800 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 1750 0    50   Input ~ 0
-INPUT_2_AMPLIFIER
 $Comp
 L Device:R R241
 U 1 1 61C410A1
@@ -75,13 +73,11 @@ Wire Wire Line
 	1400 1600 1350 1600
 Wire Wire Line
 	1350 1850 1350 2500
-Text GLabel 2400 1850 2    50   Input ~ 0
-OUTPUT_2_AMPLIFIER
 Wire Wire Line
 	2400 1850 2300 1850
 Connection ~ 2300 1850
 Text GLabel 2400 1500 2    50   Input ~ 0
-OUTPUT_1_AMPLFIER
+OUT_AMP_1
 Wire Wire Line
 	2300 1500 2400 1500
 Connection ~ 2300 1500
@@ -136,8 +132,6 @@ Wire Wire Line
 	1350 850  1150 850 
 Wire Wire Line
 	1150 850  1150 900 
-Text GLabel 1300 1500 0    50   Input ~ 0
-INPUT_1_AMPLIFIER
 Wire Wire Line
 	1150 1200 1150 1250
 $Comp
@@ -179,8 +173,6 @@ F 3 "" H 2800 3900 50  0001 C CNN
 	1    1800 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 4000 0    50   Input ~ 0
-INPUT_4_AMPLIFIER
 $Comp
 L Device:R R243
 U 1 1 61C5A3ED
@@ -230,13 +222,9 @@ Wire Wire Line
 	1400 3850 1350 3850
 Wire Wire Line
 	1350 4100 1350 4750
-Text GLabel 2400 4100 2    50   Input ~ 0
-OUTPUT_4_AMPLIFIER
 Wire Wire Line
 	2400 4100 2300 4100
 Connection ~ 2300 4100
-Text GLabel 2400 3750 2    50   Input ~ 0
-OUTPUT_3_AMPLFIER
 Wire Wire Line
 	2300 3750 2400 3750
 Connection ~ 2300 3750
@@ -291,8 +279,6 @@ Wire Wire Line
 	1350 3100 1150 3100
 Wire Wire Line
 	1150 3100 1150 3150
-Text GLabel 1300 3750 0    50   Input ~ 0
-INPUT_3_AMPLIFIER
 Wire Wire Line
 	1150 3450 1150 3500
 $Comp
@@ -334,8 +320,6 @@ F 3 "" H 5750 1650 50  0001 C CNN
 	1    4750 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4250 1750 0    50   Input ~ 0
-INPUT_8_AMPLIFIER
 $Comp
 L Device:R R253
 U 1 1 61C5CBD5
@@ -385,13 +369,9 @@ Wire Wire Line
 	4350 1600 4300 1600
 Wire Wire Line
 	4300 1850 4300 2500
-Text GLabel 5350 1850 2    50   Input ~ 0
-OUTPUT_8_AMPLIFIER
 Wire Wire Line
 	5350 1850 5250 1850
 Connection ~ 5250 1850
-Text GLabel 5350 1500 2    50   Input ~ 0
-OUTPUT_7_AMPLFIER
 Wire Wire Line
 	5250 1500 5350 1500
 Connection ~ 5250 1500
@@ -446,8 +426,6 @@ Wire Wire Line
 	4300 850  4100 850 
 Wire Wire Line
 	4100 850  4100 900 
-Text GLabel 4250 1500 0    50   Input ~ 0
-INPUT_7_AMPLIFIER
 Wire Wire Line
 	4100 1200 4100 1250
 $Comp
@@ -489,8 +467,6 @@ F 3 "" H 5750 3900 50  0001 C CNN
 	1    4750 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4250 4000 0    50   Input ~ 0
-INPUT_10_AMPLIFIER
 $Comp
 L Device:R R255
 U 1 1 61C5FD5B
@@ -540,13 +516,9 @@ Wire Wire Line
 	4350 3850 4300 3850
 Wire Wire Line
 	4300 4100 4300 4750
-Text GLabel 5350 4100 2    50   Input ~ 0
-OUTPUT_10_AMPLIFIER
 Wire Wire Line
 	5350 4100 5250 4100
 Connection ~ 5250 4100
-Text GLabel 5350 3750 2    50   Input ~ 0
-OUTPUT_9_AMPLFIER
 Wire Wire Line
 	5250 3750 5350 3750
 Connection ~ 5250 3750
@@ -601,8 +573,6 @@ Wire Wire Line
 	4300 3100 4100 3100
 Wire Wire Line
 	4100 3100 4100 3150
-Text GLabel 4250 3750 0    50   Input ~ 0
-INPUT_9_AMPLIFIER
 Wire Wire Line
 	4100 3450 4100 3500
 $Comp
@@ -644,8 +614,6 @@ F 3 "" H 8550 1750 50  0001 C CNN
 	1    7550 1750
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 1850 0    50   Input ~ 0
-INPUT_14_AMPLIFIER
 $Comp
 L Device:R R263
 U 1 1 61C63A55
@@ -695,13 +663,9 @@ Wire Wire Line
 	7150 1700 7100 1700
 Wire Wire Line
 	7100 1950 7100 2600
-Text GLabel 8150 1950 2    50   Input ~ 0
-OUTPUT_14_AMPLIFIER
 Wire Wire Line
 	8150 1950 8050 1950
 Connection ~ 8050 1950
-Text GLabel 8150 1600 2    50   Input ~ 0
-OUTPUT_13_AMPLFIER
 Wire Wire Line
 	8050 1600 8150 1600
 Connection ~ 8050 1600
@@ -756,8 +720,6 @@ Wire Wire Line
 	7100 950  6900 950 
 Wire Wire Line
 	6900 950  6900 1000
-Text GLabel 7050 1600 0    50   Input ~ 0
-INPUT_13_AMPLIFIER
 Wire Wire Line
 	6900 1300 6900 1350
 $Comp
@@ -799,8 +761,6 @@ F 3 "" H 8600 4000 50  0001 C CNN
 	1    7600 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7100 4100 0    50   Input ~ 0
-INPUT_16_AMPLIFIER
 $Comp
 L Device:R R265
 U 1 1 61C6825E
@@ -850,13 +810,9 @@ Wire Wire Line
 	7200 3950 7150 3950
 Wire Wire Line
 	7150 4200 7150 4850
-Text GLabel 8200 4200 2    50   Input ~ 0
-OUTPUT_16_AMPLIFIER
 Wire Wire Line
 	8200 4200 8100 4200
 Connection ~ 8100 4200
-Text GLabel 8200 3850 2    50   Input ~ 0
-OUTPUT_15_AMPLFIER
 Wire Wire Line
 	8100 3850 8200 3850
 Connection ~ 8100 3850
@@ -911,8 +867,6 @@ Wire Wire Line
 	7150 3200 6950 3200
 Wire Wire Line
 	6950 3200 6950 3250
-Text GLabel 7100 3850 0    50   Input ~ 0
-INPUT_15_AMPLIFIER
 Wire Wire Line
 	6950 3550 6950 3600
 $Comp
@@ -954,8 +908,6 @@ F 3 "" H 2800 6450 50  0001 C CNN
 	1    1800 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 6550 0    50   Input ~ 0
-INPUT_6_AMPLIFIER
 $Comp
 L Device:R R245
 U 1 1 61C6E804
@@ -1005,13 +957,9 @@ Wire Wire Line
 	1400 6400 1350 6400
 Wire Wire Line
 	1350 6650 1350 7300
-Text GLabel 2400 6650 2    50   Input ~ 0
-OUTPUT_6_AMPLIFIER
 Wire Wire Line
 	2400 6650 2300 6650
 Connection ~ 2300 6650
-Text GLabel 2400 6300 2    50   Input ~ 0
-OUTPUT_5_AMPLFIER
 Wire Wire Line
 	2300 6300 2400 6300
 Connection ~ 2300 6300
@@ -1066,8 +1014,6 @@ Wire Wire Line
 	1350 5650 1150 5650
 Wire Wire Line
 	1150 5650 1150 5700
-Text GLabel 1300 6300 0    50   Input ~ 0
-INPUT_5_AMPLIFIER
 Wire Wire Line
 	1150 6000 1150 6050
 $Comp
@@ -1109,8 +1055,6 @@ F 3 "" H 5750 6500 50  0001 C CNN
 	1    4750 6500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4250 6600 0    50   Input ~ 0
-INPUT_12_AMPLIFIER
 $Comp
 L Device:R R257
 U 1 1 61C7683C
@@ -1160,13 +1104,9 @@ Wire Wire Line
 	4350 6450 4300 6450
 Wire Wire Line
 	4300 6700 4300 7350
-Text GLabel 5350 6700 2    50   Input ~ 0
-OUTPUT_12_AMPLIFIER
 Wire Wire Line
 	5350 6700 5250 6700
 Connection ~ 5250 6700
-Text GLabel 5350 6350 2    50   Input ~ 0
-OUTPUT_11_AMPLFIER
 Wire Wire Line
 	5250 6350 5350 6350
 Connection ~ 5250 6350
@@ -1221,8 +1161,6 @@ Wire Wire Line
 	4300 5700 4100 5700
 Wire Wire Line
 	4100 5700 4100 5750
-Text GLabel 4250 6350 0    50   Input ~ 0
-INPUT_11_AMPLIFIER
 Wire Wire Line
 	4100 6050 4100 6100
 $Comp
@@ -1253,4 +1191,66 @@ Wire Wire Line
 	4350 6350 4250 6350
 Wire Wire Line
 	4350 6600 4250 6600
+Text GLabel 1300 1500 0    50   Input ~ 0
+RECT_AMP_1
+Text GLabel 1300 1750 0    50   Input ~ 0
+RECT_AMP_2
+Text GLabel 1300 3750 0    50   Input ~ 0
+RECT_AMP_3
+Text GLabel 1300 4000 0    50   Input ~ 0
+RECT_AMP_4
+Text GLabel 1300 6300 0    50   Input ~ 0
+RECT_AMP_5
+Text GLabel 1300 6550 0    50   Input ~ 0
+RECT_AMP_6
+Text GLabel 4250 1500 0    50   Input ~ 0
+RECT_AMP_7
+Text GLabel 4250 1750 0    50   Input ~ 0
+RECT_AMP_8
+Text GLabel 4250 3750 0    50   Input ~ 0
+RECT_AMP_9
+Text GLabel 4250 4000 0    50   Input ~ 0
+RECT_AMP_10
+Text GLabel 4250 6350 0    50   Input ~ 0
+RECT_AMP_11
+Text GLabel 4250 6600 0    50   Input ~ 0
+RECT_AMP_12
+Text GLabel 7050 1600 0    50   Input ~ 0
+RECT_AMP_13
+Text GLabel 7050 1850 0    50   Input ~ 0
+RECT_AMP_14
+Text GLabel 7100 3850 0    50   Input ~ 0
+RECT_AMP_15
+Text GLabel 7100 4100 0    50   Input ~ 0
+RECT_AMP_16
+Text GLabel 2400 1850 2    50   Input ~ 0
+OUT_AMP_2
+Text GLabel 2400 3750 2    50   Input ~ 0
+OUT_AMP_3
+Text GLabel 2400 4100 2    50   Input ~ 0
+OUT_AMP_4
+Text GLabel 2400 6300 2    50   Input ~ 0
+OUT_AMP_5
+Text GLabel 2400 6650 2    50   Input ~ 0
+OUT_AMP_6
+Text GLabel 8200 4200 2    50   Input ~ 0
+OUT_AMP_16
+Text GLabel 8200 3850 2    50   Input ~ 0
+OUT_AMP_15
+Text GLabel 8150 1950 2    50   Input ~ 0
+OUT_AMP_14
+Text GLabel 8150 1600 2    50   Input ~ 0
+OUT_AMP_13
+Text GLabel 5350 6700 2    50   Input ~ 0
+OUT_AMP_12
+Text GLabel 5350 6350 2    50   Input ~ 0
+OUT_AMP_11
+Text GLabel 5350 4100 2    50   Input ~ 0
+OUT_AMP_10
+Text GLabel 5350 3750 2    50   Input ~ 0
+OUT_AMP_9
+Text GLabel 5350 1850 2    50   Input ~ 0
+OUT_AMP_8
+Text GLabel 5350 1500 2    50   Input ~ 0
+OUT_AMP_7
 $EndSCHEMATC

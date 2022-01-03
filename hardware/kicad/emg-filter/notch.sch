@@ -107,8 +107,6 @@ Wire Wire Line
 	2400 1850 2600 1850
 Wire Wire Line
 	2600 1850 2600 1800
-Text GLabel 1900 1000 0    50   Input ~ 0
-INPUT_1_NOTCH
 Wire Wire Line
 	1900 1000 1950 1000
 Connection ~ 1950 1000
@@ -142,8 +140,6 @@ Wire Wire Line
 	4850 1000 4850 1050
 Wire Wire Line
 	4850 1350 4850 1400
-Text GLabel 4900 1000 2    50   Input ~ 0
-OUTPUT_1_NOTCH
 $Comp
 L Device:R R89
 U 1 1 61C3BC8C
@@ -196,8 +192,6 @@ F 3 "" H 4200 1550 50  0001 C CNN
 	1    4200 1550
 	-1   0    0    1   
 $EndComp
-Text GLabel 3800 1100 0    50   Input ~ 0
-OUTPUT_1_NOTCH
 Connection ~ 3050 1000
 Connection ~ 2600 1850
 Wire Wire Line
@@ -317,8 +311,6 @@ Wire Wire Line
 	2400 3250 2600 3250
 Wire Wire Line
 	2600 3250 2600 3200
-Text GLabel 1900 2400 0    50   Input ~ 0
-INPUT_2_NOTCH
 Wire Wire Line
 	1900 2400 1950 2400
 Connection ~ 1950 2400
@@ -352,8 +344,6 @@ Wire Wire Line
 	4850 2400 4850 2450
 Wire Wire Line
 	4850 2750 4850 2800
-Text GLabel 4900 2400 2    50   Input ~ 0
-OUTPUT_2_NOTCH
 $Comp
 L Device:R R91
 U 1 1 61CBA9BE
@@ -406,8 +396,6 @@ F 3 "" H 4200 2950 50  0001 C CNN
 	1    4200 2950
 	-1   0    0    1   
 $EndComp
-Text GLabel 3800 2500 0    50   Input ~ 0
-OUTPUT_2_NOTCH
 Connection ~ 3050 2400
 Connection ~ 2600 3250
 Wire Wire Line
@@ -527,8 +515,6 @@ Wire Wire Line
 	2400 4650 2600 4650
 Wire Wire Line
 	2600 4650 2600 4600
-Text GLabel 1900 3800 0    50   Input ~ 0
-INPUT_3_NOTCH
 Wire Wire Line
 	1900 3800 1950 3800
 Connection ~ 1950 3800
@@ -562,8 +548,6 @@ Wire Wire Line
 	4850 3800 4850 3850
 Wire Wire Line
 	4850 4150 4850 4200
-Text GLabel 4900 3800 2    50   Input ~ 0
-OUTPUT_3_NOTCH
 $Comp
 L Device:R R93
 U 1 1 61CC1BC0
@@ -616,8 +600,6 @@ F 3 "" H 4200 4350 50  0001 C CNN
 	1    4200 4350
 	-1   0    0    1   
 $EndComp
-Text GLabel 3800 3900 0    50   Input ~ 0
-OUTPUT_3_NOTCH
 Connection ~ 3050 3800
 Connection ~ 2600 4650
 Wire Wire Line
@@ -737,8 +719,6 @@ Wire Wire Line
 	2350 6050 2550 6050
 Wire Wire Line
 	2550 6050 2550 6000
-Text GLabel 1850 5200 0    50   Input ~ 0
-INPUT_4_NOTCH
 Wire Wire Line
 	1850 5200 1900 5200
 Connection ~ 1900 5200
@@ -772,8 +752,6 @@ Wire Wire Line
 	4800 5200 4800 5250
 Wire Wire Line
 	4800 5550 4800 5600
-Text GLabel 4850 5200 2    50   Input ~ 0
-OUTPUT_4_NOTCH
 $Comp
 L Device:R R87
 U 1 1 61CD83F1
@@ -826,8 +804,6 @@ F 3 "" H 4150 5750 50  0001 C CNN
 	1    4150 5750
 	-1   0    0    1   
 $EndComp
-Text GLabel 3750 5300 0    50   Input ~ 0
-OUTPUT_4_NOTCH
 Connection ~ 3000 5200
 Connection ~ 2550 6050
 Wire Wire Line
@@ -947,8 +923,6 @@ Wire Wire Line
 	7300 1850 7500 1850
 Wire Wire Line
 	7500 1850 7500 1800
-Text GLabel 6800 1000 0    50   Input ~ 0
-INPUT_5_NOTCH
 Wire Wire Line
 	6800 1000 6850 1000
 Connection ~ 6850 1000
@@ -982,8 +956,6 @@ Wire Wire Line
 	9750 1000 9750 1050
 Wire Wire Line
 	9750 1350 9750 1400
-Text GLabel 9800 1000 2    50   Input ~ 0
-OUTPUT_5_NOTCH
 $Comp
 L Device:R R109
 U 1 1 61EB9EA8
@@ -1036,8 +1008,6 @@ F 3 "" H 9100 1550 50  0001 C CNN
 	1    9100 1550
 	-1   0    0    1   
 $EndComp
-Text GLabel 8700 1100 0    50   Input ~ 0
-OUTPUT_5_NOTCH
 Connection ~ 7950 1000
 Connection ~ 7500 1850
 Wire Wire Line
@@ -1157,8 +1127,6 @@ Wire Wire Line
 	7300 3250 7500 3250
 Wire Wire Line
 	7500 3250 7500 3200
-Text GLabel 6800 2400 0    50   Input ~ 0
-INPUT_6_NOTCH
 Wire Wire Line
 	6800 2400 6850 2400
 Connection ~ 6850 2400
@@ -1192,8 +1160,6 @@ Wire Wire Line
 	9750 2400 9750 2450
 Wire Wire Line
 	9750 2750 9750 2800
-Text GLabel 9800 2400 2    50   Input ~ 0
-OUTPUT_6_NOTCH
 $Comp
 L Device:R R111
 U 1 1 61EB9F1B
@@ -1246,8 +1212,6 @@ F 3 "" H 9100 2950 50  0001 C CNN
 	1    9100 2950
 	-1   0    0    1   
 $EndComp
-Text GLabel 8700 2500 0    50   Input ~ 0
-OUTPUT_6_NOTCH
 Connection ~ 7950 2400
 Connection ~ 7500 3250
 Wire Wire Line
@@ -1367,8 +1331,6 @@ Wire Wire Line
 	7300 4650 7500 4650
 Wire Wire Line
 	7500 4650 7500 4600
-Text GLabel 6800 3800 0    50   Input ~ 0
-INPUT_7_NOTCH
 Wire Wire Line
 	6800 3800 6850 3800
 Connection ~ 6850 3800
@@ -1402,8 +1364,6 @@ Wire Wire Line
 	9750 3800 9750 3850
 Wire Wire Line
 	9750 4150 9750 4200
-Text GLabel 9800 3800 2    50   Input ~ 0
-OUTPUT_7_NOTCH
 $Comp
 L Device:R R113
 U 1 1 61EB9F8E
@@ -1456,8 +1416,6 @@ F 3 "" H 9100 4350 50  0001 C CNN
 	1    9100 4350
 	-1   0    0    1   
 $EndComp
-Text GLabel 8700 3900 0    50   Input ~ 0
-OUTPUT_7_NOTCH
 Connection ~ 7950 3800
 Connection ~ 7500 4650
 Wire Wire Line
@@ -1689,14 +1647,56 @@ U 61EEB5B0
 F0 "notch2" 50
 F1 "notch2.sch" 50
 $EndSheet
-Text GLabel 6750 5200 0    50   Input ~ 0
-INPUT_8_NOTCH
-Text GLabel 8650 5300 0    50   Input ~ 0
-OUTPUT_8_NOTCH
 Text GLabel 8650 5450 0    50   Input ~ 0
 +IN2_8_NOTCH
-Text GLabel 9750 5200 2    50   Input ~ 0
-OUTPUT_8_NOTCH
 Text GLabel 9750 5600 2    50   Input ~ 0
 +IN2_8_NOTCH
+Text GLabel 1900 1000 0    50   Input ~ 0
+BP_NOTCH_1
+Text GLabel 1900 2400 0    50   Input ~ 0
+BP_NOTCH_2
+Text GLabel 1900 3800 0    50   Input ~ 0
+BP_NOTCH_3
+Text GLabel 1850 5200 0    50   Input ~ 0
+BP_NOTCH_4
+Text GLabel 6800 1000 0    50   Input ~ 0
+BP_NOTCH_5
+Text GLabel 6800 2400 0    50   Input ~ 0
+BP_NOTCH_6
+Text GLabel 6800 3800 0    50   Input ~ 0
+BP_NOTCH_7
+Text GLabel 6750 5200 0    50   Input ~ 0
+BP_NOTCH_8
+Text GLabel 4900 1000 2    50   Input ~ 0
+NOTCH_RECT_1
+Text GLabel 4900 2400 2    50   Input ~ 0
+NOTCH_RECT_2
+Text GLabel 4900 3800 2    50   Input ~ 0
+NOTCH_RECT_3
+Text GLabel 4850 5200 2    50   Input ~ 0
+NOTCH_RECT_4
+Text GLabel 9800 1000 2    50   Input ~ 0
+NOTCH_RECT_5
+Text GLabel 9800 2400 2    50   Input ~ 0
+NOTCH_RECT_6
+Text GLabel 9800 3800 2    50   Input ~ 0
+NOTCH_RECT_7
+Text GLabel 9750 5200 2    50   Input ~ 0
+NOTCH_RECT_8
+Text GLabel 3800 1100 0    50   Input ~ 0
+NOTCH_RECT_1
+Text GLabel 3800 2500 0    50   Input ~ 0
+NOTCH_RECT_2
+Text GLabel 3800 3900 0    50   Input ~ 0
+NOTCH_RECT_3
+Text GLabel 3750 5300 0    50   Input ~ 0
+NOTCH_RECT_4
+Text GLabel 8700 1100 0    50   Input ~ 0
+NOTCH_RECT_5
+Text GLabel 8700 2500 0    50   Input ~ 0
+NOTCH_RECT_6
+Text GLabel 8700 3900 0    50   Input ~ 0
+NOTCH_RECT_7
+Text GLabel 8650 5300 0    50   Input ~ 0
+NOTCH_RECT_8
 $EndSCHEMATC

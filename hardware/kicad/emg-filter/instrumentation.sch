@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -48,8 +48,6 @@ Wire Wire Line
 Connection ~ 2100 5350
 Wire Wire Line
 	2650 5700 2800 5700
-Text GLabel 2800 5650 1    50   Input ~ 0
-VOUTA_5_INA
 Wire Wire Line
 	2800 5700 2800 5650
 Wire Wire Line
@@ -120,8 +118,6 @@ Wire Wire Line
 	2700 6200 2650 6200
 Wire Wire Line
 	2650 6100 2800 6100
-Text GLabel 2800 6150 3    50   Input ~ 0
-VOUTB_6_INA
 Wire Wire Line
 	2800 6100 2800 6150
 Wire Wire Line
@@ -232,8 +228,6 @@ Wire Wire Line
 	2650 2100 3600 2100
 Wire Wire Line
 	2800 2200 2800 2250
-Text GLabel 2800 2250 3    50   Input ~ 0
-VOUTB_2_INA
 Wire Wire Line
 	2650 2200 2800 2200
 Wire Wire Line
@@ -304,8 +298,6 @@ Wire Wire Line
 	2650 1900 3600 1900
 Wire Wire Line
 	2800 1800 2800 1750
-Text GLabel 2800 1750 1    50   Input ~ 0
-VOUTA_1_INA
 Wire Wire Line
 	2650 1800 2800 1800
 Connection ~ 2100 1450
@@ -396,8 +388,6 @@ Wire Wire Line
 	2650 4050 3600 4050
 Wire Wire Line
 	2800 4150 2800 4200
-Text GLabel 2800 4200 3    50   Input ~ 0
-VOUTB_4_INA
 Wire Wire Line
 	2650 4150 2800 4150
 Wire Wire Line
@@ -468,8 +458,6 @@ Wire Wire Line
 	2650 3850 3600 3850
 Wire Wire Line
 	2800 3750 2800 3700
-Text GLabel 2800 3700 1    50   Input ~ 0
-VOUTA_3_INA
 Wire Wire Line
 	2650 3750 2800 3750
 Connection ~ 2100 3400
@@ -540,8 +528,6 @@ Wire Wire Line
 Connection ~ 5400 5350
 Wire Wire Line
 	5950 5700 6100 5700
-Text GLabel 6100 5650 1    50   Input ~ 0
-VOUTA_11_INA
 Wire Wire Line
 	6100 5700 6100 5650
 Wire Wire Line
@@ -612,8 +598,6 @@ Wire Wire Line
 	6000 6200 5950 6200
 Wire Wire Line
 	5950 6100 6100 6100
-Text GLabel 6100 6150 3    50   Input ~ 0
-VOUTB_12_INA
 Wire Wire Line
 	6100 6100 6100 6150
 Wire Wire Line
@@ -724,8 +708,6 @@ Wire Wire Line
 	5950 2100 6900 2100
 Wire Wire Line
 	6100 2200 6100 2250
-Text GLabel 6100 2250 3    50   Input ~ 0
-VOUTB_8_INA
 Wire Wire Line
 	5950 2200 6100 2200
 Wire Wire Line
@@ -796,8 +778,6 @@ Wire Wire Line
 	5950 1900 6900 1900
 Wire Wire Line
 	6100 1800 6100 1750
-Text GLabel 6100 1750 1    50   Input ~ 0
-VOUTA_7_INA
 Wire Wire Line
 	5950 1800 6100 1800
 Connection ~ 5400 1450
@@ -888,8 +868,6 @@ Wire Wire Line
 	5950 4050 6900 4050
 Wire Wire Line
 	6100 4150 6100 4200
-Text GLabel 6100 4200 3    50   Input ~ 0
-VOUTB_10_INA
 Wire Wire Line
 	5950 4150 6100 4150
 Wire Wire Line
@@ -960,8 +938,6 @@ Wire Wire Line
 	5950 3850 6900 3850
 Wire Wire Line
 	6100 3750 6100 3700
-Text GLabel 6100 3700 1    50   Input ~ 0
-VOUTA_9_INA
 Wire Wire Line
 	5950 3750 6100 3750
 Connection ~ 5400 3400
@@ -1032,8 +1008,6 @@ Wire Wire Line
 Connection ~ 8700 3400
 Wire Wire Line
 	9250 3750 9400 3750
-Text GLabel 9400 3700 1    50   Input ~ 0
-VOUTA_15_INA
 Wire Wire Line
 	9400 3750 9400 3700
 Wire Wire Line
@@ -1188,8 +1162,6 @@ Wire Wire Line
 Connection ~ 8700 1450
 Wire Wire Line
 	9250 1800 9400 1800
-Text GLabel 9400 1750 1    50   Input ~ 0
-VOUTA_13_INA
 Wire Wire Line
 	9400 1800 9400 1750
 Wire Wire Line
@@ -1260,8 +1232,6 @@ Wire Wire Line
 	9300 2300 9250 2300
 Wire Wire Line
 	9250 2200 9400 2200
-Text GLabel 9400 2250 3    50   Input ~ 0
-VOUTB_14_INA
 Wire Wire Line
 	9400 2200 9400 2250
 Wire Wire Line
@@ -1319,8 +1289,6 @@ F 3 "" H 8700 2600 50  0001 C CNN
 $EndComp
 Text GLabel 10250 4050 2    50   Input ~ 0
 REFB_16_INA
-Text GLabel 9400 4200 3    50   Input ~ 0
-VOUTB_16_INA
 Text GLabel 8150 4150 0    50   Input ~ 0
 -VINB_16_INA
 Text GLabel 8150 4050 0    50   Input ~ 0
@@ -1405,4 +1373,36 @@ Text GLabel 6000 6250 3    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
 	6000 6200 6000 6250
+Text GLabel 2800 1750 1    50   Input ~ 0
+INA_BP_1
+Text GLabel 2800 2250 3    50   Input ~ 0
+INA_BP_2
+Text GLabel 2800 3700 1    50   Input ~ 0
+INA_BP_3
+Text GLabel 2800 4200 3    50   Input ~ 0
+INA_BP_4
+Text GLabel 2800 5650 1    50   Input ~ 0
+INA_BP_5
+Text GLabel 2800 6150 3    50   Input ~ 0
+INA_BP_6
+Text GLabel 6100 1750 1    50   Input ~ 0
+INA_BP_7
+Text GLabel 6100 2250 3    50   Input ~ 0
+INA_BP_8
+Text GLabel 6100 3700 1    50   Input ~ 0
+INA_BP_9
+Text GLabel 6100 4200 3    50   Input ~ 0
+INA_BP_10
+Text GLabel 6100 5650 1    50   Input ~ 0
+INA_BP_11
+Text GLabel 6100 6150 3    50   Input ~ 0
+INA_BP_12
+Text GLabel 9400 1750 1    50   Input ~ 0
+INA_BP_13
+Text GLabel 9400 2250 3    50   Input ~ 0
+INA_BP_14
+Text GLabel 9400 3700 1    50   Input ~ 0
+INA_BP_15
+Text GLabel 9400 4200 3    50   Input ~ 0
+INA_BP_16
 $EndSCHEMATC

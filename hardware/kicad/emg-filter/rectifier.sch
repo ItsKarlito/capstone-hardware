@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -216,13 +216,9 @@ Wire Wire Line
 	7250 1300 7250 1150
 Wire Wire Line
 	7250 1150 7100 1150
-Text GLabel 1700 1550 0    50   Input ~ 0
-INPUT_1_RECTIFIER
 Wire Wire Line
 	1800 1550 1700 1550
 Connection ~ 1800 1550
-Text GLabel 5400 1350 2    50   Input ~ 0
-OUTPUT_1_RECTIFIER
 Wire Wire Line
 	5400 1350 5300 1350
 Connection ~ 5300 1350
@@ -455,13 +451,9 @@ Wire Wire Line
 	7300 3150 7300 3000
 Wire Wire Line
 	7300 3000 7150 3000
-Text GLabel 1750 3400 0    50   Input ~ 0
-INPUT_2_RECTIFIER
 Wire Wire Line
 	1850 3400 1750 3400
 Connection ~ 1850 3400
-Text GLabel 5450 3200 2    50   Input ~ 0
-OUTPUT_2_RECTIFIER
 Wire Wire Line
 	5450 3200 5350 3200
 Connection ~ 5350 3200
@@ -694,13 +686,9 @@ Wire Wire Line
 	7350 5050 7350 4900
 Wire Wire Line
 	7350 4900 7200 4900
-Text GLabel 1800 5300 0    50   Input ~ 0
-INPUT_3_RECTIFIER
 Wire Wire Line
 	1900 5300 1800 5300
 Connection ~ 1900 5300
-Text GLabel 5500 5100 2    50   Input ~ 0
-OUTPUT_3_RECTIFIER
 Wire Wire Line
 	5500 5100 5400 5100
 Connection ~ 5400 5100
@@ -933,13 +921,9 @@ Wire Wire Line
 	7450 7000 7450 6850
 Wire Wire Line
 	7450 6850 7300 6850
-Text GLabel 1900 7250 0    50   Input ~ 0
-INPUT_4_RECTIFIER
 Wire Wire Line
 	2000 7250 1900 7250
 Connection ~ 2000 7250
-Text GLabel 5600 7050 2    50   Input ~ 0
-OUTPUT_4_RECTIFIER
 Wire Wire Line
 	5600 7050 5500 7050
 Connection ~ 5500 7050
@@ -1172,13 +1156,9 @@ Wire Wire Line
 	7450 9000 7450 8850
 Wire Wire Line
 	7450 8850 7300 8850
-Text GLabel 1900 9250 0    50   Input ~ 0
-INPUT_5_RECTIFIER
 Wire Wire Line
 	2000 9250 1900 9250
 Connection ~ 2000 9250
-Text GLabel 5600 9050 2    50   Input ~ 0
-OUTPUT_5_RECTIFIER
 Wire Wire Line
 	5600 9050 5500 9050
 Connection ~ 5500 9050
@@ -1411,13 +1391,9 @@ Wire Wire Line
 	7450 11100 7450 10950
 Wire Wire Line
 	7450 10950 7300 10950
-Text GLabel 1900 11350 0    50   Input ~ 0
-INPUT_6_RECTIFIER
 Wire Wire Line
 	2000 11350 1900 11350
 Connection ~ 2000 11350
-Text GLabel 5600 11150 2    50   Input ~ 0
-OUTPUT_6_RECTIFIER
 Wire Wire Line
 	5600 11150 5500 11150
 Connection ~ 5500 11150
@@ -1650,13 +1626,9 @@ Wire Wire Line
 	7450 12800 7450 12650
 Wire Wire Line
 	7450 12650 7300 12650
-Text GLabel 1900 13050 0    50   Input ~ 0
-INPUT_7_RECTIFIER
 Wire Wire Line
 	2000 13050 1900 13050
 Connection ~ 2000 13050
-Text GLabel 5600 12850 2    50   Input ~ 0
-OUTPUT_7_RECTIFIER
 Wire Wire Line
 	5600 12850 5500 12850
 Connection ~ 5500 12850
@@ -1889,13 +1861,9 @@ Wire Wire Line
 	7450 14650 7450 14500
 Wire Wire Line
 	7450 14500 7300 14500
-Text GLabel 1900 14900 0    50   Input ~ 0
-INPUT_8_RECTIFIER
 Wire Wire Line
 	2000 14900 1900 14900
 Connection ~ 2000 14900
-Text GLabel 5600 14700 2    50   Input ~ 0
-OUTPUT_8_RECTIFIER
 Wire Wire Line
 	5600 14700 5500 14700
 Connection ~ 5500 14700
@@ -2128,13 +2096,9 @@ Wire Wire Line
 	16250 1300 16250 1150
 Wire Wire Line
 	16250 1150 16100 1150
-Text GLabel 10700 1550 0    50   Input ~ 0
-INPUT_9_RECTIFIER
 Wire Wire Line
 	10800 1550 10700 1550
 Connection ~ 10800 1550
-Text GLabel 14400 1350 2    50   Input ~ 0
-OUTPUT_9_RECTIFIER
 Wire Wire Line
 	14400 1350 14300 1350
 Connection ~ 14300 1350
@@ -2367,13 +2331,9 @@ Wire Wire Line
 	16150 2950 16150 2800
 Wire Wire Line
 	16150 2800 16000 2800
-Text GLabel 10600 3200 0    50   Input ~ 0
-INPUT_10_RECTIFIER
 Wire Wire Line
 	10700 3200 10600 3200
 Connection ~ 10700 3200
-Text GLabel 14300 3000 2    50   Input ~ 0
-OUTPUT_10_RECTIFIER
 Wire Wire Line
 	14300 3000 14200 3000
 Connection ~ 14200 3000
@@ -2606,13 +2566,9 @@ Wire Wire Line
 	16150 4900 16150 4750
 Wire Wire Line
 	16150 4750 16000 4750
-Text GLabel 10600 5150 0    50   Input ~ 0
-INPUT_11_RECTIFIER
 Wire Wire Line
 	10700 5150 10600 5150
 Connection ~ 10700 5150
-Text GLabel 14300 4950 2    50   Input ~ 0
-OUTPUT_11_RECTIFIER
 Wire Wire Line
 	14300 4950 14200 4950
 Connection ~ 14200 4950
@@ -2845,13 +2801,9 @@ Wire Wire Line
 	16200 6850 16200 6700
 Wire Wire Line
 	16200 6700 16050 6700
-Text GLabel 10650 7100 0    50   Input ~ 0
-INPUT_12_RECTIFIER
 Wire Wire Line
 	10750 7100 10650 7100
 Connection ~ 10750 7100
-Text GLabel 14350 6900 2    50   Input ~ 0
-OUTPUT_12_RECTIFIER
 Wire Wire Line
 	14350 6900 14250 6900
 Connection ~ 14250 6900
@@ -3084,13 +3036,9 @@ Wire Wire Line
 	16100 8700 16100 8550
 Wire Wire Line
 	16100 8550 15950 8550
-Text GLabel 10550 8950 0    50   Input ~ 0
-INPUT_13_RECTIFIER
 Wire Wire Line
 	10650 8950 10550 8950
 Connection ~ 10650 8950
-Text GLabel 14250 8750 2    50   Input ~ 0
-OUTPUT_13_RECTIFIER
 Wire Wire Line
 	14250 8750 14150 8750
 Connection ~ 14150 8750
@@ -3323,13 +3271,9 @@ Wire Wire Line
 	16300 10850 16300 10700
 Wire Wire Line
 	16300 10700 16150 10700
-Text GLabel 10750 11100 0    50   Input ~ 0
-INPUT_14_RECTIFIER
 Wire Wire Line
 	10850 11100 10750 11100
 Connection ~ 10850 11100
-Text GLabel 14450 10900 2    50   Input ~ 0
-OUTPUT_14_RECTIFIER
 Wire Wire Line
 	14450 10900 14350 10900
 Connection ~ 14350 10900
@@ -3562,13 +3506,9 @@ Wire Wire Line
 	16300 12550 16300 12400
 Wire Wire Line
 	16300 12400 16150 12400
-Text GLabel 10750 12800 0    50   Input ~ 0
-INPUT_15_RECTIFIER
 Wire Wire Line
 	10850 12800 10750 12800
 Connection ~ 10850 12800
-Text GLabel 14450 12600 2    50   Input ~ 0
-OUTPUT_15_RECTIFIER
 Wire Wire Line
 	14450 12600 14350 12600
 Connection ~ 14350 12600
@@ -3801,13 +3741,9 @@ Wire Wire Line
 	16250 14400 16250 14250
 Wire Wire Line
 	16250 14250 16100 14250
-Text GLabel 10700 14650 0    50   Input ~ 0
-INPUT_16_RECTIFIER
 Wire Wire Line
 	10800 14650 10700 14650
 Connection ~ 10800 14650
-Text GLabel 14400 14450 2    50   Input ~ 0
-OUTPUT_16_RECTIFIER
 Wire Wire Line
 	14400 14450 14300 14450
 Connection ~ 14300 14450
@@ -3837,4 +3773,68 @@ F 3 "" H 16700 14950 50  0001 C CNN
 	1    16700 14950
 	-1   0    0    1   
 $EndComp
+Text GLabel 1750 3400 0    50   Input ~ 0
+NOTCH_RECT_2
+Text GLabel 1800 5300 0    50   Input ~ 0
+NOTCH_RECT_3
+Text GLabel 1700 1550 0    50   Input ~ 0
+NOTCH_RECT_1
+Text GLabel 10700 14650 0    50   Input ~ 0
+NOTCH_RECT_16
+Text GLabel 10750 12800 0    50   Input ~ 0
+NOTCH_RECT_15
+Text GLabel 10750 11100 0    50   Input ~ 0
+NOTCH_RECT_14
+Text GLabel 10550 8950 0    50   Input ~ 0
+NOTCH_RECT_13
+Text GLabel 10650 7100 0    50   Input ~ 0
+NOTCH_RECT_12
+Text GLabel 10600 5150 0    50   Input ~ 0
+NOTCH_RECT_11
+Text GLabel 10600 3200 0    50   Input ~ 0
+NOTCH_RECT_10
+Text GLabel 10700 1550 0    50   Input ~ 0
+NOTCH_RECT_9
+Text GLabel 1900 14900 0    50   Input ~ 0
+NOTCH_RECT_8
+Text GLabel 1900 13050 0    50   Input ~ 0
+NOTCH_RECT_7
+Text GLabel 1900 11350 0    50   Input ~ 0
+NOTCH_RECT_6
+Text GLabel 1900 9250 0    50   Input ~ 0
+NOTCH_RECT_5
+Text GLabel 1900 7250 0    50   Input ~ 0
+NOTCH_RECT_4
+Text GLabel 5400 1350 2    50   Input ~ 0
+RECT_AMP_1
+Text GLabel 5450 3200 2    50   Input ~ 0
+RECT_AMP_2
+Text GLabel 5500 5100 2    50   Input ~ 0
+RECT_AMP_3
+Text GLabel 5600 7050 2    50   Input ~ 0
+RECT_AMP_4
+Text GLabel 5600 9050 2    50   Input ~ 0
+RECT_AMP_5
+Text GLabel 5600 11150 2    50   Input ~ 0
+RECT_AMP_6
+Text GLabel 5600 12850 2    50   Input ~ 0
+RECT_AMP_7
+Text GLabel 5600 14700 2    50   Input ~ 0
+RECT_AMP_8
+Text GLabel 14400 1350 2    50   Input ~ 0
+RECT_AMP_9
+Text GLabel 14300 3000 2    50   Input ~ 0
+RECT_AMP_10
+Text GLabel 14300 4950 2    50   Input ~ 0
+RECT_AMP_11
+Text GLabel 14350 6900 2    50   Input ~ 0
+RECT_AMP_12
+Text GLabel 14250 8750 2    50   Input ~ 0
+RECT_AMP_13
+Text GLabel 14450 10900 2    50   Input ~ 0
+RECT_AMP_14
+Text GLabel 14450 12600 2    50   Input ~ 0
+RECT_AMP_15
+Text GLabel 14400 14450 2    50   Input ~ 0
+RECT_AMP_16
 $EndSCHEMATC

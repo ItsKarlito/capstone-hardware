@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -682,34 +682,6 @@ Connection ~ 3450 6200
 Wire Wire Line
 	3450 6550 3500 6550
 Connection ~ 3450 6550
-Text GLabel 1300 1700 0    50   Input ~ 0
-INPUT_1_BANDPASS
-Text GLabel 1300 1950 0    50   Input ~ 0
-INPUT_2_BANDPASS
-Text GLabel 1300 4000 0    50   Input ~ 0
-INPUT_3_BANDPASS
-Text GLabel 1300 4250 0    50   Input ~ 0
-INPUT_4_BANDPASS
-Text GLabel 1300 6300 0    50   Input ~ 0
-INPUT_5_BANDPASS
-Text GLabel 1300 6550 0    50   Input ~ 0
-INPUT_6_BANDPASS
-Text GLabel 7050 1550 2    50   Input ~ 0
-INPUT_7_BANDPASS
-Text GLabel 7050 1800 2    50   Input ~ 0
-INPUT_8_BANDPASS
-Text GLabel 7050 3850 2    50   Input ~ 0
-INPUT_9_BANDPASS
-Text GLabel 7050 4100 2    50   Input ~ 0
-INPUT_10_BANDPASS
-Text GLabel 7050 6150 2    50   Input ~ 0
-INPUT_11_BANDPASS
-Text GLabel 7850 2650 0    50   Input ~ 0
-INPUT_13_BANDPASS
-Text GLabel 7850 2900 0    50   Input ~ 0
-INPUT_14_BANDPASS
-Text GLabel 7850 4950 0    50   Input ~ 0
-INPUT_15_BANDPASS
 $Comp
 L power:+5V #PWR042
 U 1 1 6245213A
@@ -1825,40 +1797,68 @@ Connection ~ 10000 4850
 Wire Wire Line
 	10000 5200 10050 5200
 Connection ~ 10000 5200
-Text GLabel 7850 5200 0    50   Input ~ 0
-INPUT_16_BANDPASS
+Text GLabel 1300 1700 0    50   Input ~ 0
+INA_BP_1
+Text GLabel 1300 1950 0    50   Input ~ 0
+INA_BP_2
+Text GLabel 1300 4000 0    50   Input ~ 0
+INA_BP_3
+Text GLabel 1300 4250 0    50   Input ~ 0
+INA_BP_4
+Text GLabel 1300 6300 0    50   Input ~ 0
+INA_BP_5
+Text GLabel 1300 6550 0    50   Input ~ 0
+INA_BP_6
+Text GLabel 7050 1550 2    50   Input ~ 0
+INA_BP_7
+Text GLabel 7050 1800 2    50   Input ~ 0
+INA_BP_8
+Text GLabel 7050 3850 2    50   Input ~ 0
+INA_BP_9
+Text GLabel 7050 4100 2    50   Input ~ 0
+INA_BP_10
+Text GLabel 7050 6150 2    50   Input ~ 0
+INA_BP_11
 Text GLabel 7050 6400 2    50   Input ~ 0
-INPUT_12_BANDPASS
+INA_BP_12
+Text GLabel 7850 2650 0    50   Input ~ 0
+INA_BP_13
+Text GLabel 7850 2900 0    50   Input ~ 0
+INA_BP_14
+Text GLabel 7850 4950 0    50   Input ~ 0
+INA_BP_15
+Text GLabel 7850 5200 0    50   Input ~ 0
+INA_BP_16
 Text GLabel 3500 1600 2    50   Input ~ 0
-OUTPUT_1_BANDPASS
+BP_NOTCH_1
 Text GLabel 3500 1950 2    50   Input ~ 0
-OUTPUT_2_BANDPASS
+BP_NOTCH_2
 Text GLabel 3500 3900 2    50   Input ~ 0
-OUTPUT_3_BANDPASS
+BP_NOTCH_3
 Text GLabel 3500 4250 2    50   Input ~ 0
-OUTPUT_4_BANDPASS
+BP_NOTCH_4
 Text GLabel 3500 6200 2    50   Input ~ 0
-OUTPUT_5_BANDPASS
+BP_NOTCH_5
 Text GLabel 3500 6550 2    50   Input ~ 0
-OUTPUT_6_BANDPASS
+BP_NOTCH_6
 Text GLabel 4850 1450 0    50   Input ~ 0
-OUTPUT_7_BANDPASS
+BP_NOTCH_7
 Text GLabel 4850 1800 0    50   Input ~ 0
-OUTPUT_8_BANDPASS
+BP_NOTCH_8
 Text GLabel 4850 3750 0    50   Input ~ 0
-OUTPUT_9_BANDPASS
+BP_NOTCH_9
 Text GLabel 4850 4100 0    50   Input ~ 0
-OUTPUT_10_BANDPASS
+BP_NOTCH_10
 Text GLabel 4850 6050 0    50   Input ~ 0
-OUTPUT_11_BANDPASS
+BP_NOTCH_11
 Text GLabel 4850 6400 0    50   Input ~ 0
-OUTPUT_12_BANDPASS
+BP_NOTCH_12
 Text GLabel 10050 2550 2    50   Input ~ 0
-OUTPUT_13_BANDPASS
+BP_NOTCH_13
 Text GLabel 10050 2900 2    50   Input ~ 0
-OUTPUT_14_BANDPASS
+BP_NOTCH_14
 Text GLabel 10050 4850 2    50   Input ~ 0
-OUTPUT_15_BANDPASS
+BP_NOTCH_15
 Text GLabel 10050 5200 2    50   Input ~ 0
-OUTPUT_16_BANDPASS
+BP_NOTCH_16
 $EndSCHEMATC

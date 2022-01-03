@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -13,22 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5750 3400 0    50   Input ~ 0
-OUTPUT_1_AMPLFIER
-Text GLabel 5750 3500 0    50   Input ~ 0
-OUTPUT_2_AMPLFIER
-Text GLabel 5750 3600 0    50   Input ~ 0
-OUTPUT_3_AMPLFIER
-Text GLabel 5750 3700 0    50   Input ~ 0
-OUTPUT_4_AMPLFIER
-Text GLabel 5750 3800 0    50   Input ~ 0
-OUTPUT_5_AMPLFIER
-Text GLabel 6450 3700 2    50   Input ~ 0
-OUTPUT_7_AMPLFIER
-Text GLabel 6450 3600 2    50   Input ~ 0
-OUTPUT_8_AMPLFIER
-Text GLabel 6450 3800 2    50   Input ~ 0
-OUTPUT_6_AMPLFIER
 $Comp
 L Device:C C103
 U 1 1 61C4C270
@@ -148,22 +132,6 @@ Text GLabel 5750 3100 0    50   Input ~ 0
 !CS_1_PI
 Text GLabel 6450 3100 2    50   Input ~ 0
 SCLK_PI
-Text GLabel 5750 4550 0    50   Input ~ 0
-OUTPUT_9_AMPLFIER
-Text GLabel 5750 4650 0    50   Input ~ 0
-OUTPUT_10_AMPLFIER
-Text GLabel 5750 4750 0    50   Input ~ 0
-OUTPUT_11_AMPLFIER
-Text GLabel 5750 4850 0    50   Input ~ 0
-OUTPUT_12_AMPLFIER
-Text GLabel 5750 4950 0    50   Input ~ 0
-OUTPUT_13_AMPLFIER
-Text GLabel 6450 4850 2    50   Input ~ 0
-OUTPUT_15_AMPLFIER
-Text GLabel 6450 4750 2    50   Input ~ 0
-OUTPUT_16_AMPLFIER
-Text GLabel 6450 4950 2    50   Input ~ 0
-OUTPUT_14_AMPLFIER
 $Comp
 L Device:C C104
 U 1 1 61C90C65
@@ -357,4 +325,36 @@ Wire Wire Line
 Connection ~ 4700 3200
 Wire Wire Line
 	4700 3200 4450 3200
+Text GLabel 5750 3400 0    50   Input ~ 0
+OUT_AMP_1
+Text GLabel 5750 3500 0    50   Input ~ 0
+OUT_AMP_2
+Text GLabel 5750 3600 0    50   Input ~ 0
+OUT_AMP_3
+Text GLabel 5750 3700 0    50   Input ~ 0
+OUT_AMP_4
+Text GLabel 5750 3800 0    50   Input ~ 0
+OUT_AMP_5
+Text GLabel 5750 4850 0    50   Input ~ 0
+OUT_AMP_12
+Text GLabel 5750 4950 0    50   Input ~ 0
+OUT_AMP_13
+Text GLabel 6450 4950 2    50   Input ~ 0
+OUT_AMP_14
+Text GLabel 6450 4850 2    50   Input ~ 0
+OUT_AMP_15
+Text GLabel 6450 4750 2    50   Input ~ 0
+OUT_AMP_16
+Text GLabel 5750 4750 0    50   Input ~ 0
+OUT_AMP_11
+Text GLabel 6450 3800 2    50   Input ~ 0
+OUT_AMP_6
+Text GLabel 6450 3700 2    50   Input ~ 0
+OUT_AMP_7
+Text GLabel 6450 3600 2    50   Input ~ 0
+OUT_AMP_8
+Text GLabel 5750 4550 0    50   Input ~ 0
+OUT_AMP_9
+Text GLabel 5750 4650 0    50   Input ~ 0
+OUT_AMP_10
 $EndSCHEMATC
