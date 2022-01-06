@@ -13,4 +13,1724 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6249EE92
+P 2500 3750
+AR Path="/61C386B1/6249EE92" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6249EE92" Ref="J?"  Part="1" 
+F 0 "J?" V 2464 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 2373 3562 50  0000 R CNN
+F 2 "" H 2500 3750 50  0001 C CNN
+F 3 "~" H 2500 3750 50  0001 C CNN
+	1    2500 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6249EEA4
+P 1700 3750
+AR Path="/61C386B1/6249EEA4" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6249EEA4" Ref="J?"  Part="1" 
+F 0 "J?" V 1664 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 1573 3562 50  0000 R CNN
+F 2 "" H 1700 3750 50  0001 C CNN
+F 3 "~" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6249EEB0
+P 900 3750
+AR Path="/61C386B1/6249EEB0" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6249EEB0" Ref="J?"  Part="1" 
+F 0 "J?" V 864 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 773 3562 50  0000 R CNN
+F 2 "" H 900 3750 50  0001 C CNN
+F 3 "~" H 900 3750 50  0001 C CNN
+	1    900  3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6249EEB6
+P 1300 3750
+AR Path="/61C386B1/6249EEB6" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6249EEB6" Ref="J?"  Part="1" 
+F 0 "J?" V 1264 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 1173 3562 50  0000 R CNN
+F 2 "" H 1300 3750 50  0001 C CNN
+F 3 "~" H 1300 3750 50  0001 C CNN
+	1    1300 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3750 1100 3600
+Wire Wire Line
+	3100 3600 3100 3750
+Wire Wire Line
+	2700 3750 2700 3600
+$Comp
+L Device:R R?
+U 1 1 6249EEE2
+P 2100 5150
+AR Path="/61C386B1/6249EEE2" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6249EEE2" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 5196 50  0000 L CNN
+F 1 "0" H 2170 5105 50  0000 L CNN
+F 2 "" V 2030 5150 50  0001 C CNN
+F 3 "~" H 2100 5150 50  0001 C CNN
+	1    2100 5150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6249EED6
+P 2100 4500
+AR Path="/61C386B1/6249EED6" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6249EED6" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 4546 50  0000 L CNN
+F 1 "0" H 2170 4455 50  0000 L CNN
+F 2 "" V 2030 4500 50  0001 C CNN
+F 3 "~" H 2100 4500 50  0001 C CNN
+	1    2100 4500
+	0    -1   1    0   
+$EndComp
+Text GLabel 1900 4550 3    50   Input ~ 0
+-VINA_16_INA
+Text GLabel 1500 5200 3    50   Input ~ 0
+REFA_16_INA
+Text GLabel 2700 5200 3    50   Input ~ 0
+REFB_15_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6249EE98
+P 2900 3750
+AR Path="/61C386B1/6249EE98" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6249EE98" Ref="J?"  Part="1" 
+F 0 "J?" V 2864 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 2773 3562 50  0000 R CNN
+F 2 "" H 2900 3750 50  0001 C CNN
+F 3 "~" H 2900 3750 50  0001 C CNN
+	1    2900 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 624B7CF8
+P 3300 5150
+AR Path="/61C386B1/624B7CF8" Ref="R?"  Part="1" 
+AR Path="/61C389A8/624B7CF8" Ref="R?"  Part="1" 
+F 0 "R?" H 3370 5196 50  0000 L CNN
+F 1 "0" H 3370 5105 50  0000 L CNN
+F 2 "" V 3230 5150 50  0001 C CNN
+F 3 "~" H 3300 5150 50  0001 C CNN
+	1    3300 5150
+	0    -1   1    0   
+$EndComp
+Text GLabel 3100 4550 3    50   Input ~ 0
+-VINB_15_INA
+Wire Wire Line
+	1950 4500 1900 4500
+Text GLabel 2300 4550 3    50   Input ~ 0
++VINB_15_INA
+Wire Wire Line
+	2300 3750 2300 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6249EEAA
+P 2100 3750
+AR Path="/61C386B1/6249EEAA" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6249EEAA" Ref="J?"  Part="1" 
+F 0 "J?" V 2064 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 1973 3562 50  0000 R CNN
+F 2 "" H 2100 3750 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4500 2300 4500
+Wire Wire Line
+	2300 4500 2300 4550
+Wire Wire Line
+	1900 3750 1900 3600
+Connection ~ 1900 3600
+Wire Wire Line
+	1900 4550 1900 4500
+Wire Wire Line
+	2300 4500 2300 3850
+Connection ~ 2300 4500
+Wire Wire Line
+	1900 3850 1900 4500
+Connection ~ 1900 4500
+Wire Wire Line
+	1500 3750 1500 3600
+Connection ~ 1500 3600
+Wire Wire Line
+	1500 3600 1900 3600
+Wire Wire Line
+	1500 3850 1500 5150
+Wire Wire Line
+	1950 5150 1500 5150
+Wire Wire Line
+	1500 5150 1500 5200
+Connection ~ 1500 5150
+Wire Wire Line
+	1100 4550 1100 3850
+Wire Wire Line
+	3100 4550 3100 4500
+Wire Wire Line
+	1100 3600 1500 3600
+Wire Wire Line
+	2700 3850 2700 5150
+Wire Wire Line
+	2700 5150 2250 5150
+Connection ~ 2700 5150
+Wire Wire Line
+	2700 5150 2700 5200
+Wire Wire Line
+	2300 3600 2700 3600
+Connection ~ 2300 3600
+Wire Wire Line
+	2700 3600 3100 3600
+Connection ~ 2700 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6251BFE0
+P 4900 3750
+AR Path="/61C386B1/6251BFE0" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6251BFE0" Ref="J?"  Part="1" 
+F 0 "J?" V 4864 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 3562 50  0000 R CNN
+F 2 "" H 4900 3750 50  0001 C CNN
+F 3 "~" H 4900 3750 50  0001 C CNN
+	1    4900 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6251BFE6
+P 4100 3750
+AR Path="/61C386B1/6251BFE6" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6251BFE6" Ref="J?"  Part="1" 
+F 0 "J?" V 4064 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 3973 3562 50  0000 R CNN
+F 2 "" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6251BFEC
+P 3300 3750
+AR Path="/61C386B1/6251BFEC" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6251BFEC" Ref="J?"  Part="1" 
+F 0 "J?" V 3264 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 3173 3562 50  0000 R CNN
+F 2 "" H 3300 3750 50  0001 C CNN
+F 3 "~" H 3300 3750 50  0001 C CNN
+	1    3300 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6251BFF2
+P 3700 3750
+AR Path="/61C386B1/6251BFF2" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6251BFF2" Ref="J?"  Part="1" 
+F 0 "J?" V 3664 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 3573 3562 50  0000 R CNN
+F 2 "" H 3700 3750 50  0001 C CNN
+F 3 "~" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3750 3500 3600
+Wire Wire Line
+	5500 3600 5500 3750
+Wire Wire Line
+	5100 3750 5100 3600
+$Comp
+L Device:R R?
+U 1 1 6251C003
+P 4500 5150
+AR Path="/61C386B1/6251C003" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6251C003" Ref="R?"  Part="1" 
+F 0 "R?" H 4570 5196 50  0000 L CNN
+F 1 "0" H 4570 5105 50  0000 L CNN
+F 2 "" V 4430 5150 50  0001 C CNN
+F 3 "~" H 4500 5150 50  0001 C CNN
+	1    4500 5150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6251C009
+P 4500 4500
+AR Path="/61C386B1/6251C009" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6251C009" Ref="R?"  Part="1" 
+F 0 "R?" H 4570 4546 50  0000 L CNN
+F 1 "0" H 4570 4455 50  0000 L CNN
+F 2 "" V 4430 4500 50  0001 C CNN
+F 3 "~" H 4500 4500 50  0001 C CNN
+	1    4500 4500
+	0    -1   1    0   
+$EndComp
+Text GLabel 4300 4550 3    50   Input ~ 0
+-VINA_14_INA
+Text GLabel 3500 4550 3    50   Input ~ 0
++VINA_14_INA
+Text GLabel 3900 5200 3    50   Input ~ 0
+REFA_14_INA
+Text GLabel 5100 5200 3    50   Input ~ 0
+REFB_13_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6251C013
+P 5300 3750
+AR Path="/61C386B1/6251C013" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6251C013" Ref="J?"  Part="1" 
+F 0 "J?" V 5264 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 5173 3562 50  0000 R CNN
+F 2 "" H 5300 3750 50  0001 C CNN
+F 3 "~" H 5300 3750 50  0001 C CNN
+	1    5300 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6251C019
+P 5700 5150
+AR Path="/61C386B1/6251C019" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6251C019" Ref="R?"  Part="1" 
+F 0 "R?" H 5770 5196 50  0000 L CNN
+F 1 "0" H 5770 5105 50  0000 L CNN
+F 2 "" V 5630 5150 50  0001 C CNN
+F 3 "~" H 5700 5150 50  0001 C CNN
+	1    5700 5150
+	0    -1   1    0   
+$EndComp
+Text GLabel 5500 4550 3    50   Input ~ 0
+-VINB_13_INA
+Wire Wire Line
+	4350 4500 4300 4500
+Text GLabel 4700 4550 3    50   Input ~ 0
++VINB_13_INA
+Wire Wire Line
+	4700 3750 4700 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6251C024
+P 4500 3750
+AR Path="/61C386B1/6251C024" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6251C024" Ref="J?"  Part="1" 
+F 0 "J?" V 4464 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 4373 3562 50  0000 R CNN
+F 2 "" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4500 4700 4500
+Wire Wire Line
+	4700 4500 4700 4550
+Wire Wire Line
+	4300 3750 4300 3600
+Connection ~ 4300 3600
+Wire Wire Line
+	4300 4550 4300 4500
+Wire Wire Line
+	4700 4500 4700 3850
+Connection ~ 4700 4500
+Wire Wire Line
+	4300 3850 4300 4500
+Connection ~ 4300 4500
+Wire Wire Line
+	3900 3750 3900 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3600 4300 3600
+Wire Wire Line
+	3900 3850 3900 5150
+Wire Wire Line
+	4350 5150 3900 5150
+Wire Wire Line
+	3900 5150 3900 5200
+Connection ~ 3900 5150
+Wire Wire Line
+	3500 4550 3500 4500
+Wire Wire Line
+	5500 4550 5500 4450
+Wire Wire Line
+	3500 3600 3900 3600
+Wire Wire Line
+	5100 3850 5100 5150
+Wire Wire Line
+	5100 5150 4650 5150
+Connection ~ 5100 5150
+Wire Wire Line
+	5100 5150 5100 5200
+Wire Wire Line
+	4700 3600 5100 3600
+Connection ~ 4700 3600
+Wire Wire Line
+	5100 3600 5500 3600
+Connection ~ 5100 3600
+Wire Wire Line
+	3150 5150 2700 5150
+Wire Wire Line
+	3450 5150 3900 5150
+$Comp
+L Device:R R?
+U 1 1 625202EC
+P 3300 4500
+AR Path="/61C386B1/625202EC" Ref="R?"  Part="1" 
+AR Path="/61C389A8/625202EC" Ref="R?"  Part="1" 
+F 0 "R?" H 3370 4546 50  0000 L CNN
+F 1 "0" H 3370 4455 50  0000 L CNN
+F 2 "" V 3230 4500 50  0001 C CNN
+F 3 "~" H 3300 4500 50  0001 C CNN
+	1    3300 4500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3450 4500 3500 4500
+Connection ~ 3500 4500
+Wire Wire Line
+	3500 4500 3500 3850
+Wire Wire Line
+	3150 4500 3100 4500
+Connection ~ 3100 4500
+Wire Wire Line
+	3100 4500 3100 3850
+Wire Wire Line
+	3100 3600 3500 3600
+Connection ~ 3100 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	4300 3600 4700 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6252F222
+P 7300 3750
+AR Path="/61C386B1/6252F222" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6252F222" Ref="J?"  Part="1" 
+F 0 "J?" V 7264 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 7173 3562 50  0000 R CNN
+F 2 "" H 7300 3750 50  0001 C CNN
+F 3 "~" H 7300 3750 50  0001 C CNN
+	1    7300 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6252F228
+P 6500 3750
+AR Path="/61C386B1/6252F228" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6252F228" Ref="J?"  Part="1" 
+F 0 "J?" V 6464 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 6373 3562 50  0000 R CNN
+F 2 "" H 6500 3750 50  0001 C CNN
+F 3 "~" H 6500 3750 50  0001 C CNN
+	1    6500 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6252F22E
+P 5700 3750
+AR Path="/61C386B1/6252F22E" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6252F22E" Ref="J?"  Part="1" 
+F 0 "J?" V 5664 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 5573 3562 50  0000 R CNN
+F 2 "" H 5700 3750 50  0001 C CNN
+F 3 "~" H 5700 3750 50  0001 C CNN
+	1    5700 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6252F234
+P 6100 3750
+AR Path="/61C386B1/6252F234" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6252F234" Ref="J?"  Part="1" 
+F 0 "J?" V 6064 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 5973 3562 50  0000 R CNN
+F 2 "" H 6100 3750 50  0001 C CNN
+F 3 "~" H 6100 3750 50  0001 C CNN
+	1    6100 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3750 5900 3600
+Wire Wire Line
+	7900 3600 7900 3750
+Wire Wire Line
+	7500 3750 7500 3600
+$Comp
+L Device:R R?
+U 1 1 6252F245
+P 6900 5150
+AR Path="/61C386B1/6252F245" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6252F245" Ref="R?"  Part="1" 
+F 0 "R?" H 6970 5196 50  0000 L CNN
+F 1 "0" H 6970 5105 50  0000 L CNN
+F 2 "" V 6830 5150 50  0001 C CNN
+F 3 "~" H 6900 5150 50  0001 C CNN
+	1    6900 5150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6252F24B
+P 6900 4500
+AR Path="/61C386B1/6252F24B" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6252F24B" Ref="R?"  Part="1" 
+F 0 "R?" H 6970 4546 50  0000 L CNN
+F 1 "0" H 6970 4455 50  0000 L CNN
+F 2 "" V 6830 4500 50  0001 C CNN
+F 3 "~" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	0    -1   1    0   
+$EndComp
+Text GLabel 6700 4550 3    50   Input ~ 0
+-VINA_12_INA
+Text GLabel 5900 4550 3    50   Input ~ 0
++VINA_12_INA
+Text GLabel 6300 5200 3    50   Input ~ 0
+REFA_12_INA
+Text GLabel 7500 5200 3    50   Input ~ 0
+REFB_11_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6252F255
+P 7700 3750
+AR Path="/61C386B1/6252F255" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6252F255" Ref="J?"  Part="1" 
+F 0 "J?" V 7664 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 7573 3562 50  0000 R CNN
+F 2 "" H 7700 3750 50  0001 C CNN
+F 3 "~" H 7700 3750 50  0001 C CNN
+	1    7700 3750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7900 4550 3    50   Input ~ 0
+-VINB_11_INA
+Wire Wire Line
+	6750 4500 6700 4500
+Text GLabel 7100 4550 3    50   Input ~ 0
++VINB_11_INA
+Wire Wire Line
+	7100 3750 7100 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6252F266
+P 6900 3750
+AR Path="/61C386B1/6252F266" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6252F266" Ref="J?"  Part="1" 
+F 0 "J?" V 6864 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 6773 3562 50  0000 R CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "~" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4500 7100 4500
+Wire Wire Line
+	7100 4500 7100 4550
+Wire Wire Line
+	6700 3750 6700 3600
+Connection ~ 6700 3600
+Wire Wire Line
+	6700 4550 6700 4500
+Wire Wire Line
+	7100 4500 7100 3850
+Connection ~ 7100 4500
+Wire Wire Line
+	6700 3850 6700 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6300 3750 6300 3600
+Connection ~ 6300 3600
+Wire Wire Line
+	6300 3600 6700 3600
+Wire Wire Line
+	6300 3850 6300 5150
+Wire Wire Line
+	6750 5150 6300 5150
+Wire Wire Line
+	6300 5150 6300 5200
+Connection ~ 6300 5150
+Wire Wire Line
+	5900 4550 5900 4450
+Wire Wire Line
+	5900 3600 6300 3600
+Wire Wire Line
+	7500 3850 7500 5150
+Wire Wire Line
+	7500 5150 7050 5150
+Connection ~ 7500 5150
+Wire Wire Line
+	7500 5150 7500 5200
+Wire Wire Line
+	7100 3600 7500 3600
+Connection ~ 7100 3600
+Wire Wire Line
+	7500 3600 7900 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	5550 5150 5100 5150
+Wire Wire Line
+	5850 5150 6300 5150
+$Comp
+L Device:R R?
+U 1 1 625393B4
+P 5700 4450
+AR Path="/61C386B1/625393B4" Ref="R?"  Part="1" 
+AR Path="/61C389A8/625393B4" Ref="R?"  Part="1" 
+F 0 "R?" H 5770 4496 50  0000 L CNN
+F 1 "0" H 5770 4405 50  0000 L CNN
+F 2 "" V 5630 4450 50  0001 C CNN
+F 3 "~" H 5700 4450 50  0001 C CNN
+	1    5700 4450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5850 4450 5900 4450
+Connection ~ 5900 4450
+Wire Wire Line
+	5900 4450 5900 3850
+Wire Wire Line
+	5550 4450 5500 4450
+Connection ~ 5500 4450
+Wire Wire Line
+	5500 4450 5500 3850
+Wire Wire Line
+	5500 3600 5900 3600
+Connection ~ 5500 3600
+Connection ~ 5900 3600
+Wire Wire Line
+	6700 3600 7100 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 625C0422
+P 9700 3750
+AR Path="/61C386B1/625C0422" Ref="J?"  Part="1" 
+AR Path="/61C389A8/625C0422" Ref="J?"  Part="1" 
+F 0 "J?" V 9664 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 9573 3562 50  0000 R CNN
+F 2 "" H 9700 3750 50  0001 C CNN
+F 3 "~" H 9700 3750 50  0001 C CNN
+	1    9700 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 625C0428
+P 8900 3750
+AR Path="/61C386B1/625C0428" Ref="J?"  Part="1" 
+AR Path="/61C389A8/625C0428" Ref="J?"  Part="1" 
+F 0 "J?" V 8864 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 8773 3562 50  0000 R CNN
+F 2 "" H 8900 3750 50  0001 C CNN
+F 3 "~" H 8900 3750 50  0001 C CNN
+	1    8900 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 625C042E
+P 8100 3750
+AR Path="/61C386B1/625C042E" Ref="J?"  Part="1" 
+AR Path="/61C389A8/625C042E" Ref="J?"  Part="1" 
+F 0 "J?" V 8064 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 7973 3562 50  0000 R CNN
+F 2 "" H 8100 3750 50  0001 C CNN
+F 3 "~" H 8100 3750 50  0001 C CNN
+	1    8100 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 625C0434
+P 8500 3750
+AR Path="/61C386B1/625C0434" Ref="J?"  Part="1" 
+AR Path="/61C389A8/625C0434" Ref="J?"  Part="1" 
+F 0 "J?" V 8464 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 8373 3562 50  0000 R CNN
+F 2 "" H 8500 3750 50  0001 C CNN
+F 3 "~" H 8500 3750 50  0001 C CNN
+	1    8500 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3750 8300 3600
+Wire Wire Line
+	10300 3600 10300 3750
+Wire Wire Line
+	9900 3750 9900 3600
+$Comp
+L Device:R R?
+U 1 1 625C0445
+P 9300 5150
+AR Path="/61C386B1/625C0445" Ref="R?"  Part="1" 
+AR Path="/61C389A8/625C0445" Ref="R?"  Part="1" 
+F 0 "R?" H 9370 5196 50  0000 L CNN
+F 1 "0" H 9370 5105 50  0000 L CNN
+F 2 "" V 9230 5150 50  0001 C CNN
+F 3 "~" H 9300 5150 50  0001 C CNN
+	1    9300 5150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 625C044B
+P 9300 4500
+AR Path="/61C386B1/625C044B" Ref="R?"  Part="1" 
+AR Path="/61C389A8/625C044B" Ref="R?"  Part="1" 
+F 0 "R?" H 9370 4546 50  0000 L CNN
+F 1 "0" H 9370 4455 50  0000 L CNN
+F 2 "" V 9230 4500 50  0001 C CNN
+F 3 "~" H 9300 4500 50  0001 C CNN
+	1    9300 4500
+	0    -1   1    0   
+$EndComp
+Text GLabel 9100 4550 3    50   Input ~ 0
+-VINA_10_INA
+Text GLabel 8300 4550 3    50   Input ~ 0
++VINA_10_INA
+Text GLabel 8700 5200 3    50   Input ~ 0
+REFA_10_INA
+Text GLabel 9900 5200 3    50   Input ~ 0
+REFB_9_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 625C0455
+P 10100 3750
+AR Path="/61C386B1/625C0455" Ref="J?"  Part="1" 
+AR Path="/61C389A8/625C0455" Ref="J?"  Part="1" 
+F 0 "J?" V 10064 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 9973 3562 50  0000 R CNN
+F 2 "" H 10100 3750 50  0001 C CNN
+F 3 "~" H 10100 3750 50  0001 C CNN
+	1    10100 3750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10300 4550 3    50   Input ~ 0
+-VINB_9_INA
+Wire Wire Line
+	9150 4500 9100 4500
+Text GLabel 9500 4550 3    50   Input ~ 0
++VINB_9_INA
+Wire Wire Line
+	9500 3750 9500 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 625C0466
+P 9300 3750
+AR Path="/61C386B1/625C0466" Ref="J?"  Part="1" 
+AR Path="/61C389A8/625C0466" Ref="J?"  Part="1" 
+F 0 "J?" V 9264 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 9173 3562 50  0000 R CNN
+F 2 "" H 9300 3750 50  0001 C CNN
+F 3 "~" H 9300 3750 50  0001 C CNN
+	1    9300 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4500 9500 4500
+Wire Wire Line
+	9500 4500 9500 4550
+Wire Wire Line
+	9100 3750 9100 3600
+Connection ~ 9100 3600
+Wire Wire Line
+	9100 4550 9100 4500
+Wire Wire Line
+	9500 4500 9500 3850
+Connection ~ 9500 4500
+Wire Wire Line
+	9100 3850 9100 4500
+Connection ~ 9100 4500
+Wire Wire Line
+	8700 3750 8700 3600
+Connection ~ 8700 3600
+Wire Wire Line
+	8700 3600 9100 3600
+Wire Wire Line
+	8700 3850 8700 5150
+Wire Wire Line
+	9150 5150 8700 5150
+Wire Wire Line
+	8700 5150 8700 5200
+Connection ~ 8700 5150
+Wire Wire Line
+	8300 4550 8300 4500
+Wire Wire Line
+	8300 3600 8700 3600
+Wire Wire Line
+	9900 3850 9900 5150
+Wire Wire Line
+	9900 5150 9450 5150
+Connection ~ 9900 5150
+Wire Wire Line
+	9900 5150 9900 5200
+Wire Wire Line
+	9500 3600 9900 3600
+Connection ~ 9500 3600
+Wire Wire Line
+	9900 3600 10300 3600
+Connection ~ 9900 3600
+Wire Wire Line
+	1900 3600 2300 3600
+Wire Wire Line
+	7900 3850 7900 4500
+$Comp
+L Device:R R?
+U 1 1 62763FC5
+P 8100 4500
+AR Path="/61C386B1/62763FC5" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62763FC5" Ref="R?"  Part="1" 
+F 0 "R?" H 8170 4546 50  0000 L CNN
+F 1 "0" H 8170 4455 50  0000 L CNN
+F 2 "" V 8030 4500 50  0001 C CNN
+F 3 "~" H 8100 4500 50  0001 C CNN
+	1    8100 4500
+	0    -1   1    0   
+$EndComp
+Connection ~ 7900 4500
+Wire Wire Line
+	7900 4500 7900 4550
+Wire Wire Line
+	7950 4500 7900 4500
+Wire Wire Line
+	8250 4500 8300 4500
+Connection ~ 8300 4500
+Wire Wire Line
+	8300 4500 8300 3850
+Wire Wire Line
+	8300 3600 7900 3600
+Connection ~ 8300 3600
+Connection ~ 7900 3600
+Wire Wire Line
+	9100 3600 9500 3600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62801FB2
+P 2500 3050
+AR Path="/61C386B1/62801FB2" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62801FB2" Ref="J?"  Part="1" 
+F 0 "J?" V 2464 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 2373 2862 50  0000 R CNN
+F 2 "" H 2500 3050 50  0001 C CNN
+F 3 "~" H 2500 3050 50  0001 C CNN
+	1    2500 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62801FB8
+P 1700 3050
+AR Path="/61C386B1/62801FB8" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62801FB8" Ref="J?"  Part="1" 
+F 0 "J?" V 1664 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 1573 2862 50  0000 R CNN
+F 2 "" H 1700 3050 50  0001 C CNN
+F 3 "~" H 1700 3050 50  0001 C CNN
+	1    1700 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62801FBE
+P 900 3050
+AR Path="/61C386B1/62801FBE" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62801FBE" Ref="J?"  Part="1" 
+F 0 "J?" V 864 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 773 2862 50  0000 R CNN
+F 2 "" H 900 3050 50  0001 C CNN
+F 3 "~" H 900 3050 50  0001 C CNN
+	1    900  3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62801FC4
+P 1300 3050
+AR Path="/61C386B1/62801FC4" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62801FC4" Ref="J?"  Part="1" 
+F 0 "J?" V 1264 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 1173 2862 50  0000 R CNN
+F 2 "" H 1300 3050 50  0001 C CNN
+F 3 "~" H 1300 3050 50  0001 C CNN
+	1    1300 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3050 1100 3200
+Wire Wire Line
+	3100 3200 3100 3050
+Wire Wire Line
+	2700 3050 2700 3200
+$Comp
+L Device:R R?
+U 1 1 62801FD3
+P 2100 1650
+AR Path="/61C386B1/62801FD3" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62801FD3" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 1696 50  0000 L CNN
+F 1 "0" H 2170 1605 50  0000 L CNN
+F 2 "" V 2030 1650 50  0001 C CNN
+F 3 "~" H 2100 1650 50  0001 C CNN
+	1    2100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62801FD9
+P 2100 2300
+AR Path="/61C386B1/62801FD9" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62801FD9" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 2346 50  0000 L CNN
+F 1 "0" H 2170 2255 50  0000 L CNN
+F 2 "" V 2030 2300 50  0001 C CNN
+F 3 "~" H 2100 2300 50  0001 C CNN
+	1    2100 2300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1900 2250 1    50   Input ~ 0
+-VINA_1_INA
+Text GLabel 1100 2250 1    50   Input ~ 0
++VINA_1_INA
+Text GLabel 1500 1600 1    50   Input ~ 0
+REFA_1_INA
+Text GLabel 2700 1600 1    50   Input ~ 0
+REFB_2_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62801FE3
+P 2900 3050
+AR Path="/61C386B1/62801FE3" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62801FE3" Ref="J?"  Part="1" 
+F 0 "J?" V 2864 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 2773 2862 50  0000 R CNN
+F 2 "" H 2900 3050 50  0001 C CNN
+F 3 "~" H 2900 3050 50  0001 C CNN
+	1    2900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62801FE9
+P 3300 1650
+AR Path="/61C386B1/62801FE9" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62801FE9" Ref="R?"  Part="1" 
+F 0 "R?" H 3370 1696 50  0000 L CNN
+F 1 "0" H 3370 1605 50  0000 L CNN
+F 2 "" V 3230 1650 50  0001 C CNN
+F 3 "~" H 3300 1650 50  0001 C CNN
+	1    3300 1650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3100 2250 1    50   Input ~ 0
+-VINB_2_INA
+Wire Wire Line
+	1950 2300 1900 2300
+Text GLabel 2300 2250 1    50   Input ~ 0
++VINB_2_INA
+Wire Wire Line
+	2300 3050 2300 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62801FF3
+P 2100 3050
+AR Path="/61C386B1/62801FF3" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62801FF3" Ref="J?"  Part="1" 
+F 0 "J?" V 2064 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 1973 2862 50  0000 R CNN
+F 2 "" H 2100 3050 50  0001 C CNN
+F 3 "~" H 2100 3050 50  0001 C CNN
+	1    2100 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2300 2300 2300
+Wire Wire Line
+	2300 2300 2300 2250
+Wire Wire Line
+	1900 3050 1900 3200
+Connection ~ 1900 3200
+Wire Wire Line
+	1900 2250 1900 2300
+Wire Wire Line
+	2300 2300 2300 2950
+Connection ~ 2300 2300
+Wire Wire Line
+	1900 2950 1900 2300
+Connection ~ 1900 2300
+Wire Wire Line
+	1500 3050 1500 3200
+Connection ~ 1500 3200
+Wire Wire Line
+	1500 3200 1900 3200
+Wire Wire Line
+	1500 2950 1500 1650
+Wire Wire Line
+	1950 1650 1500 1650
+Wire Wire Line
+	1500 1650 1500 1600
+Connection ~ 1500 1650
+Wire Wire Line
+	1100 2250 1100 2950
+Wire Wire Line
+	3100 2250 3100 2300
+Wire Wire Line
+	1100 3200 1500 3200
+Wire Wire Line
+	2700 2950 2700 1650
+Wire Wire Line
+	2700 1650 2250 1650
+Connection ~ 2700 1650
+Wire Wire Line
+	2700 1650 2700 1600
+Wire Wire Line
+	2300 3200 2700 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2700 3200 3100 3200
+Connection ~ 2700 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802014
+P 4900 3050
+AR Path="/61C386B1/62802014" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802014" Ref="J?"  Part="1" 
+F 0 "J?" V 4864 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 2862 50  0000 R CNN
+F 2 "" H 4900 3050 50  0001 C CNN
+F 3 "~" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6280201A
+P 4100 3050
+AR Path="/61C386B1/6280201A" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6280201A" Ref="J?"  Part="1" 
+F 0 "J?" V 4064 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 3973 2862 50  0000 R CNN
+F 2 "" H 4100 3050 50  0001 C CNN
+F 3 "~" H 4100 3050 50  0001 C CNN
+	1    4100 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802020
+P 3300 3050
+AR Path="/61C386B1/62802020" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802020" Ref="J?"  Part="1" 
+F 0 "J?" V 3264 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 3173 2862 50  0000 R CNN
+F 2 "" H 3300 3050 50  0001 C CNN
+F 3 "~" H 3300 3050 50  0001 C CNN
+	1    3300 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802026
+P 3700 3050
+AR Path="/61C386B1/62802026" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802026" Ref="J?"  Part="1" 
+F 0 "J?" V 3664 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 3573 2862 50  0000 R CNN
+F 2 "" H 3700 3050 50  0001 C CNN
+F 3 "~" H 3700 3050 50  0001 C CNN
+	1    3700 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 3050 3500 3200
+Wire Wire Line
+	5500 3200 5500 3050
+Wire Wire Line
+	5100 3050 5100 3200
+$Comp
+L Device:R R?
+U 1 1 6280202F
+P 4500 1650
+AR Path="/61C386B1/6280202F" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6280202F" Ref="R?"  Part="1" 
+F 0 "R?" H 4570 1696 50  0000 L CNN
+F 1 "0" H 4570 1605 50  0000 L CNN
+F 2 "" V 4430 1650 50  0001 C CNN
+F 3 "~" H 4500 1650 50  0001 C CNN
+	1    4500 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62802035
+P 4500 2300
+AR Path="/61C386B1/62802035" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62802035" Ref="R?"  Part="1" 
+F 0 "R?" H 4570 2346 50  0000 L CNN
+F 1 "0" H 4570 2255 50  0000 L CNN
+F 2 "" V 4430 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4300 2250 1    50   Input ~ 0
+-VINA_3_INA
+Text GLabel 3500 2250 1    50   Input ~ 0
++VINA_3_INA
+Text GLabel 3900 1600 1    50   Input ~ 0
+REFA_3_INA
+Text GLabel 5100 1600 1    50   Input ~ 0
+REFB_4_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6280203F
+P 5300 3050
+AR Path="/61C386B1/6280203F" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6280203F" Ref="J?"  Part="1" 
+F 0 "J?" V 5264 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 5173 2862 50  0000 R CNN
+F 2 "" H 5300 3050 50  0001 C CNN
+F 3 "~" H 5300 3050 50  0001 C CNN
+	1    5300 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62802045
+P 5700 1650
+AR Path="/61C386B1/62802045" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62802045" Ref="R?"  Part="1" 
+F 0 "R?" H 5770 1696 50  0000 L CNN
+F 1 "0" H 5770 1605 50  0000 L CNN
+F 2 "" V 5630 1650 50  0001 C CNN
+F 3 "~" H 5700 1650 50  0001 C CNN
+	1    5700 1650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5500 2250 1    50   Input ~ 0
+-VINB_4_INA
+Wire Wire Line
+	4350 2300 4300 2300
+Text GLabel 4700 2250 1    50   Input ~ 0
++VINB_4_INA
+Wire Wire Line
+	4700 3050 4700 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6280204F
+P 4500 3050
+AR Path="/61C386B1/6280204F" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6280204F" Ref="J?"  Part="1" 
+F 0 "J?" V 4464 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 4373 2862 50  0000 R CNN
+F 2 "" H 4500 3050 50  0001 C CNN
+F 3 "~" H 4500 3050 50  0001 C CNN
+	1    4500 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2300 4700 2300
+Wire Wire Line
+	4700 2300 4700 2250
+Wire Wire Line
+	4300 3050 4300 3200
+Connection ~ 4300 3200
+Wire Wire Line
+	4300 2250 4300 2300
+Wire Wire Line
+	4700 2300 4700 2950
+Connection ~ 4700 2300
+Wire Wire Line
+	4300 2950 4300 2300
+Connection ~ 4300 2300
+Wire Wire Line
+	3900 3050 3900 3200
+Connection ~ 3900 3200
+Wire Wire Line
+	3900 3200 4300 3200
+Wire Wire Line
+	3900 2950 3900 1650
+Wire Wire Line
+	4350 1650 3900 1650
+Wire Wire Line
+	3900 1650 3900 1600
+Connection ~ 3900 1650
+Wire Wire Line
+	3500 2250 3500 2300
+Wire Wire Line
+	5500 2250 5500 2350
+Wire Wire Line
+	3500 3200 3900 3200
+Wire Wire Line
+	5100 2950 5100 1650
+Wire Wire Line
+	5100 1650 4650 1650
+Connection ~ 5100 1650
+Wire Wire Line
+	5100 1650 5100 1600
+Wire Wire Line
+	4700 3200 5100 3200
+Connection ~ 4700 3200
+Wire Wire Line
+	5100 3200 5500 3200
+Connection ~ 5100 3200
+Wire Wire Line
+	3150 1650 2700 1650
+Wire Wire Line
+	3450 1650 3900 1650
+$Comp
+L Device:R R?
+U 1 1 62802072
+P 3300 2300
+AR Path="/61C386B1/62802072" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62802072" Ref="R?"  Part="1" 
+F 0 "R?" H 3370 2346 50  0000 L CNN
+F 1 "0" H 3370 2255 50  0000 L CNN
+F 2 "" V 3230 2300 50  0001 C CNN
+F 3 "~" H 3300 2300 50  0001 C CNN
+	1    3300 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 2300 3500 2300
+Connection ~ 3500 2300
+Wire Wire Line
+	3500 2300 3500 2950
+Wire Wire Line
+	3150 2300 3100 2300
+Connection ~ 3100 2300
+Wire Wire Line
+	3100 2300 3100 2950
+Wire Wire Line
+	3100 3200 3500 3200
+Connection ~ 3100 3200
+Connection ~ 3500 3200
+Wire Wire Line
+	4300 3200 4700 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802082
+P 7300 3050
+AR Path="/61C386B1/62802082" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802082" Ref="J?"  Part="1" 
+F 0 "J?" V 7264 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 7173 2862 50  0000 R CNN
+F 2 "" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802088
+P 6500 3050
+AR Path="/61C386B1/62802088" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802088" Ref="J?"  Part="1" 
+F 0 "J?" V 6464 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 6373 2862 50  0000 R CNN
+F 2 "" H 6500 3050 50  0001 C CNN
+F 3 "~" H 6500 3050 50  0001 C CNN
+	1    6500 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6280208E
+P 5700 3050
+AR Path="/61C386B1/6280208E" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6280208E" Ref="J?"  Part="1" 
+F 0 "J?" V 5664 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 5573 2862 50  0000 R CNN
+F 2 "" H 5700 3050 50  0001 C CNN
+F 3 "~" H 5700 3050 50  0001 C CNN
+	1    5700 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802094
+P 6100 3050
+AR Path="/61C386B1/62802094" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802094" Ref="J?"  Part="1" 
+F 0 "J?" V 6064 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 5973 2862 50  0000 R CNN
+F 2 "" H 6100 3050 50  0001 C CNN
+F 3 "~" H 6100 3050 50  0001 C CNN
+	1    6100 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3050 5900 3200
+Wire Wire Line
+	7900 3200 7900 3050
+Wire Wire Line
+	7500 3050 7500 3200
+$Comp
+L Device:R R?
+U 1 1 6280209D
+P 6900 1650
+AR Path="/61C386B1/6280209D" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6280209D" Ref="R?"  Part="1" 
+F 0 "R?" H 6970 1696 50  0000 L CNN
+F 1 "0" H 6970 1605 50  0000 L CNN
+F 2 "" V 6830 1650 50  0001 C CNN
+F 3 "~" H 6900 1650 50  0001 C CNN
+	1    6900 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628020A3
+P 6900 2300
+AR Path="/61C386B1/628020A3" Ref="R?"  Part="1" 
+AR Path="/61C389A8/628020A3" Ref="R?"  Part="1" 
+F 0 "R?" H 6970 2346 50  0000 L CNN
+F 1 "0" H 6970 2255 50  0000 L CNN
+F 2 "" V 6830 2300 50  0001 C CNN
+F 3 "~" H 6900 2300 50  0001 C CNN
+	1    6900 2300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6700 2250 1    50   Input ~ 0
+-VINA_5_INA
+Text GLabel 5900 2250 1    50   Input ~ 0
++VINA_5_INA
+Text GLabel 6300 1600 1    50   Input ~ 0
+REFA_5_INA
+Text GLabel 7500 1600 1    50   Input ~ 0
+REFB_6_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 628020AD
+P 7700 3050
+AR Path="/61C386B1/628020AD" Ref="J?"  Part="1" 
+AR Path="/61C389A8/628020AD" Ref="J?"  Part="1" 
+F 0 "J?" V 7664 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 7573 2862 50  0000 R CNN
+F 2 "" H 7700 3050 50  0001 C CNN
+F 3 "~" H 7700 3050 50  0001 C CNN
+	1    7700 3050
+	-1   0    0    1   
+$EndComp
+Text GLabel 7900 2250 1    50   Input ~ 0
+-VINB_6_INA
+Wire Wire Line
+	6750 2300 6700 2300
+Text GLabel 7100 2250 1    50   Input ~ 0
++VINB_6_INA
+Wire Wire Line
+	7100 3050 7100 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 628020B7
+P 6900 3050
+AR Path="/61C386B1/628020B7" Ref="J?"  Part="1" 
+AR Path="/61C389A8/628020B7" Ref="J?"  Part="1" 
+F 0 "J?" V 6864 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 6773 2862 50  0000 R CNN
+F 2 "" H 6900 3050 50  0001 C CNN
+F 3 "~" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 2300 7100 2300
+Wire Wire Line
+	7100 2300 7100 2250
+Wire Wire Line
+	6700 3050 6700 3200
+Connection ~ 6700 3200
+Wire Wire Line
+	6700 2250 6700 2300
+Wire Wire Line
+	7100 2300 7100 2950
+Connection ~ 7100 2300
+Wire Wire Line
+	6700 2950 6700 2300
+Connection ~ 6700 2300
+Wire Wire Line
+	6300 3050 6300 3200
+Connection ~ 6300 3200
+Wire Wire Line
+	6300 3200 6700 3200
+Wire Wire Line
+	6300 2950 6300 1650
+Wire Wire Line
+	6750 1650 6300 1650
+Wire Wire Line
+	6300 1650 6300 1600
+Connection ~ 6300 1650
+Wire Wire Line
+	5900 2250 5900 2350
+Wire Wire Line
+	5900 3200 6300 3200
+Wire Wire Line
+	7500 2950 7500 1650
+Wire Wire Line
+	7500 1650 7050 1650
+Connection ~ 7500 1650
+Wire Wire Line
+	7500 1650 7500 1600
+Wire Wire Line
+	7100 3200 7500 3200
+Connection ~ 7100 3200
+Wire Wire Line
+	7500 3200 7900 3200
+Connection ~ 7500 3200
+Wire Wire Line
+	5550 1650 5100 1650
+Wire Wire Line
+	5850 1650 6300 1650
+$Comp
+L Device:R R?
+U 1 1 628020D9
+P 5700 2350
+AR Path="/61C386B1/628020D9" Ref="R?"  Part="1" 
+AR Path="/61C389A8/628020D9" Ref="R?"  Part="1" 
+F 0 "R?" H 5770 2396 50  0000 L CNN
+F 1 "0" H 5770 2305 50  0000 L CNN
+F 2 "" V 5630 2350 50  0001 C CNN
+F 3 "~" H 5700 2350 50  0001 C CNN
+	1    5700 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2350 5900 2350
+Connection ~ 5900 2350
+Wire Wire Line
+	5900 2350 5900 2950
+Wire Wire Line
+	5550 2350 5500 2350
+Connection ~ 5500 2350
+Wire Wire Line
+	5500 2350 5500 2950
+Wire Wire Line
+	5500 3200 5900 3200
+Connection ~ 5500 3200
+Connection ~ 5900 3200
+Wire Wire Line
+	6700 3200 7100 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 628020E9
+P 9700 3050
+AR Path="/61C386B1/628020E9" Ref="J?"  Part="1" 
+AR Path="/61C389A8/628020E9" Ref="J?"  Part="1" 
+F 0 "J?" V 9664 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 9573 2862 50  0000 R CNN
+F 2 "" H 9700 3050 50  0001 C CNN
+F 3 "~" H 9700 3050 50  0001 C CNN
+	1    9700 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 628020EF
+P 8900 3050
+AR Path="/61C386B1/628020EF" Ref="J?"  Part="1" 
+AR Path="/61C389A8/628020EF" Ref="J?"  Part="1" 
+F 0 "J?" V 8864 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 8773 2862 50  0000 R CNN
+F 2 "" H 8900 3050 50  0001 C CNN
+F 3 "~" H 8900 3050 50  0001 C CNN
+	1    8900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 628020F5
+P 8100 3050
+AR Path="/61C386B1/628020F5" Ref="J?"  Part="1" 
+AR Path="/61C389A8/628020F5" Ref="J?"  Part="1" 
+F 0 "J?" V 8064 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 7973 2862 50  0000 R CNN
+F 2 "" H 8100 3050 50  0001 C CNN
+F 3 "~" H 8100 3050 50  0001 C CNN
+	1    8100 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 628020FB
+P 8500 3050
+AR Path="/61C386B1/628020FB" Ref="J?"  Part="1" 
+AR Path="/61C389A8/628020FB" Ref="J?"  Part="1" 
+F 0 "J?" V 8464 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 8373 2862 50  0000 R CNN
+F 2 "" H 8500 3050 50  0001 C CNN
+F 3 "~" H 8500 3050 50  0001 C CNN
+	1    8500 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 3050 8300 3200
+Wire Wire Line
+	10300 3200 10300 3050
+Wire Wire Line
+	9900 3050 9900 3200
+$Comp
+L Device:R R?
+U 1 1 62802104
+P 9300 1650
+AR Path="/61C386B1/62802104" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62802104" Ref="R?"  Part="1" 
+F 0 "R?" H 9370 1696 50  0000 L CNN
+F 1 "0" H 9370 1605 50  0000 L CNN
+F 2 "" V 9230 1650 50  0001 C CNN
+F 3 "~" H 9300 1650 50  0001 C CNN
+	1    9300 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6280210A
+P 9300 2300
+AR Path="/61C386B1/6280210A" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6280210A" Ref="R?"  Part="1" 
+F 0 "R?" H 9370 2346 50  0000 L CNN
+F 1 "0" H 9370 2255 50  0000 L CNN
+F 2 "" V 9230 2300 50  0001 C CNN
+F 3 "~" H 9300 2300 50  0001 C CNN
+	1    9300 2300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9100 2250 1    50   Input ~ 0
+-VINA_7_INA
+Text GLabel 8300 2250 1    50   Input ~ 0
++VINA_7_INA
+Text GLabel 8700 1600 1    50   Input ~ 0
+REFA_7_INA
+Text GLabel 9900 1600 1    50   Input ~ 0
+REFB_8_INA
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802114
+P 10100 3050
+AR Path="/61C386B1/62802114" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802114" Ref="J?"  Part="1" 
+F 0 "J?" V 10064 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 9973 2862 50  0000 R CNN
+F 2 "" H 10100 3050 50  0001 C CNN
+F 3 "~" H 10100 3050 50  0001 C CNN
+	1    10100 3050
+	-1   0    0    1   
+$EndComp
+Text GLabel 10300 2250 1    50   Input ~ 0
+-VINB_8_INA
+Wire Wire Line
+	9150 2300 9100 2300
+Text GLabel 9500 2250 1    50   Input ~ 0
++VINB_8_INA
+Wire Wire Line
+	9500 3050 9500 3200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62802124
+P 9300 3050
+AR Path="/61C386B1/62802124" Ref="J?"  Part="1" 
+AR Path="/61C389A8/62802124" Ref="J?"  Part="1" 
+F 0 "J?" V 9264 2862 50  0000 R CNN
+F 1 "Conn_01x02" V 9173 2862 50  0000 R CNN
+F 2 "" H 9300 3050 50  0001 C CNN
+F 3 "~" H 9300 3050 50  0001 C CNN
+	1    9300 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9450 2300 9500 2300
+Wire Wire Line
+	9500 2300 9500 2250
+Wire Wire Line
+	9100 3050 9100 3200
+Connection ~ 9100 3200
+Wire Wire Line
+	9100 2250 9100 2300
+Wire Wire Line
+	9500 2300 9500 2950
+Connection ~ 9500 2300
+Wire Wire Line
+	9100 2950 9100 2300
+Connection ~ 9100 2300
+Wire Wire Line
+	8700 3050 8700 3200
+Connection ~ 8700 3200
+Wire Wire Line
+	8700 3200 9100 3200
+Wire Wire Line
+	8700 2950 8700 1650
+Wire Wire Line
+	9150 1650 8700 1650
+Wire Wire Line
+	8700 1650 8700 1600
+Connection ~ 8700 1650
+Wire Wire Line
+	8300 2250 8300 2300
+Wire Wire Line
+	8300 3200 8700 3200
+Wire Wire Line
+	9900 2950 9900 1650
+Wire Wire Line
+	9900 1650 9450 1650
+Connection ~ 9900 1650
+Wire Wire Line
+	9900 1650 9900 1600
+Wire Wire Line
+	9500 3200 9900 3200
+Connection ~ 9500 3200
+Wire Wire Line
+	9900 3200 10300 3200
+Connection ~ 9900 3200
+Connection ~ 1100 3200
+Wire Wire Line
+	1900 3200 2300 3200
+Wire Wire Line
+	7900 2950 7900 2300
+$Comp
+L Device:R R?
+U 1 1 62802154
+P 8100 2300
+AR Path="/61C386B1/62802154" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62802154" Ref="R?"  Part="1" 
+F 0 "R?" H 8170 2346 50  0000 L CNN
+F 1 "0" H 8170 2255 50  0000 L CNN
+F 2 "" V 8030 2300 50  0001 C CNN
+F 3 "~" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7900 2300
+Wire Wire Line
+	7900 2300 7900 2250
+Wire Wire Line
+	7950 2300 7900 2300
+Wire Wire Line
+	8250 2300 8300 2300
+Connection ~ 8300 2300
+Wire Wire Line
+	8300 2300 8300 2950
+Wire Wire Line
+	8300 3200 7900 3200
+Connection ~ 8300 3200
+Connection ~ 7900 3200
+Wire Wire Line
+	9100 3200 9500 3200
+Wire Wire Line
+	10300 3200 10300 3600
+Connection ~ 10300 3200
+Connection ~ 10300 3600
+Wire Wire Line
+	10300 2950 10450 2950
+Wire Wire Line
+	10450 2950 10450 3250
+Connection ~ 10300 2950
+Wire Wire Line
+	10450 3550 10450 3850
+Wire Wire Line
+	10450 3850 10300 3850
+Connection ~ 10300 3850
+Wire Wire Line
+	10300 3850 10300 4550
+Wire Wire Line
+	10300 2250 10300 2950
+$Comp
+L Device:R R?
+U 1 1 628D0906
+P 10750 3400
+AR Path="/61C386B1/628D0906" Ref="R?"  Part="1" 
+AR Path="/61C389A8/628D0906" Ref="R?"  Part="1" 
+F 0 "R?" H 10820 3446 50  0000 L CNN
+F 1 "0" H 10820 3355 50  0000 L CNN
+F 2 "" V 10680 3400 50  0001 C CNN
+F 3 "~" H 10750 3400 50  0001 C CNN
+	1    10750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62802146
+P 10450 3400
+AR Path="/61C386B1/62802146" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62802146" Ref="R?"  Part="1" 
+F 0 "R?" H 10520 3446 50  0000 L CNN
+F 1 "0" H 10520 3355 50  0000 L CNN
+F 2 "" V 10380 3400 50  0001 C CNN
+F 3 "~" H 10450 3400 50  0001 C CNN
+	1    10450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 1650 10750 3250
+Wire Wire Line
+	9900 1650 10750 1650
+Wire Wire Line
+	10750 3550 10750 5150
+Wire Wire Line
+	9900 5150 10750 5150
+Text GLabel 1100 4550 3    50   Input ~ 0
++VINA_16_INA
+$Comp
+L power:GND #PWR?
+U 1 1 62801FCD
+P 750 3200
+AR Path="/61C386B1/62801FCD" Ref="#PWR?"  Part="1" 
+AR Path="/61C389A8/62801FCD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 750 2950 50  0001 C CNN
+F 1 "GND" H 755 3027 50  0000 C CNN
+F 2 "" H 750 3200 50  0001 C CNN
+F 3 "" H 750 3200 50  0001 C CNN
+	1    750  3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  3200 1100 3200
+$Comp
+L Device:R R?
+U 1 1 629EFF1C
+P 8100 5150
+AR Path="/61C386B1/629EFF1C" Ref="R?"  Part="1" 
+AR Path="/61C389A8/629EFF1C" Ref="R?"  Part="1" 
+F 0 "R?" H 8170 5196 50  0000 L CNN
+F 1 "0" H 8170 5105 50  0000 L CNN
+F 2 "" V 8030 5150 50  0001 C CNN
+F 3 "~" H 8100 5150 50  0001 C CNN
+	1    8100 5150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7950 5150 7500 5150
+Wire Wire Line
+	8250 5150 8700 5150
+$Comp
+L Device:R R?
+U 1 1 62A2DF96
+P 8100 1650
+AR Path="/61C386B1/62A2DF96" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62A2DF96" Ref="R?"  Part="1" 
+F 0 "R?" H 8170 1696 50  0000 L CNN
+F 1 "0" H 8170 1605 50  0000 L CNN
+F 2 "" V 8030 1650 50  0001 C CNN
+F 3 "~" H 8100 1650 50  0001 C CNN
+	1    8100 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 1650 7500 1650
+Wire Wire Line
+	8250 1650 8700 1650
 $EndSCHEMATC
