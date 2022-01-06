@@ -1405,4 +1405,6 @@ Text GLabel 9400 3700 1    50   Input ~ 0
 INA_BP_15
 Text GLabel 9400 4200 3    50   Input ~ 0
 INA_BP_16
+Text Notes 2150 1400 0    50   ~ 0
+Add caps near pwr pins\n
 $EndSCHEMATC

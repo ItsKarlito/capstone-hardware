@@ -858,4 +858,8 @@ Connection ~ 6800 2950
 Connection ~ 6800 4150
 Text Notes 4950 4050 0    50   ~ 0
 Resistor direction?
+Text Notes 4850 800  0    50   ~ 0
+Checkout isolated Vreg isolate 24V from 5V (usually for low A) switching near bat with decoup caps\n
+Text Notes 1550 2250 0    50   ~ 0
+Use 2 batteries?\n
 $EndSCHEMATC

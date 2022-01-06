@@ -42,18 +42,18 @@ $EndComp
 $Comp
 L power:GND #PWR0206
 U 1 1 61C5028D
-P 3800 3650
-F 0 "#PWR0206" H 3800 3400 50  0001 C CNN
-F 1 "GND" H 3805 3477 50  0000 C CNN
-F 2 "" H 3800 3650 50  0001 C CNN
-F 3 "" H 3800 3650 50  0001 C CNN
-	1    3800 3650
+P 3800 3750
+F 0 "#PWR0206" H 3800 3500 50  0001 C CNN
+F 1 "GND" H 3805 3577 50  0000 C CNN
+F 2 "" H 3800 3750 50  0001 C CNN
+F 3 "" H 3800 3750 50  0001 C CNN
+	1    3800 3750
 	1    0    0    -1  
 $EndComp
 Text GLabel 3500 3650 1    50   Input ~ 0
 AGND
-Text GLabel 3800 3650 1    50   Input ~ 0
-DGND
+Text GLabel 3800 3750 1    50   Input ~ 0
+DGND_PI
 $Comp
 L Device:C C105
 U 1 1 61C50D59
@@ -75,7 +75,7 @@ Wire Wire Line
 	7450 3750 7450 3800
 Connection ~ 7450 3400
 Text GLabel 7750 3400 2    50   Input ~ 0
-VD
+VD_3V3_PI
 Wire Wire Line
 	7700 3400 7750 3400
 Connection ~ 7700 3400
@@ -357,4 +357,16 @@ Text GLabel 5750 4550 0    50   Input ~ 0
 OUT_AMP_9
 Text GLabel 5750 4650 0    50   Input ~ 0
 OUT_AMP_10
+Text Notes 7500 2950 0    50   ~ 0
+1.\nrun analog and digital gnd seperatly. 4 layer pc, 1 gnd plane for both analog and digital.
+Text Notes 6900 2650 0    50   ~ 0
+Bead used for EMI, use LC filter
+Text Notes 5350 3950 0    50   ~ 0
+DOUT (adc) = MISO, DOUT should connect to DIN of Pi
+Text Notes 7250 4400 0    50   ~ 0
+VD should match logic level of Pi
+Text Notes 7300 4500 0    50   ~ 0
+Connect VD to 3.3V of Pi\n
+Text Notes 8050 4600 0    50   ~ 0
+Can therefor get rid of LC filter\n
 $EndSCHEMATC

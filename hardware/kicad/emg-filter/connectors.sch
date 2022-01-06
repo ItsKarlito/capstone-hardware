@@ -1733,4 +1733,6 @@ Wire Wire Line
 	7950 1650 7500 1650
 Wire Wire Line
 	8250 1650 8700 1650
+Text Notes 4000 5850 0    50   ~ 0
+Consider solder jumpers, associate R to JMP footprint
 $EndSCHEMATC

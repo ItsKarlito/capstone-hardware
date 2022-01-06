@@ -98,9 +98,9 @@ F 3 "" H 1800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 2500 1650 2500
+	1350 2500 1550 2500
 Wire Wire Line
-	1950 2500 2300 2500
+	1950 2500 2050 2500
 $Comp
 L power:-5V #PWR0179
 U 1 1 61C5483A
@@ -1191,7 +1191,7 @@ Wire Wire Line
 	4350 6350 4250 6350
 Wire Wire Line
 	4350 6600 4250 6600
-Text GLabel 1300 1500 0    50   Input ~ 0
+Text GLabel 1100 1500 0    50   Input ~ 0
 RECT_AMP_1
 Text GLabel 1300 1750 0    50   Input ~ 0
 RECT_AMP_2
@@ -1253,4 +1253,45 @@ Text GLabel 5350 1850 2    50   Input ~ 0
 OUT_AMP_8
 Text GLabel 5350 1500 2    50   Input ~ 0
 OUT_AMP_7
+Text Notes 2000 2100 0    50   ~ 0
+rEPLACE WITH OUR VIRTUAL gnd, can potentiallly provide negative voltage
+$Comp
+L Device:R R?
+U 1 1 61EBAAA0
+P 1250 1500
+F 0 "R?" V 1457 1500 50  0000 C CNN
+F 1 "Same as inverting 2k (inverting branch)" V 1366 1500 50  0000 C CNN
+F 2 "" V 1180 1500 50  0001 C CNN
+F 3 "~" H 1250 1500 50  0001 C CNN
+	1    1250 1500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1400 1500
+Text Notes 850  600  0    50   ~ 0
+Consider POT for few stages, add jumpers, multiturn for resolution
+$Comp
+L Device:R POT
+U 1 1 61EBE9EC
+P 1800 2350
+F 0 "POT" V 1900 2350 50  0000 C CNN
+F 1 "10k" V 2000 2350 50  0000 C CNN
+F 2 "" V 1730 2350 50  0001 C CNN
+F 3 "~" H 1800 2350 50  0001 C CNN
+	1    1800 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 2350 1550 2350
+Wire Wire Line
+	1550 2350 1550 2500
+Connection ~ 1550 2500
+Wire Wire Line
+	1550 2500 1650 2500
+Wire Wire Line
+	1950 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 2500
+Connection ~ 2050 2500
+Wire Wire Line
+	2050 2500 2300 2500
 $EndSCHEMATC
