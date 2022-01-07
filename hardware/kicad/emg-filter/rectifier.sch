@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 7 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "EMG Filter for Prosthetic Limb Control System"
+Date "2022-01-07"
+Rev "V2"
+Comp "Concordia University - Capstone"
 Comment1 ""
 Comment2 ""
 Comment3 ""
