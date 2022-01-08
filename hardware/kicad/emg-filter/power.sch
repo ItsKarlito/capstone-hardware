@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3300 2350 4300 2350
+	3300 2350 4100 2350
 Connection ~ 7900 3250
 Connection ~ 7900 2050
 $Comp
@@ -145,7 +145,7 @@ Wire Wire Line
 	3300 2800 3300 2950
 Connection ~ 3300 2800
 Wire Wire Line
-	3300 2950 4300 2950
+	3300 2950 4100 2950
 $Comp
 L power:GNDREF #PWR04
 U 1 1 61D986E3
@@ -2044,6 +2044,74 @@ F 1 "GND" H 5775 7650 50  0000 C CNN
 F 2 "" H 5625 7725 50  0001 C CNN
 F 3 "" H 5625 7725 50  0001 C CNN
 	1    5625 7725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 61E44218
+P 3800 2650
+F 0 "J?" H 3800 2450 50  0000 C CNN
+F 1 "Conn_01x03" H 3800 2850 50  0000 C CNN
+F 2 "" H 3800 2650 50  0001 C CNN
+F 3 "~" H 3800 2650 50  0001 C CNN
+	1    3800 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 2550 4100 2550
+Wire Wire Line
+	4100 2550 4100 2350
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 4300 2350
+Wire Wire Line
+	4000 2750 4100 2750
+Wire Wire Line
+	4100 2750 4100 2950
+Connection ~ 4100 2950
+Wire Wire Line
+	4100 2950 4300 2950
+Wire Wire Line
+	4000 2650 4300 2650
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61EA6DDC
+P 850 2700
+F 0 "J?" H 768 2375 50  0000 C CNN
+F 1 "Conn_01x02" H 768 2466 50  0000 C CNN
+F 2 "" H 850 2700 50  0001 C CNN
+F 3 "~" H 850 2700 50  0001 C CNN
+	1    850  2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 2600 1300 2600
+Wire Wire Line
+	1300 2600 1300 2500
+Wire Wire Line
+	1050 2700 1300 2700
+Wire Wire Line
+	1300 2700 1300 2800
+$Comp
+L power:+24V #PWR?
+U 1 1 61F0B0C6
+P 1300 2500
+F 0 "#PWR?" H 1300 2350 50  0001 C CNN
+F 1 "+24V" H 1315 2673 50  0000 C CNN
+F 2 "" H 1300 2500 50  0001 C CNN
+F 3 "" H 1300 2500 50  0001 C CNN
+	1    1300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61F0B5A3
+P 1300 2800
+F 0 "#PWR?" H 1300 2550 50  0001 C CNN
+F 1 "GNDREF" H 1305 2627 50  0000 C CNN
+F 2 "" H 1300 2800 50  0001 C CNN
+F 3 "" H 1300 2800 50  0001 C CNN
+	1    1300 2800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
