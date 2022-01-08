@@ -2742,4 +2742,9 @@ Wire Wire Line
 	2100 1700 3100 1700
 Text Notes 1100 3725 0    50   ~ 0
 Caps for op-amp supply rails, they need to be positioned as close as possible to the supply terminals on the PCB.
+Text GLabel 7675 2000 2    50   Output ~ 0
+GND_PI
+Wire Wire Line
+	7600 2000 7675 2000
+Connection ~ 7600 2000
 $EndSCHEMATC
