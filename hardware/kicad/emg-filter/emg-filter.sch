@@ -20,12 +20,6 @@ F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 2750 1500 1000 1000
-U 61C386B1
-F0 "instrumentation" 50
-F1 "instrumentation.sch" 50
-$EndSheet
-$Sheet
 S 4250 1500 1000 1000
 U 61C386E2
 F0 "bandpass" 50
@@ -63,4 +57,10 @@ F1 "emg-connectors.sch" 50
 $EndSheet
 Text Notes 550  850  0    197  ~ 39
 EMG Filter for Prosthetic Limb Control System
+$Sheet
+S 2750 1500 1000 1000
+U 61C386B1
+F0 "instrumentation" 50
+F1 "instrumentation.sch" 50
+$EndSheet
 $EndSCHEMATC
