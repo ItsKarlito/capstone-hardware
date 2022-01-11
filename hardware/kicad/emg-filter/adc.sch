@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 11
+Sheet 9 11
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -356,4 +356,35 @@ F 3 "~" H 8200 3775 50  0001 C CNN
 	1    8200 3775
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8000 2875
+NoConn ~ 8000 2975
+NoConn ~ 8000 3075
+NoConn ~ 8000 3175
+NoConn ~ 8000 3275
+NoConn ~ 8000 3375
+NoConn ~ 8000 4175
+NoConn ~ 8000 4275
+NoConn ~ 8000 4375
+NoConn ~ 8000 4475
+NoConn ~ 8000 4575
+NoConn ~ 8000 4675
+NoConn ~ 8000 4775
+NoConn ~ 8500 2875
+NoConn ~ 8500 2975
+NoConn ~ 8500 3075
+NoConn ~ 8500 3375
+NoConn ~ 8500 3475
+NoConn ~ 8500 3575
+NoConn ~ 8500 3675
+NoConn ~ 8500 3775
+NoConn ~ 8500 3875
+NoConn ~ 8500 3975
+NoConn ~ 8500 4075
+NoConn ~ 8500 4175
+NoConn ~ 8500 4275
+NoConn ~ 8500 4375
+NoConn ~ 8500 4475
+NoConn ~ 8500 4575
+NoConn ~ 8500 4675
+NoConn ~ 8500 4775
 $EndSCHEMATC
