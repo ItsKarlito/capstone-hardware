@@ -107,10 +107,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 2650 8800 2700
 $Comp
-L power:GND #PWR014
+L power:GND #PWR012
 U 1 1 61D1A2AE
 P 8800 2700
-F 0 "#PWR014" H 8800 2450 50  0001 C CNN
+F 0 "#PWR012" H 8800 2450 50  0001 C CNN
 F 1 "GND" H 8805 2527 50  0000 C CNN
 F 2 "" H 8800 2700 50  0001 C CNN
 F 3 "" H 8800 2700 50  0001 C CNN
@@ -122,10 +122,10 @@ Wire Wire Line
 Wire Wire Line
 	7900 2050 8800 2050
 $Comp
-L power:+5V #PWR013
+L power:+5V #PWR011
 U 1 1 61DA16DE
 P 8800 2000
-F 0 "#PWR013" H 8800 1850 50  0001 C CNN
+F 0 "#PWR011" H 8800 1850 50  0001 C CNN
 F 1 "+5V" H 8815 2173 50  0000 C CNN
 F 2 "" H 8800 2000 50  0001 C CNN
 F 3 "" H 8800 2000 50  0001 C CNN
@@ -133,10 +133,10 @@ F 3 "" H 8800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-5V #PWR015
+L power:-5V #PWR013
 U 1 1 61D9BE69
 P 8800 3300
-F 0 "#PWR015" H 8800 3400 50  0001 C CNN
+F 0 "#PWR013" H 8800 3400 50  0001 C CNN
 F 1 "-5V" H 8815 3473 50  0000 C CNN
 F 2 "" H 8800 3300 50  0001 C CNN
 F 3 "" H 8800 3300 50  0001 C CNN
@@ -547,7 +547,6 @@ Text Notes 1075 5200 0    50   ~ 0
 Caps for op-amp supply rails, they need to be positioned as close as possible to the supply terminals on the PCB.
 Wire Wire Line
 	1125 6975 1125 7025
-Connection ~ 5625 6625
 Wire Wire Line
 	5625 6675 5625 6625
 Wire Wire Line
@@ -863,42 +862,21 @@ F 3 "~" H 1425 6825 50  0001 C CNN
 	1    1425 6825
 	1    0    0    1   
 $EndComp
-Connection ~ 1125 5975
-Wire Wire Line
-	850  5975 1125 5975
 Connection ~ 1125 5325
 Wire Wire Line
 	850  5325 1125 5325
 Wire Wire Line
 	1125 5375 1125 5325
-Connection ~ 5625 5725
-Wire Wire Line
-	5625 5775 5625 5725
-Connection ~ 5625 6375
-Connection ~ 5625 7275
-Wire Wire Line
-	5625 7225 5625 7275
-$Comp
-L power:GND #PWR011
-U 1 1 6216511F
-P 5625 7225
-F 0 "#PWR011" H 5625 6975 50  0001 C CNN
-F 1 "GND" H 5775 7150 50  0000 C CNN
-F 2 "" H 5625 7225 50  0001 C CNN
-F 3 "" H 5625 7225 50  0001 C CNN
-	1    5625 7225
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR010
-U 1 1 6215EAC1
-P 5625 5775
-F 0 "#PWR010" H 5625 5525 50  0001 C CNN
-F 1 "GND" H 5775 5700 50  0000 C CNN
-F 2 "" H 5625 5775 50  0001 C CNN
-F 3 "" H 5625 5775 50  0001 C CNN
-	1    5625 5775
-	1    0    0    -1  
+U 1 1 6216511F
+P 6225 6375
+F 0 "#PWR010" H 6225 6125 50  0001 C CNN
+F 1 "GND" H 6375 6300 50  0000 C CNN
+F 2 "" H 6225 6375 50  0001 C CNN
+F 3 "" H 6225 6375 50  0001 C CNN
+	1    6225 6375
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5625 7325 5625 7275
@@ -1128,8 +1106,6 @@ Wire Wire Line
 Connection ~ 5325 5725
 Wire Wire Line
 	5325 5725 5025 5725
-Wire Wire Line
-	850  5975 850  5325
 Connection ~ 850  5325
 Wire Wire Line
 	5325 7675 5025 7675
@@ -1898,17 +1874,6 @@ F 3 "" H 1950 2500 50  0001 C CNN
 	1    1950 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 623246A6
-P 5725 6500
-F 0 "#PWR012" H 5725 6250 50  0001 C CNN
-F 1 "GND" H 5725 6325 50  0000 C CNN
-F 2 "" H 5725 6500 50  0001 C CNN
-F 3 "" H 5725 6500 50  0001 C CNN
-	1    5725 6500
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4050 2550 4100 2550
 Wire Wire Line
@@ -1984,17 +1949,6 @@ F 3 "" H 1525 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5625 6375 5625 6500
-Wire Wire Line
-	5625 6500 5725 6500
-Connection ~ 5625 6500
-Wire Wire Line
-	5625 6500 5625 6625
-Wire Wire Line
-	850  7675 850  7025
-Wire Wire Line
-	850  7025 1125 7025
-Wire Wire Line
 	850  7675 1125 7675
 $Comp
 L Device:C C4
@@ -2018,7 +1972,6 @@ F 3 "~" H 1125 6825 50  0001 C CNN
 	1    1125 6825
 	1    0    0    1   
 $EndComp
-Connection ~ 1125 7025
 Connection ~ 1125 7675
 $Comp
 L power:-5V #PWR02
@@ -2078,4 +2031,41 @@ F 3 "~" H 1175 1250 50  0001 C CNN
 	1    1175 1250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	850  6625 1125 6625
+Wire Wire Line
+	850  6625 850  7675
+Connection ~ 1125 6625
+Wire Wire Line
+	1125 6375 850  6375
+Connection ~ 1125 6375
+Wire Wire Line
+	850  5325 850  6375
+Wire Wire Line
+	5625 5725 5625 5850
+Connection ~ 5625 5725
+Connection ~ 5625 5975
+Wire Wire Line
+	5625 7025 5625 7150
+Connection ~ 5625 7025
+Connection ~ 5625 7275
+Wire Wire Line
+	5625 5850 5950 5850
+Wire Wire Line
+	5950 5850 5950 6325
+Wire Wire Line
+	5950 7150 5625 7150
+Connection ~ 5625 5850
+Wire Wire Line
+	5625 5850 5625 5975
+Connection ~ 5625 7150
+Wire Wire Line
+	5625 7150 5625 7275
+Wire Wire Line
+	5950 6325 6225 6325
+Wire Wire Line
+	6225 6325 6225 6375
+Connection ~ 5950 6325
+Wire Wire Line
+	5950 6325 5950 7150
 $EndSCHEMATC
