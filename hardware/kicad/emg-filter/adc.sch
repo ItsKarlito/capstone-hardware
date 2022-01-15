@@ -48,11 +48,6 @@ DGND
 Wire Wire Line
 	6100 3550 6100 3600
 Connection ~ 6100 3200
-Text GLabel 6400 3200 2    50   Input ~ 0
-VD_3V3_PI
-Wire Wire Line
-	6350 3200 6400 3200
-Connection ~ 6350 3200
 Wire Wire Line
 	6100 3200 6350 3200
 Wire Wire Line
@@ -64,8 +59,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 3600 6350 3650
 Connection ~ 6350 3600
-Text GLabel 5100 3000 2    50   Input ~ 0
-DOUT_MISO_PI
 Text GLabel 5100 3100 2    50   Input ~ 0
 DIN_MOSI_PI
 Text GLabel 4400 2900 0    50   Input ~ 0
@@ -122,9 +115,6 @@ Wire Wire Line
 	4400 4150 3350 4150
 Wire Wire Line
 	3100 4150 3100 4200
-Wire Wire Line
-	6350 4350 6400 4350
-Connection ~ 6350 4350
 Wire Wire Line
 	6100 4350 6350 4350
 Wire Wire Line
@@ -257,14 +247,10 @@ Text GLabel 4400 4350 0    50   Input ~ 0
 OUT_AMP_9
 Text GLabel 4400 4450 0    50   Input ~ 0
 OUT_AMP_10
-Text GLabel 5100 4150 2    50   Input ~ 0
-DOUT_MISO_PI
 Text GLabel 5100 4250 2    50   Input ~ 0
 DIN_MOSI_PI
 Text GLabel 5100 4050 2    50   Input ~ 0
 SCLK_CLK_PI
-Text GLabel 6400 4350 2    50   Input ~ 0
-VD_3V3_PI
 Wire Wire Line
 	2900 3000 3100 3000
 Connection ~ 3100 3000
@@ -276,10 +262,10 @@ AGND
 Text GLabel 3100 3450 3    50   Input ~ 0
 AGND
 $Comp
-L power:GND #PWR0172
+L power:GND #PWR0170
 U 1 1 61C5013A
 P 4750 5325
-F 0 "#PWR0172" H 4750 5075 50  0001 C CNN
+F 0 "#PWR0170" H 4750 5075 50  0001 C CNN
 F 1 "GND" H 4755 5152 50  0000 C CNN
 F 2 "" H 4750 5325 50  0001 C CNN
 F 3 "" H 4750 5325 50  0001 C CNN
@@ -302,10 +288,10 @@ Wire Wire Line
 	4925 5275 4925 5225
 Connection ~ 4750 5275
 $Comp
-L power:+5V #PWR0170
+L power:+5V #PWR0168
 U 1 1 62012A20
 P 2900 2950
-F 0 "#PWR0170" H 2900 2800 50  0001 C CNN
+F 0 "#PWR0168" H 2900 2800 50  0001 C CNN
 F 1 "+5V" H 2915 3123 50  0000 C CNN
 F 2 "" H 2900 2950 50  0001 C CNN
 F 3 "" H 2900 2950 50  0001 C CNN
@@ -313,10 +299,10 @@ F 3 "" H 2900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0171
+L power:+5V #PWR0169
 U 1 1 61C654D9
 P 2900 4100
-F 0 "#PWR0171" H 2900 3950 50  0001 C CNN
+F 0 "#PWR0169" H 2900 3950 50  0001 C CNN
 F 1 "+5V" H 2915 4273 50  0000 C CNN
 F 2 "" H 2900 4100 50  0001 C CNN
 F 3 "" H 2900 4100 50  0001 C CNN
@@ -333,14 +319,10 @@ NoConn ~ 8500 3275
 NoConn ~ 8500 3175
 Text GLabel 8000 4075 0    50   Input ~ 0
 DGND
-Text GLabel 8000 3675 0    50   Input ~ 0
-VD_3V3_PI
 Text GLabel 8000 3975 0    50   Input ~ 0
 SCLK_CLK_PI
 Text GLabel 8000 3775 0    50   Input ~ 0
 DIN_MOSI_PI
-Text GLabel 8000 3875 0    50   Input ~ 0
-DOUT_MISO_PI
 Text GLabel 8000 3575 0    50   Input ~ 0
 !CS_2_PI
 Text GLabel 8000 3475 0    50   Input ~ 0
@@ -387,4 +369,67 @@ NoConn ~ 8500 4475
 NoConn ~ 8500 4575
 NoConn ~ 8500 4675
 NoConn ~ 8500 4775
+Text GLabel 5100 3000 2    50   Output ~ 0
+DOUT_MISO_PI
+Text GLabel 5100 4150 2    50   Output ~ 0
+DOUT_MISO_PI
+Text GLabel 8000 3875 0    50   Input ~ 0
+DOUT_MISO_PI
+$Comp
+L power:+3.3V #PWR0172
+U 1 1 62C64A47
+P 6100 3200
+F 0 "#PWR0172" H 6100 3050 50  0001 C CNN
+F 1 "+3.3V" H 6115 3373 50  0000 C CNN
+F 2 "" H 6100 3200 50  0001 C CNN
+F 3 "" H 6100 3200 50  0001 C CNN
+	1    6100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0173
+U 1 1 62C64E5F
+P 6100 4350
+F 0 "#PWR0173" H 6100 4200 50  0001 C CNN
+F 1 "+3.3V" H 6115 4523 50  0000 C CNN
+F 2 "" H 6100 4350 50  0001 C CNN
+F 3 "" H 6100 4350 50  0001 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0171
+U 1 1 62C6644F
+P 850 850
+F 0 "#PWR0171" H 850 700 50  0001 C CNN
+F 1 "+3.3V" H 865 1023 50  0000 C CNN
+F 2 "" H 850 850 50  0001 C CNN
+F 3 "" H 850 850 50  0001 C CNN
+	1    850  850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 62C66FCF
+P 850 850
+F 0 "#FLG04" H 850 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 1023 50  0000 C CNN
+F 2 "" H 850 850 50  0001 C CNN
+F 3 "~" H 850 850 50  0001 C CNN
+	1    850  850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0174
+U 1 1 62C658F1
+P 7325 3675
+F 0 "#PWR0174" H 7325 3525 50  0001 C CNN
+F 1 "+3.3V" V 7340 3803 50  0000 L CNN
+F 2 "" H 7325 3675 50  0001 C CNN
+F 3 "" H 7325 3675 50  0001 C CNN
+	1    7325 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3675 7325 3675
 $EndSCHEMATC

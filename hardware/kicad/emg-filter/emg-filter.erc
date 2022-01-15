@@ -1,0 +1,162 @@
+ERC report (Saturday, January 15, 2022 at 12:02:09 am, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /power/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(135.89 mm, 74.93 mm): Pin 1 (Power input) of component U2 is not driven (Net 6).
+
+***** Sheet /bandpass/
+
+***** Sheet /notch/
+
+***** Sheet /notch/notch2/
+
+***** Sheet /rectifier/
+
+***** Sheet /rectifier/rectifier2/
+
+***** Sheet /amplifier/
+
+***** Sheet /adc/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(129.54 mm, 105.41 mm): Pin 15 (Output) of component U52 is connected to 
+    @(129.54 mm, 76.20 mm): pin 15 (Output) of component U51 (net 282).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(129.54 mm, 81.28 mm): Pin 13 (Power input) of component U51 is not driven (Net 284).
+
+***** Sheet /emg-connectors/
+ErrType(8): Global label not connected to any other global label
+    @(62.23 mm, 142.88 mm): Global label REFB_15_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(21.59 mm, 108.58 mm): Pin 2 (Passive) of component J5 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(21.59 mm, 126.36 mm): Global label +VINA_16_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(31.75 mm, 142.88 mm): Global label REFA_16_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(41.91 mm, 126.36 mm): Global label -VINA_16_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(52.07 mm, 126.36 mm): Global label +VINB_15_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(153.67 mm, 142.88 mm): Global label REFA_12_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(163.83 mm, 126.36 mm): Global label -VINA_12_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(173.99 mm, 126.36 mm): Global label +VINB_11_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(143.51 mm, 126.36 mm): Global label +VINA_12_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(224.79 mm, 126.36 mm): Global label -VINA_10_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(234.95 mm, 126.36 mm): Global label +VINB_9_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(194.31 mm, 126.36 mm): Global label -VINB_11_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(204.47 mm, 126.36 mm): Global label +VINA_10_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(255.27 mm, 126.36 mm): Global label -VINB_9_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(184.15 mm, 142.88 mm): Global label REFB_11_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(214.63 mm, 142.88 mm): Global label REFA_10_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(245.11 mm, 142.88 mm): Global label REFB_9_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(92.71 mm, 142.88 mm): Global label REFA_14_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(102.87 mm, 126.36 mm): Global label -VINA_14_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 126.36 mm): Global label +VINB_13_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(123.19 mm, 142.88 mm): Global label REFB_13_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(133.35 mm, 126.36 mm): Global label -VINB_13_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(72.39 mm, 126.36 mm): Global label -VINB_15_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(82.55 mm, 126.36 mm): Global label +VINA_14_INA is not connected to any other global label.
+
+***** Sheet /instrumentation/
+ErrType(8): Global label not connected to any other global label
+    @(166.37 mm, 138.43 mm): Global label REFA_11_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 135.89 mm): Global label -VINA_11_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 135.89 mm): Pin 2 (Input) of component U58 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 138.43 mm): Global label +VINA_11_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 138.43 mm): Pin 3 (Input) of component U58 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 143.51 mm): Global label +VINB_12_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 143.51 mm): Pin 5 (Input) of component U58 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 146.05 mm): Global label -VINB_12_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 146.05 mm): Pin 6 (Input) of component U58 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(166.37 mm, 143.51 mm): Global label REFB_12_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(166.37 mm, 93.98 mm): Global label REFB_10_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 86.36 mm): Global label -VINA_9_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 86.36 mm): Pin 2 (Input) of component U57 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 88.90 mm): Global label +VINA_9_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 88.90 mm): Pin 3 (Input) of component U57 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 93.98 mm): Global label +VINB_10_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 93.98 mm): Pin 5 (Input) of component U57 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(113.03 mm, 96.52 mm): Global label -VINB_10_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(113.03 mm, 96.52 mm): Pin 6 (Input) of component U57 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(166.37 mm, 88.90 mm): Global label REFA_9_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(250.19 mm, 88.90 mm): Global label REFA_15_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(250.19 mm, 93.98 mm): Global label REFB_16_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 86.36 mm): Pin 2 (Input) of component U60 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 86.36 mm): Global label -VINA_15_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 88.90 mm): Pin 3 (Input) of component U60 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 88.90 mm): Global label +VINA_15_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 93.98 mm): Pin 5 (Input) of component U60 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 93.98 mm): Global label +VINB_16_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 96.52 mm): Pin 6 (Input) of component U60 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 96.52 mm): Global label -VINB_16_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(250.19 mm, 39.37 mm): Global label REFA_13_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 36.83 mm): Pin 2 (Input) of component U59 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 36.83 mm): Global label -VINA_13_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 39.37 mm): Global label +VINA_13_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 39.37 mm): Pin 3 (Input) of component U59 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 44.45 mm): Pin 5 (Input) of component U59 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 44.45 mm): Global label +VINB_14_INA is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(196.85 mm, 46.99 mm): Global label -VINB_14_INA is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(196.85 mm, 46.99 mm): Pin 6 (Input) of component U59 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(250.19 mm, 44.45 mm): Global label REFB_14_INA is not connected to any other global label.
+
+ ** ERC messages: 68  Errors 1  Warnings 67
