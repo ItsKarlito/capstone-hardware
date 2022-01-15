@@ -129,28 +129,6 @@ Connection ~ 6350 4750
 Text GLabel 4400 4050 0    50   Input ~ 0
 !CS_2_PI
 $Comp
-L emg-filter:ADC108S102 U51
-U 1 1 61C5454E
-P 4750 3250
-F 0 "U51" H 4750 3825 50  0000 C CNN
-F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 3775 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
-	1    4750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L emg-filter:ADC108S102 U52
-U 1 1 61C5515F
-P 4750 4400
-F 0 "U52" H 4750 4975 50  0000 C CNN
-F 1 "ADC108S102" H 4750 4884 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 4925 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CNN
-	1    4750 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C209
 U 1 1 61CCDE4C
 P 3350 4350
@@ -369,9 +347,9 @@ NoConn ~ 8500 4475
 NoConn ~ 8500 4575
 NoConn ~ 8500 4675
 NoConn ~ 8500 4775
-Text GLabel 5100 3000 2    50   Output ~ 0
+Text GLabel 5100 3000 2    50   BiDi ~ 0
 DOUT_MISO_PI
-Text GLabel 5100 4150 2    50   Output ~ 0
+Text GLabel 5100 4150 2    50   BiDi ~ 0
 DOUT_MISO_PI
 Text GLabel 8000 3875 0    50   Input ~ 0
 DOUT_MISO_PI
@@ -409,10 +387,10 @@ F 3 "" H 850 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG06
 U 1 1 62C66FCF
 P 850 850
-F 0 "#FLG04" H 850 925 50  0001 C CNN
+F 0 "#FLG06" H 850 925 50  0001 C CNN
 F 1 "PWR_FLAG" H 850 1023 50  0000 C CNN
 F 2 "" H 850 850 50  0001 C CNN
 F 3 "~" H 850 850 50  0001 C CNN
@@ -432,4 +410,26 @@ F 3 "" H 7325 3675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 3675 7325 3675
+$Comp
+L emg-filter:ADC108S102 U51
+U 1 1 61E647A5
+P 4750 3250
+F 0 "U51" H 4750 3825 50  0000 C CNN
+F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
+F 2 "" H 4750 3775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L emg-filter:ADC108S102 U52
+U 1 1 61E652F3
+P 4750 4400
+F 0 "U52" H 4750 4975 50  0000 C CNN
+F 1 "ADC108S102" H 4750 4884 50  0000 C CNN
+F 2 "" H 4750 4925 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
