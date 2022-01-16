@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name emg-filter)(type Legacy)(uri ${KIPRJMOD}/../lib/emg-filter.lib)(options "")(descr ""))
+  (lib (name emg-filter-rescue)(type Legacy)(uri ${KIPRJMOD}/emg-filter-rescue.lib)(options "")(descr ""))
 )

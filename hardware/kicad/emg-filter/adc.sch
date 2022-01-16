@@ -411,7 +411,7 @@ $EndComp
 Wire Wire Line
 	8000 3675 7325 3675
 $Comp
-L emg-filter:ADC108S102 U51
+L emg-filter-rescue:ADC108S102-emg-filter U51
 U 1 1 61E647A5
 P 4750 3250
 F 0 "U51" H 4750 3825 50  0000 C CNN
@@ -422,7 +422,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L emg-filter:ADC108S102 U52
+L emg-filter-rescue:ADC108S102-emg-filter U52
 U 1 1 61E652F3
 P 4750 4400
 F 0 "U52" H 4750 4975 50  0000 C CNN
