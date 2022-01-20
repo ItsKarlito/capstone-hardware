@@ -1,8 +1,8 @@
-01-20 14:15:37 replicate_layout.action_replicate_layout 313:Plugin executed on: 'linux'
-01-20 14:15:37 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '3.8.10 (default, Nov 26 2021, 20:14:08) \n[GCC 9.3.0]'
-01-20 14:15:37 replicate_layout.action_replicate_layout 315:KiCad build version: 5.1.12-84ad8e8a86~92~ubuntu20.04.1
-01-20 14:15:37 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
-01-20 14:15:37 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+01-20 17:29:36 replicate_layout.action_replicate_layout 313:Plugin executed on: 'linux'
+01-20 17:29:36 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '3.8.10 (default, Nov 26 2021, 20:14:08) \n[GCC 9.3.0]'
+01-20 17:29:36 replicate_layout.action_replicate_layout 315:KiCad build version: 5.1.12-84ad8e8a86~92~ubuntu20.04.1
+01-20 17:29:36 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+01-20 17:29:36 replicate_layout.action_replicate_layout 329:All top level windows titles are:
 kicad 5.1.12-84ad8e8a86~92~ubuntu20.04.1 /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter/emg-filter.pro
 
 eeschema — filter.sch [/ch_1-2/] — /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter
@@ -10,16 +10,263 @@ eeschema — filter.sch [/ch_1-2/] — /home/karl/karl/4-projects/9-circuits/cap
 pcbnew — /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter/emg-filter.kicad_pcb
 
 
-01-20 14:15:37 replicate_layout.action_replicate_layout 330:All top level windows objects are:
- <wx._core.Frame object at 0x7f8dd8ba9d30>
-<wx._core.Frame object at 0x7f8dd8ba9dc0>
-<wx._core.Frame object at 0x7f8dd8ba9d30>
-<wx._core.Frame object at 0x7f8dd8ba9dc0>
-<wx._core.Frame object at 0x7f8dd8ba9d30>
-<wx._core.Frame object at 0x7f8dd8ba9dc0>
-<wx._core.Frame object at 0x7f8dd8ba9d30>
-01-20 14:15:37 replicate_layout.action_replicate_layout 353:Preparing replicator with U5 as a reference
-01-20 14:15:37 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-01-20 14:15:37 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+01-20 17:29:36 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._core.Frame object at 0x7f7ec9ac1d30>
+<wx._core.Frame object at 0x7f7ec9ac1dc0>
+<wx._core.Frame object at 0x7f7ec9ac1d30>
+<wx._core.Frame object at 0x7f7ec9ac1dc0>
+<wx._core.Frame object at 0x7f7ec9ac1d30>
+<wx._core.Frame object at 0x7f7ec9ac1dc0>
+<wx._core.Frame object at 0x7f7ec9ac1d30>
+01-20 17:29:36 replicate_layout.action_replicate_layout 353:Preparing replicator with U5 as a reference
+01-20 17:29:36 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+01-20 17:29:36 replicate_layout.replicatelayout 217:Project hierarchy looks like:
 {'61C38667': ['power', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/power.sch'], '61C38939': ['adc', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/adc.sch'], '61C389A8': ['emg-connectors', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/emg-connectors.sch'], '62028BDB': ['Ch_1-2', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62D69E45': ['Ch_3-4', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62DB03BD': ['Ch_5-6', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62E44FEE': ['Ch_7-8', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE26': ['Ch_9-10', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE40': ['Ch_11-12', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE5A': ['Ch_13-14', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE74': ['Ch_15-16', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch']}
-01-20 14:15:37 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+01-20 17:29:36 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+01-20 17:29:36 replicate_layout.action_replicate_layout 379:source anchor footprint is 'U5'
+Located on:['Ch_1-2']
+With filenames:['filter.sch']
+With sheet_id:['Ch_1-2']
+01-20 17:29:36 replicate_layout.action_replicate_layout 384:Corresponding footprints are 
+[('U54', ['Ch_15-16']), ('U47', ['Ch_13-14']), ('U40', ['Ch_11-12']), ('U33', ['Ch_9-10']), ('U26', ['Ch_7-8']), ('U19', ['Ch_5-6']), ('U12', ['Ch_3-4']), ('U5', ['Ch_1-2'])]
+01-20 17:29:36 replicate_layout.action_replicate_layout 397:Showing dialog
+01-20 17:29:36 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'Ch_1-2', file:'filter.sch'
+01-20 17:29:36 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Ch_1-2']
+01-20 17:29:36 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['U54', 'U47', 'U40', 'U33', 'U26', 'U19', 'U12', 'U5']
+01-20 17:29:36 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/62EDFE74/62060670', '/62EDFE5A/62060670', '/62EDFE40/62060670', '/62EDFE26/62060670', '/62E44FEE/62060670', '/62DB03BD/62060670', '/62D69E45/62060670', '/62028BDB/62060670']
+01-20 17:29:36 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Ch_15-16'], ['Ch_13-14'], ['Ch_11-12'], ['Ch_9-10'], ['Ch_7-8'], ['Ch_5-6'], ['Ch_3-4'], ['Ch_1-2']]
+01-20 17:29:36 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Ch_1-2'], ['Ch_11-12'], ['Ch_13-14'], ['Ch_15-16'], ['Ch_3-4'], ['Ch_5-6'], ['Ch_7-8'], ['Ch_9-10']]
+01-20 17:29:36 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['Ch_11-12'], ['Ch_13-14'], ['Ch_15-16'], ['Ch_3-4'], ['Ch_5-6'], ['Ch_7-8'], ['Ch_9-10']]
+01-20 17:29:38 replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(-1, 0)
+01-20 17:29:38 replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 0, 1920, 1080)
+01-20 17:29:38 replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(1883, 94)
+01-20 17:29:38 replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(1570, 94)
+01-20 17:29:49 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'Ch_1-2', file:'filter.sch'
+01-20 17:29:49 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Ch_1-2']
+01-20 17:29:49 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['U54', 'U47', 'U40', 'U33', 'U26', 'U19', 'U12', 'U5']
+01-20 17:29:49 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/62EDFE74/62060670', '/62EDFE5A/62060670', '/62EDFE40/62060670', '/62EDFE26/62060670', '/62E44FEE/62060670', '/62DB03BD/62060670', '/62D69E45/62060670', '/62028BDB/62060670']
+01-20 17:29:49 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Ch_15-16'], ['Ch_13-14'], ['Ch_11-12'], ['Ch_9-10'], ['Ch_7-8'], ['Ch_5-6'], ['Ch_3-4'], ['Ch_1-2']]
+01-20 17:29:49 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Ch_1-2'], ['Ch_11-12'], ['Ch_13-14'], ['Ch_15-16'], ['Ch_3-4'], ['Ch_5-6'], ['Ch_7-8'], ['Ch_9-10']]
+01-20 17:29:49 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['Ch_11-12'], ['Ch_13-14'], ['Ch_15-16'], ['Ch_3-4'], ['Ch_5-6'], ['Ch_7-8'], ['Ch_9-10']]
+01-20 17:29:49 replicate_layout.action_replicate_layout 186:Replicating layout
+01-20 17:29:49 replicate_layout.replicatelayout 999:Starting replication of sheets: [['Ch_11-12'], ['Ch_13-14'], ['Ch_15-16'], ['Ch_3-4'], ['Ch_5-6'], ['Ch_7-8'], ['Ch_9-10']]
+on level: ['Ch_1-2']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False
+01-20 17:29:49 root 269:updating GUI message: 'Preparing for replication'
+01-20 17:29:50 replicate_layout.replicatelayout 556:Getting the list of source footprints
+01-20 17:29:50 root 274:updating GUI with: 0
+01-20 17:29:50 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+01-20 17:29:50 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+01-20 17:29:50 replicate_layout.replicatelayout 568:Getting source bounding box
+01-20 17:29:50 root 274:updating GUI with: 37
+01-20 17:29:50 replicate_layout.replicatelayout 572:Getting source tracks
+01-20 17:29:50 root 274:updating GUI with: 50
+01-20 17:29:50 replicate_layout.replicatelayout 576:Getting source zones
+01-20 17:29:50 root 274:updating GUI with: 62
+01-20 17:29:50 replicate_layout.replicatelayout 580:Getting source text items
+01-20 17:29:50 replicate_layout.replicatelayout 584:Getting source text items
+01-20 17:29:50 replicate_layout.replicatelayout 1030:Removing tracks and zones, before module placement
+01-20 17:29:50 root 269:updating GUI message: 'Removing zones and tracks'
+01-20 17:29:50 root 274:updating GUI with: 0
+01-20 17:29:50 root 274:updating GUI with: 14
+01-20 17:29:50 root 274:updating GUI with: 28
+01-20 17:29:50 root 274:updating GUI with: 42
+01-20 17:29:50 root 274:updating GUI with: 57
+01-20 17:29:50 root 274:updating GUI with: 71
+01-20 17:29:50 root 274:updating GUI with: 85
+01-20 17:29:50 root 269:updating GUI message: 'Replicating footprints'
+01-20 17:29:50 root 274:updating GUI with: 0
+01-20 17:29:50 replicate_layout.replicatelayout 590:Replicating footprints
+01-20 17:29:50 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_11-12']
+01-20 17:29:50 root 274:updating GUI with: 0
+01-20 17:29:50 root 274:updating GUI with: 1
+01-20 17:29:50 root 274:updating GUI with: 2
+01-20 17:29:50 root 274:updating GUI with: 3
+01-20 17:29:50 root 274:updating GUI with: 4
+01-20 17:29:50 root 274:updating GUI with: 6
+01-20 17:29:50 root 274:updating GUI with: 7
+01-20 17:29:50 root 274:updating GUI with: 9
+01-20 17:29:50 root 274:updating GUI with: 10
+01-20 17:29:50 root 274:updating GUI with: 11
+01-20 17:29:50 root 274:updating GUI with: 13
+01-20 17:29:50 root 274:updating GUI with: 14
+01-20 17:29:50 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_13-14']
+01-20 17:29:50 root 274:updating GUI with: 15
+01-20 17:29:50 root 274:updating GUI with: 17
+01-20 17:29:50 root 274:updating GUI with: 18
+01-20 17:29:50 root 274:updating GUI with: 19
+01-20 17:29:50 root 274:updating GUI with: 20
+01-20 17:29:50 root 274:updating GUI with: 21
+01-20 17:29:50 root 274:updating GUI with: 22
+01-20 17:29:50 root 274:updating GUI with: 24
+01-20 17:29:50 root 274:updating GUI with: 24
+01-20 17:29:50 root 274:updating GUI with: 25
+01-20 17:29:50 root 274:updating GUI with: 26
+01-20 17:29:50 root 274:updating GUI with: 27
+01-20 17:29:50 root 274:updating GUI with: 28
+01-20 17:29:50 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_15-16']
+01-20 17:29:50 root 274:updating GUI with: 29
+01-20 17:29:50 root 274:updating GUI with: 29
+01-20 17:29:50 root 274:updating GUI with: 31
+01-20 17:29:50 root 274:updating GUI with: 32
+01-20 17:29:50 root 274:updating GUI with: 32
+01-20 17:29:50 root 274:updating GUI with: 34
+01-20 17:29:50 root 274:updating GUI with: 35
+01-20 17:29:51 root 274:updating GUI with: 35
+01-20 17:29:51 root 274:updating GUI with: 37
+01-20 17:29:51 root 274:updating GUI with: 38
+01-20 17:29:51 root 274:updating GUI with: 38
+01-20 17:29:51 root 274:updating GUI with: 39
+01-20 17:29:51 root 274:updating GUI with: 41
+01-20 17:29:51 root 274:updating GUI with: 41
+01-20 17:29:51 root 274:updating GUI with: 42
+01-20 17:29:51 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_3-4']
+01-20 17:29:51 root 274:updating GUI with: 44
+01-20 17:29:51 root 274:updating GUI with: 44
+01-20 17:29:51 root 274:updating GUI with: 45
+01-20 17:29:51 root 274:updating GUI with: 47
+01-20 17:29:51 root 274:updating GUI with: 47
+01-20 17:29:51 root 274:updating GUI with: 48
+01-20 17:29:51 root 274:updating GUI with: 50
+01-20 17:29:51 root 274:updating GUI with: 50
+01-20 17:29:51 root 274:updating GUI with: 51
+01-20 17:29:51 root 274:updating GUI with: 53
+01-20 17:29:51 root 274:updating GUI with: 53
+01-20 17:29:51 root 274:updating GUI with: 54
+01-20 17:29:51 root 274:updating GUI with: 55
+01-20 17:29:51 root 274:updating GUI with: 56
+01-20 17:29:51 root 274:updating GUI with: 57
+01-20 17:29:51 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_5-6']
+01-20 17:29:51 root 274:updating GUI with: 58
+01-20 17:29:51 root 274:updating GUI with: 58
+01-20 17:29:51 root 274:updating GUI with: 60
+01-20 17:29:51 root 274:updating GUI with: 61
+01-20 17:29:51 root 274:updating GUI with: 61
+01-20 17:29:51 root 274:updating GUI with: 63
+01-20 17:29:51 root 274:updating GUI with: 64
+01-20 17:29:51 root 274:updating GUI with: 64
+01-20 17:29:51 root 274:updating GUI with: 66
+01-20 17:29:51 root 274:updating GUI with: 67
+01-20 17:29:51 root 274:updating GUI with: 67
+01-20 17:29:51 root 274:updating GUI with: 68
+01-20 17:29:51 root 274:updating GUI with: 70
+01-20 17:29:51 root 274:updating GUI with: 70
+01-20 17:29:51 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_7-8']
+01-20 17:29:51 root 274:updating GUI with: 71
+01-20 17:29:51 root 274:updating GUI with: 73
+01-20 17:29:51 root 274:updating GUI with: 73
+01-20 17:29:51 root 274:updating GUI with: 74
+01-20 17:29:51 root 274:updating GUI with: 76
+01-20 17:29:51 root 274:updating GUI with: 76
+01-20 17:29:51 root 274:updating GUI with: 77
+01-20 17:29:51 root 274:updating GUI with: 79
+01-20 17:29:51 root 274:updating GUI with: 79
+01-20 17:29:51 root 274:updating GUI with: 80
+01-20 17:29:51 root 274:updating GUI with: 81
+01-20 17:29:51 root 274:updating GUI with: 82
+01-20 17:29:51 root 274:updating GUI with: 83
+01-20 17:29:51 root 274:updating GUI with: 84
+01-20 17:29:51 root 274:updating GUI with: 84
+01-20 17:29:51 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Ch_9-10']
+01-20 17:29:51 root 274:updating GUI with: 86
+01-20 17:29:51 root 274:updating GUI with: 87
+01-20 17:29:51 root 274:updating GUI with: 87
+01-20 17:29:51 root 274:updating GUI with: 89
+01-20 17:29:51 root 274:updating GUI with: 90
+01-20 17:29:51 root 274:updating GUI with: 90
+01-20 17:29:51 root 274:updating GUI with: 92
+01-20 17:29:51 root 274:updating GUI with: 93
+01-20 17:29:51 root 274:updating GUI with: 93
+01-20 17:29:51 root 274:updating GUI with: 95
+01-20 17:29:51 root 274:updating GUI with: 96
+01-20 17:29:51 root 274:updating GUI with: 96
+01-20 17:29:51 root 274:updating GUI with: 97
+01-20 17:29:51 root 274:updating GUI with: 99
+01-20 17:29:51 root 274:updating GUI with: 99
+01-20 17:29:51 replicate_layout.replicatelayout 1038:Removing tracks and zones, after module placement
+01-20 17:29:51 root 269:updating GUI message: 'Removing zones and tracks'
+01-20 17:29:51 root 274:updating GUI with: 0
+01-20 17:29:51 root 274:updating GUI with: 14
+01-20 17:29:51 root 274:updating GUI with: 28
+01-20 17:29:51 root 274:updating GUI with: 42
+01-20 17:29:51 root 274:updating GUI with: 57
+01-20 17:29:51 root 274:updating GUI with: 71
+01-20 17:29:52 root 274:updating GUI with: 85
+01-20 17:29:52 root 269:updating GUI message: 'Replicating tracks'
+01-20 17:29:52 root 274:updating GUI with: 0
+01-20 17:29:52 replicate_layout.replicatelayout 720:Replicating tracks
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_11-12']
+01-20 17:29:52 root 274:updating GUI with: 0
+01-20 17:29:52 root 274:updating GUI with: 8
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_13-14']
+01-20 17:29:52 root 274:updating GUI with: 14
+01-20 17:29:52 root 274:updating GUI with: 21
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_15-16']
+01-20 17:29:52 root 274:updating GUI with: 28
+01-20 17:29:52 root 274:updating GUI with: 36
+01-20 17:29:52 root 274:updating GUI with: 37
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_3-4']
+01-20 17:29:52 root 274:updating GUI with: 42
+01-20 17:29:52 root 274:updating GUI with: 48
+01-20 17:29:52 root 274:updating GUI with: 49
+01-20 17:29:52 root 274:updating GUI with: 55
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_5-6']
+01-20 17:29:52 root 274:updating GUI with: 57
+01-20 17:29:52 root 274:updating GUI with: 62
+01-20 17:29:52 root 274:updating GUI with: 65
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_7-8']
+01-20 17:29:52 root 274:updating GUI with: 71
+01-20 17:29:52 root 274:updating GUI with: 76
+01-20 17:29:52 root 274:updating GUI with: 79
+01-20 17:29:52 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Ch_9-10']
+01-20 17:29:52 root 274:updating GUI with: 85
+01-20 17:29:52 root 274:updating GUI with: 90
+01-20 17:29:52 root 274:updating GUI with: 93
+01-20 17:29:52 root 269:updating GUI message: 'Replicating zones'
+01-20 17:29:52 replicate_layout.replicatelayout 771:Replicating zones
+01-20 17:29:52 root 274:updating GUI with: 0
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_11-12']
+01-20 17:29:52 root 274:updating GUI with: 14
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_13-14']
+01-20 17:29:52 root 274:updating GUI with: 28
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_15-16']
+01-20 17:29:52 root 274:updating GUI with: 42
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_3-4']
+01-20 17:29:52 root 274:updating GUI with: 57
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_5-6']
+01-20 17:29:52 root 274:updating GUI with: 71
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_7-8']
+01-20 17:29:52 root 274:updating GUI with: 85
+01-20 17:29:52 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Ch_9-10']
+01-20 17:29:52 root 269:updating GUI message: 'Replicating text'
+01-20 17:29:52 root 274:updating GUI with: 0
+01-20 17:29:52 replicate_layout.replicatelayout 837:Replicating text
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_11-12']
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_13-14']
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_15-16']
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_3-4']
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_5-6']
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_7-8']
+01-20 17:29:52 replicate_layout.replicatelayout 844:Replicating text on sheet ['Ch_9-10']
+01-20 17:29:52 root 269:updating GUI message: 'Replicating drawings'
+01-20 17:29:52 replicate_layout.replicatelayout 868:Replicating drawings
+01-20 17:29:52 root 274:updating GUI with: 0
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_11-12']
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_13-14']
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_15-16']
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_3-4']
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_5-6']
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_7-8']
+01-20 17:29:52 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Ch_9-10']
+01-20 17:29:52 root 269:updating GUI message: 'Removing duplicates'
+01-20 17:29:53 replicate_layout.action_replicate_layout 209:Replication complete
