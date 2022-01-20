@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 11
+Sheet 1 43
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -14,53 +14,1295 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1250 1500 1000 1000
+S 9075 5300 1000 1000
 U 61C38667
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
+Text Notes 500  825  0    197  ~ 39
+EMG Filter for Prosthetic Limb Control System
+Wire Wire Line
+	6200 4850 6450 4850
+Wire Wire Line
+	6200 7300 6200 4850
+Wire Wire Line
+	5600 7300 6200 7300
+Wire Wire Line
+	6125 7225 5600 7225
+Wire Wire Line
+	6125 4775 6125 7225
+Wire Wire Line
+	6450 4775 6125 4775
+Wire Wire Line
+	6050 4700 6450 4700
+Wire Wire Line
+	6050 6450 6050 4700
+Wire Wire Line
+	5600 6450 6050 6450
+Wire Wire Line
+	5975 6375 5600 6375
+Wire Wire Line
+	5975 4625 5975 6375
+Wire Wire Line
+	6450 4625 5975 4625
+Wire Wire Line
+	5900 4550 6450 4550
+Wire Wire Line
+	5900 5600 5900 4550
+Wire Wire Line
+	5600 5600 5900 5600
+Wire Wire Line
+	5825 5525 5600 5525
+Wire Wire Line
+	5825 4475 5825 5525
+Wire Wire Line
+	6450 4475 5825 4475
+Wire Wire Line
+	5750 4400 6450 4400
+Wire Wire Line
+	5750 4750 5750 4400
+Wire Wire Line
+	5600 4750 5750 4750
+Wire Wire Line
+	5675 4675 5600 4675
+Wire Wire Line
+	5675 4325 5675 4675
+Wire Wire Line
+	6450 4325 5675 4325
+Wire Wire Line
+	6200 3725 6450 3725
+Wire Wire Line
+	6200 1275 6200 3725
+Wire Wire Line
+	5600 1275 6200 1275
+Wire Wire Line
+	6125 1350 5600 1350
+Wire Wire Line
+	6125 3800 6125 1350
+Wire Wire Line
+	6450 3800 6125 3800
+Wire Wire Line
+	6050 3875 6450 3875
+Wire Wire Line
+	6050 2125 6050 3875
+Wire Wire Line
+	5600 2125 6050 2125
+Wire Wire Line
+	5975 2200 5600 2200
+Wire Wire Line
+	5975 3950 5975 2200
+Wire Wire Line
+	6450 3950 5975 3950
+Wire Wire Line
+	5900 4025 6450 4025
+Wire Wire Line
+	5900 2975 5900 4025
+Wire Wire Line
+	5600 2975 5900 2975
+Wire Wire Line
+	5825 3050 5600 3050
+Wire Wire Line
+	5825 4100 5825 3050
+Wire Wire Line
+	6450 4100 5825 4100
+Wire Wire Line
+	5750 3825 5600 3825
+Wire Wire Line
+	5750 4175 5750 3825
+Wire Wire Line
+	6450 4175 5750 4175
+Wire Wire Line
+	5675 4250 6450 4250
+Wire Wire Line
+	5675 3900 5675 4250
+Wire Wire Line
+	5600 3900 5675 3900
 $Sheet
-S 4250 1500 1000 1000
-U 61C386E2
-F0 "bandpass" 50
-F1 "bandpass.sch" 50
+S 3350 7400 975  175 
+U 6224B2A9
+F0 "sheet6224B219" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 7475 50 
+F3 "RECT_AMP" I R 4325 7475 50 
+$EndSheet
+Wire Wire Line
+	4425 7300 4425 7475
+Wire Wire Line
+	4325 7475 4425 7475
+Wire Wire Line
+	4425 7300 4525 7300
+Wire Wire Line
+	4425 7225 4525 7225
+Wire Wire Line
+	4425 7050 4425 7225
+Wire Wire Line
+	4325 7050 4425 7050
+$Sheet
+S 3350 6975 975  175 
+U 6224B28F
+F0 "sheet6224B217" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 7050 50 
+F3 "RECT_AMP" I R 4325 7050 50 
 $EndSheet
 $Sheet
-S 5750 1500 1000 1000
-U 61C38708
-F0 "notch" 50
-F1 "notch.sch" 50
-$EndSheet
-$Sheet
-S 7250 1500 1000 1000
-U 61C38746
-F0 "rectifier" 50
-F1 "rectifier.sch" 50
-$EndSheet
-$Sheet
-S 8750 1500 1000 1000
-U 61C38776
-F0 "amplifier" 50
+S 4525 7175 1075 175 
+U 6224B28B
+F0 "sheet6224B216" 50
 F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 7225 50 
+F3 "RECT_AMP_2" I L 4525 7300 50 
+F4 "OUT_AMP_1" I R 5600 7225 50 
+F5 "OUT_AMP_2" I R 5600 7300 50 
 $EndSheet
 $Sheet
-S 1250 3000 1000 1000
+S 3350 6550 975  175 
+U 6224B285
+F0 "sheet6224B215" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 6625 50 
+F3 "RECT_AMP" I R 4325 6625 50 
+$EndSheet
+Wire Wire Line
+	4425 6450 4425 6625
+Wire Wire Line
+	4325 6625 4425 6625
+Wire Wire Line
+	4425 6450 4525 6450
+Wire Wire Line
+	4425 6375 4525 6375
+Wire Wire Line
+	4425 6200 4425 6375
+Wire Wire Line
+	4325 6200 4425 6200
+$Sheet
+S 3350 6125 975  175 
+U 6224B26B
+F0 "sheet6224B213" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 6200 50 
+F3 "RECT_AMP" I R 4325 6200 50 
+$EndSheet
+$Sheet
+S 4525 6325 1075 175 
+U 6224B267
+F0 "sheet6224B212" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 6375 50 
+F3 "RECT_AMP_2" I L 4525 6450 50 
+F4 "OUT_AMP_1" I R 5600 6375 50 
+F5 "OUT_AMP_2" I R 5600 6450 50 
+$EndSheet
+$Sheet
+S 3350 5700 975  175 
+U 6224B261
+F0 "sheet6224B211" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 5775 50 
+F3 "RECT_AMP" I R 4325 5775 50 
+$EndSheet
+Wire Wire Line
+	4425 5600 4425 5775
+Wire Wire Line
+	4325 5775 4425 5775
+Wire Wire Line
+	4425 5600 4525 5600
+Wire Wire Line
+	4425 5525 4525 5525
+Wire Wire Line
+	4425 5350 4425 5525
+Wire Wire Line
+	4325 5350 4425 5350
+$Sheet
+S 3350 5275 975  175 
+U 6224B247
+F0 "sheet6224B20F" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 5350 50 
+F3 "RECT_AMP" I R 4325 5350 50 
+$EndSheet
+$Sheet
+S 4525 5475 1075 175 
+U 6224B243
+F0 "sheet6224B20E" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 5525 50 
+F3 "RECT_AMP_2" I L 4525 5600 50 
+F4 "OUT_AMP_1" I R 5600 5525 50 
+F5 "OUT_AMP_2" I R 5600 5600 50 
+$EndSheet
+$Sheet
+S 3350 4850 975  175 
+U 6224B23D
+F0 "sheet6224B20D" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 4925 50 
+F3 "RECT_AMP" I R 4325 4925 50 
+$EndSheet
+Wire Wire Line
+	4425 4750 4425 4925
+Wire Wire Line
+	4325 4925 4425 4925
+Wire Wire Line
+	4425 4750 4525 4750
+Wire Wire Line
+	4425 4675 4525 4675
+Wire Wire Line
+	4425 4500 4425 4675
+Wire Wire Line
+	4325 4500 4425 4500
+$Sheet
+S 3350 4425 975  175 
+U 6224B223
+F0 "sheet6224B20B" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 4500 50 
+F3 "RECT_AMP" I R 4325 4500 50 
+$EndSheet
+$Sheet
+S 4525 4625 1075 175 
+U 6224B21F
+F0 "sheet6224B20A" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 4675 50 
+F3 "RECT_AMP_2" I L 4525 4750 50 
+F4 "OUT_AMP_1" I R 5600 4675 50 
+F5 "OUT_AMP_2" I R 5600 4750 50 
+$EndSheet
+$Sheet
+S 3350 4000 975  175 
+U 62240A89
+F0 "sheet62240A41" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 4075 50 
+F3 "RECT_AMP" I R 4325 4075 50 
+$EndSheet
+Wire Wire Line
+	4425 3900 4425 4075
+Wire Wire Line
+	4325 4075 4425 4075
+Wire Wire Line
+	4425 3900 4525 3900
+Wire Wire Line
+	4425 3825 4525 3825
+Wire Wire Line
+	4425 3650 4425 3825
+Wire Wire Line
+	4325 3650 4425 3650
+$Sheet
+S 3350 3575 975  175 
+U 62240A6F
+F0 "sheet62240A3F" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 3650 50 
+F3 "RECT_AMP" I R 4325 3650 50 
+$EndSheet
+$Sheet
+S 4525 3775 1075 175 
+U 62240A6B
+F0 "sheet62240A3E" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 3825 50 
+F3 "RECT_AMP_2" I L 4525 3900 50 
+F4 "OUT_AMP_1" I R 5600 3825 50 
+F5 "OUT_AMP_2" I R 5600 3900 50 
+$EndSheet
+$Sheet
+S 3350 3150 975  175 
+U 62240A65
+F0 "sheet62240A3D" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 3225 50 
+F3 "RECT_AMP" I R 4325 3225 50 
+$EndSheet
+Wire Wire Line
+	4425 3050 4425 3225
+Wire Wire Line
+	4325 3225 4425 3225
+Wire Wire Line
+	4425 3050 4525 3050
+Wire Wire Line
+	4425 2975 4525 2975
+Wire Wire Line
+	4425 2800 4425 2975
+Wire Wire Line
+	4325 2800 4425 2800
+$Sheet
+S 3350 2725 975  175 
+U 62240A4B
+F0 "sheet62240A3B" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 2800 50 
+F3 "RECT_AMP" I R 4325 2800 50 
+$EndSheet
+$Sheet
+S 4525 2925 1075 175 
+U 62240A47
+F0 "sheet62240A3A" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 2975 50 
+F3 "RECT_AMP_2" I L 4525 3050 50 
+F4 "OUT_AMP_1" I R 5600 2975 50 
+F5 "OUT_AMP_2" I R 5600 3050 50 
+$EndSheet
+$Sheet
+S 3350 2300 975  175 
+U 6223BF6B
+F0 "sheet6223BF47" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 2375 50 
+F3 "RECT_AMP" I R 4325 2375 50 
+$EndSheet
+Wire Wire Line
+	4425 2200 4425 2375
+Wire Wire Line
+	4325 2375 4425 2375
+Wire Wire Line
+	4425 2200 4525 2200
+Wire Wire Line
+	4425 2125 4525 2125
+Wire Wire Line
+	4425 1950 4425 2125
+Wire Wire Line
+	4325 1950 4425 1950
+$Sheet
+S 3350 1875 975  175 
+U 6223BF51
+F0 "sheet6223BF45" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 1950 50 
+F3 "RECT_AMP" I R 4325 1950 50 
+$EndSheet
+$Sheet
+S 4525 2075 1075 175 
+U 6223BF4D
+F0 "sheet6223BF44" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 2125 50 
+F3 "RECT_AMP_2" I L 4525 2200 50 
+F4 "OUT_AMP_1" I R 5600 2125 50 
+F5 "OUT_AMP_2" I R 5600 2200 50 
+$EndSheet
+$Sheet
+S 3350 1450 975  175 
+U 622371F5
+F0 "sheet622371F1" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 1525 50 
+F3 "RECT_AMP" I R 4325 1525 50 
+$EndSheet
+Wire Wire Line
+	4425 1350 4425 1525
+Wire Wire Line
+	4325 1525 4425 1525
+Wire Wire Line
+	4425 1350 4525 1350
+Wire Wire Line
+	4425 1275 4525 1275
+Wire Wire Line
+	4425 1100 4425 1275
+Wire Wire Line
+	4325 1100 4425 1100
+$Sheet
+S 3350 1025 975  175 
+U 6217D57F
+F0 "notch_rect_1" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 3350 1100 50 
+F3 "RECT_AMP" I R 4325 1100 50 
+$EndSheet
+$Sheet
+S 4525 1225 1075 175 
+U 621BA5AE
+F0 "amplifier_1" 50
+F1 "amplifier.sch" 50
+F2 "RECT_AMP_1" I L 4525 1275 50 
+F3 "RECT_AMP_2" I L 4525 1350 50 
+F4 "OUT_AMP_1" I R 5600 1275 50 
+F5 "OUT_AMP_2" I R 5600 1350 50 
+$EndSheet
+$Sheet
+S 6450 3675 575  1225
 U 61C38939
 F0 "adc" 50
 F1 "adc.sch" 50
+F2 "OUT_AMP_1" I L 6450 3725 50 
+F3 "OUT_AMP_2" I L 6450 3800 50 
+F4 "OUT_AMP_3" I L 6450 3875 50 
+F5 "OUT_AMP_4" I L 6450 3950 50 
+F6 "OUT_AMP_5" I L 6450 4025 50 
+F7 "OUT_AMP_6" I L 6450 4100 50 
+F8 "OUT_AMP_7" I L 6450 4175 50 
+F9 "OUT_AMP_8" I L 6450 4250 50 
+F10 "OUT_AMP_9" I L 6450 4325 50 
+F11 "OUT_AMP_10" I L 6450 4400 50 
+F12 "OUT_AMP_11" I L 6450 4475 50 
+F13 "OUT_AMP_12" I L 6450 4550 50 
+F14 "OUT_AMP_13" I L 6450 4625 50 
+F15 "OUT_AMP_14" I L 6450 4700 50 
+F16 "OUT_AMP_16" I L 6450 4850 50 
+F17 "OUT_AMP_15" I L 6450 4775 50 
 $EndSheet
 $Sheet
-S 2750 3000 1000 1000
-U 61C389A8
-F0 "emg-connectors" 50
-F1 "emg-connectors.sch" 50
+S 550  1050 700  525 
+U 622FC90E
+F0 "input_ina_1" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 1100 50 
+F3 "REF_A_INA" I R 1250 1175 50 
+F4 "-VIN_A_INA" I R 1250 1250 50 
+F5 "+VIN_B_INA" I R 1250 1375 50 
+F6 "REF_B_INA" I R 1250 1450 50 
+F7 "-VIN_B_INA" I R 1250 1525 50 
 $EndSheet
-Text Notes 550  850  0    197  ~ 39
-EMG Filter for Prosthetic Limb Control System
 $Sheet
-S 2750 1500 1000 1000
-U 61C386B1
-F0 "instrumentation" 50
-F1 "instrumentation.sch" 50
+S 2050 1050 1150 525 
+U 61EB0E68
+F0 "ina_bandpass_1" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 1175 50 
+F3 "BP_NOTCH_2" I R 3200 1450 50 
+F4 "REF_A_INA" I L 2050 1175 50 
+F5 "REF_B_INA" I L 2050 1450 50 
+F6 "-VIN_A_INA" I L 2050 1100 50 
+F7 "+VIN_A_INA" I L 2050 1250 50 
+F8 "+VIN_B_INA" I L 2050 1375 50 
+F9 "-VIN_B_INA" I L 2050 1525 50 
 $EndSheet
+Wire Wire Line
+	3200 1175 3275 1175
+Wire Wire Line
+	3275 1175 3275 1100
+Wire Wire Line
+	3275 1100 3350 1100
+Wire Wire Line
+	3200 1450 3275 1450
+Wire Wire Line
+	3275 1450 3275 1525
+Wire Wire Line
+	3275 1525 3350 1525
+Wire Wire Line
+	1250 1450 1800 1450
+Wire Wire Line
+	1250 1375 2050 1375
+Wire Wire Line
+	1250 1250 2050 1250
+Wire Wire Line
+	1250 1175 2050 1175
+Wire Wire Line
+	1250 1100 2050 1100
+$Sheet
+S 550  1900 700  525 
+U 624814DA
+F0 "sheet624814D1" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 1950 50 
+F3 "REF_A_INA" I R 1250 2025 50 
+F4 "-VIN_A_INA" I R 1250 2100 50 
+F5 "+VIN_B_INA" I R 1250 2225 50 
+F6 "REF_B_INA" I R 1250 2300 50 
+F7 "-VIN_B_INA" I R 1250 2375 50 
+$EndSheet
+$Sheet
+S 2050 1900 1150 525 
+U 624814E4
+F0 "sheet624814D2" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 2025 50 
+F3 "BP_NOTCH_2" I R 3200 2300 50 
+F4 "REF_A_INA" I L 2050 2025 50 
+F5 "REF_B_INA" I L 2050 2300 50 
+F6 "-VIN_A_INA" I L 2050 1950 50 
+F7 "+VIN_A_INA" I L 2050 2100 50 
+F8 "+VIN_B_INA" I L 2050 2225 50 
+F9 "-VIN_B_INA" I L 2050 2375 50 
+$EndSheet
+Wire Wire Line
+	3200 2025 3275 2025
+Wire Wire Line
+	3275 2025 3275 1950
+Wire Wire Line
+	3275 1950 3350 1950
+Wire Wire Line
+	3200 2300 3275 2300
+Wire Wire Line
+	3275 2300 3275 2375
+Wire Wire Line
+	3275 2375 3350 2375
+Wire Wire Line
+	1250 2375 1475 2375
+Wire Wire Line
+	1250 2300 1800 2300
+Wire Wire Line
+	1250 2225 2050 2225
+Wire Wire Line
+	1250 2100 2050 2100
+Wire Wire Line
+	1250 2025 1800 2025
+Wire Wire Line
+	1250 1950 1475 1950
+$Sheet
+S 550  2750 700  525 
+U 6248A382
+F0 "sheet6248A377" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 2800 50 
+F3 "REF_A_INA" I R 1250 2875 50 
+F4 "-VIN_A_INA" I R 1250 2950 50 
+F5 "+VIN_B_INA" I R 1250 3075 50 
+F6 "REF_B_INA" I R 1250 3150 50 
+F7 "-VIN_B_INA" I R 1250 3225 50 
+$EndSheet
+$Sheet
+S 2050 2750 1150 525 
+U 6248A38C
+F0 "sheet6248A378" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 2875 50 
+F3 "BP_NOTCH_2" I R 3200 3150 50 
+F4 "REF_A_INA" I L 2050 2875 50 
+F5 "REF_B_INA" I L 2050 3150 50 
+F6 "-VIN_A_INA" I L 2050 2800 50 
+F7 "+VIN_A_INA" I L 2050 2950 50 
+F8 "+VIN_B_INA" I L 2050 3075 50 
+F9 "-VIN_B_INA" I L 2050 3225 50 
+$EndSheet
+Wire Wire Line
+	3200 2875 3275 2875
+Wire Wire Line
+	3275 2875 3275 2800
+Wire Wire Line
+	3275 2800 3350 2800
+Wire Wire Line
+	3200 3150 3275 3150
+Wire Wire Line
+	3275 3150 3275 3225
+Wire Wire Line
+	3275 3225 3350 3225
+Wire Wire Line
+	1250 3225 1475 3225
+Wire Wire Line
+	1250 3150 1800 3150
+Wire Wire Line
+	1250 3075 2050 3075
+Wire Wire Line
+	1250 2950 2050 2950
+Wire Wire Line
+	1250 2875 1800 2875
+Wire Wire Line
+	1250 2800 1475 2800
+$Sheet
+S 550  3600 700  525 
+U 6248A3A0
+F0 "sheet6248A379" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 3650 50 
+F3 "REF_A_INA" I R 1250 3725 50 
+F4 "-VIN_A_INA" I R 1250 3800 50 
+F5 "+VIN_B_INA" I R 1250 3925 50 
+F6 "REF_B_INA" I R 1250 4000 50 
+F7 "-VIN_B_INA" I R 1250 4075 50 
+$EndSheet
+$Sheet
+S 2050 3600 1150 525 
+U 6248A3AA
+F0 "sheet6248A37A" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 3725 50 
+F3 "BP_NOTCH_2" I R 3200 4000 50 
+F4 "REF_A_INA" I L 2050 3725 50 
+F5 "REF_B_INA" I L 2050 4000 50 
+F6 "-VIN_A_INA" I L 2050 3650 50 
+F7 "+VIN_A_INA" I L 2050 3800 50 
+F8 "+VIN_B_INA" I L 2050 3925 50 
+F9 "-VIN_B_INA" I L 2050 4075 50 
+$EndSheet
+Wire Wire Line
+	3200 3725 3275 3725
+Wire Wire Line
+	3275 3725 3275 3650
+Wire Wire Line
+	3275 3650 3350 3650
+Wire Wire Line
+	3200 4000 3275 4000
+Wire Wire Line
+	3275 4000 3275 4075
+Wire Wire Line
+	3275 4075 3350 4075
+Wire Wire Line
+	1250 3925 2050 3925
+Wire Wire Line
+	1250 3800 2050 3800
+Wire Wire Line
+	1250 3725 1800 3725
+Wire Wire Line
+	1250 3650 1475 3650
+$Sheet
+S 550  4450 700  525 
+U 624986BC
+F0 "sheet624986AD" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 4500 50 
+F3 "REF_A_INA" I R 1250 4575 50 
+F4 "-VIN_A_INA" I R 1250 4650 50 
+F5 "+VIN_B_INA" I R 1250 4775 50 
+F6 "REF_B_INA" I R 1250 4850 50 
+F7 "-VIN_B_INA" I R 1250 4925 50 
+$EndSheet
+$Sheet
+S 2050 4450 1150 525 
+U 624986C6
+F0 "sheet624986AE" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 4575 50 
+F3 "BP_NOTCH_2" I R 3200 4850 50 
+F4 "REF_A_INA" I L 2050 4575 50 
+F5 "REF_B_INA" I L 2050 4850 50 
+F6 "-VIN_A_INA" I L 2050 4500 50 
+F7 "+VIN_A_INA" I L 2050 4650 50 
+F8 "+VIN_B_INA" I L 2050 4775 50 
+F9 "-VIN_B_INA" I L 2050 4925 50 
+$EndSheet
+Wire Wire Line
+	3200 4575 3275 4575
+Wire Wire Line
+	3275 4575 3275 4500
+Wire Wire Line
+	3275 4500 3350 4500
+Wire Wire Line
+	3200 4850 3275 4850
+Wire Wire Line
+	3275 4850 3275 4925
+Wire Wire Line
+	3275 4925 3350 4925
+Wire Wire Line
+	1250 4775 2050 4775
+Wire Wire Line
+	1250 4650 2050 4650
+$Sheet
+S 550  5300 700  525 
+U 624986DA
+F0 "sheet624986AF" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 5350 50 
+F3 "REF_A_INA" I R 1250 5425 50 
+F4 "-VIN_A_INA" I R 1250 5500 50 
+F5 "+VIN_B_INA" I R 1250 5625 50 
+F6 "REF_B_INA" I R 1250 5700 50 
+F7 "-VIN_B_INA" I R 1250 5775 50 
+$EndSheet
+$Sheet
+S 2050 5300 1150 525 
+U 624986E4
+F0 "sheet624986B0" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 5425 50 
+F3 "BP_NOTCH_2" I R 3200 5700 50 
+F4 "REF_A_INA" I L 2050 5425 50 
+F5 "REF_B_INA" I L 2050 5700 50 
+F6 "-VIN_A_INA" I L 2050 5350 50 
+F7 "+VIN_A_INA" I L 2050 5500 50 
+F8 "+VIN_B_INA" I L 2050 5625 50 
+F9 "-VIN_B_INA" I L 2050 5775 50 
+$EndSheet
+Wire Wire Line
+	3200 5425 3275 5425
+Wire Wire Line
+	3275 5425 3275 5350
+Wire Wire Line
+	3275 5350 3350 5350
+Wire Wire Line
+	3200 5700 3275 5700
+Wire Wire Line
+	3275 5700 3275 5775
+Wire Wire Line
+	3275 5775 3350 5775
+Wire Wire Line
+	1250 5700 1800 5700
+Wire Wire Line
+	1250 5625 2050 5625
+Wire Wire Line
+	1250 5500 2050 5500
+$Sheet
+S 550  6150 700  525 
+U 624986F8
+F0 "sheet624986B1" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 6200 50 
+F3 "REF_A_INA" I R 1250 6275 50 
+F4 "-VIN_A_INA" I R 1250 6350 50 
+F5 "+VIN_B_INA" I R 1250 6475 50 
+F6 "REF_B_INA" I R 1250 6550 50 
+F7 "-VIN_B_INA" I R 1250 6625 50 
+$EndSheet
+$Sheet
+S 2050 6150 1150 525 
+U 62498702
+F0 "sheet624986B2" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 6275 50 
+F3 "BP_NOTCH_2" I R 3200 6550 50 
+F4 "REF_A_INA" I L 2050 6275 50 
+F5 "REF_B_INA" I L 2050 6550 50 
+F6 "-VIN_A_INA" I L 2050 6200 50 
+F7 "+VIN_A_INA" I L 2050 6350 50 
+F8 "+VIN_B_INA" I L 2050 6475 50 
+F9 "-VIN_B_INA" I L 2050 6625 50 
+$EndSheet
+Wire Wire Line
+	3200 6275 3275 6275
+Wire Wire Line
+	3275 6275 3275 6200
+Wire Wire Line
+	3275 6200 3350 6200
+Wire Wire Line
+	3200 6550 3275 6550
+Wire Wire Line
+	3275 6550 3275 6625
+Wire Wire Line
+	3275 6625 3350 6625
+Wire Wire Line
+	1250 6625 1475 6625
+Wire Wire Line
+	1250 6550 1800 6550
+Wire Wire Line
+	1250 6475 2050 6475
+Wire Wire Line
+	1250 6350 2050 6350
+Wire Wire Line
+	1250 6275 1800 6275
+Wire Wire Line
+	1250 6200 1475 6200
+$Sheet
+S 550  7000 700  525 
+U 62498716
+F0 "sheet624986B3" 50
+F1 "input_ina.sch" 50
+F2 "+VIN_A_INA" I R 1250 7050 50 
+F3 "REF_A_INA" I R 1250 7125 50 
+F4 "-VIN_A_INA" I R 1250 7200 50 
+F5 "+VIN_B_INA" I R 1250 7325 50 
+F6 "REF_B_INA" I R 1250 7400 50 
+F7 "-VIN_B_INA" I R 1250 7475 50 
+$EndSheet
+$Sheet
+S 2050 7000 1150 525 
+U 62498720
+F0 "sheet624986B4" 50
+F1 "ina_bandpass.sch" 50
+F2 "BP_NOTCH_1" I R 3200 7125 50 
+F3 "BP_NOTCH_2" I R 3200 7400 50 
+F4 "REF_A_INA" I L 2050 7125 50 
+F5 "REF_B_INA" I L 2050 7400 50 
+F6 "-VIN_A_INA" I L 2050 7050 50 
+F7 "+VIN_A_INA" I L 2050 7200 50 
+F8 "+VIN_B_INA" I L 2050 7325 50 
+F9 "-VIN_B_INA" I L 2050 7475 50 
+$EndSheet
+Wire Wire Line
+	3200 7125 3275 7125
+Wire Wire Line
+	3275 7125 3275 7050
+Wire Wire Line
+	3275 7050 3350 7050
+Wire Wire Line
+	3200 7400 3275 7400
+Wire Wire Line
+	3275 7400 3275 7475
+Wire Wire Line
+	3275 7475 3350 7475
+Wire Wire Line
+	1250 7475 2050 7475
+Wire Wire Line
+	1250 7400 2050 7400
+Wire Wire Line
+	1250 7325 2050 7325
+Wire Wire Line
+	1250 7200 2050 7200
+Wire Wire Line
+	1250 7125 1800 7125
+Wire Wire Line
+	1250 7050 1475 7050
+$Comp
+L Device:R R?
+U 1 1 624AA066
+P 1475 1750
+AR Path="/61C386B1/624AA066" Ref="R?"  Part="1" 
+AR Path="/61C389A8/624AA066" Ref="R?"  Part="1" 
+AR Path="/622FC90E/624AA066" Ref="R?"  Part="1" 
+AR Path="/623EBE47/624AA066" Ref="R?"  Part="1" 
+AR Path="/624814DA/624AA066" Ref="R?"  Part="1" 
+AR Path="/6248A382/624AA066" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/624AA066" Ref="R?"  Part="1" 
+AR Path="/624986BC/624AA066" Ref="R?"  Part="1" 
+AR Path="/624986DA/624AA066" Ref="R?"  Part="1" 
+AR Path="/624986F8/624AA066" Ref="R?"  Part="1" 
+AR Path="/62498716/624AA066" Ref="R?"  Part="1" 
+AR Path="/624AA066" Ref="R1"  Part="1" 
+F 0 "R1" H 1545 1796 50  0000 L CNN
+F 1 "0" H 1545 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 1750 50  0001 C CNN
+F 3 "~" H 1475 1750 50  0001 C CNN
+	1    1475 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 624BBA9E
+P 1800 1750
+AR Path="/61C386B1/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/61C389A8/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/622FC90E/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/623EBE47/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/624814DA/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/6248A382/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/624986BC/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/624986DA/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/624986F8/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/62498716/624BBA9E" Ref="R?"  Part="1" 
+AR Path="/624BBA9E" Ref="R8"  Part="1" 
+F 0 "R8" H 1870 1796 50  0000 L CNN
+F 1 "0" H 1870 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 1750 50  0001 C CNN
+F 3 "~" H 1800 1750 50  0001 C CNN
+	1    1800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1525 1475 1525
+Wire Wire Line
+	1475 1525 1475 1600
+Connection ~ 1475 1525
+Wire Wire Line
+	1475 1525 2050 1525
+Wire Wire Line
+	1800 1450 1800 1600
+Connection ~ 1800 1450
+Wire Wire Line
+	1800 1450 2050 1450
+Wire Wire Line
+	1475 1900 1475 1950
+Connection ~ 1475 1950
+Wire Wire Line
+	1475 1950 2050 1950
+Wire Wire Line
+	1800 1900 1800 2025
+Connection ~ 1800 2025
+Wire Wire Line
+	1800 2025 2050 2025
+Wire Wire Line
+	1250 4000 1800 4000
+Wire Wire Line
+	1250 4075 1475 4075
+Wire Wire Line
+	1250 4500 1475 4500
+Wire Wire Line
+	1250 4575 1800 4575
+Wire Wire Line
+	1250 4850 1800 4850
+Wire Wire Line
+	1250 4925 1475 4925
+Wire Wire Line
+	1250 5350 1475 5350
+Wire Wire Line
+	1250 5425 1800 5425
+$Comp
+L Device:R R?
+U 1 1 62747236
+P 1475 2600
+AR Path="/61C386B1/62747236" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62747236" Ref="R?"  Part="1" 
+AR Path="/622FC90E/62747236" Ref="R?"  Part="1" 
+AR Path="/623EBE47/62747236" Ref="R?"  Part="1" 
+AR Path="/624814DA/62747236" Ref="R?"  Part="1" 
+AR Path="/6248A382/62747236" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/62747236" Ref="R?"  Part="1" 
+AR Path="/624986BC/62747236" Ref="R?"  Part="1" 
+AR Path="/624986DA/62747236" Ref="R?"  Part="1" 
+AR Path="/624986F8/62747236" Ref="R?"  Part="1" 
+AR Path="/62498716/62747236" Ref="R?"  Part="1" 
+AR Path="/62747236" Ref="R2"  Part="1" 
+F 0 "R2" H 1545 2646 50  0000 L CNN
+F 1 "0" H 1545 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 2600 50  0001 C CNN
+F 3 "~" H 1475 2600 50  0001 C CNN
+	1    1475 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6274723C
+P 1800 2600
+AR Path="/61C386B1/6274723C" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6274723C" Ref="R?"  Part="1" 
+AR Path="/622FC90E/6274723C" Ref="R?"  Part="1" 
+AR Path="/623EBE47/6274723C" Ref="R?"  Part="1" 
+AR Path="/624814DA/6274723C" Ref="R?"  Part="1" 
+AR Path="/6248A382/6274723C" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/6274723C" Ref="R?"  Part="1" 
+AR Path="/624986BC/6274723C" Ref="R?"  Part="1" 
+AR Path="/624986DA/6274723C" Ref="R?"  Part="1" 
+AR Path="/624986F8/6274723C" Ref="R?"  Part="1" 
+AR Path="/62498716/6274723C" Ref="R?"  Part="1" 
+AR Path="/6274723C" Ref="R9"  Part="1" 
+F 0 "R9" H 1870 2646 50  0000 L CNN
+F 1 "0" H 1870 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 2600 50  0001 C CNN
+F 3 "~" H 1800 2600 50  0001 C CNN
+	1    1800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 2450 1475 2375
+Connection ~ 1475 2375
+Wire Wire Line
+	1475 2375 2050 2375
+Wire Wire Line
+	1800 2450 1800 2300
+Connection ~ 1800 2300
+Wire Wire Line
+	1800 2300 2050 2300
+Wire Wire Line
+	1800 2750 1800 2875
+Connection ~ 1800 2875
+Wire Wire Line
+	1800 2875 2050 2875
+Wire Wire Line
+	1475 2750 1475 2800
+Connection ~ 1475 2800
+Wire Wire Line
+	1475 2800 2050 2800
+$Comp
+L Device:R R?
+U 1 1 627A7BAE
+P 1475 3450
+AR Path="/61C386B1/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/61C389A8/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/622FC90E/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/623EBE47/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/624814DA/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/6248A382/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/624986BC/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/624986DA/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/624986F8/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/62498716/627A7BAE" Ref="R?"  Part="1" 
+AR Path="/627A7BAE" Ref="R3"  Part="1" 
+F 0 "R3" H 1545 3496 50  0000 L CNN
+F 1 "0" H 1545 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 3450 50  0001 C CNN
+F 3 "~" H 1475 3450 50  0001 C CNN
+	1    1475 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 627A7BB4
+P 1800 3450
+AR Path="/61C386B1/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/61C389A8/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/622FC90E/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/623EBE47/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/624814DA/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/6248A382/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/624986BC/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/624986DA/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/624986F8/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/62498716/627A7BB4" Ref="R?"  Part="1" 
+AR Path="/627A7BB4" Ref="R10"  Part="1" 
+F 0 "R10" H 1870 3496 50  0000 L CNN
+F 1 "0" H 1870 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 3450 50  0001 C CNN
+F 3 "~" H 1800 3450 50  0001 C CNN
+	1    1800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3600 1800 3725
+Connection ~ 1800 3725
+Wire Wire Line
+	1800 3725 2050 3725
+Wire Wire Line
+	1475 3600 1475 3650
+Connection ~ 1475 3650
+Wire Wire Line
+	1475 3650 2050 3650
+Wire Wire Line
+	1475 3300 1475 3225
+Connection ~ 1475 3225
+Wire Wire Line
+	1475 3225 2050 3225
+Wire Wire Line
+	1800 3300 1800 3150
+Connection ~ 1800 3150
+Wire Wire Line
+	1800 3150 2050 3150
+$Comp
+L Device:R R?
+U 1 1 62821EBD
+P 1475 4300
+AR Path="/61C386B1/62821EBD" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62821EBD" Ref="R?"  Part="1" 
+AR Path="/622FC90E/62821EBD" Ref="R?"  Part="1" 
+AR Path="/623EBE47/62821EBD" Ref="R?"  Part="1" 
+AR Path="/624814DA/62821EBD" Ref="R?"  Part="1" 
+AR Path="/6248A382/62821EBD" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/62821EBD" Ref="R?"  Part="1" 
+AR Path="/624986BC/62821EBD" Ref="R?"  Part="1" 
+AR Path="/624986DA/62821EBD" Ref="R?"  Part="1" 
+AR Path="/624986F8/62821EBD" Ref="R?"  Part="1" 
+AR Path="/62498716/62821EBD" Ref="R?"  Part="1" 
+AR Path="/62821EBD" Ref="R4"  Part="1" 
+F 0 "R4" H 1545 4346 50  0000 L CNN
+F 1 "0" H 1545 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 4300 50  0001 C CNN
+F 3 "~" H 1475 4300 50  0001 C CNN
+	1    1475 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62821EC3
+P 1800 4300
+AR Path="/61C386B1/62821EC3" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62821EC3" Ref="R?"  Part="1" 
+AR Path="/622FC90E/62821EC3" Ref="R?"  Part="1" 
+AR Path="/623EBE47/62821EC3" Ref="R?"  Part="1" 
+AR Path="/624814DA/62821EC3" Ref="R?"  Part="1" 
+AR Path="/6248A382/62821EC3" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/62821EC3" Ref="R?"  Part="1" 
+AR Path="/624986BC/62821EC3" Ref="R?"  Part="1" 
+AR Path="/624986DA/62821EC3" Ref="R?"  Part="1" 
+AR Path="/624986F8/62821EC3" Ref="R?"  Part="1" 
+AR Path="/62498716/62821EC3" Ref="R?"  Part="1" 
+AR Path="/62821EC3" Ref="R11"  Part="1" 
+F 0 "R11" H 1870 4346 50  0000 L CNN
+F 1 "0" H 1870 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 4300 50  0001 C CNN
+F 3 "~" H 1800 4300 50  0001 C CNN
+	1    1800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4150 1800 4000
+Connection ~ 1800 4000
+Wire Wire Line
+	1800 4000 2050 4000
+Wire Wire Line
+	1475 4150 1475 4075
+Connection ~ 1475 4075
+Wire Wire Line
+	1475 4075 2050 4075
+Wire Wire Line
+	1475 4450 1475 4500
+Connection ~ 1475 4500
+Wire Wire Line
+	1475 4500 2050 4500
+Wire Wire Line
+	1800 4450 1800 4575
+Connection ~ 1800 4575
+Wire Wire Line
+	1800 4575 2050 4575
+$Comp
+L Device:R R?
+U 1 1 6288D470
+P 1475 5150
+AR Path="/61C386B1/6288D470" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6288D470" Ref="R?"  Part="1" 
+AR Path="/622FC90E/6288D470" Ref="R?"  Part="1" 
+AR Path="/623EBE47/6288D470" Ref="R?"  Part="1" 
+AR Path="/624814DA/6288D470" Ref="R?"  Part="1" 
+AR Path="/6248A382/6288D470" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/6288D470" Ref="R?"  Part="1" 
+AR Path="/624986BC/6288D470" Ref="R?"  Part="1" 
+AR Path="/624986DA/6288D470" Ref="R?"  Part="1" 
+AR Path="/624986F8/6288D470" Ref="R?"  Part="1" 
+AR Path="/62498716/6288D470" Ref="R?"  Part="1" 
+AR Path="/6288D470" Ref="R5"  Part="1" 
+F 0 "R5" H 1545 5196 50  0000 L CNN
+F 1 "0" H 1545 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 5150 50  0001 C CNN
+F 3 "~" H 1475 5150 50  0001 C CNN
+	1    1475 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6288D476
+P 1800 5150
+AR Path="/61C386B1/6288D476" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6288D476" Ref="R?"  Part="1" 
+AR Path="/622FC90E/6288D476" Ref="R?"  Part="1" 
+AR Path="/623EBE47/6288D476" Ref="R?"  Part="1" 
+AR Path="/624814DA/6288D476" Ref="R?"  Part="1" 
+AR Path="/6248A382/6288D476" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/6288D476" Ref="R?"  Part="1" 
+AR Path="/624986BC/6288D476" Ref="R?"  Part="1" 
+AR Path="/624986DA/6288D476" Ref="R?"  Part="1" 
+AR Path="/624986F8/6288D476" Ref="R?"  Part="1" 
+AR Path="/62498716/6288D476" Ref="R?"  Part="1" 
+AR Path="/6288D476" Ref="R12"  Part="1" 
+F 0 "R12" H 1870 5196 50  0000 L CNN
+F 1 "0" H 1870 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 5150 50  0001 C CNN
+F 3 "~" H 1800 5150 50  0001 C CNN
+	1    1800 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5000 1800 4850
+Connection ~ 1800 4850
+Wire Wire Line
+	1800 4850 2050 4850
+Wire Wire Line
+	1475 5000 1475 4925
+Connection ~ 1475 4925
+Wire Wire Line
+	1475 4925 2050 4925
+Wire Wire Line
+	1475 5300 1475 5350
+Connection ~ 1475 5350
+Wire Wire Line
+	1475 5350 2050 5350
+Wire Wire Line
+	1800 5300 1800 5425
+Connection ~ 1800 5425
+Wire Wire Line
+	1800 5425 2050 5425
+$Comp
+L Device:R R?
+U 1 1 62915028
+P 1475 6000
+AR Path="/61C386B1/62915028" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62915028" Ref="R?"  Part="1" 
+AR Path="/622FC90E/62915028" Ref="R?"  Part="1" 
+AR Path="/623EBE47/62915028" Ref="R?"  Part="1" 
+AR Path="/624814DA/62915028" Ref="R?"  Part="1" 
+AR Path="/6248A382/62915028" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/62915028" Ref="R?"  Part="1" 
+AR Path="/624986BC/62915028" Ref="R?"  Part="1" 
+AR Path="/624986DA/62915028" Ref="R?"  Part="1" 
+AR Path="/624986F8/62915028" Ref="R?"  Part="1" 
+AR Path="/62498716/62915028" Ref="R?"  Part="1" 
+AR Path="/62915028" Ref="R6"  Part="1" 
+F 0 "R6" H 1545 6046 50  0000 L CNN
+F 1 "0" H 1545 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 6000 50  0001 C CNN
+F 3 "~" H 1475 6000 50  0001 C CNN
+	1    1475 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6291502E
+P 1800 6000
+AR Path="/61C386B1/6291502E" Ref="R?"  Part="1" 
+AR Path="/61C389A8/6291502E" Ref="R?"  Part="1" 
+AR Path="/622FC90E/6291502E" Ref="R?"  Part="1" 
+AR Path="/623EBE47/6291502E" Ref="R?"  Part="1" 
+AR Path="/624814DA/6291502E" Ref="R?"  Part="1" 
+AR Path="/6248A382/6291502E" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/6291502E" Ref="R?"  Part="1" 
+AR Path="/624986BC/6291502E" Ref="R?"  Part="1" 
+AR Path="/624986DA/6291502E" Ref="R?"  Part="1" 
+AR Path="/624986F8/6291502E" Ref="R?"  Part="1" 
+AR Path="/62498716/6291502E" Ref="R?"  Part="1" 
+AR Path="/6291502E" Ref="R13"  Part="1" 
+F 0 "R13" H 1870 6046 50  0000 L CNN
+F 1 "0" H 1870 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 6000 50  0001 C CNN
+F 3 "~" H 1800 6000 50  0001 C CNN
+	1    1800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5775 1475 5775
+Wire Wire Line
+	1800 5850 1800 5700
+Connection ~ 1800 5700
+Wire Wire Line
+	1800 5700 2050 5700
+Wire Wire Line
+	1475 5850 1475 5775
+Connection ~ 1475 5775
+Wire Wire Line
+	1475 5775 2050 5775
+Wire Wire Line
+	1475 6150 1475 6200
+Connection ~ 1475 6200
+Wire Wire Line
+	1475 6200 2050 6200
+Wire Wire Line
+	1800 6150 1800 6275
+Connection ~ 1800 6275
+Wire Wire Line
+	1800 6275 2050 6275
+$Comp
+L Device:R R?
+U 1 1 629A3C4C
+P 1475 6850
+AR Path="/61C386B1/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/61C389A8/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/622FC90E/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/623EBE47/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/624814DA/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/6248A382/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/624986BC/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/624986DA/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/624986F8/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/62498716/629A3C4C" Ref="R?"  Part="1" 
+AR Path="/629A3C4C" Ref="R7"  Part="1" 
+F 0 "R7" H 1545 6896 50  0000 L CNN
+F 1 "0" H 1545 6805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1405 6850 50  0001 C CNN
+F 3 "~" H 1475 6850 50  0001 C CNN
+	1    1475 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 629A3C52
+P 1800 6850
+AR Path="/61C386B1/629A3C52" Ref="R?"  Part="1" 
+AR Path="/61C389A8/629A3C52" Ref="R?"  Part="1" 
+AR Path="/622FC90E/629A3C52" Ref="R?"  Part="1" 
+AR Path="/623EBE47/629A3C52" Ref="R?"  Part="1" 
+AR Path="/624814DA/629A3C52" Ref="R?"  Part="1" 
+AR Path="/6248A382/629A3C52" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/629A3C52" Ref="R?"  Part="1" 
+AR Path="/624986BC/629A3C52" Ref="R?"  Part="1" 
+AR Path="/624986DA/629A3C52" Ref="R?"  Part="1" 
+AR Path="/624986F8/629A3C52" Ref="R?"  Part="1" 
+AR Path="/62498716/629A3C52" Ref="R?"  Part="1" 
+AR Path="/629A3C52" Ref="R14"  Part="1" 
+F 0 "R14" H 1870 6896 50  0000 L CNN
+F 1 "0" H 1870 6805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 6850 50  0001 C CNN
+F 3 "~" H 1800 6850 50  0001 C CNN
+	1    1800 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6700 1800 6550
+Connection ~ 1800 6550
+Wire Wire Line
+	1800 6550 2050 6550
+Wire Wire Line
+	1475 6700 1475 6625
+Connection ~ 1475 6625
+Wire Wire Line
+	1475 6625 2050 6625
+Wire Wire Line
+	1475 7000 1475 7050
+Connection ~ 1475 7050
+Wire Wire Line
+	1475 7050 2050 7050
+Wire Wire Line
+	1800 7000 1800 7125
+Connection ~ 1800 7125
+Wire Wire Line
+	1800 7125 2050 7125
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 11 11
+Sheet 11 51
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -172,326 +172,6 @@ F 2 "" H 1700 6150 50  0001 C CNN
 F 3 "" H 1700 6150 50  0001 C CNN
 	1    1700 6150
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:-5V #PWR0175
-U 1 1 61C800AC
-P 1700 2250
-F 0 "#PWR0175" H 1700 2350 50  0001 C CNN
-F 1 "-5V" H 1715 2423 50  0000 C CNN
-F 2 "" H 1700 2250 50  0001 C CNN
-F 3 "" H 1700 2250 50  0001 C CNN
-	1    1700 2250
-	-1   0    0    1   
-$EndComp
-Text GLabel 1150 1750 0    50   Input ~ 0
-+VINB_2_INA
-Text GLabel 1150 1850 0    50   Input ~ 0
--VINB_2_INA
-Connection ~ 3200 1750
-Wire Wire Line
-	3250 1750 3200 1750
-Text GLabel 3250 1750 2    50   Input ~ 0
-REFB_2_INA
-Wire Wire Line
-	2800 2550 1100 2550
-Wire Wire Line
-	2800 1850 2750 1850
-Connection ~ 2800 1850
-Wire Wire Line
-	2800 1850 2800 2550
-Wire Wire Line
-	2850 1850 2800 1850
-Wire Wire Line
-	3200 1850 3150 1850
-Wire Wire Line
-	3200 1750 3200 1850
-Connection ~ 2400 1850
-Wire Wire Line
-	2400 1850 2450 1850
-$Comp
-L Device:R R295
-U 1 1 61C76B4F
-P 2600 1850
-F 0 "R295" V 2400 1800 50  0000 L CNN
-F 1 "191k" V 2500 1750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2530 1850 50  0001 C CNN
-F 3 "~" H 2600 1850 50  0001 C CNN
-	1    2600 1850
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	1100 1950 1150 1950
-Wire Wire Line
-	1100 2550 1100 1950
-Wire Wire Line
-	2250 1750 3200 1750
-Wire Wire Line
-	2400 1850 2400 1900
-Wire Wire Line
-	2250 1850 2400 1850
-Wire Wire Line
-	2300 1950 2250 1950
-$Comp
-L Device:R R301
-U 1 1 61C76B37
-P 3000 1850
-F 0 "R301" V 2800 1800 50  0000 L CNN
-F 1 "10k" V 2900 1750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 1850 50  0001 C CNN
-F 3 "~" H 3000 1850 50  0001 C CNN
-	1    3000 1850
-	0    1    -1   0   
-$EndComp
-$Comp
-L emg-filter:INA2332 U53
-U 1 1 61C49EF3
-P 1700 1650
-F 0 "U53" H 1450 2100 50  0000 C CNN
-F 1 "INA2332" H 1900 2100 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1650 1650 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina2332.pdf" H 1650 1650 50  0001 C CNN
-	1    1700 1650
-	1    0    0    -1  
-$EndComp
-Text GLabel 1150 1550 0    50   Input ~ 0
-+VINA_1_INA
-Text GLabel 1150 1450 0    50   Input ~ 0
--VINA_1_INA
-Connection ~ 3200 1550
-Wire Wire Line
-	3250 1550 3200 1550
-Text GLabel 3250 1550 2    50   Input ~ 0
-REFA_1_INA
-Wire Wire Line
-	2800 750  1100 750 
-Wire Wire Line
-	2800 1450 2750 1450
-Connection ~ 2800 1450
-Wire Wire Line
-	2800 1450 2800 750 
-Wire Wire Line
-	2850 1450 2800 1450
-Wire Wire Line
-	3200 1450 3150 1450
-Wire Wire Line
-	3200 1550 3200 1450
-Connection ~ 2400 1450
-Wire Wire Line
-	2400 1450 2450 1450
-$Comp
-L Device:R R294
-U 1 1 61C4B0C1
-P 2600 1450
-F 0 "R294" V 2400 1400 50  0000 L CNN
-F 1 "191k" V 2500 1350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2530 1450 50  0001 C CNN
-F 3 "~" H 2600 1450 50  0001 C CNN
-	1    2600 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1100 1350 1150 1350
-Wire Wire Line
-	1100 750  1100 1350
-Wire Wire Line
-	2250 1550 3200 1550
-Wire Wire Line
-	2400 1450 2400 1400
-Wire Wire Line
-	2250 1450 2400 1450
-Connection ~ 1700 1100
-Wire Wire Line
-	1700 1100 1700 1050
-$Comp
-L power:+5V #PWR0174
-U 1 1 61C51CF8
-P 1700 1050
-F 0 "#PWR0174" H 1700 900 50  0001 C CNN
-F 1 "+5V" H 1715 1223 50  0000 C CNN
-F 2 "" H 1700 1050 50  0001 C CNN
-F 3 "" H 1700 1050 50  0001 C CNN
-	1    1700 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 1350 2250 1350
-Wire Wire Line
-	2300 1100 2300 1350
-Wire Wire Line
-	1700 1100 2300 1100
-Wire Wire Line
-	1700 1150 1700 1100
-$Comp
-L Device:R R300
-U 1 1 61C4B387
-P 3000 1450
-F 0 "R300" V 2800 1400 50  0000 L CNN
-F 1 "10k" V 2900 1350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 1450 50  0001 C CNN
-F 3 "~" H 3000 1450 50  0001 C CNN
-	1    3000 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:-5V #PWR0177
-U 1 1 61CAD7A5
-P 1700 4200
-F 0 "#PWR0177" H 1700 4300 50  0001 C CNN
-F 1 "-5V" H 1715 4373 50  0000 C CNN
-F 2 "" H 1700 4200 50  0001 C CNN
-F 3 "" H 1700 4200 50  0001 C CNN
-	1    1700 4200
-	-1   0    0    1   
-$EndComp
-Text GLabel 1150 3700 0    50   Input ~ 0
-+VINB_4_INA
-Text GLabel 1150 3800 0    50   Input ~ 0
--VINB_4_INA
-Connection ~ 3200 3700
-Wire Wire Line
-	3250 3700 3200 3700
-Text GLabel 3250 3700 2    50   Input ~ 0
-REFB_4_INA
-Wire Wire Line
-	2800 4500 1100 4500
-Wire Wire Line
-	2800 3800 2750 3800
-Connection ~ 2800 3800
-Wire Wire Line
-	2800 3800 2800 4500
-Wire Wire Line
-	2850 3800 2800 3800
-Wire Wire Line
-	3200 3800 3150 3800
-Wire Wire Line
-	3200 3700 3200 3800
-Connection ~ 2400 3800
-Wire Wire Line
-	2400 3800 2450 3800
-$Comp
-L Device:R R297
-U 1 1 61CAD791
-P 2600 3800
-F 0 "R297" V 2400 3750 50  0000 L CNN
-F 1 "191k" V 2500 3700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2530 3800 50  0001 C CNN
-F 3 "~" H 2600 3800 50  0001 C CNN
-	1    2600 3800
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	1100 3900 1150 3900
-Wire Wire Line
-	1100 4500 1100 3900
-Wire Wire Line
-	2250 3700 3200 3700
-Wire Wire Line
-	2400 3800 2400 3850
-Wire Wire Line
-	2250 3800 2400 3800
-Wire Wire Line
-	2300 3900 2250 3900
-$Comp
-L Device:R R303
-U 1 1 61CAD77F
-P 3000 3800
-F 0 "R303" V 2800 3750 50  0000 L CNN
-F 1 "10k" V 2900 3700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 3800 50  0001 C CNN
-F 3 "~" H 3000 3800 50  0001 C CNN
-	1    3000 3800
-	0    1    -1   0   
-$EndComp
-$Comp
-L emg-filter:INA2332 U54
-U 1 1 61CAD779
-P 1700 3600
-F 0 "U54" H 1450 4050 50  0000 C CNN
-F 1 "INA2332" H 1900 4050 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1650 3600 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina2332.pdf" H 1650 3600 50  0001 C CNN
-	1    1700 3600
-	1    0    0    -1  
-$EndComp
-Text GLabel 1150 3500 0    50   Input ~ 0
-+VINA_3_INA
-Text GLabel 1150 3400 0    50   Input ~ 0
--VINA_3_INA
-Connection ~ 3200 3500
-Wire Wire Line
-	3250 3500 3200 3500
-Text GLabel 3250 3500 2    50   Input ~ 0
-REFA_3_INA
-Wire Wire Line
-	2800 2700 1100 2700
-Wire Wire Line
-	2800 3400 2750 3400
-Connection ~ 2800 3400
-Wire Wire Line
-	2800 3400 2800 2700
-Wire Wire Line
-	2850 3400 2800 3400
-Wire Wire Line
-	3200 3400 3150 3400
-Wire Wire Line
-	3200 3500 3200 3400
-Connection ~ 2400 3400
-Wire Wire Line
-	2400 3400 2450 3400
-$Comp
-L Device:R R296
-U 1 1 61CAD765
-P 2600 3400
-F 0 "R296" V 2400 3350 50  0000 L CNN
-F 1 "191k" V 2500 3300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2530 3400 50  0001 C CNN
-F 3 "~" H 2600 3400 50  0001 C CNN
-	1    2600 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1100 3300 1150 3300
-Wire Wire Line
-	1100 2700 1100 3300
-Wire Wire Line
-	2250 3500 3200 3500
-Wire Wire Line
-	2400 3400 2400 3350
-Wire Wire Line
-	2250 3400 2400 3400
-Connection ~ 1700 3050
-Wire Wire Line
-	1700 3050 1700 3000
-$Comp
-L power:+5V #PWR0176
-U 1 1 61CAD757
-P 1700 3000
-F 0 "#PWR0176" H 1700 2850 50  0001 C CNN
-F 1 "+5V" H 1715 3173 50  0000 C CNN
-F 2 "" H 1700 3000 50  0001 C CNN
-F 3 "" H 1700 3000 50  0001 C CNN
-	1    1700 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 3300 2250 3300
-Wire Wire Line
-	2300 3050 2300 3300
-Wire Wire Line
-	1700 3050 2300 3050
-Wire Wire Line
-	1700 3100 1700 3050
-$Comp
-L Device:R R302
-U 1 1 61CAD74D
-P 3000 3400
-F 0 "R302" V 2800 3350 50  0000 L CNN
-F 1 "10k" V 2900 3300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 3400 50  0001 C CNN
-F 3 "~" H 3000 3400 50  0001 C CNN
-	1    3000 3400
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R316
@@ -1293,16 +973,6 @@ Text GLabel 7750 3800 0    50   Input ~ 0
 -VINB_16_INA
 Text GLabel 7750 3700 0    50   Input ~ 0
 +VINB_16_INA
-Wire Wire Line
-	1700 2150 1700 2250
-Text GLabel 2300 2000 3    50   Input ~ 0
-SHTDWN_INA
-Wire Wire Line
-	2300 1950 2300 2000
-Text GLabel 1650 1100 0    50   Input ~ 0
-SHTDWN_INA
-Wire Wire Line
-	1650 1100 1700 1100
 Text GLabel 4950 1100 0    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
@@ -1319,10 +989,6 @@ Text GLabel 4950 3050 0    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
 	4950 3050 5000 3050
-Text GLabel 1650 3050 0    50   Input ~ 0
-SHTDWN_INA
-Wire Wire Line
-	1650 3050 1700 3050
 Text GLabel 1650 5000 0    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
@@ -1333,8 +999,6 @@ Wire Wire Line
 	4950 5000 5000 5000
 Wire Wire Line
 	5000 2150 5000 2250
-Wire Wire Line
-	1700 4100 1700 4200
 Wire Wire Line
 	1700 6050 1700 6150
 Wire Wire Line
@@ -1361,10 +1025,6 @@ Text GLabel 5600 3950 3    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
 	5600 3900 5600 3950
-Text GLabel 2300 3950 3    50   Input ~ 0
-SHTDWN_INA
-Wire Wire Line
-	2300 3900 2300 3950
 Text GLabel 2300 5900 3    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
@@ -1373,14 +1033,6 @@ Text GLabel 5600 5900 3    50   Input ~ 0
 SHTDWN_INA
 Wire Wire Line
 	5600 5850 5600 5900
-Text GLabel 2400 1400 1    50   Input ~ 0
-INA_BP_1
-Text GLabel 2400 1900 3    50   Input ~ 0
-INA_BP_2
-Text GLabel 2400 3350 1    50   Input ~ 0
-INA_BP_3
-Text GLabel 2400 3850 3    50   Input ~ 0
-INA_BP_4
 Text GLabel 2400 5300 1    50   Input ~ 0
 INA_BP_5
 Text GLabel 2400 5800 3    50   Input ~ 0
