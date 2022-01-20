@@ -1,0 +1,25 @@
+01-20 14:15:37 replicate_layout.action_replicate_layout 313:Plugin executed on: 'linux'
+01-20 14:15:37 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '3.8.10 (default, Nov 26 2021, 20:14:08) \n[GCC 9.3.0]'
+01-20 14:15:37 replicate_layout.action_replicate_layout 315:KiCad build version: 5.1.12-84ad8e8a86~92~ubuntu20.04.1
+01-20 14:15:37 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+01-20 14:15:37 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+kicad 5.1.12-84ad8e8a86~92~ubuntu20.04.1 /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter/emg-filter.pro
+
+eeschema — filter.sch [/ch_1-2/] — /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter
+
+pcbnew — /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter/emg-filter.kicad_pcb
+
+
+01-20 14:15:37 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._core.Frame object at 0x7f8dd8ba9d30>
+<wx._core.Frame object at 0x7f8dd8ba9dc0>
+<wx._core.Frame object at 0x7f8dd8ba9d30>
+<wx._core.Frame object at 0x7f8dd8ba9dc0>
+<wx._core.Frame object at 0x7f8dd8ba9d30>
+<wx._core.Frame object at 0x7f8dd8ba9dc0>
+<wx._core.Frame object at 0x7f8dd8ba9d30>
+01-20 14:15:37 replicate_layout.action_replicate_layout 353:Preparing replicator with U5 as a reference
+01-20 14:15:37 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+01-20 14:15:37 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'61C38667': ['power', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/power.sch'], '61C38939': ['adc', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/adc.sch'], '61C389A8': ['emg-connectors', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/emg-connectors.sch'], '62028BDB': ['Ch_1-2', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62D69E45': ['Ch_3-4', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62DB03BD': ['Ch_5-6', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62E44FEE': ['Ch_7-8', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE26': ['Ch_9-10', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE40': ['Ch_11-12', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE5A': ['Ch_13-14', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch'], '62EDFE74': ['Ch_15-16', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/filter.sch']}
+01-20 14:15:37 replicate_layout.replicatelayout 225:getting a list of all footprints on board
