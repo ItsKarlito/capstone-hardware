@@ -355,10 +355,10 @@ F 3 "" H 850 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG06
+L power:PWR_FLAG #FLG05
 U 1 1 62C66FCF
 P 850 850
-F 0 "#FLG06" H 850 925 50  0001 C CNN
+F 0 "#FLG05" H 850 925 50  0001 C CNN
 F 1 "PWR_FLAG" H 850 1023 50  0000 C CNN
 F 2 "" H 850 850 50  0001 C CNN
 F 3 "~" H 850 850 50  0001 C CNN
@@ -378,28 +378,6 @@ F 3 "" H 7325 3675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 3675 7325 3675
-$Comp
-L emg-filter-rescue:ADC108S102-emg-filter U43
-U 1 1 61E647A5
-P 4750 3250
-F 0 "U43" H 4750 3825 50  0000 C CNN
-F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 3775 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
-	1    4750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L emg-filter-rescue:ADC108S102-emg-filter U44
-U 1 1 61E652F3
-P 4750 4400
-F 0 "U44" H 4750 4975 50  0000 C CNN
-F 1 "ADC108S102" H 4750 4884 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 4925 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CNN
-	1    4750 4400
-	1    0    0    -1  
-$EndComp
 Text HLabel 4400 3200 0    50   Input ~ 0
 OUT_AMP_1
 Text HLabel 4400 3300 0    50   Input ~ 0
@@ -432,4 +410,26 @@ Text HLabel 5100 4650 2    50   Input ~ 0
 OUT_AMP_15
 Text HLabel 5100 4550 2    50   Input ~ 0
 OUT_AMP_16
+$Comp
+L emg-filter:ADC108S102 U43
+U 1 1 61EDDCFE
+P 4750 3250
+F 0 "U43" H 4750 3825 50  0000 C CNN
+F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 3775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L emg-filter:ADC108S102 U44
+U 1 1 61EDF58B
+P 4750 4400
+F 0 "U44" H 4750 4975 50  0000 C CNN
+F 1 "ADC108S102" H 4750 4884 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 4925 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
