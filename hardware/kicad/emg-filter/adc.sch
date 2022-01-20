@@ -319,9 +319,9 @@ NoConn ~ 8500 4475
 NoConn ~ 8500 4575
 NoConn ~ 8500 4675
 NoConn ~ 8500 4775
-Text GLabel 5100 3000 2    50   BiDi ~ 0
+Text GLabel 5100 3000 2    50   Input ~ 0
 DOUT_MISO_PI
-Text GLabel 5100 4150 2    50   BiDi ~ 0
+Text GLabel 5100 4150 2    50   Input ~ 0
 DOUT_MISO_PI
 Text GLabel 8000 3875 0    50   Input ~ 0
 DOUT_MISO_PI
@@ -382,28 +382,6 @@ F 3 "" H 7325 3675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 3675 7325 3675
-$Comp
-L emg-filter-rescue:ADC108S102-emg-filter U3
-U 1 1 61E647A5
-P 4750 3250
-F 0 "U3" H 4750 3825 50  0000 C CNN
-F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 3775 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
-	1    4750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L emg-filter-rescue:ADC108S102-emg-filter U4
-U 1 1 61E652F3
-P 4750 4400
-F 0 "U4" H 4750 4975 50  0000 C CNN
-F 1 "ADC108S102" H 4750 4884 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 4925 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CNN
-	1    4750 4400
-	1    0    0    -1  
-$EndComp
 Text GLabel 4400 3400 0    50   Input ~ 0
 OUT_3
 Text GLabel 4400 3500 0    50   Input ~ 0
@@ -432,4 +410,26 @@ Text GLabel 5100 4650 2    50   Input ~ 0
 OUT_15
 Text GLabel 5100 4550 2    50   Input ~ 0
 OUT_16
+$Comp
+L emg-filter:ADC108S102 U3
+U 1 1 62F5F8AE
+P 4750 3250
+F 0 "U3" H 4750 3825 50  0000 C CNN
+F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
+F 2 "" H 4750 3775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L emg-filter:ADC108S102 U4
+U 1 1 62F60544
+P 4750 4400
+F 0 "U4" H 4750 4975 50  0000 C CNN
+F 1 "ADC108S102" H 4750 4884 50  0000 C CNN
+F 2 "" H 4750 4925 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
