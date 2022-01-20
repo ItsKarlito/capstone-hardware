@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 12
+Sheet 3 12
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -194,37 +194,9 @@ Connection ~ 3350 3000
 Wire Wire Line
 	3350 3000 3100 3000
 Text GLabel 4400 3200 0    50   Input ~ 0
-OUT_AMP_1
+OUT_1
 Text GLabel 4400 3300 0    50   Input ~ 0
-OUT_AMP_2
-Text GLabel 4400 3400 0    50   Input ~ 0
-OUT_AMP_3
-Text GLabel 4400 3500 0    50   Input ~ 0
-OUT_AMP_4
-Text GLabel 4400 3600 0    50   Input ~ 0
-OUT_AMP_5
-Text GLabel 4400 4650 0    50   Input ~ 0
-OUT_AMP_12
-Text GLabel 4400 4750 0    50   Input ~ 0
-OUT_AMP_13
-Text GLabel 5100 4750 2    50   Input ~ 0
-OUT_AMP_14
-Text GLabel 5100 4650 2    50   Input ~ 0
-OUT_AMP_15
-Text GLabel 5100 4550 2    50   Input ~ 0
-OUT_AMP_16
-Text GLabel 4400 4550 0    50   Input ~ 0
-OUT_AMP_11
-Text GLabel 5100 3600 2    50   Input ~ 0
-OUT_AMP_6
-Text GLabel 5100 3500 2    50   Input ~ 0
-OUT_AMP_7
-Text GLabel 5100 3400 2    50   Input ~ 0
-OUT_AMP_8
-Text GLabel 4400 4350 0    50   Input ~ 0
-OUT_AMP_9
-Text GLabel 4400 4450 0    50   Input ~ 0
-OUT_AMP_10
+OUT_2
 Text GLabel 5100 4250 2    50   Input ~ 0
 DIN_MOSI_PI
 Text GLabel 5100 4050 2    50   Input ~ 0
@@ -432,4 +404,32 @@ F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 4925 50  0001 C CN
 	1    4750 4400
 	1    0    0    -1  
 $EndComp
+Text GLabel 4400 3400 0    50   Input ~ 0
+OUT_3
+Text GLabel 4400 3500 0    50   Input ~ 0
+OUT_4
+Text GLabel 4400 3600 0    50   Input ~ 0
+OUT_5
+Text GLabel 5100 3600 2    50   Input ~ 0
+OUT_6
+Text GLabel 5100 3500 2    50   Input ~ 0
+OUT_7
+Text GLabel 5100 3400 2    50   Input ~ 0
+OUT_8
+Text GLabel 4400 4350 0    50   Input ~ 0
+OUT_9
+Text GLabel 4400 4450 0    50   Input ~ 0
+OUT_10
+Text GLabel 4400 4550 0    50   Input ~ 0
+OUT_11
+Text GLabel 4400 4650 0    50   Input ~ 0
+OUT_12
+Text GLabel 4400 4750 0    50   Input ~ 0
+OUT_13
+Text GLabel 5100 4750 2    50   Input ~ 0
+OUT_14
+Text GLabel 5100 4650 2    50   Input ~ 0
+OUT_15
+Text GLabel 5100 4550 2    50   Input ~ 0
+OUT_16
 $EndSCHEMATC

@@ -98,11 +98,11 @@ F 3 "~" H 1850 4925 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 1650 4975 3    50   Input ~ 0
--VINB_16_INA
+-VINB_16
 Text GLabel 1250 5625 3    50   Input ~ 0
-REFB_16_INA
+REFB_16
 Text GLabel 2450 5625 3    50   Input ~ 0
-REFA_15_INA
+REFA_15
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6249EE98
@@ -132,7 +132,7 @@ $EndComp
 Wire Wire Line
 	1700 4925 1650 4925
 Text GLabel 2050 4975 3    50   Input ~ 0
-+VINA_15_INA
++VINA_15
 Wire Wire Line
 	2050 4175 2050 4025
 $Comp
@@ -279,13 +279,13 @@ F 3 "~" H 4250 4925 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 4050 4975 3    50   Input ~ 0
--VINB_14_INA
+-VINB_14
 Text GLabel 3250 4975 3    50   Input ~ 0
-+VINB_14_INA
++VINB_14
 Text GLabel 3650 5625 3    50   Input ~ 0
-REFB_14_INA
+REFB_14
 Text GLabel 4850 5625 3    50   Input ~ 0
-REFA_13_INA
+REFA_13
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6251C013
@@ -315,7 +315,7 @@ $EndComp
 Wire Wire Line
 	4100 4925 4050 4925
 Text GLabel 4450 4975 3    50   Input ~ 0
-+VINA_13_INA
++VINA_13
 Wire Wire Line
 	4450 4175 4450 4025
 $Comp
@@ -495,13 +495,13 @@ F 3 "~" H 6650 4925 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 6450 4975 3    50   Input ~ 0
--VINB_12_INA
+-VINB_12
 Text GLabel 5650 4975 3    50   Input ~ 0
-+VINB_12_INA
++VINB_12
 Text GLabel 6050 5625 3    50   Input ~ 0
-REFB_12_INA
+REFB_12
 Text GLabel 7250 5625 3    50   Input ~ 0
-REFA_11_INA
+REFA_11
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6252F255
@@ -518,7 +518,7 @@ $EndComp
 Wire Wire Line
 	6500 4925 6450 4925
 Text GLabel 6850 4975 3    50   Input ~ 0
-+VINA_11_INA
++VINA_11
 Wire Wire Line
 	6850 4175 6850 4025
 $Comp
@@ -696,9 +696,9 @@ F 3 "~" H 9050 4925 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 8850 4975 3    50   Input ~ 0
--VINB_10_INA
+-VINB_10
 Text GLabel 8450 5625 3    50   Input ~ 0
-REFB_10_INA
+REFB_10
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 625C0455
@@ -715,7 +715,7 @@ $EndComp
 Wire Wire Line
 	8900 4925 8850 4925
 Text GLabel 9250 4975 3    50   Input ~ 0
-+VINA_9_INA
++VINA_9
 Wire Wire Line
 	9250 4175 9250 4025
 $Comp
@@ -891,13 +891,13 @@ F 3 "~" H 1850 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1650 2675 1    50   Input ~ 0
--VINA_1_INA
+-VINA_1
 Text GLabel 850  2675 1    50   Input ~ 0
-+VINA_1_INA
++VINA_1
 Text GLabel 1250 2025 1    50   Input ~ 0
-REFA_1_INA
+REFA_1
 Text GLabel 2450 2025 1    50   Input ~ 0
-REFB_2_INA
+REFB_2
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 62801FE3
@@ -925,11 +925,11 @@ F 3 "~" H 3050 2075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2850 2675 1    50   Input ~ 0
--VINB_2_INA
+-VINB_2
 Wire Wire Line
 	1700 2725 1650 2725
 Text GLabel 2050 2675 1    50   Input ~ 0
-+VINB_2_INA
++VINB_2
 Wire Wire Line
 	2050 3475 2050 3625
 $Comp
@@ -1076,13 +1076,13 @@ F 3 "~" H 4250 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4050 2675 1    50   Input ~ 0
--VINA_3_INA
+-VINA_3
 Text GLabel 3250 2675 1    50   Input ~ 0
-+VINA_3_INA
++VINA_3
 Text GLabel 3650 2025 1    50   Input ~ 0
-REFA_3_INA
+REFA_3
 Text GLabel 4850 2025 1    50   Input ~ 0
-REFB_4_INA
+REFB_4
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6280203F
@@ -1110,11 +1110,11 @@ F 3 "~" H 5450 2075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 5250 2675 1    50   Input ~ 0
--VINB_4_INA
+-VINB_4
 Wire Wire Line
 	4100 2725 4050 2725
 Text GLabel 4450 2675 1    50   Input ~ 0
-+VINB_4_INA
++VINB_4
 Wire Wire Line
 	4450 3475 4450 3625
 $Comp
@@ -1294,13 +1294,13 @@ F 3 "~" H 6650 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6450 2675 1    50   Input ~ 0
--VINA_5_INA
+-VINA_5
 Text GLabel 5650 2675 1    50   Input ~ 0
-+VINA_5_INA
++VINA_5
 Text GLabel 6050 2025 1    50   Input ~ 0
-REFA_5_INA
+REFA_5
 Text GLabel 7250 2025 1    50   Input ~ 0
-REFB_6_INA
+REFB_6
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 628020AD
@@ -1315,11 +1315,11 @@ F 3 "~" H 7450 3475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 7650 2675 1    50   Input ~ 0
--VINB_6_INA
+-VINB_6
 Wire Wire Line
 	6500 2725 6450 2725
 Text GLabel 6850 2675 1    50   Input ~ 0
-+VINB_6_INA
++VINB_6
 Wire Wire Line
 	6850 3475 6850 3625
 $Comp
@@ -1497,13 +1497,13 @@ F 3 "~" H 9050 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8850 2675 1    50   Input ~ 0
--VINA_7_INA
+-VINA_7
 Text GLabel 8050 2675 1    50   Input ~ 0
-+VINA_7_INA
++VINA_7
 Text GLabel 8450 2025 1    50   Input ~ 0
-REFA_7_INA
+REFA_7
 Text GLabel 9650 2025 1    50   Input ~ 0
-REFB_8_INA
+REFB_8
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 62802114
@@ -1518,11 +1518,11 @@ F 3 "~" H 9850 3475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 10050 2675 1    50   Input ~ 0
--VINB_8_INA
+-VINB_8
 Wire Wire Line
 	8900 2725 8850 2725
 Text GLabel 9250 2675 1    50   Input ~ 0
-+VINB_8_INA
++VINB_8
 Wire Wire Line
 	9250 3475 9250 3625
 $Comp
@@ -1645,7 +1645,7 @@ F 3 "~" H 10200 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 850  4975 3    50   Input ~ 0
-+VINB_16_INA
++VINB_16
 $Comp
 L power:GND #PWR?
 U 1 1 62801FCD
@@ -1722,15 +1722,15 @@ Wire Wire Line
 Wire Wire Line
 	10375 5575 9650 5575
 Text GLabel 7650 4975 3    50   Input ~ 0
--VINA_11_INA
-Text GLabel 8050 4975 3    50   Input ~ 0
-+VINB_10_INA
+-VINA_11
 Text GLabel 9650 5625 3    50   Input ~ 0
-REFA_9_INA
+REFA_9
 Text GLabel 10050 4975 3    50   Input ~ 0
--VINA_9_INA
+-VINA_9
 Text GLabel 5250 4975 3    50   Input ~ 0
--VINA_13_INA
+-VINA_13
 Text GLabel 2850 4975 3    50   Input ~ 0
--VINA_15_INA
+-VINA_15
+Text GLabel 8050 4975 3    50   Input ~ 0
++VINB_10
 $EndSCHEMATC
