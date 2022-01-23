@@ -266,9 +266,9 @@ Text GLabel 8000 3975 0    50   Input ~ 0
 SCLK_CLK_PI
 Text GLabel 8000 3775 0    50   Input ~ 0
 DIN_MOSI_PI
-Text GLabel 8000 3575 0    50   Input ~ 0
-!CS_2_PI
 Text GLabel 8000 3475 0    50   Input ~ 0
+!CS_2_PI
+Text GLabel 8000 3575 0    50   Input ~ 0
 !CS_1_PI
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J3
