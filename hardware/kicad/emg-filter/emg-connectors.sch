@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -71,14 +71,6 @@ Wire Wire Line
 	5250 3625 5250 3475
 Wire Wire Line
 	4850 3475 4850 3625
-Text GLabel 4050 2675 1    50   Input ~ 0
--VINA_3
-Text GLabel 3250 2675 1    50   Input ~ 0
-+VINA_3
-Text GLabel 3650 2025 1    50   Input ~ 0
-REFA_3
-Text GLabel 4850 2025 1    50   Input ~ 0
-REFB_4
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6280203F
@@ -92,10 +84,6 @@ F 3 "~" H 5050 3475 50  0001 C CNN
 	1    5050 3475
 	-1   0    0    1   
 $EndComp
-Text GLabel 5250 2675 1    50   Input ~ 0
--VINB_4
-Text GLabel 4450 2675 1    50   Input ~ 0
-+VINB_4
 Wire Wire Line
 	4450 3475 4450 3625
 $Comp
@@ -176,13 +164,13 @@ Wire Wire Line
 Wire Wire Line
 	4225 3625 4450 3625
 Text Notes 1475 2425 0    50   ~ 0
-motherboard jumper connectors\n
+motherboard jumper headers
 Connection ~ 4225 3625
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J4
 U 1 1 620731DE
 P 4200 2525
-F 0 "J?" V 4350 2500 50  0000 R CNN
+F 0 "J4" V 4350 2500 50  0000 R CNN
 F 1 "Conn_01x02" V 4450 2700 50  0000 R CNN
 F 2 "" H 4200 2525 50  0001 C CNN
 F 3 "~" H 4200 2525 50  0001 C CNN
@@ -194,10 +182,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 2725 4200 2725
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J3
 U 1 1 62075FD9
 P 4200 1875
-F 0 "J?" V 4350 1850 50  0000 R CNN
+F 0 "J3" V 4350 1850 50  0000 R CNN
 F 1 "Conn_01x02" V 4450 2050 50  0000 R CNN
 F 2 "" H 4200 1875 50  0001 C CNN
 F 3 "~" H 4200 1875 50  0001 C CNN
@@ -210,21 +198,35 @@ Wire Wire Line
 	2775 2075 3650 2075
 Wire Wire Line
 	2775 2725 3250 2725
-Wire Wire Line
-	5250 2775 5750 2775
-Wire Wire Line
-	5250 2775 5250 3375
-Connection ~ 5250 2775
-Wire Wire Line
-	5250 2675 5250 2775
 Text HLabel 5750 2075 2    50   Input ~ 0
-REFB
-Text HLabel 5750 2775 2    50   Input ~ 0
-VINB
+REFB_JUMPER
 Text HLabel 2775 2725 0    50   Input ~ 0
-VINA
+VINA_JUMPER
 Text HLabel 2775 2075 0    50   Input ~ 0
-REFA
+REFA_JUMPER
 Text Notes 5775 2400 0    50   ~ 0
-motherboard jumper connectors\n
+motherboard jumper headers\n
+Text Notes 4000 1375 0    50   ~ 0
+jumper header\n
+Text HLabel 4050 2675 1    50   Input ~ 0
+-VINA
+Text HLabel 4450 2675 1    50   Input ~ 0
++VINB
+Text HLabel 3650 2025 1    50   Input ~ 0
+REFA
+Text HLabel 4850 2025 1    50   Input ~ 0
+REFB
+Text HLabel 5250 2675 1    50   Input ~ 0
+-VINB
+Wire Wire Line
+	5250 2725 5250 3375
+Connection ~ 5250 2725
+Wire Wire Line
+	5250 2675 5250 2725
+Text HLabel 5750 2725 2    50   Input ~ 0
+VINB_JUMPER
+Wire Wire Line
+	5250 2725 5750 2725
+Text HLabel 3250 2675 1    50   Input ~ 0
++VINA
 $EndSCHEMATC
