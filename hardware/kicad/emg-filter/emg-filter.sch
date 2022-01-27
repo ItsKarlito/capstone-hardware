@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 5
+Sheet 1 3
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -13,22 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 975  1500 1000 1000
-U 61C38667
-F0 "power" 50
-F1 "power.sch" 50
-$EndSheet
-$Sheet
-S 975  3000 1000 1000
-U 61C38939
-F0 "adc" 50
-F1 "adc.sch" 50
-$EndSheet
 Text Notes 550  850  0    197  ~ 39
 EMG Filter for Prosthetic Limb Control System
 $Sheet
-S 975  4500 1000 1000
+S 975  2975 1000 1000
 U 61C389A8
 F0 "emg-connectors" 50
 F1 "emg-connectors.sch" 50
