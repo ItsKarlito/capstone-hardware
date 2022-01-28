@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 27 43
+Sheet 55 55
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -16,54 +16,54 @@ $EndDescr
 $Comp
 L Device:C C210
 U 1 1 61C4C270
-P 6100 3400
-F 0 "C210" H 6100 3500 50  0000 L CNN
-F 1 "0.1uF" H 6100 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 3250 50  0001 C CNN
-F 3 "~" H 6100 3400 50  0001 C CNN
-	1    6100 3400
+P 6075 2775
+F 0 "C210" H 6075 2875 50  0000 L CNN
+F 1 "0.1uF" H 6075 2675 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6113 2625 50  0001 C CNN
+F 3 "~" H 6075 2775 50  0001 C CNN
+	1    6075 2775
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 3100 0    50   Input ~ 0
+Text GLabel 4375 2475 0    50   Input ~ 0
 AGND
-Text GLabel 5100 3300 2    50   Input ~ 0
+Text GLabel 5075 2675 2    50   Input ~ 0
 DGND
 $Comp
 L Device:C C212
 U 1 1 61C50D59
-P 6350 3400
-F 0 "C212" H 6465 3446 50  0000 L CNN
-F 1 "1.0uF" H 6465 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6388 3250 50  0001 C CNN
-F 3 "~" H 6350 3400 50  0001 C CNN
-	1    6350 3400
+P 6325 2775
+F 0 "C212" H 6440 2821 50  0000 L CNN
+F 1 "1.0uF" H 6440 2730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6363 2625 50  0001 C CNN
+F 3 "~" H 6325 2775 50  0001 C CNN
+	1    6325 2775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 3250 6100 3200
+	6075 2625 6075 2575
 Wire Wire Line
-	6350 3200 6350 3250
-Text GLabel 6350 3650 3    50   Input ~ 0
+	6325 2575 6325 2625
+Text GLabel 6325 3025 3    50   Input ~ 0
 DGND
 Wire Wire Line
-	6100 3550 6100 3600
-Connection ~ 6100 3200
+	6075 2925 6075 2975
+Connection ~ 6075 2575
 Wire Wire Line
-	6100 3200 6350 3200
+	6075 2575 6325 2575
 Wire Wire Line
-	5100 3200 6100 3200
+	5075 2575 6075 2575
 Wire Wire Line
-	6100 3600 6350 3600
+	6075 2975 6325 2975
 Wire Wire Line
-	6350 3600 6350 3550
+	6325 2975 6325 2925
 Wire Wire Line
-	6350 3600 6350 3650
-Connection ~ 6350 3600
-Text GLabel 5100 3100 2    50   Input ~ 0
+	6325 2975 6325 3025
+Connection ~ 6325 2975
+Text GLabel 5075 2475 2    50   Input ~ 0
 DIN_MOSI_PI
-Text GLabel 4400 2900 0    50   Input ~ 0
+Text GLabel 4375 2275 0    50   Input ~ 0
 !CS_1_PI
-Text GLabel 5100 2900 2    50   Input ~ 0
+Text GLabel 5075 2275 2    50   Input ~ 0
 SCLK_CLK_PI
 $Comp
 L Device:C C211
@@ -156,56 +156,56 @@ Wire Wire Line
 $Comp
 L Device:C C206
 U 1 1 61CDD1F6
-P 3100 3200
-F 0 "C206" H 3215 3246 50  0000 L CNN
-F 1 "0.1uF" H 3215 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3138 3050 50  0001 C CNN
-F 3 "~" H 3100 3200 50  0001 C CNN
-	1    3100 3200
+P 3075 2575
+F 0 "C206" H 3190 2621 50  0000 L CNN
+F 1 "0.1uF" H 3190 2530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3113 2425 50  0001 C CNN
+F 3 "~" H 3075 2575 50  0001 C CNN
+	1    3075 2575
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 3000 3350 3000
+	4375 2375 3325 2375
 Wire Wire Line
-	3100 3000 3100 3050
+	3075 2375 3075 2425
 $Comp
 L Device:C C208
 U 1 1 61CDD207
-P 3350 3200
-F 0 "C208" H 3400 3300 50  0000 L CNN
-F 1 "1.0uF" H 3350 3100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 3050 50  0001 C CNN
-F 3 "~" H 3350 3200 50  0001 C CNN
-	1    3350 3200
+P 3325 2575
+F 0 "C208" H 3375 2675 50  0000 L CNN
+F 1 "1.0uF" H 3325 2475 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3363 2425 50  0001 C CNN
+F 3 "~" H 3325 2575 50  0001 C CNN
+	1    3325 2575
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 3350 3100 3400
+	3075 2725 3075 2775
 Wire Wire Line
-	3100 3400 3350 3400
+	3075 2775 3325 2775
 Wire Wire Line
-	3350 3400 3350 3350
-Connection ~ 3100 3400
+	3325 2775 3325 2725
+Connection ~ 3075 2775
 Wire Wire Line
-	3100 3400 3100 3450
+	3075 2775 3075 2825
 Wire Wire Line
-	3350 3050 3350 3000
-Connection ~ 3350 3000
+	3325 2425 3325 2375
+Connection ~ 3325 2375
 Wire Wire Line
-	3350 3000 3100 3000
+	3325 2375 3075 2375
 Text GLabel 5100 4250 2    50   Input ~ 0
 DIN_MOSI_PI
 Text GLabel 5100 4050 2    50   Input ~ 0
 SCLK_CLK_PI
 Wire Wire Line
-	2900 3000 3100 3000
-Connection ~ 3100 3000
+	2875 2375 3075 2375
+Connection ~ 3075 2375
 Wire Wire Line
 	2900 4150 3100 4150
 Connection ~ 3100 4150
 Text GLabel 3100 4600 3    50   Input ~ 0
 AGND
-Text GLabel 3100 3450 3    50   Input ~ 0
+Text GLabel 3075 2825 3    50   Input ~ 0
 AGND
 $Comp
 L power:GND #PWR0145
@@ -236,12 +236,12 @@ Connection ~ 4750 5275
 $Comp
 L power:+5V #PWR0143
 U 1 1 62012A20
-P 2900 2950
-F 0 "#PWR0143" H 2900 2800 50  0001 C CNN
-F 1 "+5V" H 2915 3123 50  0000 C CNN
-F 2 "" H 2900 2950 50  0001 C CNN
-F 3 "" H 2900 2950 50  0001 C CNN
-	1    2900 2950
+P 2875 2325
+F 0 "#PWR0143" H 2875 2175 50  0001 C CNN
+F 1 "+5V" H 2890 2498 50  0000 C CNN
+F 2 "" H 2875 2325 50  0001 C CNN
+F 3 "" H 2875 2325 50  0001 C CNN
+	1    2875 2325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -256,7 +256,7 @@ F 3 "" H 2900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2950 2900 3000
+	2875 2325 2875 2375
 Wire Wire Line
 	2900 4100 2900 4150
 Text Notes 8550 3300 0    50   ~ 0
@@ -315,7 +315,7 @@ NoConn ~ 8500 4475
 NoConn ~ 8500 4575
 NoConn ~ 8500 4675
 NoConn ~ 8500 4775
-Text GLabel 5100 3000 2    50   BiDi ~ 0
+Text GLabel 5075 2375 2    50   BiDi ~ 0
 DOUT_MISO_PI
 Text GLabel 5100 4150 2    50   BiDi ~ 0
 DOUT_MISO_PI
@@ -324,12 +324,12 @@ DOUT_MISO_PI
 $Comp
 L power:+3.3V #PWR0146
 U 1 1 62C64A47
-P 6100 3200
-F 0 "#PWR0146" H 6100 3050 50  0001 C CNN
-F 1 "+3.3V" H 6115 3373 50  0000 C CNN
-F 2 "" H 6100 3200 50  0001 C CNN
-F 3 "" H 6100 3200 50  0001 C CNN
-	1    6100 3200
+P 6075 2575
+F 0 "#PWR0146" H 6075 2425 50  0001 C CNN
+F 1 "+3.3V" H 6090 2748 50  0000 C CNN
+F 2 "" H 6075 2575 50  0001 C CNN
+F 3 "" H 6075 2575 50  0001 C CNN
+	1    6075 2575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -378,21 +378,21 @@ F 3 "" H 7325 3675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 3675 7325 3675
-Text HLabel 4400 3200 0    50   Input ~ 0
+Text HLabel 4375 2575 0    50   Input ~ 0
 OUT_AMP_1
-Text HLabel 4400 3300 0    50   Input ~ 0
+Text HLabel 4375 2675 0    50   Input ~ 0
 OUT_AMP_2
-Text HLabel 4400 3400 0    50   Input ~ 0
+Text HLabel 4375 2775 0    50   Input ~ 0
 OUT_AMP_3
-Text HLabel 4400 3500 0    50   Input ~ 0
+Text HLabel 4375 2875 0    50   Input ~ 0
 OUT_AMP_4
-Text HLabel 4400 3600 0    50   Input ~ 0
+Text HLabel 4375 2975 0    50   Input ~ 0
 OUT_AMP_5
-Text HLabel 5100 3600 2    50   Input ~ 0
+Text HLabel 5075 2975 2    50   Input ~ 0
 OUT_AMP_6
-Text HLabel 5100 3500 2    50   Input ~ 0
+Text HLabel 5075 2875 2    50   Input ~ 0
 OUT_AMP_7
-Text HLabel 5100 3400 2    50   Input ~ 0
+Text HLabel 5075 2775 2    50   Input ~ 0
 OUT_AMP_8
 Text HLabel 4400 4350 0    50   Input ~ 0
 OUT_AMP_9
@@ -413,12 +413,12 @@ OUT_AMP_16
 $Comp
 L emg-filter:ADC108S102 U43
 U 1 1 61EDDCFE
-P 4750 3250
-F 0 "U43" H 4750 3825 50  0000 C CNN
-F 1 "ADC108S102" H 4750 3734 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 3775 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4750 3775 50  0001 C CNN
-	1    4750 3250
+P 4725 2625
+F 0 "U43" H 4725 3200 50  0000 C CNN
+F 1 "ADC108S102" H 4725 3109 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4725 3150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/adc108s102.pdf" H 4725 3150 50  0001 C CNN
+	1    4725 2625
 	1    0    0    -1  
 $EndComp
 $Comp
