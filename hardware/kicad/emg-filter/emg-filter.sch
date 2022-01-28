@@ -21,10 +21,6 @@ F1 "power.sch" 50
 $EndSheet
 Text Notes 500  825  0    197  ~ 39
 EMG Filter for Prosthetic Limb Control System
-Wire Wire Line
-	7150 3075 7600 3075
-Wire Wire Line
-	7525 3150 7150 3150
 $Sheet
 S 4900 3250 975  175 
 U 6223BF6B
@@ -64,11 +60,11 @@ F4 "OUT_AMP_1" I R 7150 3075 50
 F5 "OUT_AMP_2" I R 7150 3150 50 
 $EndSheet
 Wire Wire Line
-	2800 2400 3350 2400
+	4650 1375 5200 1375
 Wire Wire Line
-	2800 2325 3600 2325
+	4650 1300 5450 1300
 $Sheet
-S 2100 2850 700  525 
+S 1950 2850 850  525 
 U 624814DA
 F0 "sheet624814D1" 50
 F1 "input_ina.sch" 50
@@ -106,27 +102,15 @@ Wire Wire Line
 Wire Wire Line
 	4825 3325 4900 3325
 Wire Wire Line
-	2800 3325 3025 3325
-Wire Wire Line
-	2800 3250 3350 3250
-Wire Wire Line
 	2800 3175 3600 3175
 Wire Wire Line
 	2800 3050 3600 3050
 Wire Wire Line
-	2800 2975 3350 2975
-Wire Wire Line
-	2800 2900 3025 2900
-Wire Wire Line
-	2800 3900 3600 3900
-Wire Wire Line
-	2800 3825 3350 3825
-Wire Wire Line
-	2800 3750 3025 3750
+	2800 2975 3250 2975
 $Comp
 L Device:R R?
 U 1 1 624AA066
-P 3025 2700
+P 4875 1675
 AR Path="/61C386B1/624AA066" Ref="R?"  Part="1" 
 AR Path="/61C389A8/624AA066" Ref="R?"  Part="1" 
 AR Path="/622FC90E/624AA066" Ref="R?"  Part="1" 
@@ -139,17 +123,17 @@ AR Path="/624986DA/624AA066" Ref="R?"  Part="1"
 AR Path="/624986F8/624AA066" Ref="R?"  Part="1" 
 AR Path="/62498716/624AA066" Ref="R?"  Part="1" 
 AR Path="/624AA066" Ref="R1"  Part="1" 
-F 0 "R1" H 3095 2746 50  0000 L CNN
-F 1 "0" H 3095 2655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2955 2700 50  0001 C CNN
-F 3 "~" H 3025 2700 50  0001 C CNN
-	1    3025 2700
+F 0 "R1" H 4945 1721 50  0000 L CNN
+F 1 "0" H 4945 1630 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4805 1675 50  0001 C CNN
+F 3 "~" H 4875 1675 50  0001 C CNN
+	1    4875 1675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 624BBA9E
-P 3350 2700
+P 5200 1675
 AR Path="/61C386B1/624BBA9E" Ref="R?"  Part="1" 
 AR Path="/61C389A8/624BBA9E" Ref="R?"  Part="1" 
 AR Path="/622FC90E/624BBA9E" Ref="R?"  Part="1" 
@@ -162,62 +146,151 @@ AR Path="/624986DA/624BBA9E" Ref="R?"  Part="1"
 AR Path="/624986F8/624BBA9E" Ref="R?"  Part="1" 
 AR Path="/62498716/624BBA9E" Ref="R?"  Part="1" 
 AR Path="/624BBA9E" Ref="R8"  Part="1" 
-F 0 "R8" H 3420 2746 50  0000 L CNN
-F 1 "0" H 3420 2655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 2700 50  0001 C CNN
-F 3 "~" H 3350 2700 50  0001 C CNN
-	1    3350 2700
+F 0 "R8" H 5270 1721 50  0000 L CNN
+F 1 "0" H 5270 1630 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 1675 50  0001 C CNN
+F 3 "~" H 5200 1675 50  0001 C CNN
+	1    5200 1675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 2475 3025 2475
+	4650 1450 4875 1450
 Wire Wire Line
-	3025 2475 3025 2550
-Connection ~ 3025 2475
+	4875 1450 4875 1525
+Connection ~ 4875 1450
 Wire Wire Line
-	3025 2475 3600 2475
+	4875 1450 5450 1450
 Wire Wire Line
-	3350 2400 3350 2550
-Connection ~ 3350 2400
+	5200 1375 5200 1525
+Connection ~ 5200 1375
 Wire Wire Line
-	3350 2400 3600 2400
-Wire Wire Line
-	3025 2850 3025 2900
-Connection ~ 3025 2900
-Wire Wire Line
-	3025 2900 3600 2900
-Wire Wire Line
-	3350 2850 3350 2975
-Connection ~ 3350 2975
-Wire Wire Line
-	3350 2975 3600 2975
+	5200 1375 5450 1375
 $Comp
-L Device:R R?
-U 1 1 62747236
-P 3025 3550
-AR Path="/61C386B1/62747236" Ref="R?"  Part="1" 
-AR Path="/61C389A8/62747236" Ref="R?"  Part="1" 
-AR Path="/622FC90E/62747236" Ref="R?"  Part="1" 
-AR Path="/623EBE47/62747236" Ref="R?"  Part="1" 
-AR Path="/624814DA/62747236" Ref="R?"  Part="1" 
-AR Path="/6248A382/62747236" Ref="R?"  Part="1" 
-AR Path="/6248A3A0/62747236" Ref="R?"  Part="1" 
-AR Path="/624986BC/62747236" Ref="R?"  Part="1" 
-AR Path="/624986DA/62747236" Ref="R?"  Part="1" 
-AR Path="/624986F8/62747236" Ref="R?"  Part="1" 
-AR Path="/62498716/62747236" Ref="R?"  Part="1" 
-AR Path="/62747236" Ref="R2"  Part="1" 
-F 0 "R2" H 3095 3596 50  0000 L CNN
-F 1 "0" H 3095 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2955 3550 50  0001 C CNN
-F 3 "~" H 3025 3550 50  0001 C CNN
-	1    3025 3550
-	1    0    0    -1  
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61F541EB
+P 3250 2550
+AR Path="/61C386B1/61F541EB" Ref="J?"  Part="1" 
+AR Path="/61C389A8/61F541EB" Ref="J?"  Part="1" 
+AR Path="/622FC90E/61F541EB" Ref="J?"  Part="1" 
+AR Path="/623EBE47/61F541EB" Ref="J?"  Part="1" 
+AR Path="/624814DA/61F541EB" Ref="J?"  Part="1" 
+AR Path="/6248A382/61F541EB" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/61F541EB" Ref="J?"  Part="1" 
+AR Path="/624986BC/61F541EB" Ref="J?"  Part="1" 
+AR Path="/624986DA/61F541EB" Ref="J?"  Part="1" 
+AR Path="/624986F8/61F541EB" Ref="J?"  Part="1" 
+AR Path="/62498716/61F541EB" Ref="J?"  Part="1" 
+AR Path="/61F541EB" Ref="J?"  Part="1" 
+F 0 "J?" H 3775 2550 50  0000 R CNN
+F 1 "Conn_01x02" H 3775 2450 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3250 2550 50  0001 C CNN
+F 3 "~" H 3250 2550 50  0001 C CNN
+	1    3250 2550
+	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	3250 2750 3250 2975
+Connection ~ 3250 2975
+Wire Wire Line
+	3150 2750 3150 2900
+Connection ~ 3150 2900
+Wire Wire Line
+	3150 2900 3600 2900
+Wire Wire Line
+	2800 2900 3150 2900
+Wire Wire Line
+	3250 2975 3600 2975
+Wire Wire Line
+	2800 3250 3250 3250
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61F5D7D3
+P 3250 3675
+AR Path="/61C386B1/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/61C389A8/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/622FC90E/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/623EBE47/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/624814DA/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/6248A382/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/624986BC/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/624986DA/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/624986F8/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/62498716/61F5D7D3" Ref="J?"  Part="1" 
+AR Path="/61F5D7D3" Ref="J?"  Part="1" 
+F 0 "J?" H 3775 3675 50  0000 R CNN
+F 1 "Conn_01x02" H 3775 3575 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3250 3675 50  0001 C CNN
+F 3 "~" H 3250 3675 50  0001 C CNN
+	1    3250 3675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3475 3250 3250
+Connection ~ 3250 3250
+Wire Wire Line
+	3150 3325 3150 3475
+Connection ~ 3150 3325
+Wire Wire Line
+	3150 3325 3600 3325
+Wire Wire Line
+	2800 3325 3150 3325
+Wire Wire Line
+	3250 3250 3600 3250
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 61F69EB5
+P 7725 3675
+F 0 "J?" V 7597 3955 50  0000 L CNN
+F 1 "Conn_01x05" V 7688 3955 50  0000 L CNN
+F 2 "" H 7725 3675 50  0001 C CNN
+F 3 "~" H 7725 3675 50  0001 C CNN
+	1    7725 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 61F6D9FD
+P 7725 2550
+F 0 "J?" V 7689 2830 50  0000 L CNN
+F 1 "Conn_01x05" V 7598 2830 50  0000 L CNN
+F 2 "" H 7725 2550 50  0001 C CNN
+F 3 "~" H 7725 2550 50  0001 C CNN
+	1    7725 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7725 2750 7725 3475
+Wire Wire Line
+	7525 2750 7525 3075
+Wire Wire Line
+	7625 3150 7150 3150
+Connection ~ 7625 3150
+Wire Wire Line
+	7625 3150 7625 3475
+Wire Wire Line
+	7625 2750 7625 3150
+Wire Wire Line
+	7525 3075 7150 3075
+Connection ~ 7525 3075
+Wire Wire Line
+	7525 3075 7525 3475
+Wire Wire Line
+	7825 2750 7825 3475
+Wire Wire Line
+	7925 3475 7925 2750
+Wire Wire Line
+	3000 4750 3575 4750
+Wire Wire Line
+	3000 4700 3000 4750
+Wire Wire Line
+	3325 4825 3575 4825
+Wire Wire Line
+	3325 4700 3325 4825
 $Comp
 L Device:R R?
 U 1 1 6274723C
-P 3350 3550
+P 3325 4550
 AR Path="/61C386B1/6274723C" Ref="R?"  Part="1" 
 AR Path="/61C389A8/6274723C" Ref="R?"  Part="1" 
 AR Path="/622FC90E/6274723C" Ref="R?"  Part="1" 
@@ -230,31 +303,65 @@ AR Path="/624986DA/6274723C" Ref="R?"  Part="1"
 AR Path="/624986F8/6274723C" Ref="R?"  Part="1" 
 AR Path="/62498716/6274723C" Ref="R?"  Part="1" 
 AR Path="/6274723C" Ref="R9"  Part="1" 
-F 0 "R9" H 3420 3596 50  0000 L CNN
-F 1 "0" H 3420 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 3550 50  0001 C CNN
-F 3 "~" H 3350 3550 50  0001 C CNN
-	1    3350 3550
+F 0 "R9" H 3395 4596 50  0000 L CNN
+F 1 "0" H 3395 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3255 4550 50  0001 C CNN
+F 3 "~" H 3325 4550 50  0001 C CNN
+	1    3325 4550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 62747236
+P 3000 4550
+AR Path="/61C386B1/62747236" Ref="R?"  Part="1" 
+AR Path="/61C389A8/62747236" Ref="R?"  Part="1" 
+AR Path="/622FC90E/62747236" Ref="R?"  Part="1" 
+AR Path="/623EBE47/62747236" Ref="R?"  Part="1" 
+AR Path="/624814DA/62747236" Ref="R?"  Part="1" 
+AR Path="/6248A382/62747236" Ref="R?"  Part="1" 
+AR Path="/6248A3A0/62747236" Ref="R?"  Part="1" 
+AR Path="/624986BC/62747236" Ref="R?"  Part="1" 
+AR Path="/624986DA/62747236" Ref="R?"  Part="1" 
+AR Path="/624986F8/62747236" Ref="R?"  Part="1" 
+AR Path="/62498716/62747236" Ref="R?"  Part="1" 
+AR Path="/62747236" Ref="R2"  Part="1" 
+F 0 "R2" H 3070 4596 50  0000 L CNN
+F 1 "0" H 3070 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 4550 50  0001 C CNN
+F 3 "~" H 3000 4550 50  0001 C CNN
+	1    3000 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 4750
 Wire Wire Line
-	3025 3400 3025 3325
-Connection ~ 3025 3325
+	2775 4750 3000 4750
+Connection ~ 3325 4825
 Wire Wire Line
-	3025 3325 3600 3325
+	2775 4825 3325 4825
 Wire Wire Line
-	3350 3400 3350 3250
-Connection ~ 3350 3250
-Wire Wire Line
-	3350 3250 3600 3250
-Wire Wire Line
-	3350 3700 3350 3825
-Connection ~ 3350 3825
-Wire Wire Line
-	3350 3825 3600 3825
-Wire Wire Line
-	3025 3700 3025 3750
-Connection ~ 3025 3750
-Wire Wire Line
-	3025 3750 3600 3750
+	2775 4900 3575 4900
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61F7C54C
+P 3150 1600
+AR Path="/61C386B1/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/61C389A8/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/622FC90E/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/623EBE47/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/624814DA/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/6248A382/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/624986BC/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/624986DA/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/624986F8/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/62498716/61F7C54C" Ref="J?"  Part="1" 
+AR Path="/61F7C54C" Ref="J?"  Part="1" 
+F 0 "J?" H 3675 1600 50  0000 R CNN
+F 1 "Conn_01x02" H 3675 1500 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3150 1600 50  0001 C CNN
+F 3 "~" H 3150 1600 50  0001 C CNN
+	1    3150 1600
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

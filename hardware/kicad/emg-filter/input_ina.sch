@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 28 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -16,7 +16,7 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6230239E
-P 4325 3875
+P 5275 4625
 AR Path="/61C386B1/6230239E" Ref="J?"  Part="1" 
 AR Path="/61C389A8/6230239E" Ref="J?"  Part="1" 
 AR Path="/622FC90E/6230239E" Ref="J8"  Part="1" 
@@ -28,17 +28,17 @@ AR Path="/624986BC/6230239E" Ref="J32"  Part="1"
 AR Path="/624986DA/6230239E" Ref="J38"  Part="1" 
 AR Path="/624986F8/6230239E" Ref="J44"  Part="1" 
 AR Path="/62498716/6230239E" Ref="J50"  Part="1" 
-F 0 "J8" V 4289 3687 50  0000 R CNN
-F 1 "Conn_01x02" V 4198 3687 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 4325 3875 50  0001 C CNN
-F 3 "~" H 4325 3875 50  0001 C CNN
-	1    4325 3875
-	0    -1   -1   0   
+F 0 "J14" V 5239 4437 50  0000 R CNN
+F 1 "Conn_01x02" V 5148 4437 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 5275 4625 50  0001 C CNN
+F 3 "~" H 5275 4625 50  0001 C CNN
+	1    5275 4625
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 623023A4
-P 4325 3075
+P 4475 4625
 AR Path="/61C386B1/623023A4" Ref="J?"  Part="1" 
 AR Path="/61C389A8/623023A4" Ref="J?"  Part="1" 
 AR Path="/622FC90E/623023A4" Ref="J6"  Part="1" 
@@ -50,17 +50,17 @@ AR Path="/624986BC/623023A4" Ref="J30"  Part="1"
 AR Path="/624986DA/623023A4" Ref="J36"  Part="1" 
 AR Path="/624986F8/623023A4" Ref="J42"  Part="1" 
 AR Path="/62498716/623023A4" Ref="J48"  Part="1" 
-F 0 "J6" V 4289 2887 50  0000 R CNN
-F 1 "Conn_01x02" V 4198 2887 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 4325 3075 50  0001 C CNN
-F 3 "~" H 4325 3075 50  0001 C CNN
-	1    4325 3075
-	0    -1   -1   0   
+F 0 "J12" V 4439 4437 50  0000 R CNN
+F 1 "Conn_01x02" V 4348 4437 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 4475 4625 50  0001 C CNN
+F 3 "~" H 4475 4625 50  0001 C CNN
+	1    4475 4625
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 623023AA
-P 4325 2275
+P 3675 4625
 AR Path="/61C386B1/623023AA" Ref="J?"  Part="1" 
 AR Path="/61C389A8/623023AA" Ref="J?"  Part="1" 
 AR Path="/622FC90E/623023AA" Ref="J4"  Part="1" 
@@ -72,17 +72,17 @@ AR Path="/624986BC/623023AA" Ref="J28"  Part="1"
 AR Path="/624986DA/623023AA" Ref="J34"  Part="1" 
 AR Path="/624986F8/623023AA" Ref="J40"  Part="1" 
 AR Path="/62498716/623023AA" Ref="J46"  Part="1" 
-F 0 "J4" V 4289 2087 50  0000 R CNN
-F 1 "Conn_01x02" V 4198 2087 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 4325 2275 50  0001 C CNN
-F 3 "~" H 4325 2275 50  0001 C CNN
-	1    4325 2275
-	0    -1   -1   0   
+F 0 "J10" V 3639 4437 50  0000 R CNN
+F 1 "Conn_01x02" V 3548 4437 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3675 4625 50  0001 C CNN
+F 3 "~" H 3675 4625 50  0001 C CNN
+	1    3675 4625
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 623023B0
-P 4325 2675
+P 4075 4625
 AR Path="/61C386B1/623023B0" Ref="J?"  Part="1" 
 AR Path="/61C389A8/623023B0" Ref="J?"  Part="1" 
 AR Path="/622FC90E/623023B0" Ref="J5"  Part="1" 
@@ -94,67 +94,23 @@ AR Path="/624986BC/623023B0" Ref="J29"  Part="1"
 AR Path="/624986DA/623023B0" Ref="J35"  Part="1" 
 AR Path="/624986F8/623023B0" Ref="J41"  Part="1" 
 AR Path="/62498716/623023B0" Ref="J47"  Part="1" 
-F 0 "J5" V 4289 2487 50  0000 R CNN
-F 1 "Conn_01x02" V 4198 2487 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 4325 2675 50  0001 C CNN
-F 3 "~" H 4325 2675 50  0001 C CNN
-	1    4325 2675
-	0    -1   -1   0   
+F 0 "J11" V 4039 4437 50  0000 R CNN
+F 1 "Conn_01x02" V 3948 4437 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 4075 4625 50  0001 C CNN
+F 3 "~" H 4075 4625 50  0001 C CNN
+	1    4075 4625
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4325 2475 4175 2475
+	3875 4625 3875 4775
 Wire Wire Line
-	4175 4475 4325 4475
+	5875 4775 5875 4625
 Wire Wire Line
-	4325 4075 4175 4075
-$Comp
-L Device:R R?
-U 1 1 623023B9
-P 5350 3475
-AR Path="/61C386B1/623023B9" Ref="R?"  Part="1" 
-AR Path="/61C389A8/623023B9" Ref="R?"  Part="1" 
-AR Path="/622FC90E/623023B9" Ref="R327"  Part="1" 
-AR Path="/623EBE47/623023B9" Ref="R?"  Part="1" 
-AR Path="/624814DA/623023B9" Ref="R337"  Part="1" 
-AR Path="/6248A382/623023B9" Ref="R347"  Part="1" 
-AR Path="/6248A3A0/623023B9" Ref="R357"  Part="1" 
-AR Path="/624986BC/623023B9" Ref="R367"  Part="1" 
-AR Path="/624986DA/623023B9" Ref="R377"  Part="1" 
-AR Path="/624986F8/623023B9" Ref="R387"  Part="1" 
-AR Path="/62498716/623023B9" Ref="R397"  Part="1" 
-F 0 "R327" H 5420 3521 50  0000 L CNN
-F 1 "0" H 5420 3430 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5280 3475 50  0001 C CNN
-F 3 "~" H 5350 3475 50  0001 C CNN
-	1    5350 3475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 623023BF
-P 5075 3475
-AR Path="/61C386B1/623023BF" Ref="R?"  Part="1" 
-AR Path="/61C389A8/623023BF" Ref="R?"  Part="1" 
-AR Path="/622FC90E/623023BF" Ref="R326"  Part="1" 
-AR Path="/623EBE47/623023BF" Ref="R?"  Part="1" 
-AR Path="/624814DA/623023BF" Ref="R336"  Part="1" 
-AR Path="/6248A382/623023BF" Ref="R346"  Part="1" 
-AR Path="/6248A3A0/623023BF" Ref="R356"  Part="1" 
-AR Path="/624986BC/623023BF" Ref="R366"  Part="1" 
-AR Path="/624986DA/623023BF" Ref="R376"  Part="1" 
-AR Path="/624986F8/623023BF" Ref="R386"  Part="1" 
-AR Path="/62498716/623023BF" Ref="R396"  Part="1" 
-F 0 "R326" H 5145 3521 50  0000 L CNN
-F 1 "0" H 5145 3430 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5005 3475 50  0001 C CNN
-F 3 "~" H 5075 3475 50  0001 C CNN
-	1    5075 3475
-	1    0    0    -1  
-$EndComp
+	5475 4625 5475 4775
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 623023C9
-P 4325 4275
+P 5675 4625
 AR Path="/61C386B1/623023C9" Ref="J?"  Part="1" 
 AR Path="/61C389A8/623023C9" Ref="J?"  Part="1" 
 AR Path="/622FC90E/623023C9" Ref="J9"  Part="1" 
@@ -166,21 +122,19 @@ AR Path="/624986BC/623023C9" Ref="J33"  Part="1"
 AR Path="/624986DA/623023C9" Ref="J39"  Part="1" 
 AR Path="/624986F8/623023C9" Ref="J45"  Part="1" 
 AR Path="/62498716/623023C9" Ref="J51"  Part="1" 
-F 0 "J9" V 4289 4087 50  0000 R CNN
-F 1 "Conn_01x02" V 4198 4087 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 4325 4275 50  0001 C CNN
-F 3 "~" H 4325 4275 50  0001 C CNN
-	1    4325 4275
-	0    -1   -1   0   
+F 0 "J15" V 5639 4437 50  0000 R CNN
+F 1 "Conn_01x02" V 5548 4437 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 5675 4625 50  0001 C CNN
+F 3 "~" H 5675 4625 50  0001 C CNN
+	1    5675 4625
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5075 3325 5075 3275
-Wire Wire Line
-	4325 3675 4175 3675
+	5075 4625 5075 4775
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 623023D3
-P 4325 3475
+P 4875 4625
 AR Path="/61C386B1/623023D3" Ref="J?"  Part="1" 
 AR Path="/61C389A8/623023D3" Ref="J?"  Part="1" 
 AR Path="/622FC90E/623023D3" Ref="J7"  Part="1" 
@@ -192,47 +146,43 @@ AR Path="/624986BC/623023D3" Ref="J31"  Part="1"
 AR Path="/624986DA/623023D3" Ref="J37"  Part="1" 
 AR Path="/624986F8/623023D3" Ref="J43"  Part="1" 
 AR Path="/62498716/623023D3" Ref="J49"  Part="1" 
-F 0 "J7" V 4289 3287 50  0000 R CNN
-F 1 "Conn_01x02" V 4198 3287 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 4325 3475 50  0001 C CNN
-F 3 "~" H 4325 3475 50  0001 C CNN
-	1    4325 3475
-	0    -1   -1   0   
+F 0 "J13" V 4839 4437 50  0000 R CNN
+F 1 "Conn_01x02" V 4748 4437 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 4875 4625 50  0001 C CNN
+F 3 "~" H 4875 4625 50  0001 C CNN
+	1    4875 4625
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5075 3625 5075 3675
+	4675 4625 4675 4775
+Connection ~ 4675 4775
 Wire Wire Line
-	4325 3275 4175 3275
-Connection ~ 4175 3275
+	5075 3875 5075 3950
 Wire Wire Line
-	5075 3675 4425 3675
-Connection ~ 5075 3675
+	4675 4525 4675 3950
 Wire Wire Line
-	4425 3275 5075 3275
-Connection ~ 5075 3275
+	4275 4625 4275 4775
+Connection ~ 4275 4775
 Wire Wire Line
-	4325 2875 4175 2875
-Connection ~ 4175 2875
+	4275 4775 4675 4775
 Wire Wire Line
-	4175 2875 4175 3275
+	4275 4525 4275 3125
 Wire Wire Line
-	4425 2875 5350 2875
+	3875 4775 4275 4775
 Wire Wire Line
-	4175 2475 4175 2875
+	5475 4525 5475 3125
 Wire Wire Line
-	4425 4075 5350 4075
+	5075 4775 5475 4775
+Connection ~ 5075 4775
 Wire Wire Line
-	4175 3675 4175 4075
-Connection ~ 4175 3675
+	5475 4775 5875 4775
+Connection ~ 5475 4775
 Wire Wire Line
-	4175 4075 4175 4475
-Connection ~ 4175 4075
-Wire Wire Line
-	4175 3275 4175 3675
+	4675 4775 4875 4775
 $Comp
 L power:GND #PWR?
 U 1 1 623023FB
-P 4175 4525
+P 4875 4775
 AR Path="/61C386B1/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/61C389A8/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/622FC90E/623023FB" Ref="#PWR0149"  Part="1" 
@@ -244,44 +194,94 @@ AR Path="/624986BC/623023FB" Ref="#PWR0181"  Part="1"
 AR Path="/624986DA/623023FB" Ref="#PWR0189"  Part="1" 
 AR Path="/624986F8/623023FB" Ref="#PWR0197"  Part="1" 
 AR Path="/62498716/623023FB" Ref="#PWR0205"  Part="1" 
-F 0 "#PWR0149" H 4175 4275 50  0001 C CNN
-F 1 "GND" H 4180 4352 50  0000 C CNN
-F 2 "" H 4175 4525 50  0001 C CNN
-F 3 "" H 4175 4525 50  0001 C CNN
-	1    4175 4525
+F 0 "#PWR0157" H 4875 4525 50  0001 C CNN
+F 1 "GND" H 4880 4602 50  0000 C CNN
+F 2 "" H 4875 4775 50  0001 C CNN
+F 3 "" H 4875 4775 50  0001 C CNN
+	1    4875 4775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4175 4525 4175 4475
-Connection ~ 4175 4475
-Wire Wire Line
-	5350 3325 5350 2875
-Connection ~ 5350 2875
-Wire Wire Line
-	5350 3625 5350 4075
-Wire Wire Line
-	5350 2875 5575 2875
-Wire Wire Line
-	5075 3275 5575 3275
-Wire Wire Line
-	5075 3675 5575 3675
-Text HLabel 5575 2875 2    50   Input ~ 0
-REF_A_INA
-Text HLabel 5575 4075 2    50   Input ~ 0
-REF_B_INA
-Text HLabel 5575 4475 2    50   Input ~ 0
--VIN_B_INA
-Text HLabel 5575 3675 2    50   Input ~ 0
+Connection ~ 4275 3125
+Text HLabel 5075 3875 1    50   Input ~ 0
 +VIN_B_INA
-Text HLabel 5575 3275 2    50   Input ~ 0
+Text HLabel 4675 3875 1    50   Input ~ 0
 -VIN_A_INA
-Text HLabel 5575 2475 2    50   Input ~ 0
+Connection ~ 5475 3125
+Connection ~ 4875 4775
+Wire Wire Line
+	4875 4775 5075 4775
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61F3F202
+P 4825 3750
+AR Path="/61C386B1/61F3F202" Ref="J?"  Part="1" 
+AR Path="/61C389A8/61F3F202" Ref="J?"  Part="1" 
+AR Path="/622FC90E/61F3F202" Ref="J?"  Part="1" 
+AR Path="/623EBE47/61F3F202" Ref="J?"  Part="1" 
+AR Path="/624814DA/61F3F202" Ref="J?"  Part="1" 
+AR Path="/6248A382/61F3F202" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/61F3F202" Ref="J?"  Part="1" 
+AR Path="/624986BC/61F3F202" Ref="J?"  Part="1" 
+AR Path="/624986DA/61F3F202" Ref="J?"  Part="1" 
+AR Path="/624986F8/61F3F202" Ref="J?"  Part="1" 
+AR Path="/62498716/61F3F202" Ref="J?"  Part="1" 
+F 0 "J?" H 5000 3650 50  0000 R CNN
+F 1 "Conn_01x02" H 5350 3750 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 4825 3750 50  0001 C CNN
+F 3 "~" H 4825 3750 50  0001 C CNN
+	1    4825 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61F408E0
+P 4825 2925
+AR Path="/61C386B1/61F408E0" Ref="J?"  Part="1" 
+AR Path="/61C389A8/61F408E0" Ref="J?"  Part="1" 
+AR Path="/622FC90E/61F408E0" Ref="J?"  Part="1" 
+AR Path="/623EBE47/61F408E0" Ref="J?"  Part="1" 
+AR Path="/624814DA/61F408E0" Ref="J?"  Part="1" 
+AR Path="/6248A382/61F408E0" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/61F408E0" Ref="J?"  Part="1" 
+AR Path="/624986BC/61F408E0" Ref="J?"  Part="1" 
+AR Path="/624986DA/61F408E0" Ref="J?"  Part="1" 
+AR Path="/624986F8/61F408E0" Ref="J?"  Part="1" 
+AR Path="/62498716/61F408E0" Ref="J?"  Part="1" 
+F 0 "J?" V 4950 2925 50  0000 R CNN
+F 1 "Conn_01x02" V 5025 3100 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 4825 2925 50  0001 C CNN
+F 3 "~" H 4825 2925 50  0001 C CNN
+	1    4825 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5475 3050 5475 3125
+Wire Wire Line
+	4925 3950 5075 3950
+Wire Wire Line
+	4675 3950 4825 3950
+Wire Wire Line
+	4275 3125 4825 3125
+Wire Wire Line
+	4925 3125 5475 3125
+Connection ~ 4675 3950
+Wire Wire Line
+	4675 3950 4675 3875
+Connection ~ 5075 3950
+Wire Wire Line
+	5075 3950 5075 4525
+Wire Wire Line
+	4275 3050 4275 3125
+Text HLabel 5475 3050 1    50   Input ~ 0
+REF_B_INA
+Text HLabel 4275 3050 1    50   Input ~ 0
+REF_A_INA
+Text HLabel 3875 3875 1    50   Input ~ 0
 +VIN_A_INA
-Connection ~ 5350 4075
+Text HLabel 5875 3875 1    50   Input ~ 0
+-VIN_B_INA
 Wire Wire Line
-	5350 4075 5575 4075
+	3875 3875 3875 4525
 Wire Wire Line
-	4425 4475 5575 4475
-Wire Wire Line
-	4425 2475 5575 2475
+	5875 3875 5875 4525
 $EndSCHEMATC
