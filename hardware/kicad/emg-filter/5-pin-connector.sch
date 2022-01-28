@@ -64,6 +64,13 @@ AR Path="/624EF142/62393857" Ref="J?"  Part="1"
 AR Path="/624EFFCF/62393857" Ref="J?"  Part="1" 
 AR Path="/624EFFD3/62393857" Ref="J?"  Part="1" 
 AR Path="/624F0C79/62393857" Ref="J?"  Part="1" 
+AR Path="/61FD9111/62393857" Ref="J?"  Part="1" 
+AR Path="/61FDE91E/62393857" Ref="J?"  Part="1" 
+AR Path="/61FE4740/62393857" Ref="J?"  Part="1" 
+AR Path="/61FF611B/62393857" Ref="J?"  Part="1" 
+AR Path="/61FF6123/62393857" Ref="J?"  Part="1" 
+AR Path="/61FFCD4F/62393857" Ref="J?"  Part="1" 
+AR Path="/61FFF952/62393857" Ref="J?"  Part="1" 
 F 0 "J?" H 6275 4050 50  0000 L CNN
 F 1 "Conn_01x05" H 6275 3400 50  0000 L CNN
 F 2 "" H 6350 3725 50  0001 C CNN
@@ -126,6 +133,13 @@ AR Path="/624EF142/624BDBF0" Ref="J?"  Part="1"
 AR Path="/624EFFCF/624BDBF0" Ref="J?"  Part="1" 
 AR Path="/624EFFD3/624BDBF0" Ref="J?"  Part="1" 
 AR Path="/624F0C79/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FD9111/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FDE91E/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FE4740/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FF611B/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FF6123/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FFCD4F/624BDBF0" Ref="J?"  Part="1" 
+AR Path="/61FFF952/624BDBF0" Ref="J?"  Part="1" 
 F 0 "J?" H 5325 4050 50  0000 L CNN
 F 1 "Conn_01x05" H 5325 3400 50  0000 L CNN
 F 2 "" H 5400 3725 50  0001 C CNN
@@ -177,7 +191,14 @@ AR Path="/624EF142/624C427B" Ref="#PWR?"  Part="1"
 AR Path="/624EFFCF/624C427B" Ref="#PWR?"  Part="1" 
 AR Path="/624EFFD3/624C427B" Ref="#PWR?"  Part="1" 
 AR Path="/624F0C79/624C427B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 5875 3200 50  0001 C CNN
+AR Path="/61FD9111/624C427B" Ref="#PWR?"  Part="1" 
+AR Path="/61FDE91E/624C427B" Ref="#PWR?"  Part="1" 
+AR Path="/61FE4740/624C427B" Ref="#PWR?"  Part="1" 
+AR Path="/61FF611B/624C427B" Ref="#PWR?"  Part="1" 
+AR Path="/61FF6123/624C427B" Ref="#PWR?"  Part="1" 
+AR Path="/61FFCD4F/624C427B" Ref="#PWR?"  Part="1" 
+AR Path="/61FFF952/624C427B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5875 3200 50  0001 C CNN
 F 1 "+5V" H 5890 3523 50  0000 C CNN
 F 2 "" H 5875 3350 50  0001 C CNN
 F 3 "" H 5875 3350 50  0001 C CNN
@@ -208,7 +229,14 @@ AR Path="/624EF142/624C4BAC" Ref="#PWR?"  Part="1"
 AR Path="/624EFFCF/624C4BAC" Ref="#PWR?"  Part="1" 
 AR Path="/624EFFD3/624C4BAC" Ref="#PWR?"  Part="1" 
 AR Path="/624F0C79/624C4BAC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 5975 3850 50  0001 C CNN
+AR Path="/61FD9111/624C4BAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FDE91E/624C4BAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FE4740/624C4BAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FF611B/624C4BAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FF6123/624C4BAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FFCD4F/624C4BAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FFF952/624C4BAC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5975 3850 50  0001 C CNN
 F 1 "GND" H 5980 3927 50  0000 C CNN
 F 2 "" H 5975 4100 50  0001 C CNN
 F 3 "" H 5975 4100 50  0001 C CNN
@@ -239,7 +267,14 @@ AR Path="/624EF142/624C7B6E" Ref="#PWR?"  Part="1"
 AR Path="/624EFFCF/624C7B6E" Ref="#PWR?"  Part="1" 
 AR Path="/624EFFD3/624C7B6E" Ref="#PWR?"  Part="1" 
 AR Path="/624F0C79/624C7B6E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0103" H 6075 4475 50  0001 C CNN
+AR Path="/61FD9111/624C7B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61FDE91E/624C7B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61FE4740/624C7B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61FF611B/624C7B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61FF6123/624C7B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61FFCD4F/624C7B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61FFF952/624C7B6E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6075 4475 50  0001 C CNN
 F 1 "-5V" H 6090 4548 50  0000 C CNN
 F 2 "" H 6075 4375 50  0001 C CNN
 F 3 "" H 6075 4375 50  0001 C CNN
@@ -267,6 +302,13 @@ AR Path="/624D9E4F/62450948" Ref="J?"  Part="1"
 AR Path="/624D9E57/62450948" Ref="J?"  Part="1" 
 AR Path="/624D9E5F/62450948" Ref="J?"  Part="1" 
 AR Path="/624D9E67/62450948" Ref="J?"  Part="1" 
+AR Path="/61FD9111/62450948" Ref="J?"  Part="1" 
+AR Path="/61FDE91E/62450948" Ref="J?"  Part="1" 
+AR Path="/61FE4740/62450948" Ref="J?"  Part="1" 
+AR Path="/61FF611B/62450948" Ref="J?"  Part="1" 
+AR Path="/61FF6123/62450948" Ref="J?"  Part="1" 
+AR Path="/61FFCD4F/62450948" Ref="J?"  Part="1" 
+AR Path="/61FFF952/62450948" Ref="J?"  Part="1" 
 F 0 "J?" H 6300 4850 50  0000 L CNN
 F 1 "Conn_01x02" H 5925 4500 50  0000 L CNN
 F 2 "" H 6350 4725 50  0001 C CNN
@@ -295,6 +337,13 @@ AR Path="/624D9E4F/6245EEE0" Ref="J?"  Part="1"
 AR Path="/624D9E57/6245EEE0" Ref="J?"  Part="1" 
 AR Path="/624D9E5F/6245EEE0" Ref="J?"  Part="1" 
 AR Path="/624D9E67/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FD9111/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FDE91E/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FE4740/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FF611B/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FF6123/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FFCD4F/6245EEE0" Ref="J?"  Part="1" 
+AR Path="/61FFF952/6245EEE0" Ref="J?"  Part="1" 
 F 0 "J?" H 5350 4850 50  0000 L CNN
 F 1 "Conn_01x02" H 4975 4500 50  0000 L CNN
 F 2 "" H 5400 4725 50  0001 C CNN
