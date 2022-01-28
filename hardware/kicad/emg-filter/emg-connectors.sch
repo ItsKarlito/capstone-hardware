@@ -1733,4 +1733,180 @@ Text GLabel 2850 4975 3    50   Input ~ 0
 -VINA_15
 Text GLabel 8050 4975 3    50   Input ~ 0
 +VINB_10
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62075168
+P -4850 1200
+F 0 "J?" H -4770 1192 50  0000 L CNN
+F 1 "Conn_01x02" H -4770 1101 50  0000 L CNN
+F 2 "" H -4850 1200 50  0001 C CNN
+F 3 "~" H -4850 1200 50  0001 C CNN
+	1    -4850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6207750E
+P -4850 1675
+F 0 "J?" H -4770 1667 50  0000 L CNN
+F 1 "Conn_01x02" H -4770 1576 50  0000 L CNN
+F 2 "" H -4850 1675 50  0001 C CNN
+F 3 "~" H -4850 1675 50  0001 C CNN
+	1    -4850 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6210D646
+P -3850 1250
+F 0 "J?" H -3770 1242 50  0000 L CNN
+F 1 "Conn_01x02" H -3770 1151 50  0000 L CNN
+F 2 "" H -3850 1250 50  0001 C CNN
+F 3 "~" H -3850 1250 50  0001 C CNN
+	1    -3850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6210D64C
+P -3850 1725
+F 0 "J?" H -3770 1717 50  0000 L CNN
+F 1 "Conn_01x02" H -3770 1626 50  0000 L CNN
+F 2 "" H -3850 1725 50  0001 C CNN
+F 3 "~" H -3850 1725 50  0001 C CNN
+	1    -3850 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6211DCBE
+P -2775 1250
+F 0 "J?" H -2695 1242 50  0000 L CNN
+F 1 "Conn_01x02" H -2695 1151 50  0000 L CNN
+F 2 "" H -2775 1250 50  0001 C CNN
+F 3 "~" H -2775 1250 50  0001 C CNN
+	1    -2775 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6211DCC4
+P -2775 1725
+F 0 "J?" H -2695 1717 50  0000 L CNN
+F 1 "Conn_01x02" H -2695 1626 50  0000 L CNN
+F 2 "" H -2775 1725 50  0001 C CNN
+F 3 "~" H -2775 1725 50  0001 C CNN
+	1    -2775 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6212E57C
+P -1625 1250
+F 0 "J?" H -1545 1242 50  0000 L CNN
+F 1 "Conn_01x02" H -1545 1151 50  0000 L CNN
+F 2 "" H -1625 1250 50  0001 C CNN
+F 3 "~" H -1625 1250 50  0001 C CNN
+	1    -1625 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6212E582
+P -1625 1725
+F 0 "J?" H -1545 1717 50  0000 L CNN
+F 1 "Conn_01x02" H -1545 1626 50  0000 L CNN
+F 2 "" H -1625 1725 50  0001 C CNN
+F 3 "~" H -1625 1725 50  0001 C CNN
+	1    -1625 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5BE
+P -4850 175
+F 0 "J?" H -4770 167 50  0000 L CNN
+F 1 "Conn_01x02" H -4770 76  50  0000 L CNN
+F 2 "" H -4850 175 50  0001 C CNN
+F 3 "~" H -4850 175 50  0001 C CNN
+	1    -4850 175 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5C4
+P -4850 650
+F 0 "J?" H -4770 642 50  0000 L CNN
+F 1 "Conn_01x02" H -4770 551 50  0000 L CNN
+F 2 "" H -4850 650 50  0001 C CNN
+F 3 "~" H -4850 650 50  0001 C CNN
+	1    -4850 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5CA
+P -3850 225
+F 0 "J?" H -3770 217 50  0000 L CNN
+F 1 "Conn_01x02" H -3770 126 50  0000 L CNN
+F 2 "" H -3850 225 50  0001 C CNN
+F 3 "~" H -3850 225 50  0001 C CNN
+	1    -3850 225 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5D0
+P -3850 700
+F 0 "J?" H -3770 692 50  0000 L CNN
+F 1 "Conn_01x02" H -3770 601 50  0000 L CNN
+F 2 "" H -3850 700 50  0001 C CNN
+F 3 "~" H -3850 700 50  0001 C CNN
+	1    -3850 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5D6
+P -2775 225
+F 0 "J?" H -2695 217 50  0000 L CNN
+F 1 "Conn_01x02" H -2695 126 50  0000 L CNN
+F 2 "" H -2775 225 50  0001 C CNN
+F 3 "~" H -2775 225 50  0001 C CNN
+	1    -2775 225 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5DC
+P -2775 700
+F 0 "J?" H -2695 692 50  0000 L CNN
+F 1 "Conn_01x02" H -2695 601 50  0000 L CNN
+F 2 "" H -2775 700 50  0001 C CNN
+F 3 "~" H -2775 700 50  0001 C CNN
+	1    -2775 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5E2
+P -1625 225
+F 0 "J?" H -1545 217 50  0000 L CNN
+F 1 "Conn_01x02" H -1545 126 50  0000 L CNN
+F 2 "" H -1625 225 50  0001 C CNN
+F 3 "~" H -1625 225 50  0001 C CNN
+	1    -1625 225 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6214D5E8
+P -1625 700
+F 0 "J?" H -1545 692 50  0000 L CNN
+F 1 "Conn_01x02" H -1545 601 50  0000 L CNN
+F 2 "" H -1625 700 50  0001 C CNN
+F 3 "~" H -1625 700 50  0001 C CNN
+	1    -1625 700 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
