@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -19,8 +19,6 @@ Wire Wire Line
 	3325 5125 3475 5125
 Wire Wire Line
 	3475 4725 3325 4725
-Wire Wire Line
-	4150 4075 4150 3925
 Wire Wire Line
 	3475 4325 3325 4325
 Wire Wire Line
@@ -63,7 +61,7 @@ AR Path="/624986DA/623023FB" Ref="#PWR?"  Part="1"
 AR Path="/624986F8/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/62498716/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/622DADD3/622DC40E/623023FB" Ref="#PWR?"  Part="1" 
-AR Path="/622DADD3/62542119/623023FB" Ref="#PWR011"  Part="1" 
+AR Path="/622DADD3/62542119/623023FB" Ref="#PWR034"  Part="1" 
 AR Path="/62646A72/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/62807237/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/62807263/62542119/623023FB" Ref="#PWR?"  Part="1" 
@@ -71,7 +69,7 @@ AR Path="/6284E2B1/62542119/623023FB" Ref="#PWR?"  Part="1"
 AR Path="/6284E2DD/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/6284E31C/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/6284E336/62542119/623023FB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR011" H 3325 3875 50  0001 C CNN
+F 0 "#PWR034" H 3325 3875 50  0001 C CNN
 F 1 "GND" H 3330 3952 50  0000 C CNN
 F 2 "" H 3325 4125 50  0001 C CNN
 F 3 "" H 3325 4125 50  0001 C CNN
@@ -130,33 +128,6 @@ Wire Wire Line
 	5200 3525 5200 4075
 Wire Wire Line
 	5200 4175 5200 4725
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 622E4DD4
-P 4350 4075
-AR Path="/622FC90E/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/624814DA/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/6248A382/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/624986BC/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/624986DA/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/624986F8/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/62498716/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/622E4DD4" Ref="J7"  Part="1" 
-AR Path="/62646A72/62542119/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/622E4DD4" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/622E4DD4" Ref="J?"  Part="1" 
-F 0 "J7" H 4525 3975 50  0000 R CNN
-F 1 "Conn_01x02" H 4900 4075 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4350 4075 50  0001 C CNN
-F 3 "~" H 4350 4075 50  0001 C CNN
-	1    4350 4075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 3525 3575 3525
 Wire Wire Line
@@ -356,5 +327,34 @@ F 2 "emg-filter:EMG_CONN_01x02" H 3475 2925 50  0001 C CNN
 F 3 "~" H 3475 2925 50  0001 C CNN
 	1    3475 2925
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 4075 4150 3925
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 622E4DD4
+P 4350 4175
+AR Path="/622FC90E/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/624814DA/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/6248A382/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/624986BC/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/624986DA/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/624986F8/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/62498716/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/622E4DD4" Ref="J7"  Part="1" 
+AR Path="/62646A72/62542119/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/622E4DD4" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/622E4DD4" Ref="J?"  Part="1" 
+F 0 "J7" H 4525 4075 50  0000 R CNN
+F 1 "Conn_01x02" H 4900 4175 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4350 4175 50  0001 C CNN
+F 3 "~" H 4350 4175 50  0001 C CNN
+	1    4350 4175
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
