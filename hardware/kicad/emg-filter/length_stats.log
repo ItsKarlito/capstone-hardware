@@ -1,0 +1,8 @@
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 304:Plugin executed on: 'darwin'
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 305:Plugin executed with python version: '2.7.16 (default, Nov  8 2021, 13:37:33) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 306:KiCad build version: (5.1.12-1-10_14)
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 307:Length stats plugin version: 30 started
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 207:Sorting list
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 95:Length stats gui initialized
+01-29 21:50:34 Kicad_action_plugins.length_stats.action_length_stats 96:Nets for stats are;
+[]

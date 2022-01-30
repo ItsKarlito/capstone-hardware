@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -73,37 +73,6 @@ F 1 "Conn_01x02" V 3348 3537 50  0000 R CNN
 F 2 "emg-filter:EMG_CONN_01x02" H 3475 3725 50  0001 C CNN
 F 3 "~" H 3475 3725 50  0001 C CNN
 	1    3475 3725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 623023AA
-P 3475 2925
-AR Path="/61C386B1/623023AA" Ref="J?"  Part="1" 
-AR Path="/61C389A8/623023AA" Ref="J?"  Part="1" 
-AR Path="/622FC90E/623023AA" Ref="J?"  Part="1" 
-AR Path="/623EBE47/623023AA" Ref="J?"  Part="1" 
-AR Path="/624814DA/623023AA" Ref="J?"  Part="1" 
-AR Path="/6248A382/623023AA" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/623023AA" Ref="J?"  Part="1" 
-AR Path="/624986BC/623023AA" Ref="J?"  Part="1" 
-AR Path="/624986DA/623023AA" Ref="J?"  Part="1" 
-AR Path="/624986F8/623023AA" Ref="J?"  Part="1" 
-AR Path="/62498716/623023AA" Ref="J?"  Part="1" 
-AR Path="/622DADD3/622DC40E/623023AA" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/623023AA" Ref="J4"  Part="1" 
-AR Path="/62646A72/62542119/623023AA" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/623023AA" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/623023AA" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/623023AA" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/623023AA" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/623023AA" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/623023AA" Ref="J?"  Part="1" 
-F 0 "J4" V 3439 2737 50  0000 R CNN
-F 1 "Conn_01x02" V 3348 2737 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 3475 2925 50  0001 C CNN
-F 3 "~" H 3475 2925 50  0001 C CNN
-	1    3475 2925
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -249,7 +218,7 @@ AR Path="/624986DA/623023FB" Ref="#PWR?"  Part="1"
 AR Path="/624986F8/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/62498716/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/622DADD3/622DC40E/623023FB" Ref="#PWR?"  Part="1" 
-AR Path="/622DADD3/62542119/623023FB" Ref="#PWR027"  Part="1" 
+AR Path="/622DADD3/62542119/623023FB" Ref="#PWR011"  Part="1" 
 AR Path="/62646A72/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/62807237/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/62807263/62542119/623023FB" Ref="#PWR?"  Part="1" 
@@ -257,7 +226,7 @@ AR Path="/6284E2B1/62542119/623023FB" Ref="#PWR?"  Part="1"
 AR Path="/6284E2DD/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/6284E31C/62542119/623023FB" Ref="#PWR?"  Part="1" 
 AR Path="/6284E336/62542119/623023FB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR027" H 3325 3875 50  0001 C CNN
+F 0 "#PWR011" H 3325 3875 50  0001 C CNN
 F 1 "GND" H 3330 3952 50  0000 C CNN
 F 2 "" H 3325 4125 50  0001 C CNN
 F 3 "" H 3325 4125 50  0001 C CNN
@@ -357,4 +326,35 @@ Wire Wire Line
 	4225 3125 3575 3125
 Wire Wire Line
 	4225 5125 3575 5125
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 623023AA
+P 3475 2925
+AR Path="/61C386B1/623023AA" Ref="J?"  Part="1" 
+AR Path="/61C389A8/623023AA" Ref="J?"  Part="1" 
+AR Path="/622FC90E/623023AA" Ref="J?"  Part="1" 
+AR Path="/623EBE47/623023AA" Ref="J?"  Part="1" 
+AR Path="/624814DA/623023AA" Ref="J?"  Part="1" 
+AR Path="/6248A382/623023AA" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/623023AA" Ref="J?"  Part="1" 
+AR Path="/624986BC/623023AA" Ref="J?"  Part="1" 
+AR Path="/624986DA/623023AA" Ref="J?"  Part="1" 
+AR Path="/624986F8/623023AA" Ref="J?"  Part="1" 
+AR Path="/62498716/623023AA" Ref="J?"  Part="1" 
+AR Path="/622DADD3/622DC40E/623023AA" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/623023AA" Ref="J4"  Part="1" 
+AR Path="/62646A72/62542119/623023AA" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/623023AA" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/623023AA" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/623023AA" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/623023AA" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/623023AA" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/623023AA" Ref="J?"  Part="1" 
+F 0 "J4" V 3439 2737 50  0000 R CNN
+F 1 "Conn_01x02" V 3348 2737 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3475 2925 50  0001 C CNN
+F 3 "~" H 3475 2925 50  0001 C CNN
+	1    3475 2925
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

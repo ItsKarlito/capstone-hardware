@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4625 3925 975  175 
-U 62542101
-F0 "sheet625420F9" 50
-F1 "notch_rect.sch" 50
-F2 "BP_NOTCH" I L 4625 4000 50 
-F3 "RECT_AMP" I R 5600 4000 50 
-$EndSheet
 Wire Wire Line
 	5700 3825 5700 4000
 Wire Wire Line
@@ -33,14 +25,6 @@ Wire Wire Line
 	5700 3575 5700 3750
 Wire Wire Line
 	5600 3575 5700 3575
-$Sheet
-S 4625 3500 975  175 
-U 6254210B
-F0 "sheet625420FA" 50
-F1 "notch_rect.sch" 50
-F2 "BP_NOTCH" I L 4625 3575 50 
-F3 "RECT_AMP" I R 5600 3575 50 
-$EndSheet
 $Sheet
 S 5800 3700 1075 200 
 U 62542111
@@ -320,4 +304,20 @@ F 3 "~" H 2450 2575 50  0001 C CNN
 	1    2450 2575
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 4625 3925 975  175 
+U 62542101
+F0 "sheet625420F9" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 4625 4000 50 
+F3 "RECT_AMP" I R 5600 4000 50 
+$EndSheet
+$Sheet
+S 4625 3500 975  175 
+U 6254210B
+F0 "sheet625420FA" 50
+F1 "notch_rect.sch" 50
+F2 "BP_NOTCH" I L 4625 3575 50 
+F3 "RECT_AMP" I R 5600 3575 50 
+$EndSheet
 $EndSCHEMATC

@@ -1,8 +1,8 @@
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 313:Plugin executed on: 'darwin'
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.16 (default, Nov  8 2021, 13:37:33) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 315:KiCad build version: (5.1.12-1-10_14)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 329:All top level windows titles are:
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 313:Plugin executed on: 'darwin'
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.16 (default, Nov  8 2021, 13:37:33) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 315:KiCad build version: (5.1.12-1-10_14)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 329:All top level windows titles are:
 kicad (5.1.12-1-10_14) /users/vincentbeaulieu/documents/github/capstone-hardware/hardware/kicad/emg-filter/emg-filter.pro
 
 eeschema — notch_rect.sch [/emg_module/sheet625420f9/] — /users/vincentbeaulieu/documents/github/capstone-hardware/hardware/kicad/emg-filter
@@ -10,43 +10,100 @@ eeschema — notch_rect.sch [/emg_module/sheet625420f9/] — /users/vincentbeaul
 pcbnew — /users/vincentbeaulieu/documents/github/capstone-hardware/hardware/kicad/emg-filter/emg-filter.kicad_pcb
 
 
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 330:All top level windows objects are:
- <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7fd967816a00> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fd980026590> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7fd9778c6a00> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fd9802e1d80> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7fd9826e7800> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fd924563aa0> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fd925a08a00> >
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 353:Preparing replicator with C7 as a reference
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.replicatelayout 217:Project hierarchy looks like:
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7fb46d812600> >
+<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fb46f163140> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7fb46f89b800> >
+<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fb44d72e430> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7fb3fe865200> >
+<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fb44d7868d0> >
+<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7fb46f38b080> >
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 353:Preparing replicator with R23 as a reference
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.replicatelayout 217:Project hierarchy looks like:
 {u'6254210B': [u'sheet625420FA', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/notch_rect.sch'], u'62542101': [u'sheet625420F9', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/notch_rect.sch'], u'62542111': [u'sheet625420FB', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/amplifier.sch'], u'62542123': [u'sheet625420FD', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/ina_bandpass.sch'], u'62542119': [u'sheet625420FC', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/input_ina.sch'], u'622DADD3': [u'emg_module', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/emg_module.sch']}
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.replicatelayout 225:getting a list of all footprints on board
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 380:source anchor footprint is u'C7'
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.replicatelayout 225:getting a list of all footprints on board
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 380:source anchor footprint is u'R23'
 Located on:[u'emg_module', u'sheet625420F9']
 With filenames:[u'emg_module.sch', u'notch_rect.sch']
 With sheet_id:[u'emg_module', u'sheet625420F9']
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Corresponding footprints are 
-[(u'C14', [u'emg_module', u'sheet625420FA']), (u'C7', [u'emg_module', u'sheet625420F9'])]
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 397:Showing dialog
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(1600, 25)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 0, 3200, 1800)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 1: wx.Rect(4280, 820, 1536, 960)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 2: wx.Rect(-1080, 0, 1080, 1920)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 3: wx.Rect(3200, 0, 1080, 1920)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(2994, 125)
-01-29 05:13:34 Kicad_action_plugins.replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(2681, 125)
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet625420F9', file:u'notch_rect.sch'
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'emg_module', u'sheet625420F9']
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
-[u'C14', u'C7']
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-[u'/622DADD3/6254210B/621836FE', u'/622DADD3/62542101/621836FE']
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Corresponding footprints are 
+[(u'R36', [u'emg_module', u'sheet625420FA']), (u'R23', [u'emg_module', u'sheet625420F9'])]
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 397:Showing dialog
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(1067, 25)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 0, 3200, 1800)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 1: wx.Rect(4280, 820, 1536, 960)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 2: wx.Rect(3200, 0, 1080, 1920)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 3: wx.Rect(-1080, 0, 1080, 1920)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(2994, 125)
+01-30 01:12:18 Kicad_action_plugins.replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(2681, 125)
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet625420F9', file:u'notch_rect.sch'
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'emg_module', u'sheet625420F9']
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'R36', u'R23']
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/622DADD3/6254210B/61FF81EA', u'/622DADD3/62542101/61FF81EA']
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
 [[u'emg_module', u'sheet625420FA'], [u'emg_module', u'sheet625420F9']]
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
 [[u'emg_module', u'sheet625420F9'], [u'emg_module', u'sheet625420FA']]
-01-29 05:13:37 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+01-30 01:12:20 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
 [[u'emg_module', u'sheet625420FA']]
-01-29 05:13:49 Kicad_action_plugins.replicate_layout.action_replicate_layout 260:User canceled the dialog
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet625420F9', file:u'notch_rect.sch'
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'emg_module', u'sheet625420F9']
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'R36', u'R23']
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/622DADD3/6254210B/61FF81EA', u'/622DADD3/62542101/61FF81EA']
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'emg_module', u'sheet625420FA'], [u'emg_module', u'sheet625420F9']]
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'emg_module', u'sheet625420F9'], [u'emg_module', u'sheet625420FA']]
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'emg_module', u'sheet625420FA']]
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.action_replicate_layout 186:Replicating layout
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 1002:Starting replication of sheets: [[u'emg_module', u'sheet625420FA']]
+on level: [u'emg_module', u'sheet625420F9']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False
+01-30 01:12:23 root 269:updating GUI message: 'Preparing for replication'
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 556:Getting the list of source footprints
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 564:Getting nets local to source footprints
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 568:Getting source bounding box
+01-30 01:12:23 root 274:updating GUI with: 37
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 572:Getting source tracks
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 576:Getting source zones
+01-30 01:12:23 root 274:updating GUI with: 62
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 580:Getting source text items
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 584:Getting source text items
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 1030:Removing tracks and zones, before module placement
+01-30 01:12:23 root 269:updating GUI message: 'Removing zones and tracks'
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 root 269:updating GUI message: 'Replicating footprints'
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 590:Replicating footprints
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'emg_module', u'sheet625420FA']
+01-30 01:12:23 root 274:updating GUI with: 41
+01-30 01:12:23 root 274:updating GUI with: 99
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 1038:Removing tracks and zones, after module placement
+01-30 01:12:23 root 269:updating GUI message: 'Removing zones and tracks'
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 root 269:updating GUI message: 'Replicating tracks'
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 720:Replicating tracks
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'emg_module', u'sheet625420FA']
+01-30 01:12:23 root 274:updating GUI with: 1
+01-30 01:12:23 root 269:updating GUI message: 'Replicating zones'
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 771:Replicating zones
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'emg_module', u'sheet625420FA']
+01-30 01:12:23 root 269:updating GUI message: 'Replicating text'
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 837:Replicating text
+01-30 01:12:23 root 274:updating GUI with: 0
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'emg_module', u'sheet625420FA']
+01-30 01:12:23 root 269:updating GUI message: 'Replicating drawings'
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 868:Replicating drawings
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'emg_module', u'sheet625420FA']
+01-30 01:12:23 root 269:updating GUI message: 'Removing duplicates'
+01-30 01:12:23 Kicad_action_plugins.replicate_layout.action_replicate_layout 209:Replication complete
