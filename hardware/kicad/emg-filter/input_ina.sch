@@ -13,171 +13,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 6230239E
-P 3475 4525
-AR Path="/61C386B1/6230239E" Ref="J?"  Part="1" 
-AR Path="/61C389A8/6230239E" Ref="J?"  Part="1" 
-AR Path="/622FC90E/6230239E" Ref="J?"  Part="1" 
-AR Path="/623EBE47/6230239E" Ref="J?"  Part="1" 
-AR Path="/624814DA/6230239E" Ref="J?"  Part="1" 
-AR Path="/6248A382/6230239E" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/6230239E" Ref="J?"  Part="1" 
-AR Path="/624986BC/6230239E" Ref="J?"  Part="1" 
-AR Path="/624986DA/6230239E" Ref="J?"  Part="1" 
-AR Path="/624986F8/6230239E" Ref="J?"  Part="1" 
-AR Path="/62498716/6230239E" Ref="J?"  Part="1" 
-AR Path="/622DADD3/622DC40E/6230239E" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/6230239E" Ref="J10"  Part="1" 
-AR Path="/62646A72/62542119/6230239E" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/6230239E" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/6230239E" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/6230239E" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/6230239E" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/6230239E" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/6230239E" Ref="J?"  Part="1" 
-F 0 "J10" V 3439 4337 50  0000 R CNN
-F 1 "Conn_01x02" V 3348 4337 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 3475 4525 50  0001 C CNN
-F 3 "~" H 3475 4525 50  0001 C CNN
-	1    3475 4525
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 623023A4
-P 3475 3725
-AR Path="/61C386B1/623023A4" Ref="J?"  Part="1" 
-AR Path="/61C389A8/623023A4" Ref="J?"  Part="1" 
-AR Path="/622FC90E/623023A4" Ref="J?"  Part="1" 
-AR Path="/623EBE47/623023A4" Ref="J?"  Part="1" 
-AR Path="/624814DA/623023A4" Ref="J?"  Part="1" 
-AR Path="/6248A382/623023A4" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/623023A4" Ref="J?"  Part="1" 
-AR Path="/624986BC/623023A4" Ref="J?"  Part="1" 
-AR Path="/624986DA/623023A4" Ref="J?"  Part="1" 
-AR Path="/624986F8/623023A4" Ref="J?"  Part="1" 
-AR Path="/62498716/623023A4" Ref="J?"  Part="1" 
-AR Path="/622DADD3/622DC40E/623023A4" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/623023A4" Ref="J6"  Part="1" 
-AR Path="/62646A72/62542119/623023A4" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/623023A4" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/623023A4" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/623023A4" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/623023A4" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/623023A4" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/623023A4" Ref="J?"  Part="1" 
-F 0 "J6" V 3439 3537 50  0000 R CNN
-F 1 "Conn_01x02" V 3348 3537 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 3475 3725 50  0001 C CNN
-F 3 "~" H 3475 3725 50  0001 C CNN
-	1    3475 3725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 623023B0
-P 3475 3325
-AR Path="/61C386B1/623023B0" Ref="J?"  Part="1" 
-AR Path="/61C389A8/623023B0" Ref="J?"  Part="1" 
-AR Path="/622FC90E/623023B0" Ref="J?"  Part="1" 
-AR Path="/623EBE47/623023B0" Ref="J?"  Part="1" 
-AR Path="/624814DA/623023B0" Ref="J?"  Part="1" 
-AR Path="/6248A382/623023B0" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/623023B0" Ref="J?"  Part="1" 
-AR Path="/624986BC/623023B0" Ref="J?"  Part="1" 
-AR Path="/624986DA/623023B0" Ref="J?"  Part="1" 
-AR Path="/624986F8/623023B0" Ref="J?"  Part="1" 
-AR Path="/62498716/623023B0" Ref="J?"  Part="1" 
-AR Path="/622DADD3/622DC40E/623023B0" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/623023B0" Ref="J5"  Part="1" 
-AR Path="/62646A72/62542119/623023B0" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/623023B0" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/623023B0" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/623023B0" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/623023B0" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/623023B0" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/623023B0" Ref="J?"  Part="1" 
-F 0 "J5" V 3439 3137 50  0000 R CNN
-F 1 "Conn_01x02" V 3348 3137 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 3475 3325 50  0001 C CNN
-F 3 "~" H 3475 3325 50  0001 C CNN
-	1    3475 3325
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3475 3125 3325 3125
 Wire Wire Line
 	3325 5125 3475 5125
 Wire Wire Line
 	3475 4725 3325 4725
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 623023C9
-P 3475 4925
-AR Path="/61C386B1/623023C9" Ref="J?"  Part="1" 
-AR Path="/61C389A8/623023C9" Ref="J?"  Part="1" 
-AR Path="/622FC90E/623023C9" Ref="J?"  Part="1" 
-AR Path="/623EBE47/623023C9" Ref="J?"  Part="1" 
-AR Path="/624814DA/623023C9" Ref="J?"  Part="1" 
-AR Path="/6248A382/623023C9" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/623023C9" Ref="J?"  Part="1" 
-AR Path="/624986BC/623023C9" Ref="J?"  Part="1" 
-AR Path="/624986DA/623023C9" Ref="J?"  Part="1" 
-AR Path="/624986F8/623023C9" Ref="J?"  Part="1" 
-AR Path="/62498716/623023C9" Ref="J?"  Part="1" 
-AR Path="/622DADD3/622DC40E/623023C9" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/623023C9" Ref="J11"  Part="1" 
-AR Path="/62646A72/62542119/623023C9" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/623023C9" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/623023C9" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/623023C9" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/623023C9" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/623023C9" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/623023C9" Ref="J?"  Part="1" 
-F 0 "J11" V 3439 4737 50  0000 R CNN
-F 1 "Conn_01x02" V 3348 4737 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 3475 4925 50  0001 C CNN
-F 3 "~" H 3475 4925 50  0001 C CNN
-	1    3475 4925
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4150 4075 4150 3925
 Wire Wire Line
 	3475 4325 3325 4325
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 623023D3
-P 3475 4125
-AR Path="/61C386B1/623023D3" Ref="J?"  Part="1" 
-AR Path="/61C389A8/623023D3" Ref="J?"  Part="1" 
-AR Path="/622FC90E/623023D3" Ref="J?"  Part="1" 
-AR Path="/623EBE47/623023D3" Ref="J?"  Part="1" 
-AR Path="/624814DA/623023D3" Ref="J?"  Part="1" 
-AR Path="/6248A382/623023D3" Ref="J?"  Part="1" 
-AR Path="/6248A3A0/623023D3" Ref="J?"  Part="1" 
-AR Path="/624986BC/623023D3" Ref="J?"  Part="1" 
-AR Path="/624986DA/623023D3" Ref="J?"  Part="1" 
-AR Path="/624986F8/623023D3" Ref="J?"  Part="1" 
-AR Path="/62498716/623023D3" Ref="J?"  Part="1" 
-AR Path="/622DADD3/622DC40E/623023D3" Ref="J?"  Part="1" 
-AR Path="/622DADD3/62542119/623023D3" Ref="J9"  Part="1" 
-AR Path="/62646A72/62542119/623023D3" Ref="J?"  Part="1" 
-AR Path="/62807237/62542119/623023D3" Ref="J?"  Part="1" 
-AR Path="/62807263/62542119/623023D3" Ref="J?"  Part="1" 
-AR Path="/6284E2B1/62542119/623023D3" Ref="J?"  Part="1" 
-AR Path="/6284E2DD/62542119/623023D3" Ref="J?"  Part="1" 
-AR Path="/6284E31C/62542119/623023D3" Ref="J?"  Part="1" 
-AR Path="/6284E336/62542119/623023D3" Ref="J?"  Part="1" 
-F 0 "J9" V 3439 3937 50  0000 R CNN
-F 1 "Conn_01x02" V 3348 3937 50  0000 R CNN
-F 2 "emg-filter:EMG_CONN_01x02" H 3475 4125 50  0001 C CNN
-F 3 "~" H 3475 4125 50  0001 C CNN
-	1    3475 4125
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4150 4175 4150 4325
 Wire Wire Line
@@ -326,6 +171,161 @@ Wire Wire Line
 	4225 3125 3575 3125
 Wire Wire Line
 	4225 5125 3575 5125
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 623023C9
+P 3475 4925
+AR Path="/61C386B1/623023C9" Ref="J?"  Part="1" 
+AR Path="/61C389A8/623023C9" Ref="J?"  Part="1" 
+AR Path="/622FC90E/623023C9" Ref="J?"  Part="1" 
+AR Path="/623EBE47/623023C9" Ref="J?"  Part="1" 
+AR Path="/624814DA/623023C9" Ref="J?"  Part="1" 
+AR Path="/6248A382/623023C9" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/623023C9" Ref="J?"  Part="1" 
+AR Path="/624986BC/623023C9" Ref="J?"  Part="1" 
+AR Path="/624986DA/623023C9" Ref="J?"  Part="1" 
+AR Path="/624986F8/623023C9" Ref="J?"  Part="1" 
+AR Path="/62498716/623023C9" Ref="J?"  Part="1" 
+AR Path="/622DADD3/622DC40E/623023C9" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/623023C9" Ref="J11"  Part="1" 
+AR Path="/62646A72/62542119/623023C9" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/623023C9" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/623023C9" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/623023C9" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/623023C9" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/623023C9" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/623023C9" Ref="J?"  Part="1" 
+F 0 "J11" V 3439 4737 50  0000 R CNN
+F 1 "Conn_01x02" V 3348 4737 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3475 4925 50  0001 C CNN
+F 3 "~" H 3475 4925 50  0001 C CNN
+	1    3475 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6230239E
+P 3475 4525
+AR Path="/61C386B1/6230239E" Ref="J?"  Part="1" 
+AR Path="/61C389A8/6230239E" Ref="J?"  Part="1" 
+AR Path="/622FC90E/6230239E" Ref="J?"  Part="1" 
+AR Path="/623EBE47/6230239E" Ref="J?"  Part="1" 
+AR Path="/624814DA/6230239E" Ref="J?"  Part="1" 
+AR Path="/6248A382/6230239E" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/6230239E" Ref="J?"  Part="1" 
+AR Path="/624986BC/6230239E" Ref="J?"  Part="1" 
+AR Path="/624986DA/6230239E" Ref="J?"  Part="1" 
+AR Path="/624986F8/6230239E" Ref="J?"  Part="1" 
+AR Path="/62498716/6230239E" Ref="J?"  Part="1" 
+AR Path="/622DADD3/622DC40E/6230239E" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/6230239E" Ref="J10"  Part="1" 
+AR Path="/62646A72/62542119/6230239E" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/6230239E" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/6230239E" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/6230239E" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/6230239E" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/6230239E" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/6230239E" Ref="J?"  Part="1" 
+F 0 "J10" V 3439 4337 50  0000 R CNN
+F 1 "Conn_01x02" V 3348 4337 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3475 4525 50  0001 C CNN
+F 3 "~" H 3475 4525 50  0001 C CNN
+	1    3475 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 623023D3
+P 3475 4125
+AR Path="/61C386B1/623023D3" Ref="J?"  Part="1" 
+AR Path="/61C389A8/623023D3" Ref="J?"  Part="1" 
+AR Path="/622FC90E/623023D3" Ref="J?"  Part="1" 
+AR Path="/623EBE47/623023D3" Ref="J?"  Part="1" 
+AR Path="/624814DA/623023D3" Ref="J?"  Part="1" 
+AR Path="/6248A382/623023D3" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/623023D3" Ref="J?"  Part="1" 
+AR Path="/624986BC/623023D3" Ref="J?"  Part="1" 
+AR Path="/624986DA/623023D3" Ref="J?"  Part="1" 
+AR Path="/624986F8/623023D3" Ref="J?"  Part="1" 
+AR Path="/62498716/623023D3" Ref="J?"  Part="1" 
+AR Path="/622DADD3/622DC40E/623023D3" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/623023D3" Ref="J9"  Part="1" 
+AR Path="/62646A72/62542119/623023D3" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/623023D3" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/623023D3" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/623023D3" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/623023D3" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/623023D3" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/623023D3" Ref="J?"  Part="1" 
+F 0 "J9" V 3439 3937 50  0000 R CNN
+F 1 "Conn_01x02" V 3348 3937 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3475 4125 50  0001 C CNN
+F 3 "~" H 3475 4125 50  0001 C CNN
+	1    3475 4125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 623023A4
+P 3475 3725
+AR Path="/61C386B1/623023A4" Ref="J?"  Part="1" 
+AR Path="/61C389A8/623023A4" Ref="J?"  Part="1" 
+AR Path="/622FC90E/623023A4" Ref="J?"  Part="1" 
+AR Path="/623EBE47/623023A4" Ref="J?"  Part="1" 
+AR Path="/624814DA/623023A4" Ref="J?"  Part="1" 
+AR Path="/6248A382/623023A4" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/623023A4" Ref="J?"  Part="1" 
+AR Path="/624986BC/623023A4" Ref="J?"  Part="1" 
+AR Path="/624986DA/623023A4" Ref="J?"  Part="1" 
+AR Path="/624986F8/623023A4" Ref="J?"  Part="1" 
+AR Path="/62498716/623023A4" Ref="J?"  Part="1" 
+AR Path="/622DADD3/622DC40E/623023A4" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/623023A4" Ref="J6"  Part="1" 
+AR Path="/62646A72/62542119/623023A4" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/623023A4" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/623023A4" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/623023A4" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/623023A4" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/623023A4" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/623023A4" Ref="J?"  Part="1" 
+F 0 "J6" V 3439 3537 50  0000 R CNN
+F 1 "Conn_01x02" V 3348 3537 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3475 3725 50  0001 C CNN
+F 3 "~" H 3475 3725 50  0001 C CNN
+	1    3475 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 623023B0
+P 3475 3325
+AR Path="/61C386B1/623023B0" Ref="J?"  Part="1" 
+AR Path="/61C389A8/623023B0" Ref="J?"  Part="1" 
+AR Path="/622FC90E/623023B0" Ref="J?"  Part="1" 
+AR Path="/623EBE47/623023B0" Ref="J?"  Part="1" 
+AR Path="/624814DA/623023B0" Ref="J?"  Part="1" 
+AR Path="/6248A382/623023B0" Ref="J?"  Part="1" 
+AR Path="/6248A3A0/623023B0" Ref="J?"  Part="1" 
+AR Path="/624986BC/623023B0" Ref="J?"  Part="1" 
+AR Path="/624986DA/623023B0" Ref="J?"  Part="1" 
+AR Path="/624986F8/623023B0" Ref="J?"  Part="1" 
+AR Path="/62498716/623023B0" Ref="J?"  Part="1" 
+AR Path="/622DADD3/622DC40E/623023B0" Ref="J?"  Part="1" 
+AR Path="/622DADD3/62542119/623023B0" Ref="J5"  Part="1" 
+AR Path="/62646A72/62542119/623023B0" Ref="J?"  Part="1" 
+AR Path="/62807237/62542119/623023B0" Ref="J?"  Part="1" 
+AR Path="/62807263/62542119/623023B0" Ref="J?"  Part="1" 
+AR Path="/6284E2B1/62542119/623023B0" Ref="J?"  Part="1" 
+AR Path="/6284E2DD/62542119/623023B0" Ref="J?"  Part="1" 
+AR Path="/6284E31C/62542119/623023B0" Ref="J?"  Part="1" 
+AR Path="/6284E336/62542119/623023B0" Ref="J?"  Part="1" 
+F 0 "J5" V 3439 3137 50  0000 R CNN
+F 1 "Conn_01x02" V 3348 3137 50  0000 R CNN
+F 2 "emg-filter:EMG_CONN_01x02" H 3475 3325 50  0001 C CNN
+F 3 "~" H 3475 3325 50  0001 C CNN
+	1    3475 3325
+	0    -1   -1   0   
+$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 623023AA
