@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 51
+Sheet 1 3
 Title "EMG Filter for Prosthetic Limb Control System"
 Date "2022-01-07"
 Rev "V2"
@@ -35,39 +35,6 @@ $EndComp
 Text Notes 1350 1325 0    50   ~ 0
 Male Jumper header
 $Comp
-L Connector_Generic:Conn_01x05 J6
-U 1 1 625619BD
-P 4775 1000
-F 0 "J6" H 4725 1400 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 1300 50  0000 L CNN
-F 2 "" H 4775 1000 50  0001 C CNN
-F 3 "~" H 4775 1000 50  0001 C CNN
-	1    4775 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 62562255
-P 3550 800
-F 0 "J5" H 3600 1000 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 900 50  0000 R CNN
-F 2 "" H 3550 800 50  0001 C CNN
-F 3 "~" H 3550 800 50  0001 C CNN
-	1    3550 800 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 62596B4E
-P 3550 1100
-F 0 "J9" H 3600 800 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 900 50  0000 R CNN
-F 2 "" H 3550 1100 50  0001 C CNN
-F 3 "~" H 3550 1100 50  0001 C CNN
-	1    3550 1100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 62598BAE
 P 2675 800
@@ -91,39 +58,6 @@ F 3 "~" H 2675 1100 50  0001 C CNN
 $EndComp
 NoConn ~ 2475 800 
 NoConn ~ 2475 900 
-$Comp
-L Connector_Generic:Conn_01x05 J14
-U 1 1 62646A78
-P 4775 1925
-F 0 "J14" H 4725 2325 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 2225 50  0000 L CNN
-F 2 "" H 4775 1925 50  0001 C CNN
-F 3 "~" H 4775 1925 50  0001 C CNN
-	1    4775 1925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J13
-U 1 1 62646A7E
-P 3550 1725
-F 0 "J13" H 3600 1925 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 1825 50  0000 R CNN
-F 2 "" H 3550 1725 50  0001 C CNN
-F 3 "~" H 3550 1725 50  0001 C CNN
-	1    3550 1725
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 62646A84
-P 3550 2025
-F 0 "J17" H 3600 1725 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 1825 50  0000 R CNN
-F 2 "" H 3550 2025 50  0001 C CNN
-F 3 "~" H 3550 2025 50  0001 C CNN
-	1    3550 2025
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J12
 U 1 1 62646A8A
@@ -182,23 +116,10 @@ Wire Wire Line
 	1325 1400 1325 1100
 Wire Wire Line
 	1325 1100 2475 1100
-Text Notes 3200 1100 0    50   ~ 0
-Male\n2-pin\nheader
 Text Notes 500  1325 0    50   ~ 0
 Male Jumper header
 Text Notes 1350 3175 0    50   ~ 0
 Male Jumper header
-$Comp
-L Connector_Generic:Conn_01x02 J25
-U 1 1 6280724A
-P 3550 2950
-F 0 "J25" H 3600 2650 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 2750 50  0000 R CNN
-F 2 "" H 3550 2950 50  0001 C CNN
-F 3 "~" H 3550 2950 50  0001 C CNN
-	1    3550 2950
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J24
 U 1 1 62807256
@@ -209,39 +130,6 @@ F 2 "" H 2675 2950 50  0001 C CNN
 F 3 "~" H 2675 2950 50  0001 C CNN
 	1    2675 2950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J30
-U 1 1 62807269
-P 4775 3775
-F 0 "J30" H 4725 4175 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 4075 50  0000 L CNN
-F 2 "" H 4775 3775 50  0001 C CNN
-F 3 "~" H 4775 3775 50  0001 C CNN
-	1    4775 3775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J29
-U 1 1 6280726F
-P 3550 3575
-F 0 "J29" H 3600 3775 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 3675 50  0000 R CNN
-F 2 "" H 3550 3575 50  0001 C CNN
-F 3 "~" H 3550 3575 50  0001 C CNN
-	1    3550 3575
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J33
-U 1 1 62807275
-P 3550 3875
-F 0 "J33" H 3600 3575 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 3675 50  0000 R CNN
-F 2 "" H 3550 3875 50  0001 C CNN
-F 3 "~" H 3550 3875 50  0001 C CNN
-	1    3550 3875
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J28
@@ -306,28 +194,6 @@ Wire Wire Line
 Text Notes 500  3175 0    50   ~ 0
 Male Jumper header
 $Comp
-L Connector_Generic:Conn_01x05 J22
-U 1 1 6280723E
-P 4775 2850
-F 0 "J22" H 4725 3250 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 3150 50  0000 L CNN
-F 2 "" H 4775 2850 50  0001 C CNN
-F 3 "~" H 4775 2850 50  0001 C CNN
-	1    4775 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J21
-U 1 1 62807244
-P 3550 2650
-F 0 "J21" H 3600 2850 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 2750 50  0000 R CNN
-F 2 "" H 3550 2650 50  0001 C CNN
-F 3 "~" H 3550 2650 50  0001 C CNN
-	1    3550 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J20
 U 1 1 62807250
 P 2675 2650
@@ -340,39 +206,6 @@ F 3 "~" H 2675 2650 50  0001 C CNN
 $EndComp
 Text Notes 1350 5025 0    50   ~ 0
 Male Jumper header
-$Comp
-L Connector_Generic:Conn_01x05 J39
-U 1 1 6284E2B8
-P 4775 4700
-F 0 "J39" H 4725 5100 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 5000 50  0000 L CNN
-F 2 "" H 4775 4700 50  0001 C CNN
-F 3 "~" H 4775 4700 50  0001 C CNN
-	1    4775 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J37
-U 1 1 6284E2BE
-P 3550 4500
-F 0 "J37" H 3600 4700 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 4600 50  0000 R CNN
-F 2 "" H 3550 4500 50  0001 C CNN
-F 3 "~" H 3550 4500 50  0001 C CNN
-	1    3550 4500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J41
-U 1 1 6284E2C4
-P 3550 4800
-F 0 "J41" H 3600 4500 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 4600 50  0000 R CNN
-F 2 "" H 3550 4800 50  0001 C CNN
-F 3 "~" H 3550 4800 50  0001 C CNN
-	1    3550 4800
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J36
 U 1 1 6284E2CA
@@ -394,39 +227,6 @@ F 2 "" H 2675 4800 50  0001 C CNN
 F 3 "~" H 2675 4800 50  0001 C CNN
 	1    2675 4800
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J46
-U 1 1 6284E2E3
-P 4775 5625
-F 0 "J46" H 4725 6025 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 5925 50  0000 L CNN
-F 2 "" H 4775 5625 50  0001 C CNN
-F 3 "~" H 4775 5625 50  0001 C CNN
-	1    4775 5625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J45
-U 1 1 6284E2E9
-P 3550 5425
-F 0 "J45" H 3600 5625 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 5525 50  0000 R CNN
-F 2 "" H 3550 5425 50  0001 C CNN
-F 3 "~" H 3550 5425 50  0001 C CNN
-	1    3550 5425
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J49
-U 1 1 6284E2EF
-P 3550 5725
-F 0 "J49" H 3600 5425 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 5525 50  0000 R CNN
-F 2 "" H 3550 5725 50  0001 C CNN
-F 3 "~" H 3550 5725 50  0001 C CNN
-	1    3550 5725
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J44
@@ -493,17 +293,6 @@ Male Jumper header
 Text Notes 1350 6875 0    50   ~ 0
 Male Jumper header
 $Comp
-L Connector_Generic:Conn_01x02 J57
-U 1 1 6284E323
-P 3550 6650
-F 0 "J57" H 3600 6350 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 6450 50  0000 R CNN
-F 2 "" H 3550 6650 50  0001 C CNN
-F 3 "~" H 3550 6650 50  0001 C CNN
-	1    3550 6650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J56
 U 1 1 6284E329
 P 2675 6650
@@ -513,39 +302,6 @@ F 2 "" H 2675 6650 50  0001 C CNN
 F 3 "~" H 2675 6650 50  0001 C CNN
 	1    2675 6650
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J62
-U 1 1 6284E33C
-P 4775 7475
-F 0 "J62" H 4725 7875 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 7775 50  0000 L CNN
-F 2 "" H 4775 7475 50  0001 C CNN
-F 3 "~" H 4775 7475 50  0001 C CNN
-	1    4775 7475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J61
-U 1 1 6284E342
-P 3550 7275
-F 0 "J61" H 3600 7475 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 7375 50  0000 R CNN
-F 2 "" H 3550 7275 50  0001 C CNN
-F 3 "~" H 3550 7275 50  0001 C CNN
-	1    3550 7275
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J65
-U 1 1 6284E348
-P 3550 7575
-F 0 "J65" H 3600 7275 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 7375 50  0000 R CNN
-F 2 "" H 3550 7575 50  0001 C CNN
-F 3 "~" H 3550 7575 50  0001 C CNN
-	1    3550 7575
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J60
@@ -610,28 +366,6 @@ Wire Wire Line
 Text Notes 500  6875 0    50   ~ 0
 Male Jumper header
 $Comp
-L Connector_Generic:Conn_01x05 J55
-U 1 1 6284E36F
-P 4775 6550
-F 0 "J55" H 4725 6950 50  0000 L CNN
-F 1 "Conn_01x05" H 4725 6850 50  0000 L CNN
-F 2 "" H 4775 6550 50  0001 C CNN
-F 3 "~" H 4775 6550 50  0001 C CNN
-	1    4775 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J53
-U 1 1 6284E375
-P 3550 6350
-F 0 "J53" H 3600 6550 50  0000 R CNN
-F 1 "Conn_01x02" H 3950 6450 50  0000 R CNN
-F 2 "" H 3550 6350 50  0001 C CNN
-F 3 "~" H 3550 6350 50  0001 C CNN
-	1    3550 6350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J52
 U 1 1 6284E37B
 P 2675 6350
@@ -642,20 +376,6 @@ F 3 "~" H 2675 6350 50  0001 C CNN
 	1    2675 6350
 	1    0    0    -1  
 $EndComp
-Text Notes 3200 2025 0    50   ~ 0
-Male\n2-pin\nheader
-Text Notes 3200 2950 0    50   ~ 0
-Male\n2-pin\nheader
-Text Notes 3200 3875 0    50   ~ 0
-Male\n2-pin\nheader
-Text Notes 3200 4800 0    50   ~ 0
-Male\n2-pin\nheader
-Text Notes 3200 5725 0    50   ~ 0
-Male\n2-pin\nheader
-Text Notes 3200 6650 0    50   ~ 0
-Male\n2-pin\nheader
-Text Notes 3200 7575 0    50   ~ 0
-Male\n2-pin\nheader
 Text Notes 2750 1100 0    50   ~ 0
 Female\n2-pin\nheader
 Text Notes 2750 2025 0    50   ~ 0
@@ -1244,51 +964,6 @@ Wire Wire Line
 	6250 6625 7375 6625
 Wire Wire Line
 	7375 3650 7475 3650
-$Sheet
-S 3750 1675 825  500 
-U 61FDAF50
-F0 "sheet61FDAF45" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 1725 50 
-F3 "VIN_B" I L 3750 2025 50 
-F4 "REF_A" I L 3750 1825 50 
-F5 "REF_B" I L 3750 2125 50 
-F6 "OUT_A" I R 4575 1825 50 
-F7 "OUT_B" I R 4575 2025 50 
-F8 "+5V" I R 4575 1725 50 
-F9 "-5V" I R 4575 2125 50 
-F10 "GND" I R 4575 1925 50 
-$EndSheet
-$Sheet
-S 3750 2600 825  500 
-U 61FE1823
-F0 "sheet61FE1817" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 2650 50 
-F3 "VIN_B" I L 3750 2950 50 
-F4 "REF_A" I L 3750 2750 50 
-F5 "REF_B" I L 3750 3050 50 
-F6 "OUT_A" I R 4575 2750 50 
-F7 "OUT_B" I R 4575 2950 50 
-F8 "+5V" I R 4575 2650 50 
-F9 "-5V" I R 4575 3050 50 
-F10 "GND" I R 4575 2850 50 
-$EndSheet
-$Sheet
-S 3750 3525 825  500 
-U 61FE182E
-F0 "sheet61FE1818" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 3575 50 
-F3 "VIN_B" I L 3750 3875 50 
-F4 "REF_A" I L 3750 3675 50 
-F5 "REF_B" I L 3750 3975 50 
-F6 "OUT_A" I R 4575 3675 50 
-F7 "OUT_B" I R 4575 3875 50 
-F8 "+5V" I R 4575 3575 50 
-F9 "-5V" I R 4575 3975 50 
-F10 "GND" I R 4575 3775 50 
-$EndSheet
 Wire Wire Line
 	5475 800  5900 800 
 Wire Wire Line
@@ -1464,81 +1139,6 @@ Wire Wire Line
 	6250 7575 5475 7575
 Wire Wire Line
 	6250 6625 6250 7575
-$Sheet
-S 3750 4450 825  500 
-U 6264CAEE
-F0 "sheet6264CAE0" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 4500 50 
-F3 "VIN_B" I L 3750 4800 50 
-F4 "REF_A" I L 3750 4600 50 
-F5 "REF_B" I L 3750 4900 50 
-F6 "OUT_A" I R 4575 4600 50 
-F7 "OUT_B" I R 4575 4800 50 
-F8 "+5V" I R 4575 4500 50 
-F9 "-5V" I R 4575 4900 50 
-F10 "GND" I R 4575 4700 50 
-$EndSheet
-$Sheet
-S 3750 5375 825  500 
-U 6264CAF9
-F0 "sheet6264CAE1" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 5425 50 
-F3 "VIN_B" I L 3750 5725 50 
-F4 "REF_A" I L 3750 5525 50 
-F5 "REF_B" I L 3750 5825 50 
-F6 "OUT_A" I R 4575 5525 50 
-F7 "OUT_B" I R 4575 5725 50 
-F8 "+5V" I R 4575 5425 50 
-F9 "-5V" I R 4575 5825 50 
-F10 "GND" I R 4575 5625 50 
-$EndSheet
-$Sheet
-S 3750 6300 825  500 
-U 6264CB04
-F0 "sheet6264CAE2" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 6350 50 
-F3 "VIN_B" I L 3750 6650 50 
-F4 "REF_A" I L 3750 6450 50 
-F5 "REF_B" I L 3750 6750 50 
-F6 "OUT_A" I R 4575 6450 50 
-F7 "OUT_B" I R 4575 6650 50 
-F8 "+5V" I R 4575 6350 50 
-F9 "-5V" I R 4575 6750 50 
-F10 "GND" I R 4575 6550 50 
-$EndSheet
-$Sheet
-S 3750 7225 825  500 
-U 6264CB0F
-F0 "sheet6264CAE3" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 7275 50 
-F3 "VIN_B" I L 3750 7575 50 
-F4 "REF_A" I L 3750 7375 50 
-F5 "REF_B" I L 3750 7675 50 
-F6 "OUT_A" I R 4575 7375 50 
-F7 "OUT_B" I R 4575 7575 50 
-F8 "+5V" I R 4575 7275 50 
-F9 "-5V" I R 4575 7675 50 
-F10 "GND" I R 4575 7475 50 
-$EndSheet
 Wire Wire Line
 	1325 1725 2475 1725
-$Sheet
-S 3750 750  825  500 
-U 622DADD3
-F0 "emg_module" 50
-F1 "emg_module.sch" 50
-F2 "VIN_A" I L 3750 800 50 
-F3 "VIN_B" I L 3750 1100 50 
-F4 "REF_A" I L 3750 900 50 
-F5 "REF_B" I L 3750 1200 50 
-F6 "OUT_A" I R 4575 900 50 
-F7 "OUT_B" I R 4575 1100 50 
-F8 "+5V" I R 4575 800 50 
-F9 "-5V" I R 4575 1200 50 
-F10 "GND" I R 4575 1000 50 
-$EndSheet
 $EndSCHEMATC
