@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -114,111 +114,11 @@ AR Path="/6284E31C/6254210B/621836B6" Ref="R?"  Part="1"
 AR Path="/6284E336/62542101/621836B6" Ref="R?"  Part="1" 
 AR Path="/6284E336/6254210B/621836B6" Ref="R?"  Part="1" 
 F 0 "R38" V 7518 3400 50  0000 C CNN
-F 1 "5k" V 7609 3400 50  0000 C CNN
+F 1 "4.99k" V 7609 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7655 3400 50  0001 C CNN
 F 3 "~" H 7725 3400 50  0001 C CNN
 	1    7725 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 621836C2
-P 7275 2750
-AR Path="/61C38746/621836C2" Ref="D?"  Part="1" 
-AR Path="/61C38746/6BB1123B/621836C2" Ref="D?"  Part="1" 
-AR Path="/61EB0E68/621836C2" Ref="D?"  Part="1" 
-AR Path="/6217D57F/621836C2" Ref="D?"  Part="1" 
-AR Path="/621A43B7/621836C2" Ref="D?"  Part="1" 
-AR Path="/622187C0/621836C2" Ref="D?"  Part="1" 
-AR Path="/622371F5/621836C2" Ref="D?"  Part="1" 
-AR Path="/6223BF51/621836C2" Ref="D?"  Part="1" 
-AR Path="/6223BF6B/621836C2" Ref="D?"  Part="1" 
-AR Path="/62240A4B/621836C2" Ref="D?"  Part="1" 
-AR Path="/62240A65/621836C2" Ref="D?"  Part="1" 
-AR Path="/62240A6F/621836C2" Ref="D?"  Part="1" 
-AR Path="/62240A89/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B223/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B23D/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B247/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B261/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B26B/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B285/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B28F/621836C2" Ref="D?"  Part="1" 
-AR Path="/6224B2A9/621836C2" Ref="D?"  Part="1" 
-AR Path="/622DADD3/622DC3F6/621836C2" Ref="D?"  Part="1" 
-AR Path="/622DADD3/622DC400/621836C2" Ref="D?"  Part="1" 
-AR Path="/622DADD3/62542101/621836C2" Ref="D2"  Part="1" 
-AR Path="/622DADD3/6254210B/621836C2" Ref="D4"  Part="1" 
-AR Path="/62646A72/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/62646A72/6254210B/621836C2" Ref="D?"  Part="1" 
-AR Path="/62807237/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/62807237/6254210B/621836C2" Ref="D?"  Part="1" 
-AR Path="/62807263/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/62807263/6254210B/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E2B1/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E2B1/6254210B/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E2DD/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E2DD/6254210B/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E31C/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E31C/6254210B/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E336/62542101/621836C2" Ref="D?"  Part="1" 
-AR Path="/6284E336/6254210B/621836C2" Ref="D?"  Part="1" 
-F 0 "D4" H 7225 2650 50  0000 C CNN
-F 1 "1N4148" H 7325 2550 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 7275 2750 50  0001 C CNN
-F 3 "~" H 7275 2750 50  0001 C CNN
-	1    7275 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 621836C8
-P 7025 2500
-AR Path="/61C38746/621836C8" Ref="D?"  Part="1" 
-AR Path="/61C38746/6BB1123B/621836C8" Ref="D?"  Part="1" 
-AR Path="/61EB0E68/621836C8" Ref="D?"  Part="1" 
-AR Path="/6217D57F/621836C8" Ref="D?"  Part="1" 
-AR Path="/621A43B7/621836C8" Ref="D?"  Part="1" 
-AR Path="/622187C0/621836C8" Ref="D?"  Part="1" 
-AR Path="/622371F5/621836C8" Ref="D?"  Part="1" 
-AR Path="/6223BF51/621836C8" Ref="D?"  Part="1" 
-AR Path="/6223BF6B/621836C8" Ref="D?"  Part="1" 
-AR Path="/62240A4B/621836C8" Ref="D?"  Part="1" 
-AR Path="/62240A65/621836C8" Ref="D?"  Part="1" 
-AR Path="/62240A6F/621836C8" Ref="D?"  Part="1" 
-AR Path="/62240A89/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B223/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B23D/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B247/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B261/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B26B/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B285/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B28F/621836C8" Ref="D?"  Part="1" 
-AR Path="/6224B2A9/621836C8" Ref="D?"  Part="1" 
-AR Path="/622DADD3/622DC3F6/621836C8" Ref="D?"  Part="1" 
-AR Path="/622DADD3/622DC400/621836C8" Ref="D?"  Part="1" 
-AR Path="/622DADD3/62542101/621836C8" Ref="D1"  Part="1" 
-AR Path="/622DADD3/6254210B/621836C8" Ref="D3"  Part="1" 
-AR Path="/62646A72/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/62646A72/6254210B/621836C8" Ref="D?"  Part="1" 
-AR Path="/62807237/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/62807237/6254210B/621836C8" Ref="D?"  Part="1" 
-AR Path="/62807263/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/62807263/6254210B/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E2B1/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E2B1/6254210B/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E2DD/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E2DD/6254210B/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E31C/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E31C/6254210B/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E336/62542101/621836C8" Ref="D?"  Part="1" 
-AR Path="/6284E336/6254210B/621836C8" Ref="D?"  Part="1" 
-F 0 "D3" V 6979 2580 50  0000 L CNN
-F 1 "1N4148" V 7070 2580 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 7025 2500 50  0001 C CNN
-F 3 "~" H 7025 2500 50  0001 C CNN
-	1    7025 2500
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
@@ -1796,4 +1696,104 @@ Wire Wire Line
 	5475 3100 5475 3175
 Wire Wire Line
 	5475 3475 5475 3525
+$Comp
+L Device:D D?
+U 1 1 621836C2
+P 7275 2750
+AR Path="/61C38746/621836C2" Ref="D?"  Part="1" 
+AR Path="/61C38746/6BB1123B/621836C2" Ref="D?"  Part="1" 
+AR Path="/61EB0E68/621836C2" Ref="D?"  Part="1" 
+AR Path="/6217D57F/621836C2" Ref="D?"  Part="1" 
+AR Path="/621A43B7/621836C2" Ref="D?"  Part="1" 
+AR Path="/622187C0/621836C2" Ref="D?"  Part="1" 
+AR Path="/622371F5/621836C2" Ref="D?"  Part="1" 
+AR Path="/6223BF51/621836C2" Ref="D?"  Part="1" 
+AR Path="/6223BF6B/621836C2" Ref="D?"  Part="1" 
+AR Path="/62240A4B/621836C2" Ref="D?"  Part="1" 
+AR Path="/62240A65/621836C2" Ref="D?"  Part="1" 
+AR Path="/62240A6F/621836C2" Ref="D?"  Part="1" 
+AR Path="/62240A89/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B223/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B23D/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B247/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B261/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B26B/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B285/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B28F/621836C2" Ref="D?"  Part="1" 
+AR Path="/6224B2A9/621836C2" Ref="D?"  Part="1" 
+AR Path="/622DADD3/622DC3F6/621836C2" Ref="D?"  Part="1" 
+AR Path="/622DADD3/622DC400/621836C2" Ref="D?"  Part="1" 
+AR Path="/622DADD3/62542101/621836C2" Ref="D2"  Part="1" 
+AR Path="/622DADD3/6254210B/621836C2" Ref="D4"  Part="1" 
+AR Path="/62646A72/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/62646A72/6254210B/621836C2" Ref="D?"  Part="1" 
+AR Path="/62807237/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/62807237/6254210B/621836C2" Ref="D?"  Part="1" 
+AR Path="/62807263/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/62807263/6254210B/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E2B1/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E2B1/6254210B/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E2DD/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E2DD/6254210B/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E31C/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E31C/6254210B/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E336/62542101/621836C2" Ref="D?"  Part="1" 
+AR Path="/6284E336/6254210B/621836C2" Ref="D?"  Part="1" 
+F 0 "D4" H 7225 2650 50  0000 C CNN
+F 1 "1N4148" H 7325 2550 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7275 2750 50  0001 C CNN
+F 3 "~" H 7275 2750 50  0001 C CNN
+	1    7275 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621836C8
+P 7025 2500
+AR Path="/61C38746/621836C8" Ref="D?"  Part="1" 
+AR Path="/61C38746/6BB1123B/621836C8" Ref="D?"  Part="1" 
+AR Path="/61EB0E68/621836C8" Ref="D?"  Part="1" 
+AR Path="/6217D57F/621836C8" Ref="D?"  Part="1" 
+AR Path="/621A43B7/621836C8" Ref="D?"  Part="1" 
+AR Path="/622187C0/621836C8" Ref="D?"  Part="1" 
+AR Path="/622371F5/621836C8" Ref="D?"  Part="1" 
+AR Path="/6223BF51/621836C8" Ref="D?"  Part="1" 
+AR Path="/6223BF6B/621836C8" Ref="D?"  Part="1" 
+AR Path="/62240A4B/621836C8" Ref="D?"  Part="1" 
+AR Path="/62240A65/621836C8" Ref="D?"  Part="1" 
+AR Path="/62240A6F/621836C8" Ref="D?"  Part="1" 
+AR Path="/62240A89/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B223/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B23D/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B247/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B261/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B26B/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B285/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B28F/621836C8" Ref="D?"  Part="1" 
+AR Path="/6224B2A9/621836C8" Ref="D?"  Part="1" 
+AR Path="/622DADD3/622DC3F6/621836C8" Ref="D?"  Part="1" 
+AR Path="/622DADD3/622DC400/621836C8" Ref="D?"  Part="1" 
+AR Path="/622DADD3/62542101/621836C8" Ref="D1"  Part="1" 
+AR Path="/622DADD3/6254210B/621836C8" Ref="D3"  Part="1" 
+AR Path="/62646A72/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/62646A72/6254210B/621836C8" Ref="D?"  Part="1" 
+AR Path="/62807237/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/62807237/6254210B/621836C8" Ref="D?"  Part="1" 
+AR Path="/62807263/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/62807263/6254210B/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E2B1/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E2B1/6254210B/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E2DD/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E2DD/6254210B/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E31C/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E31C/6254210B/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E336/62542101/621836C8" Ref="D?"  Part="1" 
+AR Path="/6284E336/6254210B/621836C8" Ref="D?"  Part="1" 
+F 0 "D3" V 6979 2580 50  0000 L CNN
+F 1 "1N4148" V 7070 2580 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 7025 2500 50  0001 C CNN
+F 3 "~" H 7025 2500 50  0001 C CNN
+	1    7025 2500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
