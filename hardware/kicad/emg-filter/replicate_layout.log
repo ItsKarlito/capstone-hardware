@@ -1,126 +1,131 @@
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 313:Plugin executed on: 'darwin'
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.16 (default, Nov  8 2021, 13:37:33) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 315:KiCad build version: (5.1.12-1-10_14)
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 329:All top level windows titles are:
-kicad (5.1.12-1-10_14) /users/vincentbeaulieu/documents/github/capstone-hardware/hardware/kicad/emg-filter/emg-filter.pro
+02-13 17:47:35 replicate_layout.action_replicate_layout 313:Plugin executed on: 'linux'
+02-13 17:47:35 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '3.8.10 (default, Nov 26 2021, 20:14:08) \n[GCC 9.3.0]'
+02-13 17:47:35 replicate_layout.action_replicate_layout 315:KiCad build version: 5.1.12-84ad8e8a86~92~ubuntu20.04.1
+02-13 17:47:35 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+02-13 17:47:35 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+kicad 5.1.12-84ad8e8a86~92~ubuntu20.04.1 /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter/emg-filter.pro
 
-pcbnew — /users/vincentbeaulieu/documents/github/capstone-hardware/hardware/kicad/emg-filter/emg-filter.kicad_pcb
+pcbnew — /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter/emg-filter.kicad_pcb
 
 
-position relative to reference item
-eeschema — conn-motherboard.sch [/sheet6226972c/] — /users/vincentbeaulieu/documents/github/capstone-hardware/hardware/kicad/emg-filter
+eeschema — conn-module.sch [/sheet622289e9/] — /home/karl/karl/4-projects/9-circuits/capstone-hardware/hardware/kicad/emg-filter
 
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 330:All top level windows objects are:
- <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7f90b701ec00> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7f90c2b26050> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7f90b7efdc00> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7f90a47623a0> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7f90a2176910> >
-<wx._windows.Dialog; proxy of <Swig Object of type 'wxDialog *' at 0x7f90b5f18800> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7f90c0556000> >
-<wx._windows.MiniFrame; proxy of <Swig Object of type 'wxMiniFrame *' at 0x7f90a10dace0> >
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 353:Preparing replicator with J29 as a reference
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 217:Project hierarchy looks like:
-{u'622289FA': [u'sheet622289E9', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'622289F2': [u'sheet622289E8', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'62276029': [u'sheet62276023', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'61C38667': [u'power', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/power.sch'], u'6228B741': [u'sheet6228B73B', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'622851A5': [u'sheet6228519E', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'6226972D': [u'Sheet6226972C', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'62279889': [u'sheet62279871', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'62279877': [u'sheet62279870', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'621EB944': [u'sheet621EB93C', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'6222BA08': [u'sheet6222B9FF', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'6222BA10': [u'sheet6222BA00', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'622851B7': [u'sheet6228519F', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], u'621F0D28': [u'sheet621F0D1E', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'61C38939': [u'adc', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/adc.sch'], u'621E3316': [u'sheet621E330E', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], u'62228A02': [u'sheet622289EA', u'/Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch']}
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 225:getting a list of all footprints on board
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 380:source anchor footprint is u'J29'
-Located on:[u'Sheet6226972C']
-With filenames:[u'conn-motherboard.sch']
-With sheet_id:[u'Sheet6226972C']
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Corresponding footprints are 
-[(u'J41', [u'sheet6228B73B']), (u'J39', [u'sheet6228519F']), (u'J37', [u'sheet6228519E']), (u'J35', [u'sheet62279871']), (u'J33', [u'sheet62279870']), (u'J31', [u'sheet62276023']), (u'J29', [u'Sheet6226972C'])]
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.action_replicate_layout 397:Showing dialog
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'Sheet6226972C', file:u'conn-motherboard.sch'
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'Sheet6226972C']
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
-[u'J41', u'J39', u'J37', u'J35', u'J33', u'J31', u'J29']
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-[u'/6228B741/62269FFD', u'/622851B7/62269FFD', u'/622851A5/62269FFD', u'/62279889/62269FFD', u'/62279877/62269FFD', u'/62276029/62269FFD', u'/6226972D/62269FFD']
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
-[[u'sheet6228B73B'], [u'sheet6228519F'], [u'sheet6228519E'], [u'sheet62279871'], [u'sheet62279870'], [u'sheet62276023'], [u'Sheet6226972C']]
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
-[[u'Sheet6226972C'], [u'sheet62276023'], [u'sheet62279870'], [u'sheet62279871'], [u'sheet6228519E'], [u'sheet6228519F'], [u'sheet6228B73B']]
-02-03 03:26:39 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[[u'sheet62276023'], [u'sheet62279870'], [u'sheet62279871'], [u'sheet6228519E'], [u'sheet6228519F'], [u'sheet6228B73B']]
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(1097, 587)
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 0, 3200, 1800)
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 1: wx.Rect(4280, 820, 1536, 960)
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 2: wx.Rect(3200, 0, 1080, 1920)
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 407:Display 3: wx.Rect(-1080, 0, 1080, 1920)
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(2683, 687)
-02-03 03:26:40 Kicad_action_plugins.replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(2370, 687)
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'Sheet6226972C', file:u'conn-motherboard.sch'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'Sheet6226972C']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
-[u'J41', u'J39', u'J37', u'J35', u'J33', u'J31', u'J29']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-[u'/6228B741/62269FFD', u'/622851B7/62269FFD', u'/622851A5/62269FFD', u'/62279889/62269FFD', u'/62279877/62269FFD', u'/62276029/62269FFD', u'/6226972D/62269FFD']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
-[[u'sheet6228B73B'], [u'sheet6228519F'], [u'sheet6228519E'], [u'sheet62279871'], [u'sheet62279870'], [u'sheet62276023'], [u'Sheet6226972C']]
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
-[[u'Sheet6226972C'], [u'sheet62276023'], [u'sheet62279870'], [u'sheet62279871'], [u'sheet6228519E'], [u'sheet6228519F'], [u'sheet6228B73B']]
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[[u'sheet62276023'], [u'sheet62279870'], [u'sheet62279871'], [u'sheet6228519E'], [u'sheet6228519F'], [u'sheet6228B73B']]
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.action_replicate_layout 186:Replicating layout
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 1002:Starting replication of sheets: [[u'sheet62276023'], [u'sheet62279870'], [u'sheet62279871'], [u'sheet6228519E'], [u'sheet6228519F'], [u'sheet6228B73B']]
-on level: [u'Sheet6226972C']
+02-13 17:47:35 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._core.Frame object at 0x7f6795f58d30>
+<wx._core.Frame object at 0x7f6795f58dc0>
+<wx._core.Frame object at 0x7f6795f58d30>
+<wx._core.Frame object at 0x7f6795f58dc0>
+<wx._core.Frame object at 0x7f6795f58d30>
+<wx._core.Frame object at 0x7f6795f58dc0>
+<wx._core.Frame object at 0x7f6795f58d30>
+02-13 17:47:35 replicate_layout.action_replicate_layout 353:Preparing replicator with J16 as a reference
+02-13 17:47:35 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+02-13 17:47:35 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'61C38667': ['power', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/power.sch'], '61C38939': ['adc', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/adc.sch'], '621E3316': ['sheet621E330E', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '621EB944': ['sheet621EB93C', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '621F0D28': ['sheet621F0D1E', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '622289F2': ['sheet622289E8', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '622289FA': ['sheet622289E9', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '62228A02': ['sheet622289EA', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '6222BA08': ['sheet6222B9FF', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '6222BA10': ['sheet6222BA00', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-module.sch'], '6226972D': ['Sheet6226972C', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], '62276029': ['sheet62276023', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], '62279877': ['sheet62279870', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], '62279889': ['sheet62279871', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], '622851A5': ['sheet6228519E', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], '622851B7': ['sheet6228519F', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch'], '6228B741': ['sheet6228B73B', '/home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/emg-filter/conn-motherboard.sch']}
+02-13 17:47:35 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+02-13 17:47:35 replicate_layout.action_replicate_layout 379:source anchor footprint is 'J16'
+Located on:['sheet622289E9']
+With filenames:['conn-module.sch']
+With sheet_id:['sheet622289E9']
+02-13 17:47:35 replicate_layout.action_replicate_layout 384:Corresponding footprints are 
+[('J25', ['sheet6222BA00']), ('J22', ['sheet6222B9FF']), ('J19', ['sheet622289EA']), ('J16', ['sheet622289E9']), ('J13', ['sheet622289E8']), ('J10', ['sheet621F0D1E']), ('J7', ['sheet621EB93C']), ('J4', ['sheet621E330E'])]
+02-13 17:47:35 replicate_layout.action_replicate_layout 397:Showing dialog
+02-13 17:47:35 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet622289E9', file:'conn-module.sch'
+02-13 17:47:35 replicate_layout.replicatelayout 256:Source sheet path up to the level:['sheet622289E9']
+02-13 17:47:35 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['J25', 'J22', 'J19', 'J16', 'J13', 'J10', 'J7', 'J4']
+02-13 17:47:35 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6222BA10/620B131F', '/6222BA08/620B131F', '/62228A02/620B131F', '/622289FA/620B131F', '/622289F2/620B131F', '/621F0D28/620B131F', '/621EB944/620B131F', '/621E3316/620B131F']
+02-13 17:47:35 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['sheet6222BA00'], ['sheet6222B9FF'], ['sheet622289EA'], ['sheet622289E9'], ['sheet622289E8'], ['sheet621F0D1E'], ['sheet621EB93C'], ['sheet621E330E']]
+02-13 17:47:35 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['sheet621E330E'], ['sheet621EB93C'], ['sheet621F0D1E'], ['sheet622289E8'], ['sheet622289E9'], ['sheet622289EA'], ['sheet6222B9FF'], ['sheet6222BA00']]
+02-13 17:47:35 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['sheet621E330E'], ['sheet621EB93C'], ['sheet621F0D1E'], ['sheet622289E8'], ['sheet622289EA'], ['sheet6222B9FF'], ['sheet6222BA00']]
+02-13 17:47:36 replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(0, 0)
+02-13 17:47:36 replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 0, 1920, 1080)
+02-13 17:47:36 replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(1699, 130)
+02-13 17:47:36 replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(1386, 130)
+02-13 17:47:40 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet622289E9', file:'conn-module.sch'
+02-13 17:47:40 replicate_layout.replicatelayout 256:Source sheet path up to the level:['sheet622289E9']
+02-13 17:47:40 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['J25', 'J22', 'J19', 'J16', 'J13', 'J10', 'J7', 'J4']
+02-13 17:47:40 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6222BA10/620B131F', '/6222BA08/620B131F', '/62228A02/620B131F', '/622289FA/620B131F', '/622289F2/620B131F', '/621F0D28/620B131F', '/621EB944/620B131F', '/621E3316/620B131F']
+02-13 17:47:40 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['sheet6222BA00'], ['sheet6222B9FF'], ['sheet622289EA'], ['sheet622289E9'], ['sheet622289E8'], ['sheet621F0D1E'], ['sheet621EB93C'], ['sheet621E330E']]
+02-13 17:47:40 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['sheet621E330E'], ['sheet621EB93C'], ['sheet621F0D1E'], ['sheet622289E8'], ['sheet622289E9'], ['sheet622289EA'], ['sheet6222B9FF'], ['sheet6222BA00']]
+02-13 17:47:40 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['sheet621E330E'], ['sheet621EB93C'], ['sheet621F0D1E'], ['sheet622289E8'], ['sheet622289EA'], ['sheet6222B9FF'], ['sheet6222BA00']]
+02-13 17:47:40 replicate_layout.action_replicate_layout 186:Replicating layout
+02-13 17:47:40 replicate_layout.replicatelayout 999:Starting replication of sheets: [['sheet621E330E'], ['sheet621EB93C'], ['sheet621F0D1E'], ['sheet622289E8'], ['sheet622289EA'], ['sheet6222B9FF'], ['sheet6222BA00']]
+on level: ['sheet622289E9']
 with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
-02-03 03:26:44 root 269:updating GUI message: 'Preparing for replication'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 556:Getting the list of source footprints
-02-03 03:26:44 root 274:updating GUI with: 0
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 564:Getting nets local to source footprints
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 568:Getting source bounding box
-02-03 03:26:44 root 274:updating GUI with: 37
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 572:Getting source tracks
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 576:Getting source zones
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 580:Getting source text items
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 584:Getting source text items
-02-03 03:26:44 root 269:updating GUI message: 'Replicating footprints'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 590:Replicating footprints
-02-03 03:26:44 root 274:updating GUI with: 0
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet62276023']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet62279870']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet62279871']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet6228519E']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet6228519F']
-02-03 03:26:44 root 274:updating GUI with: 83
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet6228B73B']
-02-03 03:26:44 root 269:updating GUI message: 'Replicating tracks'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 720:Replicating tracks
-02-03 03:26:44 root 274:updating GUI with: 0
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet62276023']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet62279870']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet62279871']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet6228519E']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet6228519F']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet6228B73B']
-02-03 03:26:44 root 269:updating GUI message: 'Replicating zones'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 771:Replicating zones
-02-03 03:26:44 root 274:updating GUI with: 0
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet62276023']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet62279870']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet62279871']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet6228519E']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet6228519F']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet6228B73B']
-02-03 03:26:44 root 269:updating GUI message: 'Replicating text'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 837:Replicating text
-02-03 03:26:44 root 274:updating GUI with: 0
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet62276023']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet62279870']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet62279871']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet6228519E']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet6228519F']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet6228B73B']
-02-03 03:26:44 root 269:updating GUI message: 'Replicating drawings'
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 868:Replicating drawings
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet62276023']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet62279870']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet62279871']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet6228519E']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet6228519F']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet6228B73B']
-02-03 03:26:44 Kicad_action_plugins.replicate_layout.action_replicate_layout 209:Replication complete
+02-13 17:47:40 root 269:updating GUI message: 'Preparing for replication'
+02-13 17:47:40 replicate_layout.replicatelayout 556:Getting the list of source footprints
+02-13 17:47:40 root 274:updating GUI with: 0
+02-13 17:47:40 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+02-13 17:47:40 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+02-13 17:47:40 replicate_layout.replicatelayout 568:Getting source bounding box
+02-13 17:47:40 root 274:updating GUI with: 37
+02-13 17:47:40 replicate_layout.replicatelayout 572:Getting source tracks
+02-13 17:47:40 root 274:updating GUI with: 50
+02-13 17:47:40 replicate_layout.replicatelayout 576:Getting source zones
+02-13 17:47:40 replicate_layout.replicatelayout 580:Getting source text items
+02-13 17:47:40 replicate_layout.replicatelayout 584:Getting source text items
+02-13 17:47:40 root 269:updating GUI message: 'Replicating footprints'
+02-13 17:47:40 replicate_layout.replicatelayout 590:Replicating footprints
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet621E330E']
+02-13 17:47:40 root 274:updating GUI with: 9
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet621EB93C']
+02-13 17:47:40 root 274:updating GUI with: 28
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet621F0D1E']
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet622289E8']
+02-13 17:47:40 root 274:updating GUI with: 57
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet622289EA']
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet6222B9FF']
+02-13 17:47:40 root 274:updating GUI with: 80
+02-13 17:47:40 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet6222BA00']
+02-13 17:47:40 root 269:updating GUI message: 'Replicating tracks'
+02-13 17:47:40 root 274:updating GUI with: 0
+02-13 17:47:40 replicate_layout.replicatelayout 720:Replicating tracks
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet621E330E']
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet621EB93C']
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet621F0D1E']
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet622289E8']
+02-13 17:47:40 root 274:updating GUI with: 57
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet622289EA']
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet6222B9FF']
+02-13 17:47:40 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet6222BA00']
+02-13 17:47:40 root 269:updating GUI message: 'Replicating zones'
+02-13 17:47:40 replicate_layout.replicatelayout 771:Replicating zones
+02-13 17:47:40 root 274:updating GUI with: 0
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet621E330E']
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet621EB93C']
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet621F0D1E']
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet622289E8']
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet622289EA']
+02-13 17:47:40 root 274:updating GUI with: 71
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet6222B9FF']
+02-13 17:47:40 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet6222BA00']
+02-13 17:47:40 root 269:updating GUI message: 'Replicating text'
+02-13 17:47:40 replicate_layout.replicatelayout 837:Replicating text
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet621E330E']
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet621EB93C']
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet621F0D1E']
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet622289E8']
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet622289EA']
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet6222B9FF']
+02-13 17:47:40 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet6222BA00']
+02-13 17:47:40 root 269:updating GUI message: 'Replicating drawings'
+02-13 17:47:40 replicate_layout.replicatelayout 868:Replicating drawings
+02-13 17:47:40 root 274:updating GUI with: 0
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet621E330E']
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet621EB93C']
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet621F0D1E']
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet622289E8']
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet622289EA']
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet6222B9FF']
+02-13 17:47:40 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet6222BA00']
+02-13 17:47:40 replicate_layout.action_replicate_layout 209:Replication complete

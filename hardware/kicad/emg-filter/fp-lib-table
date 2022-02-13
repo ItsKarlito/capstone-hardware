@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name emg-filter)(type KiCad)(uri /Users/vincentbeaulieu/Documents/GitHub/capstone-hardware/hardware/kicad/lib/emg-filter.pretty)(options "")(descr ""))
+  (lib (name emg-filter)(type KiCad)(uri /home/karl/karl/4-Projects/9-Circuits/capstone-hardware/hardware/kicad/lib/emg-filter.pretty)(options "")(descr ""))
 )
